@@ -1,0 +1,422 @@
+{
+  "generated_at": "2026-11-13T13:36:54.756647+00:00",
+  "is_sample": false,
+  "ingest_notes": "Fetched 21 feeds, 430 headlines. Accepted 19, held for review 34, rejected 377.",
+  "taxonomy": [
+    "Business",
+    "Politics",
+    "World",
+    "Science",
+    "Tech",
+    "Health",
+    "Environment",
+    "Sports",
+    "Culture",
+    "Community"
+  ],
+  "thresholds": {
+    "accept": 56,
+    "solutions_accept": 56,
+    "review": 48
+  },
+  "stories": [
+    {
+      "id": "89917f0e8c3c5e53",
+      "headline": "England win Wheelchair World Cup for third time",
+      "summary": "England win the Wheelchair Rugby League World Cup for a record third time - beating France 50-38 in the final in Wollongong, Australia.",
+      "category": "Sports",
+      "sources": [
+        {
+          "name": "BBC Sport",
+          "url": "https://www.bbc.co.uk/sport/rugby-league/articles/cmlyd6kxk72po?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-11-13T11:10:36+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-13T11:10:36+00:00",
+      "positivity_score": 56,
+      "positivity_reason": "outcome pattern: competition milestone; positive cues: world cup; multiple outcome cues",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://www.bbc.co.uk/sport/rugby-league/articles/cmlyd6kxk72po?at_medium=RSS&at_campaign=rss",
+      "impact": null
+    },
+    {
+      "id": "7fcf3edef5cec7a0",
+      "headline": "Fed up with the healthcare industry, this red state capped insulin prices for patients",
+      "summary": "Republicans and Democrats in North Dakota worked together to limit what people with diabetes have to pay for insulin, joining a growing bipartisan push across the country to protect patients.",
+      "category": "Politics",
+      "sources": [
+        {
+          "name": "NPR News",
+          "url": "https://www.npr.org/2026/11/13/nx-s1-6032717/diabetes-insurance-insulin-price",
+          "published_at": "2026-11-13T10:00:00+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-13T10:00:00+00:00",
+      "positivity_score": 60,
+      "positivity_reason": "outcome pattern: price cap; positive cues: capped insulin, bipartisan; multiple outcome cues",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://www.npr.org/2026/11/13/nx-s1-6032717/diabetes-insurance-insulin-price",
+      "impact": null
+    },
+    {
+      "id": "e06657ea55fdd3a3",
+      "headline": "China Switches on World\u2019s Biggest Example of New, Cheap Green Energy Storage",
+      "summary": "The world\u2019s largest demonstration plant for a new kind of renewable energy storage is up and running in the west of the China. Called liquid-air energy storage (LAES) the plant uses renewable electricity to compress air to extreme densities until it turns to liquid. It can then\u2026",
+      "category": "Environment",
+      "sources": [
+        {
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/worlds-largest-liquid-air-renewable-energy-storage-system-switches-on/",
+          "published_at": "2026-11-12T19:30:02+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-12T19:30:02+00:00",
+      "positivity_score": 77,
+      "positivity_reason": "solutions-focused source; positive cues: green energy, energy storage, switches on; multiple outcome cues",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://www.goodnewsnetwork.org/worlds-largest-liquid-air-renewable-energy-storage-system-switches-on/",
+      "impact": null
+    },
+    {
+      "id": "2877844386a1d3e8",
+      "headline": "Documentarian Helps 103-yo D-Day Survivor Recover His Lost War Medals",
+      "summary": "A 103-year-old D-Day veteran was reunited with his war medals just in time for Remembrance Day. The story came about through a remarkable coincidence when an amateur WWII historian came across the man\u2019s military record and medals, and contacted the family wondering if he still\u2026",
+      "category": "Community",
+      "sources": [
+        {
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/documentarian-helps-103-yo-d-day-survivor-recover-his-lost-war-medals-just-in-time-for-veterans-day/",
+          "published_at": "2026-11-12T16:30:00+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-12T16:30:00+00:00",
+      "positivity_score": 56,
+      "positivity_reason": "solutions-focused source; positive cues: reunited; improvement framing of a grim topic",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://www.goodnewsnetwork.org/documentarian-helps-103-yo-d-day-survivor-recover-his-lost-war-medals-just-in-time-for-veterans-day/",
+      "impact": null
+    },
+    {
+      "id": "8f74b54ea208f870",
+      "headline": "UK economy grows at fastest rate for more than two years",
+      "summary": "\ufeffThe UK economy grew by 0.7% in the three months to September, according to official figures.",
+      "category": "Business",
+      "sources": [
+        {
+          "name": "BBC Business",
+          "url": "https://www.bbc.co.uk/news/articles/ck3rgd429zd5o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-11-12T11:20:25+00:00"
+        },
+        {
+          "name": "BBC Politics",
+          "url": "https://www.bbc.co.uk/news/articles/ck3rgd429zd5o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-11-12T11:20:25+00:00"
+        }
+      ],
+      "source_count": 2,
+      "published_at": "2026-11-12T11:20:25+00:00",
+      "positivity_score": 68,
+      "positivity_reason": "outcome pattern: economic growth; positive cues: economy grows, fastest rate; multiple outcome cues",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://www.bbc.co.uk/news/articles/ck3rgd429zd5o?at_medium=RSS&at_campaign=rss",
+      "impact": null
+    },
+    {
+      "id": "4545c61f1a887039",
+      "headline": "For Centuries, Visitors Walked Right by 280 Unseen Ice Age Cave Paintings",
+      "summary": "The third-largest collection of Ice Age-era engravings ever found on Spain\u2019s Mediterranean side was sitting in plain sight where visitors for centuries had been walking right by them. \u201cFor more than six decades, thousands of visitors passed directly in front of the engraved\u2026",
+      "category": "Culture",
+      "sources": [
+        {
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/for-centuries-visitors-walked-right-by-280-unseen-ice-age-cave-paintings/",
+          "published_at": "2026-11-11T19:30:10+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-11T19:30:10+00:00",
+      "positivity_score": 56,
+      "positivity_reason": "solutions-focused source; stated figure from the source",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://www.goodnewsnetwork.org/for-centuries-visitors-walked-right-by-280-unseen-ice-age-cave-paintings/",
+      "impact": {
+        "value": "280",
+        "label": "Unseen Ice Age Cave Paintings"
+      }
+    },
+    {
+      "id": "d9b764ce15745f8a",
+      "headline": "Brown Bear Population in Spain Doubles With Incredible Increase of its Breeding Range",
+      "summary": "From the brink of extinction to roaming across 6,500 square miles, populations of Cantabrian brown bears have doubled in Spain over the last 20 years to 370. Numbering as few as 140 by estimates in the early 21st century, they\u2019re another example of Spain\u2019s ongoing success in\u2026",
+      "category": "Environment",
+      "sources": [
+        {
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/spain-sees-incredible-doubling-of-her-brown-bear-population-and-its-breeding-range/",
+          "published_at": "2026-11-11T16:30:25+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-11T16:30:25+00:00",
+      "positivity_score": 84,
+      "positivity_reason": "solutions-focused source; positive cues: doubles, doubled, breeding range; multiple outcome cues; stated figure from the source",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://www.goodnewsnetwork.org/spain-sees-incredible-doubling-of-her-brown-bear-population-and-its-breeding-range/",
+      "impact": {
+        "value": "2\u00d7",
+        "label": "Brown Bear Population in Spain"
+      }
+    },
+    {
+      "id": "d183ba40062d67f4",
+      "headline": "\u2018I pulled him out, I heard more screaming\u2019 \u2013 How a Cadet Saved a Father and Son from Drowning",
+      "summary": "A merchant marine cadet has been hailed as a hero for saving a father who nearly drowned in a swimming pool while trying to save his drowning 25-year-old son. \u201cWhen I arrived at the pool, I saw the father floating face down,\u201d Zion Jerge said, recounting the rescue that took\u2026",
+      "category": "Community",
+      "sources": [
+        {
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/i-pulled-him-out-i-heard-more-screaming-how-a-cadet-saved-a-father-and-son-from-drowning/",
+          "published_at": "2026-11-11T14:00:06+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-11T14:00:06+00:00",
+      "positivity_score": 64,
+      "positivity_reason": "solutions-focused source; positive cues: rescue, saved; multiple outcome cues",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://www.goodnewsnetwork.org/i-pulled-him-out-i-heard-more-screaming-how-a-cadet-saved-a-father-and-son-from-drowning/",
+      "impact": null
+    },
+    {
+      "id": "e35fe5deab7d3aa7",
+      "headline": "Molecular signal in blood helps detect early risk for ovarian cancer, study finds",
+      "summary": "Researchers discover a potential diagnostic breakthrough for a disease often \u2060discovered after it has already spread A molecular signal in the blood helps identify microscopic changes that precede development of ovarian cancer, researchers have found, \u2060a potential diagnostic\u2026",
+      "category": "Science",
+      "sources": [
+        {
+          "name": "The Guardian Science",
+          "url": "https://www.theguardian.com/society/2026/nov/11/ovarian-cancer-study-early-detection-blood",
+          "published_at": "2026-11-11T13:05:57+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-11T13:05:57+00:00",
+      "positivity_score": 74,
+      "positivity_reason": "positive cues: breakthrough, study finds, helps detect; multiple outcome cues; concrete outcome language",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://www.theguardian.com/society/2026/nov/11/ovarian-cancer-study-early-detection-blood",
+      "impact": null
+    },
+    {
+      "id": "ae00be0a65476095",
+      "headline": "A Viral Video Led Strangers to Raise $76,000 for a Full-Time Caregiver",
+      "summary": "A viral moment from a doorbell camera that reached millions of people has now raised more than $76,000 to support a woman who spends her days caring for others. When Suzanna Metcalf arrived at Pastor Neal Seiwert\u2019s home in Castle Rock, Colorado last year, she apologized as she\u2026",
+      "category": "Community",
+      "sources": [
+        {
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/viral-video-raises-76000-for-caregiver/",
+          "published_at": "2026-11-10T13:44:04+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-10T13:44:04+00:00",
+      "positivity_score": 64,
+      "positivity_reason": "solutions-focused source; positive cues: raise $; stated figure from the source",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://www.goodnewsnetwork.org/viral-video-raises-76000-for-caregiver/",
+      "impact": {
+        "value": "$76,000",
+        "label": "Raise for a Full-Time Caregiver"
+      }
+    },
+    {
+      "id": "97bf7d06a65d76c3",
+      "headline": "World\u2019s Driest Desert Erupts into Record-Breaking Bloom Boom (LOOK)",
+      "summary": "Just a few weeks ago it was the driest place on Earth. Now it\u2019s the most colorful. Chile\u2019s Atacama Desert has erupted into perhaps the greatest floral display ever recorded there, with some 200 species blooming\u2014some in areas where flowers haven\u2019t been seen since the before new\u2026",
+      "category": "Environment",
+      "sources": [
+        {
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/worlds-driest-desert-erupts-into-record-breaking-bloom-boom-look/",
+          "published_at": "2026-11-10T12:30:35+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-10T12:30:35+00:00",
+      "positivity_score": 61,
+      "positivity_reason": "solutions-focused source; positive cues: record-breaking; stated figure from the source",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://www.goodnewsnetwork.org/worlds-driest-desert-erupts-into-record-breaking-bloom-boom-look/",
+      "impact": {
+        "value": "200",
+        "label": "species blooming in areas where flowers"
+      }
+    },
+    {
+      "id": "c28069c4379b628c",
+      "headline": "Colleges Are Getting Creative to Help Students With Kids",
+      "summary": "This story was originally published by Open Campus. Walking by New River\u2019s advising office one day, Stephanie Addikis noticed that the coloring books and Legos that she had helped stock in a nearby box were \u2026 \u201cwell-loved.\u201d This was just what she was hoping would happen. The\u2026",
+      "category": "Community",
+      "sources": [
+        {
+          "name": "Reasons to be Cheerful",
+          "url": "https://reasonstobecheerful.world/rural-colleges-student-parents-support/",
+          "published_at": "2026-11-09T16:39:10+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-09T16:39:10+00:00",
+      "positivity_score": 56,
+      "positivity_reason": "solutions-focused source; positive cues: students with kids",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://reasonstobecheerful.world/rural-colleges-student-parents-support/",
+      "impact": null
+    },
+    {
+      "id": "2d0e4f05622ad71e",
+      "headline": "Interpreting Autistic Cues Is Difficult, a Teen Built an App That\u2019s Helping Hundreds of Families",
+      "summary": "Watching adults misunderstand the cues of his autistic cousin, a teen taught himself machine learning to build technology that could help them. His solution has more than 700 users in 12 countries, reaching families through autism therapy centers\u2014all while remaining free. Kora\u2026",
+      "category": "Tech",
+      "sources": [
+        {
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/15-yo-teaches-himself-machine-learning-to-build-app-that-interprets-autistic-communication/",
+          "published_at": "2026-11-09T16:30:23+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-09T16:30:23+00:00",
+      "positivity_score": 62,
+      "positivity_reason": "solutions-focused source; positive cues: solution, therapy; stated figure from the source",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://www.goodnewsnetwork.org/15-yo-teaches-himself-machine-learning-to-build-app-that-interprets-autistic-communication/",
+      "impact": {
+        "value": "700",
+        "label": "users in 12 countries reaching families"
+      }
+    },
+    {
+      "id": "866b60dcdb7c2aa4",
+      "headline": "Fish Stocks Thrive Thanks to This Pink Seaweed and Locals Who Protected It",
+      "summary": "Seabed Thriving 10 Years After Scottish Dredging Ban Islanders Celebrate Protections of Their Magical Maerl Beds Fish Stocks Thrive Thanks to This Strange Seaweed and Locals Who Protected It A ban on industrial scallop dredging has been \u201cthe most amazing thing to happen\u201d to the\u2026",
+      "category": "Environment",
+      "sources": [
+        {
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/fish-stocks-thrive-thanks-to-this-strange-seaweed-and-locals-who-protected-it/",
+          "published_at": "2026-11-09T15:49:42+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-09T15:49:42+00:00",
+      "positivity_score": 64,
+      "positivity_reason": "solutions-focused source; positive cues: protected, thriving; multiple outcome cues",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://www.goodnewsnetwork.org/fish-stocks-thrive-thanks-to-this-strange-seaweed-and-locals-who-protected-it/",
+      "impact": null
+    },
+    {
+      "id": "cd3a5da1e68662ef",
+      "headline": "Glowworms Shine Again in the UK from Larvae Reared Pro Bono in Garden Shed",
+      "summary": "The beloved glowworm has gotten a glow-up thanks to pro bono work by local conservationists. Local wildlife enthusiast Peter Cooper collects and breeds glowworms in his spare time in a garden shed before releasing their larvae into a reserve in North Yorkshire where they haven\u2019t\u2026",
+      "category": "Environment",
+      "sources": [
+        {
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/glowworms-shine-again-in-the-uk-from-larvae-reared-pro-bono-in-garden-shed/",
+          "published_at": "2026-11-09T12:30:57+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-09T12:30:57+00:00",
+      "positivity_score": 59,
+      "positivity_reason": "solutions-focused source; positive cues: shine again, pro bono",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://www.goodnewsnetwork.org/glowworms-shine-again-in-the-uk-from-larvae-reared-pro-bono-in-garden-shed/",
+      "impact": null
+    },
+    {
+      "id": "d629f0e7ffae3f57",
+      "headline": "The Spark: When Communities Own the Land, Housing Stays Affordable",
+      "summary": "Welcome back to The Spark, our monthly celebration of how people just like you are creating positive change, one meaningful step at a time. The Spark is generously supported by Laura Rice. Sign up to Reasons to be Cheerful\u2019s weekly newsletter here and you\u2019ll get The Spark in\u2026",
+      "category": "Community",
+      "sources": [
+        {
+          "name": "Reasons to be Cheerful",
+          "url": "https://reasonstobecheerful.world/the-spark-community-land-trusts/",
+          "published_at": "2026-11-06T08:00:21+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-06T08:00:21+00:00",
+      "positivity_score": 65,
+      "positivity_reason": "solutions-focused source; positive cues: housing stays, affordable; multiple outcome cues",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://reasonstobecheerful.world/the-spark-community-land-trusts/",
+      "impact": null
+    },
+    {
+      "id": "0a99b1a3a586f528",
+      "headline": "Ben Franklin Wasn\u2019t Serious When He Implied the Wild Turkey Would Be a \u2018Respectable\u2019 National Symbol \u2026 but He Wasn\u2019t Wrong, Either",
+      "summary": "The birds strutted around North America for hundreds of thousands of years before hunters decimated their population. Credit its recovery to resourcefulness, a stubborn disposition and a little help",
+      "category": "Science",
+      "sources": [
+        {
+          "name": "Smithsonian Science & Nature",
+          "url": "https://www.smithsonianmag.com/science-nature/ben-franklin-wasnt-serious-when-implied-wild-turkey-respectable-national-symbol-wasnt-wrong-180989642/",
+          "published_at": "2026-10-28T10:00:00+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-10-28T10:00:00+00:00",
+      "positivity_score": 59,
+      "positivity_reason": "positive cues: recovery; improvement framing of a grim topic",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://www.smithsonianmag.com/science-nature/ben-franklin-wasnt-serious-when-implied-wild-turkey-respectable-national-symbol-wasnt-wrong-180989642/",
+      "impact": null
+    },
+    {
+      "id": "7aaee812344fc8e0",
+      "headline": "Green Sea Turtles Are Making a Remarkable Comeback on the Remote Aldabra Atoll and Around the World. But Their Recovery Is Far From Complete",
+      "summary": "One year after the species was reclassified from \u201cendangered\u201d to \u201cleast concern,\u201d green turtles in the western Indian Ocean exemplify that return\u2014and the subtleties a global designation can miss",
+      "category": "Environment",
+      "sources": [
+        {
+          "name": "Smithsonian Science & Nature",
+          "url": "https://www.smithsonianmag.com/science-nature/green-sea-turtles-are-making-a-remarkable-comeback-on-the-remote-aldabra-atoll-and-around-the-world-but-their-recovery-is-far-from-complete-180989710/",
+          "published_at": "2026-10-21T19:00:00+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-10-21T19:00:00+00:00",
+      "positivity_score": 61,
+      "positivity_reason": "positive cues: recovery, endangered; improvement framing of a grim topic",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://www.smithsonianmag.com/science-nature/green-sea-turtles-are-making-a-remarkable-comeback-on-the-remote-aldabra-atoll-and-around-the-world-but-their-recovery-is-far-from-complete-180989710/",
+      "impact": null
+    }
+  ]
+}
