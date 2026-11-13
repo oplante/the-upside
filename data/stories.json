@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-13T13:36:54.756647+00:00",
+  "generated_at": "2026-11-13T13:57:30.759817+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 21 feeds, 430 headlines. Accepted 19, held for review 34, rejected 377.",
+  "ingest_notes": "Fetched 21 feeds, 430 headlines. Accepted 18, held for review 35, rejected 377.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -39,28 +39,8 @@
       "review_status": "auto-accepted",
       "is_sample": false,
       "link": "https://www.bbc.co.uk/sport/rugby-league/articles/cmlyd6kxk72po?at_medium=RSS&at_campaign=rss",
-      "impact": null
-    },
-    {
-      "id": "7fcf3edef5cec7a0",
-      "headline": "Fed up with the healthcare industry, this red state capped insulin prices for patients",
-      "summary": "Republicans and Democrats in North Dakota worked together to limit what people with diabetes have to pay for insulin, joining a growing bipartisan push across the country to protect patients.",
-      "category": "Politics",
-      "sources": [
-        {
-          "name": "NPR News",
-          "url": "https://www.npr.org/2026/11/13/nx-s1-6032717/diabetes-insurance-insulin-price",
-          "published_at": "2026-11-13T10:00:00+00:00"
-        }
-      ],
-      "source_count": 1,
-      "published_at": "2026-11-13T10:00:00+00:00",
-      "positivity_score": 60,
-      "positivity_reason": "outcome pattern: price cap; positive cues: capped insulin, bipartisan; multiple outcome cues",
-      "review_status": "auto-accepted",
-      "is_sample": false,
-      "link": "https://www.npr.org/2026/11/13/nx-s1-6032717/diabetes-insurance-insulin-price",
-      "impact": null
+      "impact": null,
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/efff/live/622a2000-df58-11f1-93e1-3b657b665bcf.jpg"
     },
     {
       "id": "e06657ea55fdd3a3",
@@ -81,7 +61,8 @@
       "review_status": "auto-accepted",
       "is_sample": false,
       "link": "https://www.goodnewsnetwork.org/worlds-largest-liquid-air-renewable-energy-storage-system-switches-on/",
-      "impact": null
+      "impact": null,
+      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/Qinghai-60MW-Liquid-Air-Energy-Storage-Project-credit-China-Green-Development-Investment-Group.jpg"
     },
     {
       "id": "2877844386a1d3e8",
@@ -102,7 +83,8 @@
       "review_status": "auto-accepted",
       "is_sample": false,
       "link": "https://www.goodnewsnetwork.org/documentarian-helps-103-yo-d-day-survivor-recover-his-lost-war-medals-just-in-time-for-veterans-day/",
-      "impact": null
+      "impact": null,
+      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/Douglas-Halley-103-with-his-grandson-Luke-credit-SWNS.jpg"
     },
     {
       "id": "8f74b54ea208f870",
@@ -128,7 +110,8 @@
       "review_status": "auto-accepted",
       "is_sample": false,
       "link": "https://www.bbc.co.uk/news/articles/ck3rgd429zd5o?at_medium=RSS&at_campaign=rss",
-      "impact": null
+      "impact": null,
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b029/live/c4ae2930-de89-11f1-b441-2b33b063138f.jpg"
     },
     {
       "id": "4545c61f1a887039",
@@ -152,7 +135,8 @@
       "impact": {
         "value": "280",
         "label": "Unseen Ice Age Cave Paintings"
-      }
+      },
+      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/A-horse-representaion-where-cave-floor-is-used-to-represent-the-ground-credit-2026-Verges-et-al.-Antiquiry-CC-4.0.-BY-SA-e1794413594768.jpg"
     },
     {
       "id": "d9b764ce15745f8a",
@@ -176,7 +160,8 @@
       "impact": {
         "value": "2\u00d7",
         "label": "Brown Bear Population in Spain"
-      }
+      },
+      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/A-Cantabrian-brown-bear-credit-Juan-Iacruz-CC-BY-SA-4.0.jpg"
     },
     {
       "id": "d183ba40062d67f4",
@@ -197,7 +182,8 @@
       "review_status": "auto-accepted",
       "is_sample": false,
       "link": "https://www.goodnewsnetwork.org/i-pulled-him-out-i-heard-more-screaming-how-a-cadet-saved-a-father-and-son-from-drowning/",
-      "impact": null
+      "impact": null,
+      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/Jerge-Zion-is-recognized-at-the-Cal-Poly-Maritime-Academy-credit-@calpoly_maritime.jpg"
     },
     {
       "id": "e35fe5deab7d3aa7",
@@ -218,7 +204,8 @@
       "review_status": "auto-accepted",
       "is_sample": false,
       "link": "https://www.theguardian.com/society/2026/nov/11/ovarian-cancer-study-early-detection-blood",
-      "impact": null
+      "impact": null,
+      "image": "https://i.guim.co.uk/img/media/7f0e07e9605527926783a0e215685b04c7db38ba/354_0_2365_1892/master/2365.jpg?width=460&quality=85&auto=format&fit=max&s=703013a723656325a209ad086b1d4262"
     },
     {
       "id": "ae00be0a65476095",
@@ -242,7 +229,8 @@
       "impact": {
         "value": "$76,000",
         "label": "Raise for a Full-Time Caregiver"
-      }
+      },
+      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/seiwert-ring-camera-.webp"
     },
     {
       "id": "97bf7d06a65d76c3",
@@ -266,7 +254,8 @@
       "impact": {
         "value": "200",
         "label": "species blooming in areas where flowers"
-      }
+      },
+      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/Juan-Cortez-Estay-Unsplash.jpg"
     },
     {
       "id": "c28069c4379b628c",
@@ -287,7 +276,8 @@
       "review_status": "auto-accepted",
       "is_sample": false,
       "link": "https://reasonstobecheerful.world/rural-colleges-student-parents-support/",
-      "impact": null
+      "impact": null,
+      "image": "https://reasonstobecheerful.world/wp-content/uploads/2026/11/IMG_9554-653x870-1.jpeg"
     },
     {
       "id": "2d0e4f05622ad71e",
@@ -311,7 +301,8 @@
       "impact": {
         "value": "700",
         "label": "users in 12 countries reaching families"
-      }
+      },
+      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/Shashank-Madala-stands-with-his-Congressional-recognition-credit-courtesy-of-Shashank-Madala.jpg"
     },
     {
       "id": "866b60dcdb7c2aa4",
@@ -332,7 +323,8 @@
       "review_status": "auto-accepted",
       "is_sample": false,
       "link": "https://www.goodnewsnetwork.org/fish-stocks-thrive-thanks-to-this-strange-seaweed-and-locals-who-protected-it/",
-      "impact": null
+      "impact": null,
+      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/Maerl-beds-in-French-waters-credit-Olivier-Dugornay-CC-4.0.-BY.jpg"
     },
     {
       "id": "cd3a5da1e68662ef",
@@ -353,7 +345,8 @@
       "review_status": "auto-accepted",
       "is_sample": false,
       "link": "https://www.goodnewsnetwork.org/glowworms-shine-again-in-the-uk-from-larvae-reared-pro-bono-in-garden-shed/",
-      "impact": null
+      "impact": null,
+      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/glowworms-unsplash.jpg"
     },
     {
       "id": "d629f0e7ffae3f57",
@@ -374,7 +367,8 @@
       "review_status": "auto-accepted",
       "is_sample": false,
       "link": "https://reasonstobecheerful.world/the-spark-community-land-trusts/",
-      "impact": null
+      "impact": null,
+      "image": "https://reasonstobecheerful.world/wp-content/uploads/2026/11/1788199445723.jpeg"
     },
     {
       "id": "0a99b1a3a586f528",
@@ -395,7 +389,8 @@
       "review_status": "auto-accepted",
       "is_sample": false,
       "link": "https://www.smithsonianmag.com/science-nature/ben-franklin-wasnt-serious-when-implied-wild-turkey-respectable-national-symbol-wasnt-wrong-180989642/",
-      "impact": null
+      "impact": null,
+      "image": "https://th-thumbnailer.cdn-si-edu.com/0wQSJAgYe1cdZCwZDy4GmHZR61Y=/420x240/filters:focal(450x300:451x301)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/a8/28/a828c064-e027-42b4-b3a2-7796c66acf86/untitled-3.jpg"
     },
     {
       "id": "7aaee812344fc8e0",
@@ -416,7 +411,8 @@
       "review_status": "auto-accepted",
       "is_sample": false,
       "link": "https://www.smithsonianmag.com/science-nature/green-sea-turtles-are-making-a-remarkable-comeback-on-the-remote-aldabra-atoll-and-around-the-world-but-their-recovery-is-far-from-complete-180989710/",
-      "impact": null
+      "impact": null,
+      "image": "https://th-thumbnailer.cdn-si-edu.com/NHHdxdsVmzLSKvNU5yQbhCCK84k=/420x240/filters:focal(960x553:961x554)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/07/e0/07e08216-60d7-450f-903d-5f757079991e/nesting_green_turtle_on_aldabra_2_-_r_baxter.jpg"
     }
   ]
 }
