@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-13T15:00:20.893518+00:00",
+  "generated_at": "2026-11-13T17:24:35.501417+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 21 feeds, 430 headlines. Accepted 18, held for review 34, rejected 378.",
+  "ingest_notes": "Fetched 21 feeds, 431 headlines. Accepted 17, held for review 35, rejected 379.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -21,26 +21,26 @@
   },
   "stories": [
     {
-      "id": "89917f0e8c3c5e53",
-      "headline": "England win Wheelchair World Cup for third time",
-      "summary": "England win the Wheelchair Rugby League World Cup for a record third time - beating France 50-38 in the final in Wollongong, Australia.",
-      "category": "Sports",
+      "id": "fe61751fa8aede0b",
+      "headline": "Man Rescues Trapped Neighbors from \u2018Biblical\u2019 Florida Flooding",
+      "summary": "A man put his life on the line to rescue his vulnerable neighbors during a flood in Florida he he described as \u201cbiblical.\u201d With one recovering from surgery and the other stricken with ALS, their survival hinged on help, which their neighbor Rick Addante heroically provided. It\u2026",
+      "category": "Community",
       "sources": [
         {
-          "name": "BBC Sport",
-          "url": "https://www.bbc.co.uk/sport/rugby-league/articles/cmlyd6kxk72po?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-11-13T11:10:36+00:00"
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/update-stories-of-daring-rescues-continue-to-surface-from-flooded-florida-communities/",
+          "published_at": "2026-11-13T16:30:59+00:00"
         }
       ],
       "source_count": 1,
-      "published_at": "2026-11-13T11:10:36+00:00",
-      "positivity_score": 56,
-      "positivity_reason": "outcome pattern: competition milestone; positive cues: world cup; multiple outcome cues",
+      "published_at": "2026-11-13T16:30:59+00:00",
+      "positivity_score": 62,
+      "positivity_reason": "solutions-focused source; positive cues: rescue; improvement framing of a grim topic",
       "review_status": "auto-accepted",
       "is_sample": false,
-      "link": "https://www.bbc.co.uk/sport/rugby-league/articles/cmlyd6kxk72po?at_medium=RSS&at_campaign=rss",
+      "link": "https://www.goodnewsnetwork.org/update-stories-of-daring-rescues-continue-to-surface-from-flooded-florida-communities/",
       "impact": null,
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/efff/live/622a2000-df58-11f1-93e1-3b657b665bcf.jpg"
+      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/credit-@rickaddante-via-X.jpg"
     },
     {
       "id": "e06657ea55fdd3a3",
@@ -325,28 +325,6 @@
       "link": "https://www.goodnewsnetwork.org/fish-stocks-thrive-thanks-to-this-strange-seaweed-and-locals-who-protected-it/",
       "impact": null,
       "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/Maerl-beds-in-French-waters-credit-Olivier-Dugornay-CC-4.0.-BY.jpg"
-    },
-    {
-      "id": "cd3a5da1e68662ef",
-      "headline": "Glowworms Shine Again in the UK from Larvae Reared Pro Bono in Garden Shed",
-      "summary": "The beloved glowworm has gotten a glow-up thanks to pro bono work by local conservationists. Local wildlife enthusiast Peter Cooper collects and breeds glowworms in his spare time in a garden shed before releasing their larvae into a reserve in North Yorkshire where they haven\u2019t\u2026",
-      "category": "Environment",
-      "sources": [
-        {
-          "name": "Good News Network",
-          "url": "https://www.goodnewsnetwork.org/glowworms-shine-again-in-the-uk-from-larvae-reared-pro-bono-in-garden-shed/",
-          "published_at": "2026-11-09T12:30:57+00:00"
-        }
-      ],
-      "source_count": 1,
-      "published_at": "2026-11-09T12:30:57+00:00",
-      "positivity_score": 59,
-      "positivity_reason": "solutions-focused source; positive cues: shine again, pro bono",
-      "review_status": "auto-accepted",
-      "is_sample": false,
-      "link": "https://www.goodnewsnetwork.org/glowworms-shine-again-in-the-uk-from-larvae-reared-pro-bono-in-garden-shed/",
-      "impact": null,
-      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/glowworms-unsplash.jpg"
     },
     {
       "id": "d629f0e7ffae3f57",
