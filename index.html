@@ -1,1 +1,63 @@
-/workspace/good-news/index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="The Upside is a good-news-only feed. Headlines, short summaries, and links to original reporting.">
+  <title>The Upside - news that's going right</title>
+  <link rel="stylesheet" href="fonts/fonts.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' fill='none' stroke='%231C5A3D' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 22c5-9 15-9 20 0'/%3E%3Ccircle cx='16' cy='11' r='2.25'/%3E%3C/svg%3E">
+</head>
+<body>
+  <a class="skip" href="#feed">Skip to stories</a>
+
+  <header class="masthead">
+    <div class="masthead-inner">
+      <div class="brand">
+        <svg class="mark" width="36" height="36" viewBox="0 0 36 36" aria-hidden="true" focusable="false">
+          <path d="M4 27c9-5 19-5 28 0" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          <circle cx="18" cy="11" r="2.35" fill="none" stroke="currentColor" stroke-width="2"/>
+        </svg>
+        <div>
+          <p class="title"><a href="./">The Upside</a></p>
+          <p class="tag">News that's going right.</p>
+        </div>
+      </div>
+      <div class="masthead-meta">
+        <p class="dateline" id="dateline"></p>
+        <p class="edition" id="edition-label">From public news feeds.</p>
+      </div>
+    </div>
+  </header>
+
+  <div class="filter-bar">
+    <div class="filter-bar-inner">
+      <nav class="filters" aria-label="Categories" id="filters"></nav>
+      <p class="status" id="status" aria-live="polite">Loading today's feed</p>
+    </div>
+  </div>
+
+  <main>
+    <p class="sample-banner" id="sample-banner" hidden>
+      This is a <strong>sample</strong> feed. Live stories could not be loaded, so every card below is labelled Sample and is not real news.
+    </p>
+
+    <section id="feed" class="feed" aria-label="Good news stories"></section>
+    <p class="empty" id="empty" hidden></p>
+    <div class="more-wrap" id="more-wrap" hidden>
+      <button type="button" class="load-more" id="load-more">Load more</button>
+    </div>
+  </main>
+
+  <footer class="method" id="method">
+    <h2>How we choose stories</h2>
+    <p>
+      We follow public news feeds and keep stories that describe a concrete outcome — something that improved, opened, or was achieved.
+      Matching reports are grouped so one card can list several sources. There is no paid placement. Each card links to the original article.
+    </p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
