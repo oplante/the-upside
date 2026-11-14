@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-14T18:00:35.427560+00:00",
+  "generated_at": "2026-11-14T20:54:34.585359+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 39 feeds, 837 headlines. Accepted 36, held for review 132, rejected 672. Carried 3 recent items (up to 96h) for re-check.",
+  "ingest_notes": "Fetched 39 feeds, 835 headlines. Accepted 36, held for review 130, rejected 672. Carried 3 recent items (up to 96h) for re-check.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -115,6 +115,42 @@
       "impact": null,
       "image": "https://i.cbc.ca/ais/8d983b44-a868-4ecc-8ac8-c7a1ecaff7f8,1794630252032/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C563%2C8640%2C4860%29%3B",
       "image_srcset": []
+    },
+    {
+      "id": "855f60edb186034e",
+      "headline": "Ecuadorian fishermen who survived US boat strikes sue Trump administration",
+      "summary": "US military has killed nearly 250 people in attack on \u2018narco-terrorism\u2019, and on 17 March, sank the 16 plaintiffs\u2019 boat, leaving two with serious burns More than a dozen Ecuadorian fishermen are suing the US government after they survived a military drone attack in the Pacific\u2026",
+      "category": "Business",
+      "sources": [
+        {
+          "name": "The Guardian Business",
+          "url": "https://www.theguardian.com/us-news/2026/nov/14/ecuadorian-fishermen-lawsuit-trump-boat-strike",
+          "published_at": "2026-11-14T11:00:42+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-14T11:00:42+00:00",
+      "positivity_score": 57,
+      "positivity_reason": "positive cues: survived; improvement framing of a grim topic; stated figure from the source",
+      "why_good": "It's a story of a recovery, and it reports a concrete result: 250 people in attack on narco-terrorism.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://www.theguardian.com/us-news/2026/nov/14/ecuadorian-fishermen-lawsuit-trump-boat-strike",
+      "impact": {
+        "value": "250",
+        "label": "people in attack on narco-terrorism"
+      },
+      "image": "https://i.guim.co.uk/img/media/ea7d82d3437dc73bde2f1b8aafa50b01d7dad2ed/514_0_5139_4112/master/5139.jpg?width=460&quality=85&auto=format&fit=max&s=a6d856bcd35a9b5c1d48a53adb0f6006",
+      "image_srcset": [
+        {
+          "url": "https://i.guim.co.uk/img/media/ea7d82d3437dc73bde2f1b8aafa50b01d7dad2ed/514_0_5139_4112/master/5139.jpg?width=460&quality=85&auto=format&fit=max&s=a6d856bcd35a9b5c1d48a53adb0f6006",
+          "width": 460
+        },
+        {
+          "url": "https://i.guim.co.uk/img/media/ea7d82d3437dc73bde2f1b8aafa50b01d7dad2ed/514_0_5139_4112/master/5139.jpg?width=700&quality=85&auto=format&fit=max&s=60e4f0f350372013811c85bec1656791",
+          "width": 700
+        }
+      ]
     },
     {
       "id": "d71e677fd29f4e45",
@@ -797,33 +833,6 @@
         "label": "Raise for a Full-Time Caregiver"
       },
       "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/seiwert-ring-camera-.webp",
-      "image_srcset": []
-    },
-    {
-      "id": "97bf7d06a65d76c3",
-      "headline": "World\u2019s Driest Desert Erupts into Record-Breaking Bloom Boom (LOOK)",
-      "summary": "Just a few weeks ago it was the driest place on Earth. Now it\u2019s the most colorful. Chile\u2019s Atacama Desert has erupted into perhaps the greatest floral display ever recorded there, with some 200 species blooming\u2014some in areas where flowers haven\u2019t been seen since the before new\u2026",
-      "category": "Environment",
-      "sources": [
-        {
-          "name": "Good News Network",
-          "url": "https://www.goodnewsnetwork.org/worlds-driest-desert-erupts-into-record-breaking-bloom-boom-look/",
-          "published_at": "2026-11-10T12:30:35+00:00"
-        }
-      ],
-      "source_count": 1,
-      "published_at": "2026-11-10T12:30:35+00:00",
-      "positivity_score": 61,
-      "positivity_reason": "solutions-focused source; positive cues: record-breaking; stated figure from the source",
-      "why_good": "A solutions story about a record being broken: it gives a concrete figure (200).",
-      "review_status": "auto-accepted",
-      "is_sample": false,
-      "link": "https://www.goodnewsnetwork.org/worlds-driest-desert-erupts-into-record-breaking-bloom-boom-look/",
-      "impact": {
-        "value": "200",
-        "label": "species blooming in areas where flowers"
-      },
-      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/Juan-Cortez-Estay-Unsplash.jpg",
       "image_srcset": []
     },
     {
