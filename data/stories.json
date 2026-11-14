@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-14T12:33:11.256076+00:00",
+  "generated_at": "2026-11-14T13:00:40.968112+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 39 feeds, 836 headlines. Accepted 34, held for review 130, rejected 673. Carried 1 recent items (up to 96h) for re-check.",
+  "ingest_notes": "Fetched 39 feeds, 836 headlines. Accepted 36, held for review 130, rejected 671. Carried 1 recent items (up to 96h) for re-check.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -20,6 +20,78 @@
     "review": 48
   },
   "stories": [
+    {
+      "id": "de7147f545db2858",
+      "headline": "Hot or cold? Exploring what works best after exercise",
+      "summary": "Ice baths have become one of the most popular recovery strategies in sport. They are used by elite athletes and recreational gym-goers to reduce soreness and recuperate more quickly after exercising.",
+      "category": "Health",
+      "sources": [
+        {
+          "name": "Medical Xpress",
+          "url": "https://medicalxpress.com/news/2026-11-hot-cold-exploring.html",
+          "published_at": "2026-11-14T13:00:01+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-14T13:00:01+00:00",
+      "positivity_score": 61,
+      "positivity_reason": "positive cues: recovery, works; improvement framing of a grim topic",
+      "why_good": "It's a story of a recovery and practical solutions, and it shows things getting better after a hard time.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://medicalxpress.com/news/2026-11-hot-cold-exploring.html",
+      "impact": null,
+      "image": "https://scx1.b-cdn.net/csz/news/800a/2024/sea-sauna.jpg",
+      "image_srcset": []
+    },
+    {
+      "id": "4db0f23084d8c2de",
+      "headline": "A new fiber supplement could help millions suffering from irritable bowel syndrome",
+      "summary": "Scientists have developed a promising new fiber supplement that improves gut health in people with irritable bowel syndrome (IBS) without worsening bloating, pain, or other digestive symptoms. The specially designed blend also improved gut-related anxiety and produced\u2026",
+      "category": "Health",
+      "sources": [
+        {
+          "name": "ScienceDaily Health",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261112230450.htm",
+          "published_at": "2026-11-14T12:35:36+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-14T12:35:36+00:00",
+      "positivity_score": 60,
+      "positivity_reason": "positive cues: improves, improved; multiple outcome cues",
+      "why_good": "It's a story of real progress, and it reports several signs of real progress.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://www.sciencedaily.com/releases/2026/11/261112230450.htm",
+      "impact": null,
+      "image": "https://www.sciencedaily.com/images/600/woman-holding-stomach-digestive-heart-health.webp",
+      "image_srcset": []
+    },
+    {
+      "id": "0b88a5eb3df8b438",
+      "headline": "Exercise after ACL surgery may protect knees from early osteoarthritis",
+      "summary": "A new study suggests that the right kind of exercise could help protect young adults from early knee osteoarthritis following ACL surgery. Researchers found that a four-month supervised rehabilitation program improved pain, muscle strength, and quality of life without damaging\u2026",
+      "category": "Science",
+      "sources": [
+        {
+          "name": "ScienceDaily Health",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261112025538.htm",
+          "published_at": "2026-11-14T12:14:57+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-14T12:14:57+00:00",
+      "positivity_score": 56,
+      "positivity_reason": "positive cues: improved; concrete outcome language",
+      "why_good": "This story is about real progress, and it reports a concrete result.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://www.sciencedaily.com/releases/2026/11/261112025538.htm",
+      "impact": null,
+      "image": "https://www.sciencedaily.com/images/600/knee-joint-pain-tendon-inflammation.webp",
+      "image_srcset": []
+    },
     {
       "id": "d3a839a802b77726",
       "headline": "Microsoft services fully restored after global outage",
@@ -896,30 +968,6 @@
       "link": "https://www.smithsonianmag.com/science-nature/ben-franklin-wasnt-serious-when-implied-wild-turkey-respectable-national-symbol-wasnt-wrong-180989642/",
       "impact": null,
       "image": "https://th-thumbnailer.cdn-si-edu.com/0wQSJAgYe1cdZCwZDy4GmHZR61Y=/420x240/filters:focal(450x300:451x301)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/a8/28/a828c064-e027-42b4-b3a2-7796c66acf86/untitled-3.jpg",
-      "image_srcset": []
-    },
-    {
-      "id": "7db32b60aed1593c",
-      "headline": "Oregon Zoo shares footage of rescued sea otters playing basketball with pumpkins: 'It plays a critical role in their well-being'",
-      "summary": "Juno, Lincoln, and Uni Sushi are rewarded for their tricks on the \u201ccourt\u201d with fresh seafood.",
-      "category": "Community",
-      "sources": [
-        {
-          "name": "Good Good Good",
-          "url": "https://www.goodgoodgood.co/articles/otters-playing-basketball-halloween-pumpkins",
-          "published_at": "2026-10-26T17:08:00+00:00"
-        }
-      ],
-      "source_count": 1,
-      "published_at": "2026-10-26T17:08:00+00:00",
-      "positivity_score": 63,
-      "positivity_reason": "solutions-focused source; positive cues: rescued; improvement framing of a grim topic",
-      "why_good": "This solutions-focused story is about a rescue, and it shows things getting better after a hard time.",
-      "review_status": "auto-accepted",
-      "is_sample": false,
-      "link": "https://www.goodgoodgood.co/articles/otters-playing-basketball-halloween-pumpkins",
-      "impact": null,
-      "image": "https://cdn.prod.website-files.com/5f6cc9cd16d59d990c8fca33/6adf87e6cca8030ef580c93b_6adf87e49806c40109016a31_otters-playing-basketball-halloween-pumpkins-featured.webp",
       "image_srcset": []
     },
     {
