@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-14T12:00:38.676457+00:00",
+  "generated_at": "2026-11-14T12:33:11.256076+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 39 feeds, 836 headlines. Accepted 33, held for review 131, rejected 673. Carried 1 recent items (up to 96h) for re-check.",
+  "ingest_notes": "Fetched 39 feeds, 836 headlines. Accepted 34, held for review 130, rejected 673. Carried 1 recent items (up to 96h) for re-check.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -20,6 +20,30 @@
     "review": 48
   },
   "stories": [
+    {
+      "id": "d3a839a802b77726",
+      "headline": "Microsoft services fully restored after global outage",
+      "summary": "Microsoft said on Saturday that services had fully recovered across Teams, Outlook and its other products, ending a global outage that crippled online communications \u200cfor businesses and governments for over 24 hours.",
+      "category": "World",
+      "sources": [
+        {
+          "name": "CBC World",
+          "url": "https://www.cbc.ca/news/business/microsoft-services-restored-after-outage-9.7422072?cmp=rss",
+          "published_at": "2026-11-14T12:11:29+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-14T12:11:29+00:00",
+      "positivity_score": 61,
+      "positivity_reason": "positive cues: restored, recovered; multiple outcome cues; improvement framing of a grim topic",
+      "why_good": "It's a story of nature being restored and a recovery, and it shows things getting better after a hard time.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://www.cbc.ca/news/business/microsoft-services-restored-after-outage-9.7422072?cmp=rss",
+      "impact": null,
+      "image": "https://i.cbc.ca/ais/8d983b44-a868-4ecc-8ac8-c7a1ecaff7f8,1794630252032/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C563%2C8640%2C4860%29%3B",
+      "image_srcset": []
+    },
     {
       "id": "d71e677fd29f4e45",
       "headline": "How a Mumbai Museum Is Teaching 9000+ Children AI by Breaking It First",
