@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-14T04:33:47.648220+00:00",
+  "generated_at": "2026-11-14T08:21:52.906585+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 39 feeds, 835 headlines. Accepted 32, held for review 124, rejected 679. Carried 0 recent items (up to 96h) for re-check.",
+  "ingest_notes": "Fetched 39 feeds, 835 headlines. Accepted 34, held for review 128, rejected 673. Carried 0 recent items (up to 96h) for re-check.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -20,6 +20,76 @@
     "review": 48
   },
   "stories": [
+    {
+      "id": "d71e677fd29f4e45",
+      "headline": "How a Mumbai Museum Is Teaching 9000+ Children AI by Breaking It First",
+      "summary": "This article is published in partnership with Museum of Solutions For a child who has never used a computer independently, the first lesson in artificial intelligence isn't about algorithms. It's about a cursor. For one Grade 6 student from a government school in Maharashtra's\u2026",
+      "category": "Tech",
+      "sources": [
+        {
+          "name": "The Better India",
+          "url": "https://thebetterindia.com/changemakers/ai-education-for-children-explorers-museum-of-solutions-microsoft-jsw-foundation-maharashtra-12806045",
+          "published_at": "2026-11-14T05:30:37+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-14T05:30:37+00:00",
+      "positivity_score": 58,
+      "positivity_reason": "solutions-focused source; positive cues: solutions; concrete outcome language",
+      "why_good": "A solutions story about practical solutions: it describes a real, measurable outcome.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://thebetterindia.com/changemakers/ai-education-for-children-explorers-museum-of-solutions-microsoft-jsw-foundation-maharashtra-12806045",
+      "impact": null,
+      "image": "https://img-cdn.publive.online/fit-in/480x960/filters:format(webp)/english-betterindia/media/media_files/2026/11/13/museum-of-solutions-2026-11-13-16-11-08.png",
+      "image_srcset": [
+        {
+          "url": "https://img-cdn.publive.online/fit-in/480x960/filters:format(webp)/english-betterindia/media/media_files/2026/11/13/museum-of-solutions-2026-11-13-16-11-08.png",
+          "width": 480
+        },
+        {
+          "url": "https://img-cdn.publive.online/fit-in/640x1280/filters:format(webp)/english-betterindia/media/media_files/2026/11/13/museum-of-solutions-2026-11-13-16-11-08.png",
+          "width": 640
+        },
+        {
+          "url": "https://img-cdn.publive.online/fit-in/976x1952/filters:format(webp)/english-betterindia/media/media_files/2026/11/13/museum-of-solutions-2026-11-13-16-11-08.png",
+          "width": 976
+        }
+      ]
+    },
+    {
+      "id": "521e482e697a40a5",
+      "headline": "Scientists find blood biomarker that opens door to CTE diagnosis in living patients",
+      "summary": "Condition is prevalent in rugby and American football Scientists are optimistic of significant breakthrough Scientists have moved a step closer to diagnosing the degenerative brain condition chronic traumatic encephalopathy in living people, after a study found a blood biomarker\u2026",
+      "category": "Sports",
+      "sources": [
+        {
+          "name": "The Guardian Sport",
+          "url": "https://www.theguardian.com/sport/2026/nov/14/scientists-find-blood-biomarker-cte-diagnosis-rugby-american-football",
+          "published_at": "2026-11-14T04:00:33+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-14T04:00:33+00:00",
+      "positivity_score": 68,
+      "positivity_reason": "positive cues: breakthrough, study found, opens; multiple outcome cues; concrete outcome language",
+      "why_good": "This story is about a breakthrough and a new discovery, and it reports several signs of real progress.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://www.theguardian.com/sport/2026/nov/14/scientists-find-blood-biomarker-cte-diagnosis-rugby-american-football",
+      "impact": null,
+      "image": "https://i.guim.co.uk/img/media/1034995fd3a5af19bf486a1fbc16667d82fe7ad9/0_263_3000_2399/master/3000.jpg?width=460&quality=85&auto=format&fit=max&s=3fae4defc275990a720cea2a7d64b37f",
+      "image_srcset": [
+        {
+          "url": "https://i.guim.co.uk/img/media/1034995fd3a5af19bf486a1fbc16667d82fe7ad9/0_263_3000_2399/master/3000.jpg?width=460&quality=85&auto=format&fit=max&s=3fae4defc275990a720cea2a7d64b37f",
+          "width": 460
+        },
+        {
+          "url": "https://i.guim.co.uk/img/media/1034995fd3a5af19bf486a1fbc16667d82fe7ad9/0_263_3000_2399/master/3000.jpg?width=700&quality=85&auto=format&fit=max&s=0168a12e310f7fcec3d4553380611536",
+          "width": 700
+        }
+      ]
+    },
     {
       "id": "535aad6c88b38736",
       "headline": "Mountain growth spurts may have sparked complex life on Earth",
