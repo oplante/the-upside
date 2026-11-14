@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-14T02:34:37.229662+00:00",
+  "generated_at": "2026-11-14T02:53:48.733657+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 21 feeds, 431 headlines. Accepted 16, held for review 34, rejected 381.",
+  "ingest_notes": "Fetched 39 feeds, 835 headlines. Accepted 33, held for review 125, rejected 677. Carried 0 recent items (up to 96h) for re-check.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -20,6 +20,52 @@
     "review": 48
   },
   "stories": [
+    {
+      "id": "535aad6c88b38736",
+      "headline": "Mountain growth spurts may have sparked complex life on Earth",
+      "summary": "Mountain ranges grew higher throughout Earth's history in two distinct \"spurts\" that correlated with the flourishing of biological diversity on our planet, according to new research published in the journal Science Advances. The study suggests mountains may have played a key\u2026",
+      "category": "Science",
+      "sources": [
+        {
+          "name": "Phys.org",
+          "url": "https://phys.org/news/2026-11-mountain-growth-spurts-complex-life.html",
+          "published_at": "2026-11-13T19:00:02+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-13T19:00:02+00:00",
+      "positivity_score": 57,
+      "positivity_reason": "positive cues: flourishing; concrete outcome language",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://phys.org/news/2026-11-mountain-growth-spurts-complex-life.html",
+      "impact": null,
+      "image": "https://scx1.b-cdn.net/csz/news/800a/2026/mountain-growth-spurts.jpg",
+      "image_srcset": []
+    },
+    {
+      "id": "4f652ea438277c51",
+      "headline": "Precision RNA therapy offers hope for brain receptor disorders",
+      "summary": "Scientists at Johns Hopkins University School of Medicine and Academia Sinica in Taiwan have developed an experimental RNA-based treatment that prevents brain damage and improves learning, memory and social behavior in mice carrying a rare genetic mutation associated with autism\u2026",
+      "category": "Health",
+      "sources": [
+        {
+          "name": "Medical Xpress",
+          "url": "https://medicalxpress.com/news/2026-11-precision-rna-therapy-brain-receptor.html",
+          "published_at": "2026-11-13T17:40:09+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-13T17:40:09+00:00",
+      "positivity_score": 57,
+      "positivity_reason": "positive cues: improves, treatment, therapy",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://medicalxpress.com/news/2026-11-precision-rna-therapy-brain-receptor.html",
+      "impact": null,
+      "image": "https://scx1.b-cdn.net/csz/news/800a/2026/brain-receptors.jpg",
+      "image_srcset": []
+    },
     {
       "id": "fe61751fa8aede0b",
       "headline": "Man Rescues Trapped Neighbors from \u2018Biblical\u2019 Florida Flooding",
@@ -40,7 +86,237 @@
       "is_sample": false,
       "link": "https://www.goodnewsnetwork.org/update-stories-of-daring-rescues-continue-to-surface-from-flooded-florida-communities/",
       "impact": null,
-      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/credit-@rickaddante-via-X.jpg"
+      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/credit-@rickaddante-via-X.jpg",
+      "image_srcset": []
+    },
+    {
+      "id": "3d4b007ac4b20ff6",
+      "headline": "Fruit bats emerge as unlikely allies in the Atlantic Forest restoration",
+      "summary": "Bats have long occupied a sinister place in Western pop culture. Ever since Bram Stoker published Dracula in 1897, these nocturnal mammals have been associated with vampires. Outside fiction, however, only three of the world\u2019s roughly 1,500 known bat species feed on blood \u2014 and\u2026",
+      "category": "Environment",
+      "sources": [
+        {
+          "name": "Mongabay",
+          "url": "https://news.mongabay.com/2026/11/fruit-bats-emerge-as-unlikely-allies-in-the-atlantic-forest-restoration/",
+          "published_at": "2026-11-13T15:22:50+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-13T15:22:50+00:00",
+      "positivity_score": 68,
+      "positivity_reason": "positive cues: restoration; improvement framing of a grim topic; concrete outcome language; stated figure from the source",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://news.mongabay.com/2026/11/fruit-bats-emerge-as-unlikely-allies-in-the-atlantic-forest-restoration/",
+      "impact": {
+        "value": "1,500",
+        "label": "known bat species feed on blood"
+      },
+      "image": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/13100451/Artibeus_lituratus_Foto_Gledson-V.-Bianconi_PNG_REVISTA-768x512.jpg",
+      "image_srcset": []
+    },
+    {
+      "id": "7a24f326eb9552c7",
+      "headline": "This Bengaluru Man Turns Office ACs Into Air Purifiers to Help 15 Lakh People Breathe Cleaner Air",
+      "summary": "",
+      "category": "Community",
+      "sources": [
+        {
+          "name": "The Better India",
+          "url": "https://thebetterindia.com/web-stories/startup/ac-air-purifier-technology-clairco-bengaluru-startup-12806292",
+          "published_at": "2026-11-13T11:00:15+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-13T11:00:15+00:00",
+      "positivity_score": 56,
+      "positivity_reason": "solutions-focused source; stated figure from the source",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://thebetterindia.com/web-stories/startup/ac-air-purifier-technology-clairco-bengaluru-startup-12806292",
+      "impact": {
+        "value": "15",
+        "label": "Lakh People Breathe Cleaner Air"
+      },
+      "image": "https://img-cdn.publive.online/fit-in/480x960/filters:format(webp)/english-betterindia/media/media_files/2026/11/13/clairco-2026-11-13-14-31-45.png",
+      "image_srcset": [
+        {
+          "url": "https://img-cdn.publive.online/fit-in/480x960/filters:format(webp)/english-betterindia/media/media_files/2026/11/13/clairco-2026-11-13-14-31-45.png",
+          "width": 480
+        },
+        {
+          "url": "https://img-cdn.publive.online/fit-in/640x1280/filters:format(webp)/english-betterindia/media/media_files/2026/11/13/clairco-2026-11-13-14-31-45.png",
+          "width": 640
+        },
+        {
+          "url": "https://img-cdn.publive.online/fit-in/976x1952/filters:format(webp)/english-betterindia/media/media_files/2026/11/13/clairco-2026-11-13-14-31-45.png",
+          "width": 976
+        }
+      ]
+    },
+    {
+      "id": "7fcf3edef5cec7a0",
+      "headline": "Fed up with the healthcare industry, this red state capped insulin prices for patients",
+      "summary": "Republicans and Democrats in North Dakota worked together to limit what people with diabetes have to pay for insulin, joining a growing bipartisan push across the country to protect patients.",
+      "category": "Politics",
+      "sources": [
+        {
+          "name": "NPR Health",
+          "url": "https://www.npr.org/2026/11/13/nx-s1-6032717/diabetes-insurance-insulin-price",
+          "published_at": "2026-11-13T10:00:00+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-13T10:00:00+00:00",
+      "positivity_score": 60,
+      "positivity_reason": "outcome pattern: price cap; positive cues: capped insulin, bipartisan; multiple outcome cues",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://www.npr.org/2026/11/13/nx-s1-6032717/diabetes-insurance-insulin-price",
+      "impact": null,
+      "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/480x270+0+45/resize/480/quality/85/format/webp/?url=https%3A%2F%2Fi.ytimg.com%2Fvi%2F3_YkftpGDnc%2Fhqdefault.jpg",
+      "image_srcset": [
+        {
+          "url": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/480x270+0+45/resize/320/quality/85/format/webp/?url=https%3A%2F%2Fi.ytimg.com%2Fvi%2F3_YkftpGDnc%2Fhqdefault.jpg",
+          "width": 320
+        },
+        {
+          "url": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/480x270+0+45/resize/480/quality/85/format/webp/?url=https%3A%2F%2Fi.ytimg.com%2Fvi%2F3_YkftpGDnc%2Fhqdefault.jpg",
+          "width": 480
+        },
+        {
+          "url": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/480x270+0+45/resize/640/quality/85/format/webp/?url=https%3A%2F%2Fi.ytimg.com%2Fvi%2F3_YkftpGDnc%2Fhqdefault.jpg",
+          "width": 640
+        },
+        {
+          "url": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/480x270+0+45/resize/976/quality/85/format/webp/?url=https%3A%2F%2Fi.ytimg.com%2Fvi%2F3_YkftpGDnc%2Fhqdefault.jpg",
+          "width": 976
+        }
+      ]
+    },
+    {
+      "id": "d49764cbef8f5035",
+      "headline": "How 2 Engineers Collect Waste for 46 Lakh People & Turn It Into Compost & Reusable Fibre",
+      "summary": "",
+      "category": "Community",
+      "sources": [
+        {
+          "name": "The Better India",
+          "url": "https://thebetterindia.com/web-stories/sustainability/wevois-labs-waste-management-collecting-trash-reusing-recycling-empowering-sanitation-workers-12804397",
+          "published_at": "2026-11-13T07:30:37+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-13T07:30:37+00:00",
+      "positivity_score": 56,
+      "positivity_reason": "solutions-focused source; stated figure from the source",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://thebetterindia.com/web-stories/sustainability/wevois-labs-waste-management-collecting-trash-reusing-recycling-empowering-sanitation-workers-12804397",
+      "impact": {
+        "value": "46",
+        "label": "Lakh People Turn It Into Compost"
+      },
+      "image": "https://img-cdn.publive.online/fit-in/480x960/filters:format(webp)/english-betterindia/media/media_files/2026/11/12/wevois-labs-waste-management-2026-11-12-19-09-22.jpg",
+      "image_srcset": [
+        {
+          "url": "https://img-cdn.publive.online/fit-in/480x960/filters:format(webp)/english-betterindia/media/media_files/2026/11/12/wevois-labs-waste-management-2026-11-12-19-09-22.jpg",
+          "width": 480
+        },
+        {
+          "url": "https://img-cdn.publive.online/fit-in/640x1280/filters:format(webp)/english-betterindia/media/media_files/2026/11/12/wevois-labs-waste-management-2026-11-12-19-09-22.jpg",
+          "width": 640
+        },
+        {
+          "url": "https://img-cdn.publive.online/fit-in/976x1952/filters:format(webp)/english-betterindia/media/media_files/2026/11/12/wevois-labs-waste-management-2026-11-12-19-09-22.jpg",
+          "width": 976
+        }
+      ]
+    },
+    {
+      "id": "82ebe82ecd45790c",
+      "headline": "From Russia to Bengal's Coast: The Journey of a Critically Endangered Spoon-Billed Sandpiper",
+      "summary": "This story is part of The Better India\u2019s new wildlife series, Species in Focus: 52 species. 52 stories. 52 reasons to protect India\u2019s wildlife. One species at a time, the series explores India\u2019s rare, endangered and lesser-known wildlife, their habitats, behaviour, ecological\u2026",
+      "category": "Environment",
+      "sources": [
+        {
+          "name": "The Better India",
+          "url": "https://thebetterindia.com/wildlife/spoon-billed-sandpiper-bengal-russia-migration-coastal-wetlands-12805610",
+          "published_at": "2026-11-13T06:30:37+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-13T06:30:37+00:00",
+      "positivity_score": 58,
+      "positivity_reason": "solutions-focused source; positive cues: endangered; stated figure from the source",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://thebetterindia.com/wildlife/spoon-billed-sandpiper-bengal-russia-migration-coastal-wetlands-12805610",
+      "impact": {
+        "value": "52",
+        "label": "species 52 stories 52 reasons"
+      },
+      "image": "https://img-cdn.publive.online/fit-in/480x960/filters:format(webp)/english-betterindia/media/media_files/2026/11/13/glowg-2026-11-13-11-17-43.png",
+      "image_srcset": [
+        {
+          "url": "https://img-cdn.publive.online/fit-in/480x960/filters:format(webp)/english-betterindia/media/media_files/2026/11/13/glowg-2026-11-13-11-17-43.png",
+          "width": 480
+        },
+        {
+          "url": "https://img-cdn.publive.online/fit-in/640x1280/filters:format(webp)/english-betterindia/media/media_files/2026/11/13/glowg-2026-11-13-11-17-43.png",
+          "width": 640
+        },
+        {
+          "url": "https://img-cdn.publive.online/fit-in/976x1952/filters:format(webp)/english-betterindia/media/media_files/2026/11/13/glowg-2026-11-13-11-17-43.png",
+          "width": 976
+        }
+      ]
+    },
+    {
+      "id": "9e7439ed9e26aef0",
+      "headline": "Tiny flaws in diamonds could unlock a quantum computing revolution",
+      "summary": "Scientists have discovered a faster way to identify diamond-based materials that could power quantum computers and sensors at room temperature. The breakthrough has already revealed promising new quantum building blocks that could help unlock computing capabilities far beyond\u2026",
+      "category": "Science",
+      "sources": [
+        {
+          "name": "ScienceDaily Technology",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261111005855.htm",
+          "published_at": "2026-11-13T05:26:41+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-13T05:26:41+00:00",
+      "positivity_score": 57,
+      "positivity_reason": "positive cues: breakthrough, discovered",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://www.sciencedaily.com/releases/2026/11/261111005855.htm",
+      "impact": null,
+      "image": "https://www.sciencedaily.com/images/600/pink-diamond.webp",
+      "image_srcset": []
+    },
+    {
+      "id": "8a5748bedf630808",
+      "headline": "Energy, prosperity, emissions, and innovation: A decarbonization progress report",
+      "summary": "Eric Toone, CTO of Breakthrough Energy, assessed global decarbonization, and the opportunities and challenges that remain, at MITEI\u2019s annual research conference.",
+      "category": "Environment",
+      "sources": [
+        {
+          "name": "MIT News",
+          "url": "https://news.mit.edu/2026/energy-prosperity-emissions-innovation-decarbonization-progress-report-1112",
+          "published_at": "2026-11-12T21:30:00+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-12T21:30:00+00:00",
+      "positivity_score": 58,
+      "positivity_reason": "positive cues: breakthrough, progress",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://news.mit.edu/2026/energy-prosperity-emissions-innovation-decarbonization-progress-report-1112",
+      "impact": null,
+      "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/MITEI-Conference-Energy-Initiative-toone.jpg?itok=EYlhvTkU",
+      "image_srcset": []
     },
     {
       "id": "e06657ea55fdd3a3",
@@ -62,7 +338,8 @@
       "is_sample": false,
       "link": "https://www.goodnewsnetwork.org/worlds-largest-liquid-air-renewable-energy-storage-system-switches-on/",
       "impact": null,
-      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/Qinghai-60MW-Liquid-Air-Energy-Storage-Project-credit-China-Green-Development-Investment-Group.jpg"
+      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/Qinghai-60MW-Liquid-Air-Energy-Storage-Project-credit-China-Green-Development-Investment-Group.jpg",
+      "image_srcset": []
     },
     {
       "id": "2877844386a1d3e8",
@@ -84,7 +361,8 @@
       "is_sample": false,
       "link": "https://www.goodnewsnetwork.org/documentarian-helps-103-yo-d-day-survivor-recover-his-lost-war-medals-just-in-time-for-veterans-day/",
       "impact": null,
-      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/Douglas-Halley-103-with-his-grandson-Luke-credit-SWNS.jpg"
+      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/Douglas-Halley-103-with-his-grandson-Luke-credit-SWNS.jpg",
+      "image_srcset": []
     },
     {
       "id": "8f74b54ea208f870",
@@ -111,7 +389,68 @@
       "is_sample": false,
       "link": "https://www.bbc.co.uk/news/articles/ck3rgd429zd5o?at_medium=RSS&at_campaign=rss",
       "impact": null,
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b029/live/c4ae2930-de89-11f1-b441-2b33b063138f.jpg"
+      "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/b029/live/c4ae2930-de89-11f1-b441-2b33b063138f.jpg",
+      "image_srcset": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/320/cpsprodpb/b029/live/c4ae2930-de89-11f1-b441-2b33b063138f.jpg",
+          "width": 320
+        },
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/b029/live/c4ae2930-de89-11f1-b441-2b33b063138f.jpg",
+          "width": 480
+        },
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/640/cpsprodpb/b029/live/c4ae2930-de89-11f1-b441-2b33b063138f.jpg",
+          "width": 640
+        },
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/b029/live/c4ae2930-de89-11f1-b441-2b33b063138f.jpg",
+          "width": 800
+        },
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/b029/live/c4ae2930-de89-11f1-b441-2b33b063138f.jpg",
+          "width": 976
+        }
+      ]
+    },
+    {
+      "id": "e4d2b005c9474c11",
+      "headline": "She Track Down 119 Missing Children in Just 11 Months! \u2764\ufe0f",
+      "summary": "A police uniform comes with the responsibility of protecting people. For Delhi Police Head Constable Chanchal, that responsibility has also meant helping families find their missing children. In just 11 months, she helped reunite 119 missing children with their families\u2026",
+      "category": "Community",
+      "sources": [
+        {
+          "name": "The Better India",
+          "url": "https://thebetterindia.com/videos/society/she-track-down-119-missing-children-in-just-11-months-12803547",
+          "published_at": "2026-11-12T08:55:41+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-12T08:55:41+00:00",
+      "positivity_score": 56,
+      "positivity_reason": "solutions-focused source; stated figure from the source",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://thebetterindia.com/videos/society/she-track-down-119-missing-children-in-just-11-months-12803547",
+      "impact": {
+        "value": "119",
+        "label": "Missing Children in Just 11 Months"
+      },
+      "image": "https://img-cdn.publive.online/fit-in/480x960/filters:format(webp)/english-betterindia/media/youtube_thumbnails/vi/UnPtVERsRMo/maxresdefault.jpg",
+      "image_srcset": [
+        {
+          "url": "https://img-cdn.publive.online/fit-in/480x960/filters:format(webp)/english-betterindia/media/youtube_thumbnails/vi/UnPtVERsRMo/maxresdefault.jpg",
+          "width": 480
+        },
+        {
+          "url": "https://img-cdn.publive.online/fit-in/640x1280/filters:format(webp)/english-betterindia/media/youtube_thumbnails/vi/UnPtVERsRMo/maxresdefault.jpg",
+          "width": 640
+        },
+        {
+          "url": "https://img-cdn.publive.online/fit-in/976x1952/filters:format(webp)/english-betterindia/media/youtube_thumbnails/vi/UnPtVERsRMo/maxresdefault.jpg",
+          "width": 976
+        }
+      ]
     },
     {
       "id": "4545c61f1a887039",
@@ -136,7 +475,8 @@
         "value": "280",
         "label": "Unseen Ice Age Cave Paintings"
       },
-      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/A-horse-representaion-where-cave-floor-is-used-to-represent-the-ground-credit-2026-Verges-et-al.-Antiquiry-CC-4.0.-BY-SA-e1794413594768.jpg"
+      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/A-horse-representaion-where-cave-floor-is-used-to-represent-the-ground-credit-2026-Verges-et-al.-Antiquiry-CC-4.0.-BY-SA-e1794413594768.jpg",
+      "image_srcset": []
     },
     {
       "id": "d9b764ce15745f8a",
@@ -161,7 +501,8 @@
         "value": "2\u00d7",
         "label": "Brown Bear Population in Spain"
       },
-      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/A-Cantabrian-brown-bear-credit-Juan-Iacruz-CC-BY-SA-4.0.jpg"
+      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/A-Cantabrian-brown-bear-credit-Juan-Iacruz-CC-BY-SA-4.0.jpg",
+      "image_srcset": []
     },
     {
       "id": "d183ba40062d67f4",
@@ -183,7 +524,8 @@
       "is_sample": false,
       "link": "https://www.goodnewsnetwork.org/i-pulled-him-out-i-heard-more-screaming-how-a-cadet-saved-a-father-and-son-from-drowning/",
       "impact": null,
-      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/Jerge-Zion-is-recognized-at-the-Cal-Poly-Maritime-Academy-credit-@calpoly_maritime.jpg"
+      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/Jerge-Zion-is-recognized-at-the-Cal-Poly-Maritime-Academy-credit-@calpoly_maritime.jpg",
+      "image_srcset": []
     },
     {
       "id": "e35fe5deab7d3aa7",
@@ -195,9 +537,14 @@
           "name": "The Guardian Science",
           "url": "https://www.theguardian.com/society/2026/nov/11/ovarian-cancer-study-early-detection-blood",
           "published_at": "2026-11-11T13:05:57+00:00"
+        },
+        {
+          "name": "The Guardian Health",
+          "url": "https://www.theguardian.com/society/2026/nov/11/ovarian-cancer-study-early-detection-blood",
+          "published_at": "2026-11-11T13:05:57+00:00"
         }
       ],
-      "source_count": 1,
+      "source_count": 2,
       "published_at": "2026-11-11T13:05:57+00:00",
       "positivity_score": 74,
       "positivity_reason": "positive cues: breakthrough, study finds, helps detect; multiple outcome cues; concrete outcome language",
@@ -205,7 +552,40 @@
       "is_sample": false,
       "link": "https://www.theguardian.com/society/2026/nov/11/ovarian-cancer-study-early-detection-blood",
       "impact": null,
-      "image": "https://i.guim.co.uk/img/media/7f0e07e9605527926783a0e215685b04c7db38ba/354_0_2365_1892/master/2365.jpg?width=460&quality=85&auto=format&fit=max&s=703013a723656325a209ad086b1d4262"
+      "image": "https://i.guim.co.uk/img/media/7f0e07e9605527926783a0e215685b04c7db38ba/354_0_2365_1892/master/2365.jpg?width=460&quality=85&auto=format&fit=max&s=703013a723656325a209ad086b1d4262",
+      "image_srcset": [
+        {
+          "url": "https://i.guim.co.uk/img/media/7f0e07e9605527926783a0e215685b04c7db38ba/354_0_2365_1892/master/2365.jpg?width=460&quality=85&auto=format&fit=max&s=703013a723656325a209ad086b1d4262",
+          "width": 460
+        },
+        {
+          "url": "https://i.guim.co.uk/img/media/7f0e07e9605527926783a0e215685b04c7db38ba/354_0_2365_1892/master/2365.jpg?width=700&quality=85&auto=format&fit=max&s=dbe1e8f3985865c28b8eda6e560b9bd7",
+          "width": 700
+        }
+      ]
+    },
+    {
+      "id": "a4304c5baf9ec712",
+      "headline": "Italy invests $2.2M in rescuing dogs from fighting rings, adopting them out to families for 'the happiest years of their life'",
+      "summary": "Dogfighting is a widespread underground practice in Italy, but the Humane World for Animals Italy is hard at work to bring it to an end \u2014 and give rescued dogs a second chance.",
+      "category": "Community",
+      "sources": [
+        {
+          "name": "Good Good Good",
+          "url": "https://www.goodgoodgood.co/articles/dogfighting-rings-italy-rescue-rehabilitation",
+          "published_at": "2026-11-10T17:32:00+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-10T17:32:00+00:00",
+      "positivity_score": 63,
+      "positivity_reason": "solutions-focused source; positive cues: rescued; improvement framing of a grim topic",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://www.goodgoodgood.co/articles/dogfighting-rings-italy-rescue-rehabilitation",
+      "impact": null,
+      "image": "https://cdn.prod.website-files.com/5f6cc9cd16d59d990c8fca33/6af354285cb0734cee00a85e_6af3542740ffdc98b024557c_dogfighting-rings-italy-rescue-rehabilitation-featured.webp",
+      "image_srcset": []
     },
     {
       "id": "ae00be0a65476095",
@@ -230,7 +610,8 @@
         "value": "$76,000",
         "label": "Raise for a Full-Time Caregiver"
       },
-      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/seiwert-ring-camera-.webp"
+      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/seiwert-ring-camera-.webp",
+      "image_srcset": []
     },
     {
       "id": "97bf7d06a65d76c3",
@@ -255,7 +636,8 @@
         "value": "200",
         "label": "species blooming in areas where flowers"
       },
-      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/Juan-Cortez-Estay-Unsplash.jpg"
+      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/Juan-Cortez-Estay-Unsplash.jpg",
+      "image_srcset": []
     },
     {
       "id": "c28069c4379b628c",
@@ -277,7 +659,8 @@
       "is_sample": false,
       "link": "https://reasonstobecheerful.world/rural-colleges-student-parents-support/",
       "impact": null,
-      "image": "https://reasonstobecheerful.world/wp-content/uploads/2026/11/IMG_9554-653x870-1.jpeg"
+      "image": "https://reasonstobecheerful.world/wp-content/uploads/2026/11/IMG_9554-653x870-1.jpeg",
+      "image_srcset": []
     },
     {
       "id": "2d0e4f05622ad71e",
@@ -302,7 +685,100 @@
         "value": "700",
         "label": "users in 12 countries reaching families"
       },
-      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/Shashank-Madala-stands-with-his-Congressional-recognition-credit-courtesy-of-Shashank-Madala.jpg"
+      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/Shashank-Madala-stands-with-his-Congressional-recognition-credit-courtesy-of-Shashank-Madala.jpg",
+      "image_srcset": []
+    },
+    {
+      "id": "49ffad837aa44303",
+      "headline": "Caltech robot makes history by building a structure in space",
+      "summary": "For the first time, a robot has autonomously built part of a structure in space, demonstrating a breakthrough that could fundamentally change space exploration. The technology could one day allow scientists to construct enormous telescopes, communications antennas, and solar\u2026",
+      "category": "Tech",
+      "sources": [
+        {
+          "name": "ScienceDaily Technology",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261108233043.htm",
+          "published_at": "2026-11-09T10:01:13+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-09T10:01:13+00:00",
+      "positivity_score": 60,
+      "positivity_reason": "positive cues: breakthrough, first time, solar",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://www.sciencedaily.com/releases/2026/11/261108233043.htm",
+      "impact": null,
+      "image": "https://www.sciencedaily.com/images/600/darpa-nom4d-caltech-robotic-space-demo.webp",
+      "image_srcset": []
+    },
+    {
+      "id": "14e6c7bca9d78b07",
+      "headline": "Virginia voters enshrined marriage equality into the state's constitution",
+      "summary": "Virginia\u2019s ban on gay marriage has not been enforceable since 2015, when the Supreme Court issued its landmark ruling in Obergefell v. Hodges that established a federal right to marry for same-sex couples.",
+      "category": "Community",
+      "sources": [
+        {
+          "name": "Good Good Good",
+          "url": "https://www.goodgoodgood.co/articles/virginia-ban-same-sex-marriage",
+          "published_at": "2026-11-09T04:33:00+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-09T04:33:00+00:00",
+      "positivity_score": 56,
+      "positivity_reason": "solutions-focused source; positive cues: marriage equality",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://www.goodgoodgood.co/articles/virginia-ban-same-sex-marriage",
+      "impact": null,
+      "image": "https://cdn.prod.website-files.com/5f6cc9cd16d59d990c8fca33/6af146f3d9c17783a03dac57_6af14635e61daa8cf9b6355a_virginia-ban-same-sex-marriage-featured.webp",
+      "image_srcset": []
+    },
+    {
+      "id": "08b3e947709545d1",
+      "headline": "Scientists discover Europe's ancient forests were nothing like we imagined",
+      "summary": "Scientists have uncovered evidence that Europe was dominated for more than 20 million years by open woodlands, colorful meadows, and large grazing animals, not the dense forests long considered its natural state. The surprising discovery challenges modern reforestation\u2026",
+      "category": "Environment",
+      "sources": [
+        {
+          "name": "ScienceDaily Environment",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261104012333.htm",
+          "published_at": "2026-11-07T09:44:48+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-07T09:44:48+00:00",
+      "positivity_score": 56,
+      "positivity_reason": "positive cues: reforestation, discovery",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://www.sciencedaily.com/releases/2026/11/261104012333.htm",
+      "impact": null,
+      "image": "https://www.sciencedaily.com/images/600/central-european-landscape-early-late-miocene.webp",
+      "image_srcset": []
+    },
+    {
+      "id": "4e814677ba79f12d",
+      "headline": "Scientists just found dinosaur blood that survived 115 million years",
+      "summary": "Scientists have discovered chemically confirmed traces of ancient blood inside 115-million-year-old dinosaur bones, challenging assumptions about how long biological molecules can survive. The extraordinary preservation could unlock new clues about dinosaur physiology and even\u2026",
+      "category": "Science",
+      "sources": [
+        {
+          "name": "ScienceDaily Environment",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261105224542.htm",
+          "published_at": "2026-11-06T11:28:01+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-06T11:28:01+00:00",
+      "positivity_score": 60,
+      "positivity_reason": "positive cues: survived, discovered; improvement framing of a grim topic",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://www.sciencedaily.com/releases/2026/11/261105224542.htm",
+      "impact": null,
+      "image": "https://www.sciencedaily.com/images/600/dinosaur-bone-blood.webp",
+      "image_srcset": []
     },
     {
       "id": "d629f0e7ffae3f57",
@@ -324,7 +800,8 @@
       "is_sample": false,
       "link": "https://reasonstobecheerful.world/the-spark-community-land-trusts/",
       "impact": null,
-      "image": "https://reasonstobecheerful.world/wp-content/uploads/2026/11/1788199445723.jpeg"
+      "image": "https://reasonstobecheerful.world/wp-content/uploads/2026/11/1788199445723.jpeg",
+      "image_srcset": []
     },
     {
       "id": "0a99b1a3a586f528",
@@ -346,7 +823,31 @@
       "is_sample": false,
       "link": "https://www.smithsonianmag.com/science-nature/ben-franklin-wasnt-serious-when-implied-wild-turkey-respectable-national-symbol-wasnt-wrong-180989642/",
       "impact": null,
-      "image": "https://th-thumbnailer.cdn-si-edu.com/0wQSJAgYe1cdZCwZDy4GmHZR61Y=/420x240/filters:focal(450x300:451x301)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/a8/28/a828c064-e027-42b4-b3a2-7796c66acf86/untitled-3.jpg"
+      "image": "https://th-thumbnailer.cdn-si-edu.com/0wQSJAgYe1cdZCwZDy4GmHZR61Y=/420x240/filters:focal(450x300:451x301)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/a8/28/a828c064-e027-42b4-b3a2-7796c66acf86/untitled-3.jpg",
+      "image_srcset": []
+    },
+    {
+      "id": "7db32b60aed1593c",
+      "headline": "Oregon Zoo shares footage of rescued sea otters playing basketball with pumpkins: 'It plays a critical role in their well-being'",
+      "summary": "Juno, Lincoln, and Uni Sushi are rewarded for their tricks on the \u201ccourt\u201d with fresh seafood.",
+      "category": "Community",
+      "sources": [
+        {
+          "name": "Good Good Good",
+          "url": "https://www.goodgoodgood.co/articles/otters-playing-basketball-halloween-pumpkins",
+          "published_at": "2026-10-26T17:08:00+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-10-26T17:08:00+00:00",
+      "positivity_score": 63,
+      "positivity_reason": "solutions-focused source; positive cues: rescued; improvement framing of a grim topic",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://www.goodgoodgood.co/articles/otters-playing-basketball-halloween-pumpkins",
+      "impact": null,
+      "image": "https://cdn.prod.website-files.com/5f6cc9cd16d59d990c8fca33/6adf87e6cca8030ef580c93b_6adf87e49806c40109016a31_otters-playing-basketball-halloween-pumpkins-featured.webp",
+      "image_srcset": []
     },
     {
       "id": "7aaee812344fc8e0",
@@ -368,7 +869,8 @@
       "is_sample": false,
       "link": "https://www.smithsonianmag.com/science-nature/green-sea-turtles-are-making-a-remarkable-comeback-on-the-remote-aldabra-atoll-and-around-the-world-but-their-recovery-is-far-from-complete-180989710/",
       "impact": null,
-      "image": "https://th-thumbnailer.cdn-si-edu.com/NHHdxdsVmzLSKvNU5yQbhCCK84k=/420x240/filters:focal(960x553:961x554)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/07/e0/07e08216-60d7-450f-903d-5f757079991e/nesting_green_turtle_on_aldabra_2_-_r_baxter.jpg"
+      "image": "https://th-thumbnailer.cdn-si-edu.com/NHHdxdsVmzLSKvNU5yQbhCCK84k=/420x240/filters:focal(960x553:961x554)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/07/e0/07e08216-60d7-450f-903d-5f757079991e/nesting_green_turtle_on_aldabra_2_-_r_baxter.jpg",
+      "image_srcset": []
     }
   ]
 }

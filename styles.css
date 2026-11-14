@@ -199,6 +199,14 @@ body {
   color: var(--accent);
 }
 
+/* Category with no published stories yet: greyed, not clickable. */
+.filters button:disabled,
+.filters button[aria-disabled="true"] {
+  opacity: 0.45;
+  cursor: not-allowed;
+  background: transparent;
+}
+
 .status {
   margin: 8px 0 0;
   color: var(--muted);
@@ -581,11 +589,11 @@ main {
 }
 
 @media (hover: hover) and (pointer: fine) {
-  .filters button:hover {
+  .filters button:not(:disabled):hover {
     border-color: var(--accent);
     color: var(--accent);
   }
-  .filters button:active,
+  .filters button:not(:disabled):active,
   .load-more:active {
     transform: scale(0.97);
   }

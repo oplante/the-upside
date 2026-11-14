@@ -13,6 +13,13 @@ const TAXONOMY = [
 
 const PAGE_SIZE = 12;
 
+// Preview image sizing. Grid cards render ~290px wide on desktop, so 640px
+// covers 2x screens; only the full-width lead card may use a larger rendition.
+const IMG_CARD_MAX = 640;
+const IMG_LEAD_MAX = 1100;
+const SIZES_CARD = "(min-width: 1100px) 290px, (min-width: 720px) calc(50vw - 88px), calc(100vw - 92px)";
+const SIZES_LEAD = "(min-width: 1120px) 1020px, calc(100vw - 96px)";
+
 const state = {
   data: null,
   category: "All",
@@ -111,16 +118,52 @@ function setCategory(category, push) {
   renderFeed();
 }
 
+function categoryCounts(data) {
+  const counts = Object.fromEntries(TAXONOMY.map((c) => [c, 0]));
+  for (const story of data?.stories || []) {
+    if (story && Object.prototype.hasOwnProperty.call(counts, story.category)) {
+      counts[story.category] += 1;
+    }
+  }
+  return counts;
+}
+
+function isEmptyCategory(category) {
+  if (!state.data || category === "All") return false;
+  return (categoryCounts(state.data)[category] || 0) === 0;
+}
+
+// Never leave a visitor on an empty category view (e.g. an old ?category= link).
+function ensureNonEmptyCategory() {
+  if (!isEmptyCategory(state.category)) return false;
+  state.category = "All";
+  state.visible = PAGE_SIZE;
+  const url = new URL(window.location.href);
+  url.searchParams.delete("category");
+  history.replaceState({ category: "All" }, "", url);
+  return true;
+}
+
 function renderFilters() {
   const nav = $("filters");
   nav.innerHTML = "";
+  const counts = state.data ? categoryCounts(state.data) : null;
   for (const cat of ["All", ...TAXONOMY]) {
     const btn = document.createElement("button");
     btn.type = "button";
     btn.textContent = cat;
     btn.setAttribute("aria-pressed", cat === state.category ? "true" : "false");
     btn.dataset.category = cat;
-    btn.addEventListener("click", () => setCategory(cat, true));
+    const empty = Boolean(counts) && cat !== "All" && counts[cat] === 0;
+    if (empty) {
+      btn.disabled = true;
+      btn.setAttribute("aria-disabled", "true");
+      btn.setAttribute("aria-label", `${cat}, no stories yet`);
+      btn.title = "No stories yet";
+      btn.dataset.empty = "true";
+    } else {
+      btn.addEventListener("click", () => setCategory(cat, true));
+    }
     nav.appendChild(btn);
   }
 }
@@ -156,12 +199,32 @@ function statedImpact(story) {
   return { value, label };
 }
 
-function cardImage(story) {
+function imageSrcset(story, isLead) {
+  const list = Array.isArray(story.image_srcset) ? story.image_srcset : [];
+  const max = isLead ? IMG_LEAD_MAX : IMG_CARD_MAX;
+  const seen = new Set();
+  const parts = [];
+  for (const entry of list) {
+    const url = safeUrl(entry?.url);
+    const width = Number(entry?.width);
+    if (!url || !Number.isInteger(width) || width <= 0 || width > max || seen.has(width)) continue;
+    seen.add(width);
+    // Commas and spaces would split a srcset candidate.
+    parts.push(`${url.replaceAll(",", "%2C").replaceAll(" ", "%20")} ${width}w`);
+  }
+  return parts.length >= 2 ? parts.join(", ") : "";
+}
+
+function cardImage(story, isLead) {
   const src = safeUrl(story.image);
   if (!src) return "";
+  const srcset = imageSrcset(story, isLead);
+  const responsive = srcset
+    ? ` srcset="${escapeHtml(srcset)}" sizes="${isLead ? SIZES_LEAD : SIZES_CARD}"`
+    : "";
   return `<div class="thumb"><img class="thumb-img" src="${escapeHtml(
     src
-  )}" alt="" width="320" height="180" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div>`;
+  )}"${responsive} alt="" width="640" height="360" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div>`;
 }
 
 function cardHtml(story, isLead) {
@@ -200,7 +263,7 @@ function cardHtml(story, isLead) {
     }" data-impact="${impact ? "true" : "false"}" data-image="${
       safeUrl(story.image) ? "true" : "false"
     }">
-      ${cardImage(story)}
+      ${cardImage(story, isLead)}
       <ul class="meta">
         <li class="cat">${escapeHtml(story.category || "World")}${sample}</li>
         <li>${escapeHtml(sourceLine(story))}</li>
@@ -237,6 +300,7 @@ function renderFeed() {
   const data = state.data;
   if (!data) return;
 
+  if (ensureNonEmptyCategory()) renderFilters();
   const all = visibleStories();
   const shown = all.slice(0, state.visible);
   banner.hidden = !data.is_sample;
@@ -316,7 +380,7 @@ async function init() {
   });
   $("filters").addEventListener("keydown", (event) => {
     if (event.key !== "ArrowRight" && event.key !== "ArrowLeft") return;
-    const buttons = [...$("filters").querySelectorAll("button")];
+    const buttons = [...$("filters").querySelectorAll("button:not(:disabled)")];
     const index = buttons.indexOf(document.activeElement);
     if (index < 0) return;
     event.preventDefault();
@@ -333,6 +397,8 @@ async function init() {
     $("edition-label").textContent = state.data.is_sample
       ? "Sample feed, not live news."
       : "From public news feeds.";
+    ensureNonEmptyCategory();
+    renderFilters();
     renderFeed();
   } catch (err) {
     $("status").textContent = "The feed is temporarily unavailable. Please try again soon.";
@@ -344,6 +410,7 @@ async function init() {
 window.addEventListener("popstate", () => {
   state.category = currentCategoryFromUrl();
   state.visible = PAGE_SIZE;
+  ensureNonEmptyCategory();
   renderFilters();
   renderFeed();
 });
