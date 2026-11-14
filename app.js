@@ -227,6 +227,14 @@ function cardImage(story, isLead) {
   )}"${responsive} alt="" width="640" height="360" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div>`;
 }
 
+// Reader-facing sentence written at ingest (why_good). Internal keyword
+// lists (positivity_reason) are never shown on the card.
+const WHY_FALLBACK = "It reports a concrete, positive outcome from the original source.";
+function whyGood(story) {
+  const text = String(story.why_good || "").trim();
+  return text || WHY_FALLBACK;
+}
+
 function cardHtml(story, isLead) {
   const impact = statedImpact(story);
   const sample = story.is_sample
@@ -254,7 +262,7 @@ function cardHtml(story, isLead) {
   const readHtml = link
     ? `<a class="read" ${href}>Read at ${source} <svg class="read-arrow" viewBox="0 0 12 12" aria-hidden="true" focusable="false"><path d="M2 6h8M7 3l3 3-3 3"/></svg></a>`
     : "";
-  const reason = escapeHtml(story.positivity_reason || "");
+  const reason = escapeHtml(whyGood(story));
   return `
     <article class="card${leadClass}" data-testid="story-card" data-category="${escapeHtml(
       story.category
