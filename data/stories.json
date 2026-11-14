@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-14T16:03:37.434266+00:00",
+  "generated_at": "2026-11-14T16:53:38.771115+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 39 feeds, 837 headlines. Accepted 36, held for review 132, rejected 671. Carried 2 recent items (up to 96h) for re-check.",
+  "ingest_notes": "Fetched 39 feeds, 836 headlines. Accepted 36, held for review 131, rejected 671. Carried 2 recent items (up to 96h) for re-check.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -519,8 +519,8 @@
       "image_srcset": []
     },
     {
-      "id": "2877844386a1d3e8",
-      "headline": "Documentarian Helps 103-yo D-Day Survivor Recover His Lost War Medals",
+      "id": "9bd865c1b710dd52",
+      "headline": "Filmmaker Helps 103-yo D-Day Survivor Recover His Lost War Medals",
       "summary": "A 103-year-old D-Day veteran was reunited with his war medals just in time for Remembrance Day. The story came about through a remarkable coincidence when an amateur WWII historian came across the man\u2019s military record and medals, and contacted the family wondering if he still\u2026",
       "category": "Community",
       "sources": [
@@ -534,7 +534,7 @@
       "published_at": "2026-11-12T16:30:00+00:00",
       "positivity_score": 56,
       "positivity_reason": "solutions-focused source; positive cues: reunited; improvement framing of a grim topic",
-      "why_good": "From a newsroom that covers what's working, a story of people coming back together: it shows things getting better after a hard time.",
+      "why_good": "This solutions-focused story is about people coming back together, and it follows a difficult situation that is turning around.",
       "review_status": "auto-accepted",
       "is_sample": false,
       "link": "https://www.goodnewsnetwork.org/documentarian-helps-103-yo-d-day-survivor-recover-his-lost-war-medals-just-in-time-for-veterans-day/",
