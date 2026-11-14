@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-14T10:30:36.053677+00:00",
+  "generated_at": "2026-11-14T11:54:13.837407+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 39 feeds, 835 headlines. Accepted 34, held for review 128, rejected 673. Carried 0 recent items (up to 96h) for re-check.",
+  "ingest_notes": "Fetched 39 feeds, 836 headlines. Accepted 33, held for review 131, rejected 673. Carried 1 recent items (up to 96h) for re-check.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -752,33 +752,6 @@
       "link": "https://reasonstobecheerful.world/rural-colleges-student-parents-support/",
       "impact": null,
       "image": "https://reasonstobecheerful.world/wp-content/uploads/2026/11/IMG_9554-653x870-1.jpeg",
-      "image_srcset": []
-    },
-    {
-      "id": "2d0e4f05622ad71e",
-      "headline": "Interpreting Autistic Cues Is Difficult, a Teen Built an App That\u2019s Helping Hundreds of Families",
-      "summary": "Watching adults misunderstand the cues of his autistic cousin, a teen taught himself machine learning to build technology that could help them. His solution has more than 700 users in 12 countries, reaching families through autism therapy centers\u2014all while remaining free. Kora\u2026",
-      "category": "Tech",
-      "sources": [
-        {
-          "name": "Good News Network",
-          "url": "https://www.goodnewsnetwork.org/15-yo-teaches-himself-machine-learning-to-build-app-that-interprets-autistic-communication/",
-          "published_at": "2026-11-09T16:30:23+00:00"
-        }
-      ],
-      "source_count": 1,
-      "published_at": "2026-11-09T16:30:23+00:00",
-      "positivity_score": 62,
-      "positivity_reason": "solutions-focused source; positive cues: solution, therapy; stated figure from the source",
-      "why_good": "This solutions-focused story is about practical solutions and better health care, and it gives a concrete figure (700).",
-      "review_status": "auto-accepted",
-      "is_sample": false,
-      "link": "https://www.goodnewsnetwork.org/15-yo-teaches-himself-machine-learning-to-build-app-that-interprets-autistic-communication/",
-      "impact": {
-        "value": "700",
-        "label": "users in 12 countries reaching families"
-      },
-      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/Shashank-Madala-stands-with-his-Congressional-recognition-credit-courtesy-of-Shashank-Madala.jpg",
       "image_srcset": []
     },
     {
