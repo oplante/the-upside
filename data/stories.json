@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-15T21:01:21.246024+00:00",
+  "generated_at": "2026-11-15T22:16:03.717096+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 39 feeds, 830 headlines. Accepted 40, held for review 123, rejected 675. Carried 8 recent items (up to 96h) for re-check.",
+  "ingest_notes": "Fetched 39 feeds, 830 headlines. Accepted 42, held for review 122, rejected 675. Carried 9 recent items (up to 96h) for re-check.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -20,6 +20,75 @@
     "review": 48
   },
   "stories": [
+    {
+      "id": "b416e25e05676fa1",
+      "headline": "When the Saudi desert was green: A 125,000-year-old lakeside reveals how early humans lived",
+      "summary": "Megafauna remains, stone tools and rare plant material recovered from the 125,000-year-old lakeside site of Uruq al-Julaybah in Mundafan, southern Saudi Arabia, provide one of the most detailed pictures yet of prehistoric human life in Arabia. Together, the discoveries reveal\u2026",
+      "category": "Science",
+      "sources": [
+        {
+          "name": "Phys.org",
+          "url": "https://phys.org/news/2026-11-saudi-green-year-lakeside-reveals.html",
+          "published_at": "2026-11-15T22:00:01+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-15T22:00:01+00:00",
+      "positivity_score": 60,
+      "positivity_reason": "positive cues: recovered; improvement framing of a grim topic",
+      "why_good": "Good news about a recovery: it follows a difficult situation that is turning around.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://phys.org/news/2026-11-saudi-green-year-lakeside-reveals.html",
+      "impact": null,
+      "image": "https://scx1.b-cdn.net/csz/news/800a/2026/when-the-saudi-desert.jpg",
+      "image_srcset": []
+    },
+    {
+      "id": "08ae6aee8037f3f7",
+      "headline": "Townsend hails Scotland's defence in Australia 'arm wrestle'",
+      "summary": "Scotland's Nations Championship win over Australia was far from a classic, but head coach Gregor Townsend says it was one of his side's best defensive performances in recent years.",
+      "category": "Sports",
+      "sources": [
+        {
+          "name": "BBC Sport",
+          "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c6vg25x1zqrro?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-11-15T20:53:34+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-15T20:53:34+00:00",
+      "positivity_score": 56,
+      "positivity_reason": "outcome pattern: competition milestone; positive cues: championship win; multiple outcome cues",
+      "why_good": "This story is about a sporting win, and it points to more than one sign of real progress.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://www.bbc.co.uk/sport/rugby-union/articles/c6vg25x1zqrro?at_medium=RSS&at_campaign=rss",
+      "impact": null,
+      "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/42df/live/c2043d10-e135-11f1-90e9-e9a285721c5c.jpg",
+      "image_srcset": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/320/cpsprodpb/42df/live/c2043d10-e135-11f1-90e9-e9a285721c5c.jpg",
+          "width": 320
+        },
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/42df/live/c2043d10-e135-11f1-90e9-e9a285721c5c.jpg",
+          "width": 480
+        },
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/640/cpsprodpb/42df/live/c2043d10-e135-11f1-90e9-e9a285721c5c.jpg",
+          "width": 640
+        },
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/42df/live/c2043d10-e135-11f1-90e9-e9a285721c5c.jpg",
+          "width": 800
+        },
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/42df/live/c2043d10-e135-11f1-90e9-e9a285721c5c.jpg",
+          "width": 976
+        }
+      ]
+    },
     {
       "id": "1720e81d7c4866f8",
       "headline": "World-First Bone Marrow Transplant Successfully Treats Non-Malignant Disease",
