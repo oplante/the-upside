@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T07:32:23.645881+00:00",
+  "generated_at": "2026-11-15T08:00:37.401735+00:00",
   "is_sample": false,
   "ingest_notes": "Fetched 39 feeds, 835 headlines. Accepted 37, held for review 132, rejected 670. Carried 4 recent items (up to 96h) for re-check.",
   "taxonomy": [
@@ -29,11 +29,11 @@
         {
           "name": "BBC Sport",
           "url": "https://www.bbc.co.uk/sport/rugby-league/articles/c50mdzx3j039o?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-11-15T07:06:27+00:00"
+          "published_at": "2026-11-15T07:38:40+00:00"
         }
       ],
       "source_count": 1,
-      "published_at": "2026-11-15T07:06:27+00:00",
+      "published_at": "2026-11-15T07:38:40+00:00",
       "positivity_score": 56,
       "positivity_reason": "outcome pattern: competition milestone; positive cues: world cup; multiple outcome cues",
       "why_good": "Good news about a sporting win: it reports several signs of real progress.",
@@ -41,26 +41,26 @@
       "is_sample": false,
       "link": "https://www.bbc.co.uk/sport/rugby-league/articles/c50mdzx3j039o?at_medium=RSS&at_campaign=rss",
       "impact": null,
-      "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/c893/live/837d1a40-e0c1-11f1-970d-f5d89da8a1ad.jpg",
+      "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/782e/live/a75eeb20-e0c9-11f1-a701-fddedf244c16.jpg",
       "image_srcset": [
         {
-          "url": "https://ichef.bbci.co.uk/ace/standard/320/cpsprodpb/c893/live/837d1a40-e0c1-11f1-970d-f5d89da8a1ad.jpg",
+          "url": "https://ichef.bbci.co.uk/ace/standard/320/cpsprodpb/782e/live/a75eeb20-e0c9-11f1-a701-fddedf244c16.jpg",
           "width": 320
         },
         {
-          "url": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/c893/live/837d1a40-e0c1-11f1-970d-f5d89da8a1ad.jpg",
+          "url": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/782e/live/a75eeb20-e0c9-11f1-a701-fddedf244c16.jpg",
           "width": 480
         },
         {
-          "url": "https://ichef.bbci.co.uk/ace/standard/640/cpsprodpb/c893/live/837d1a40-e0c1-11f1-970d-f5d89da8a1ad.jpg",
+          "url": "https://ichef.bbci.co.uk/ace/standard/640/cpsprodpb/782e/live/a75eeb20-e0c9-11f1-a701-fddedf244c16.jpg",
           "width": 640
         },
         {
-          "url": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/c893/live/837d1a40-e0c1-11f1-970d-f5d89da8a1ad.jpg",
+          "url": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/782e/live/a75eeb20-e0c9-11f1-a701-fddedf244c16.jpg",
           "width": 800
         },
         {
-          "url": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/c893/live/837d1a40-e0c1-11f1-970d-f5d89da8a1ad.jpg",
+          "url": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/782e/live/a75eeb20-e0c9-11f1-a701-fddedf244c16.jpg",
           "width": 976
         }
       ]
