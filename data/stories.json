@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-15T11:00:33.417101+00:00",
+  "generated_at": "2026-11-15T12:52:30.135506+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 39 feeds, 831 headlines. Accepted 37, held for review 131, rejected 668. Carried 5 recent items (up to 96h) for re-check.",
+  "ingest_notes": "Fetched 39 feeds, 832 headlines. Accepted 39, held for review 128, rejected 671. Carried 6 recent items (up to 96h) for re-check.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -21,34 +21,44 @@
   },
   "stories": [
     {
-      "id": "3ca028ca4a3defe1",
-      "headline": "Australia 32-12 New Zealand: Men\u2019s Rugby League World Cup final \u2013 live reaction",
-      "summary": "Kangaroos overpower Kiwis in Brisbane to win fourth straight title Any thoughts? Send us an email As Munster mentioned, it has been a muggy day in Brisbane. Temperatures have been in the high-20s, made to feel stifling with little wind and plenty of cloud cover leading to high\u2026",
+      "id": "f02bce925b3a230b",
+      "headline": "Australia overpower New Zealand to win fourth consecutive men\u2019s Rugby League World Cup",
+      "summary": "Australia 32-12 New Zealand Reece Walsh stars in dominant win for Kangaroos Australia\u2019s dominance of the Rugby League World Cup continued with a fourth successive title, as the Kangaroos proved far too strong for New Zealand in a one-sided final in Brisbane. No nation has beaten\u2026",
       "category": "Sports",
       "sources": [
+        {
+          "name": "BBC Sport",
+          "url": "https://www.bbc.co.uk/sport/rugby-league/articles/cm9q8l51pgeqo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-11-15T12:24:20+00:00"
+        },
+        {
+          "name": "The Guardian Sport",
+          "url": "https://www.theguardian.com/sport/2026/nov/15/australia-kangaroos-new-zealand-kiwis-mens-rugby-league-world-cup-final-match-report",
+          "published_at": "2026-11-15T10:49:12+00:00"
+        },
         {
           "name": "The Guardian Sport",
           "url": "https://www.theguardian.com/sport/live/2026/nov/15/australia-kangaroos-vs-new-zealand-kiwis-mens-rugby-league-world-cup-final-live-updates",
           "published_at": "2026-11-15T10:40:52+00:00"
         }
       ],
-      "source_count": 1,
-      "published_at": "2026-11-15T10:40:52+00:00",
+      "source_count": 2,
+      "published_at": "2026-11-15T12:24:20+00:00",
       "positivity_score": 56,
       "positivity_reason": "outcome pattern: competition milestone; positive cues: world cup; multiple outcome cues",
-      "why_good": "It's a story of a sporting win, and it reports several signs of real progress.",
+      "why_good": "This story is about a sporting win, and it points to more than one sign of real progress.",
       "review_status": "auto-accepted",
       "is_sample": false,
-      "link": "https://www.theguardian.com/sport/live/2026/nov/15/australia-kangaroos-vs-new-zealand-kiwis-mens-rugby-league-world-cup-final-live-updates",
+      "link": "https://www.theguardian.com/sport/2026/nov/15/australia-kangaroos-new-zealand-kiwis-mens-rugby-league-world-cup-final-match-report",
       "impact": null,
-      "image": "https://i.guim.co.uk/img/media/6d0a566ab70c41bf0a3e42a9505b2d8b3771e116/516_0_4108_3287/master/4108.jpg?width=460&quality=85&auto=format&fit=max&s=400d23f938e21f14f53411141fa2a4cc",
+      "image": "https://i.guim.co.uk/img/media/c42dee4ad29d8e7b2ba8ee240c8740e0d22895b5/795_497_4045_3236/master/4045.jpg?width=460&quality=85&auto=format&fit=max&s=dbfcaa6707ed2574e89557f59ebc8a6d",
       "image_srcset": [
         {
-          "url": "https://i.guim.co.uk/img/media/6d0a566ab70c41bf0a3e42a9505b2d8b3771e116/516_0_4108_3287/master/4108.jpg?width=460&quality=85&auto=format&fit=max&s=400d23f938e21f14f53411141fa2a4cc",
+          "url": "https://i.guim.co.uk/img/media/c42dee4ad29d8e7b2ba8ee240c8740e0d22895b5/795_497_4045_3236/master/4045.jpg?width=460&quality=85&auto=format&fit=max&s=dbfcaa6707ed2574e89557f59ebc8a6d",
           "width": 460
         },
         {
-          "url": "https://i.guim.co.uk/img/media/6d0a566ab70c41bf0a3e42a9505b2d8b3771e116/516_0_4108_3287/master/4108.jpg?width=700&quality=85&auto=format&fit=max&s=52648ca43b657306a2e294766ce3bcb9",
+          "url": "https://i.guim.co.uk/img/media/c42dee4ad29d8e7b2ba8ee240c8740e0d22895b5/795_497_4045_3236/master/4045.jpg?width=700&quality=85&auto=format&fit=max&s=f146e9843e07b721a964e460917ad36d",
           "width": 700
         }
       ]
