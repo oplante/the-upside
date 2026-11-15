@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-15T20:00:35.895811+00:00",
+  "generated_at": "2026-11-15T21:01:21.246024+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 39 feeds, 835 headlines. Accepted 39, held for review 125, rejected 679. Carried 8 recent items (up to 96h) for re-check.",
+  "ingest_notes": "Fetched 39 feeds, 830 headlines. Accepted 40, held for review 123, rejected 675. Carried 8 recent items (up to 96h) for re-check.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -20,6 +20,30 @@
     "review": 48
   },
   "stories": [
+    {
+      "id": "1720e81d7c4866f8",
+      "headline": "World-First Bone Marrow Transplant Successfully Treats Non-Malignant Disease",
+      "summary": "A Catholic health care system in the American Midwest has successfully completed the world\u2019s first reported bone marrow transplant to treat a non-malignant disease. Doctors at Franciscan Health used bone marrow recovered from a deceased organ donor to treat a 40-year-old woman\u2026",
+      "category": "Health",
+      "sources": [
+        {
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/world-first-bone-marrow-transplant-successfully-treats-non-malignant-disease/",
+          "published_at": "2026-11-15T20:32:08+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-15T20:32:08+00:00",
+      "positivity_score": 64,
+      "positivity_reason": "solutions-focused source; positive cues: recovered; improvement framing of a grim topic",
+      "why_good": "This solutions-focused story is about a recovery, and it follows a difficult situation that is turning around.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://www.goodnewsnetwork.org/world-first-bone-marrow-transplant-successfully-treats-non-malignant-disease/",
+      "impact": null,
+      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/Patient-liver-tissue-specimen-in-lab-by-CBC-wLYNbwhcq3U-unsplash.jpeg",
+      "image_srcset": []
+    },
     {
       "id": "09b35d1b1a751791",
       "headline": "Four in a row - Australia win women's rugby league World Cup again",
