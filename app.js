@@ -235,6 +235,12 @@ function whyGood(story) {
   return text || WHY_FALLBACK;
 }
 
+function previewHref(story) {
+  const id = String(story?.id ?? "").trim();
+  if (!id) return "";
+  return `go.html?id=${encodeURIComponent(id)}`;
+}
+
 function cardHtml(story, isLead) {
   const impact = statedImpact(story);
   const sample = story.is_sample
@@ -244,10 +250,8 @@ function cardHtml(story, isLead) {
     ? `<span class="new-dot" title="New today" aria-label="New today"></span>`
     : "";
   const timeTitle = formatExact(story.published_at);
-  const link = safeUrl(story.link);
-  const href = link
-    ? `href="${escapeHtml(link)}" rel="noopener noreferrer" target="_blank"`
-    : "";
+  const preview = previewHref(story);
+  const href = preview ? `href="${escapeHtml(preview)}"` : "";
   const source = escapeHtml(primarySourceName(story));
   const reasonId = `reason-${escapeHtml(story.id)}`;
   const impactHtml = impact
@@ -256,10 +260,10 @@ function cardHtml(story, isLead) {
       )}</span><span class="impact-label">${escapeHtml(impact.label)}</span></p>`
     : "";
   const leadClass = isLead ? " lead" : "";
-  const headlineHtml = link
+  const headlineHtml = preview
     ? `<a ${href}>${escapeHtml(story.headline)}</a>`
     : escapeHtml(story.headline);
-  const readHtml = link
+  const readHtml = preview
     ? `<a class="read" ${href}>Read at ${source} <svg class="read-arrow" viewBox="0 0 12 12" aria-hidden="true" focusable="false"><path d="M2 6h8M7 3l3 3-3 3"/></svg></a>`
     : "";
   const reason = escapeHtml(whyGood(story));
@@ -284,11 +288,10 @@ function cardHtml(story, isLead) {
       <h2>${headlineHtml}</h2>
       ${impactHtml}
       <p class="summary">${escapeHtml(story.summary || "")}</p>
+      <p class="why-note" id="${reasonId}"><span class="visually-hidden">Why it's good: </span>${reason}</p>
       <div class="card-foot">
         ${readHtml}
-        <button type="button" class="why" aria-expanded="false" aria-controls="${reasonId}">Why it's good</button>
       </div>
-      <p class="reason" id="${reasonId}" hidden>${reason}</p>
     </article>
   `;
 }
@@ -377,14 +380,6 @@ async function init() {
   $("load-more").addEventListener("click", () => {
     state.visible += PAGE_SIZE;
     renderFeed();
-  });
-  $("feed").addEventListener("click", (event) => {
-    const btn = event.target.closest(".why");
-    if (!btn) return;
-    const open = btn.getAttribute("aria-expanded") === "true";
-    const panel = document.getElementById(btn.getAttribute("aria-controls"));
-    btn.setAttribute("aria-expanded", open ? "false" : "true");
-    if (panel) panel.hidden = open;
   });
   $("filters").addEventListener("keydown", (event) => {
     if (event.key !== "ArrowRight" && event.key !== "ArrowLeft") return;

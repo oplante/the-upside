@@ -7,6 +7,7 @@
   <title>The Upside - news that's going right</title>
   <link rel="stylesheet" href="fonts/fonts.css">
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="signup.css">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' fill='none' stroke='%231C5A3D' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 22c5-9 15-9 20 0'/%3E%3Ccircle cx='16' cy='11' r='2.25'/%3E%3C/svg%3E">
 </head>
 <body>
@@ -43,6 +44,24 @@
       This is a <strong>sample</strong> feed. Live stories could not be loaded, so every card below is labelled Sample and is not real news.
     </p>
 
+    <section class="signup" id="signup" aria-labelledby="signup-title">
+      <div class="signup-copy">
+        <h2 id="signup-title">Three good things, every weekday morning</h2>
+        <p class="signup-lede">A two-minute email with three stories of things going right. No ads, no doom.</p>
+      </div>
+      <form class="signup-form" id="signup-form" action="https://assets.mailerlite.com/jsonp/2798749/forms/204243387640972358/subscribe" method="post" novalidate>
+        <label class="signup-label" for="signup-email">Email address</label>
+        <div class="signup-row">
+          <input class="signup-input" id="signup-email" name="fields[email]" type="email" autocomplete="email" inputmode="email" required placeholder="you@example.com" aria-describedby="signup-consent signup-msg">
+          <input type="hidden" name="ml-submit" value="1">
+          <input type="hidden" name="anticsrf" value="true">
+          <button class="signup-button" type="submit">Sign up</button>
+        </div>
+        <p class="signup-consent" id="signup-consent">A weekday email (Monday to Friday) with three good-news stories. We'll send a link to confirm first. Unsubscribe any time. <a href="privacy.html">How we handle your email</a>.</p>
+        <p class="signup-msg" id="signup-msg" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+
     <section id="feed" class="feed" aria-label="Good news stories"></section>
     <p class="empty" id="empty" hidden></p>
     <div class="more-wrap" id="more-wrap" hidden>
@@ -59,5 +78,6 @@
   </footer>
 
   <script src="app.js"></script>
+  <script src="signup.js" defer></script>
 </body>
 </html>

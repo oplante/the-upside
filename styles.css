@@ -631,3 +631,42 @@ main {
   stroke-linecap: round;
   stroke-linejoin: round;
 }
+
+
+/* Editor's margin note for the "why it's good" sentence. Always visible,
+   between the summary and the footer. */
+.why-note {
+  margin: 0 0 12px;
+  padding-left: 12px;
+  border-left: 2px solid var(--accent);
+  font-family: var(--serif);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.45;
+  color: var(--ink-soft);
+}
+
+@media (min-width: 720px) {
+  .why-note { font-size: 15px; }
+}
+
+.visually-hidden {
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Stop the clamped summary stretching to fill equal-height cards
+   (it showed a half-cut extra line right above the note). The note and
+   footer sit at the bottom of the card instead. */
+.card .summary { flex: 0 0 auto; }
+.card .why-note { margin-top: auto; }
+.card .why-note + .card-foot { margin-top: 0; }
