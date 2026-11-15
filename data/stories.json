@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-15T16:00:42.591332+00:00",
+  "generated_at": "2026-11-15T16:30:28.917398+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 39 feeds, 834 headlines. Accepted 39, held for review 127, rejected 674. Carried 6 recent items (up to 96h) for re-check.",
+  "ingest_notes": "Fetched 39 feeds, 834 headlines. Accepted 39, held for review 128, rejected 674. Carried 7 recent items (up to 96h) for re-check.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -30,6 +30,11 @@
           "name": "BBC Sport",
           "url": "https://www.bbc.co.uk/sport/rugby-league/videos/c6kgrvpnmdgdo?at_medium=RSS&at_campaign=rss",
           "published_at": "2026-11-15T13:02:52+00:00"
+        },
+        {
+          "name": "BBC Sport",
+          "url": "https://www.bbc.co.uk/sport/rugby-league/articles/cm9q8l51pgeqo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-11-15T12:24:20+00:00"
         },
         {
           "name": "The Guardian Sport",
@@ -76,51 +81,6 @@
         },
         {
           "url": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/ca63/live/5836d8e0-e0e8-11f1-b441-2b33b063138f.jpg",
-          "width": 976
-        }
-      ]
-    },
-    {
-      "id": "8cb25b7cc6261a66",
-      "headline": "Dominant Australia defeat New Zealand in Men's World Cup final",
-      "summary": "Australia win a fourth successive Men's Rugby League World Cup, beating New Zealand comfortably in the final in Brisbane.",
-      "category": "Sports",
-      "sources": [
-        {
-          "name": "BBC Sport",
-          "url": "https://www.bbc.co.uk/sport/rugby-league/articles/cm9q8l51pgeqo?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-11-15T12:24:20+00:00"
-        }
-      ],
-      "source_count": 1,
-      "published_at": "2026-11-15T12:24:20+00:00",
-      "positivity_score": 56,
-      "positivity_reason": "outcome pattern: competition milestone; positive cues: world cup; multiple outcome cues",
-      "why_good": "This story is about a sporting win, and it points to more than one sign of real progress.",
-      "review_status": "auto-accepted",
-      "is_sample": false,
-      "link": "https://www.bbc.co.uk/sport/rugby-league/articles/cm9q8l51pgeqo?at_medium=RSS&at_campaign=rss",
-      "impact": null,
-      "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0346/live/a3d74e60-e0f2-11f1-b441-2b33b063138f.jpg",
-      "image_srcset": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/320/cpsprodpb/0346/live/a3d74e60-e0f2-11f1-b441-2b33b063138f.jpg",
-          "width": 320
-        },
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0346/live/a3d74e60-e0f2-11f1-b441-2b33b063138f.jpg",
-          "width": 480
-        },
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/640/cpsprodpb/0346/live/a3d74e60-e0f2-11f1-b441-2b33b063138f.jpg",
-          "width": 640
-        },
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/0346/live/a3d74e60-e0f2-11f1-b441-2b33b063138f.jpg",
-          "width": 800
-        },
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/0346/live/a3d74e60-e0f2-11f1-b441-2b33b063138f.jpg",
           "width": 976
         }
       ]
