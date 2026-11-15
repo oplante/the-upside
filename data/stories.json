@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-15T10:30:35.289688+00:00",
+  "generated_at": "2026-11-15T11:00:33.417101+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 39 feeds, 831 headlines. Accepted 36, held for review 131, rejected 669. Carried 5 recent items (up to 96h) for re-check.",
+  "ingest_notes": "Fetched 39 feeds, 831 headlines. Accepted 37, held for review 131, rejected 668. Carried 5 recent items (up to 96h) for re-check.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -20,6 +20,39 @@
     "review": 48
   },
   "stories": [
+    {
+      "id": "3ca028ca4a3defe1",
+      "headline": "Australia 32-12 New Zealand: Men\u2019s Rugby League World Cup final \u2013 live reaction",
+      "summary": "Kangaroos overpower Kiwis in Brisbane to win fourth straight title Any thoughts? Send us an email As Munster mentioned, it has been a muggy day in Brisbane. Temperatures have been in the high-20s, made to feel stifling with little wind and plenty of cloud cover leading to high\u2026",
+      "category": "Sports",
+      "sources": [
+        {
+          "name": "The Guardian Sport",
+          "url": "https://www.theguardian.com/sport/live/2026/nov/15/australia-kangaroos-vs-new-zealand-kiwis-mens-rugby-league-world-cup-final-live-updates",
+          "published_at": "2026-11-15T10:40:52+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-15T10:40:52+00:00",
+      "positivity_score": 56,
+      "positivity_reason": "outcome pattern: competition milestone; positive cues: world cup; multiple outcome cues",
+      "why_good": "It's a story of a sporting win, and it reports several signs of real progress.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://www.theguardian.com/sport/live/2026/nov/15/australia-kangaroos-vs-new-zealand-kiwis-mens-rugby-league-world-cup-final-live-updates",
+      "impact": null,
+      "image": "https://i.guim.co.uk/img/media/6d0a566ab70c41bf0a3e42a9505b2d8b3771e116/516_0_4108_3287/master/4108.jpg?width=460&quality=85&auto=format&fit=max&s=400d23f938e21f14f53411141fa2a4cc",
+      "image_srcset": [
+        {
+          "url": "https://i.guim.co.uk/img/media/6d0a566ab70c41bf0a3e42a9505b2d8b3771e116/516_0_4108_3287/master/4108.jpg?width=460&quality=85&auto=format&fit=max&s=400d23f938e21f14f53411141fa2a4cc",
+          "width": 460
+        },
+        {
+          "url": "https://i.guim.co.uk/img/media/6d0a566ab70c41bf0a3e42a9505b2d8b3771e116/516_0_4108_3287/master/4108.jpg?width=700&quality=85&auto=format&fit=max&s=52648ca43b657306a2e294766ce3bcb9",
+          "width": 700
+        }
+      ]
+    },
     {
       "id": "8dc55dc79b480a44",
       "headline": "Ruthless Australia win record fourth Women's World Cup",
