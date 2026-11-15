@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-15T00:07:59.142830+00:00",
+  "generated_at": "2026-11-15T07:32:23.645881+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 39 feeds, 835 headlines. Accepted 36, held for review 131, rejected 671. Carried 3 recent items (up to 96h) for re-check.",
+  "ingest_notes": "Fetched 39 feeds, 835 headlines. Accepted 37, held for review 132, rejected 670. Carried 4 recent items (up to 96h) for re-check.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -20,6 +20,75 @@
     "review": 48
   },
   "stories": [
+    {
+      "id": "8dc55dc79b480a44",
+      "headline": "Ruthless Australia win record fourth Women's World Cup",
+      "summary": "Australia blow New Zealand away in the first half, with a hat-trick for Jaime Chapman, to win 34-10 in Brisbane and clinch a record fourth World Cup.",
+      "category": "Sports",
+      "sources": [
+        {
+          "name": "BBC Sport",
+          "url": "https://www.bbc.co.uk/sport/rugby-league/articles/c50mdzx3j039o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-11-15T07:06:27+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-15T07:06:27+00:00",
+      "positivity_score": 56,
+      "positivity_reason": "outcome pattern: competition milestone; positive cues: world cup; multiple outcome cues",
+      "why_good": "Good news about a sporting win: it reports several signs of real progress.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://www.bbc.co.uk/sport/rugby-league/articles/c50mdzx3j039o?at_medium=RSS&at_campaign=rss",
+      "impact": null,
+      "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/c893/live/837d1a40-e0c1-11f1-970d-f5d89da8a1ad.jpg",
+      "image_srcset": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/320/cpsprodpb/c893/live/837d1a40-e0c1-11f1-970d-f5d89da8a1ad.jpg",
+          "width": 320
+        },
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/c893/live/837d1a40-e0c1-11f1-970d-f5d89da8a1ad.jpg",
+          "width": 480
+        },
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/640/cpsprodpb/c893/live/837d1a40-e0c1-11f1-970d-f5d89da8a1ad.jpg",
+          "width": 640
+        },
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/c893/live/837d1a40-e0c1-11f1-970d-f5d89da8a1ad.jpg",
+          "width": 800
+        },
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/c893/live/837d1a40-e0c1-11f1-970d-f5d89da8a1ad.jpg",
+          "width": 976
+        }
+      ]
+    },
+    {
+      "id": "c20014610b7db84e",
+      "headline": "Physicists use laser light to unlock a crystal's hidden electrical powers",
+      "summary": "Scientists have discovered how to use flashes of laser light to organize tiny electrical regions inside a crystal, solving a decades-old mystery about how the material behaves. The laser-induced alignment lasts just a trillionth of a second, but the breakthrough could open the\u2026",
+      "category": "Science",
+      "sources": [
+        {
+          "name": "ScienceDaily Technology",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261112230500.htm",
+          "published_at": "2026-11-15T02:18:16+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-15T02:18:16+00:00",
+      "positivity_score": 57,
+      "positivity_reason": "positive cues: breakthrough, discovered",
+      "why_good": "It's a story of a breakthrough and a new discovery, and it describes something that went right.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://www.sciencedaily.com/releases/2026/11/261112230500.htm",
+      "impact": null,
+      "image": "https://www.sciencedaily.com/images/600/laser-light-crystal-quantum-material.webp",
+      "image_srcset": []
+    },
     {
       "id": "de7147f545db2858",
       "headline": "Hot or cold? Exploring what works best after exercise",
@@ -140,14 +209,14 @@
         "value": "250",
         "label": "people in attack on narco-terrorism"
       },
-      "image": "https://i.guim.co.uk/img/media/ea7d82d3437dc73bde2f1b8aafa50b01d7dad2ed/514_0_5139_4112/master/5139.jpg?width=460&quality=85&auto=format&fit=max&s=a6d856bcd35a9b5c1d48a53adb0f6006",
+      "image": "https://i.guim.co.uk/img/media/e9bbe2a454aa4cdf64f2e5bec0b62bbab27473a7/307_0_5139_4112/master/5139.jpg?width=460&quality=85&auto=format&fit=max&s=75c8d0553c7ef83e8247d3bbf8b7d67d",
       "image_srcset": [
         {
-          "url": "https://i.guim.co.uk/img/media/ea7d82d3437dc73bde2f1b8aafa50b01d7dad2ed/514_0_5139_4112/master/5139.jpg?width=460&quality=85&auto=format&fit=max&s=a6d856bcd35a9b5c1d48a53adb0f6006",
+          "url": "https://i.guim.co.uk/img/media/e9bbe2a454aa4cdf64f2e5bec0b62bbab27473a7/307_0_5139_4112/master/5139.jpg?width=460&quality=85&auto=format&fit=max&s=75c8d0553c7ef83e8247d3bbf8b7d67d",
           "width": 460
         },
         {
-          "url": "https://i.guim.co.uk/img/media/ea7d82d3437dc73bde2f1b8aafa50b01d7dad2ed/514_0_5139_4112/master/5139.jpg?width=700&quality=85&auto=format&fit=max&s=60e4f0f350372013811c85bec1656791",
+          "url": "https://i.guim.co.uk/img/media/e9bbe2a454aa4cdf64f2e5bec0b62bbab27473a7/307_0_5139_4112/master/5139.jpg?width=700&quality=85&auto=format&fit=max&s=13d895b55e7dddb1f6e5a87a3dae2151",
           "width": 700
         }
       ]
@@ -905,30 +974,6 @@
       "link": "https://www.goodgoodgood.co/articles/virginia-ban-same-sex-marriage",
       "impact": null,
       "image": "https://cdn.prod.website-files.com/5f6cc9cd16d59d990c8fca33/6af146f3d9c17783a03dac57_6af14635e61daa8cf9b6355a_virginia-ban-same-sex-marriage-featured.webp",
-      "image_srcset": []
-    },
-    {
-      "id": "4e814677ba79f12d",
-      "headline": "Scientists just found dinosaur blood that survived 115 million years",
-      "summary": "Scientists have discovered chemically confirmed traces of ancient blood inside 115-million-year-old dinosaur bones, challenging assumptions about how long biological molecules can survive. The extraordinary preservation could unlock new clues about dinosaur physiology and even\u2026",
-      "category": "Science",
-      "sources": [
-        {
-          "name": "ScienceDaily Environment",
-          "url": "https://www.sciencedaily.com/releases/2026/11/261105224542.htm",
-          "published_at": "2026-11-06T11:28:01+00:00"
-        }
-      ],
-      "source_count": 1,
-      "published_at": "2026-11-06T11:28:01+00:00",
-      "positivity_score": 60,
-      "positivity_reason": "positive cues: survived, discovered; improvement framing of a grim topic",
-      "why_good": "It's a story of a recovery and a new discovery, and it shows things getting better after a hard time.",
-      "review_status": "auto-accepted",
-      "is_sample": false,
-      "link": "https://www.sciencedaily.com/releases/2026/11/261105224542.htm",
-      "impact": null,
-      "image": "https://www.sciencedaily.com/images/600/dinosaur-bone-blood.webp",
       "image_srcset": []
     },
     {
