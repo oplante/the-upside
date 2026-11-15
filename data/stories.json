@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-15T08:30:34.286407+00:00",
+  "generated_at": "2026-11-15T09:26:09.872598+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 39 feeds, 832 headlines. Accepted 36, held for review 131, rejected 669. Carried 4 recent items (up to 96h) for re-check.",
+  "ingest_notes": "Fetched 39 feeds, 830 headlines. Accepted 36, held for review 131, rejected 667. Carried 4 recent items (up to 96h) for re-check.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -29,11 +29,11 @@
         {
           "name": "BBC Sport",
           "url": "https://www.bbc.co.uk/sport/rugby-league/articles/c50mdzx3j039o?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-11-15T07:38:40+00:00"
+          "published_at": "2026-11-15T09:12:00+00:00"
         }
       ],
       "source_count": 1,
-      "published_at": "2026-11-15T07:38:40+00:00",
+      "published_at": "2026-11-15T09:12:00+00:00",
       "positivity_score": 56,
       "positivity_reason": "outcome pattern: competition milestone; positive cues: world cup; multiple outcome cues",
       "why_good": "Good news about a sporting win: it reports several signs of real progress.",
