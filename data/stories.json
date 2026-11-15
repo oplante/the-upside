@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-15T12:52:30.135506+00:00",
+  "generated_at": "2026-11-15T13:47:10.479248+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 39 feeds, 832 headlines. Accepted 39, held for review 128, rejected 671. Carried 6 recent items (up to 96h) for re-check.",
+  "ingest_notes": "Fetched 39 feeds, 832 headlines. Accepted 39, held for review 129, rejected 670. Carried 6 recent items (up to 96h) for re-check.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -21,9 +21,59 @@
   },
   "stories": [
     {
+      "id": "09b35d1b1a751791",
+      "headline": "Four in a row - Australia win women's rugby league World Cup again",
+      "summary": "Jamie Chapman scores a hat-trick to help Australia comfortably beat New Zealand 34-10 in the women's rugby league World Cup final, securing a record-breaking fourth successive title.",
+      "category": "Sports",
+      "sources": [
+        {
+          "name": "BBC Sport",
+          "url": "https://www.bbc.co.uk/sport/rugby-league/videos/c6kgrvpnmdgdo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-11-15T13:02:52+00:00"
+        },
+        {
+          "name": "BBC Sport",
+          "url": "https://www.bbc.co.uk/sport/rugby-league/articles/c50mdzx3j039o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-11-15T09:12:00+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-15T13:02:52+00:00",
+      "positivity_score": 61,
+      "positivity_reason": "outcome pattern: competition milestone; positive cues: world cup, record-breaking; multiple outcome cues",
+      "why_good": "It's a story of a sporting win and a record being broken, and it reports several signs of real progress.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://www.bbc.co.uk/sport/rugby-league/videos/c6kgrvpnmdgdo?at_medium=RSS&at_campaign=rss",
+      "impact": null,
+      "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/ca63/live/5836d8e0-e0e8-11f1-b441-2b33b063138f.jpg",
+      "image_srcset": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/320/cpsprodpb/ca63/live/5836d8e0-e0e8-11f1-b441-2b33b063138f.jpg",
+          "width": 320
+        },
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/ca63/live/5836d8e0-e0e8-11f1-b441-2b33b063138f.jpg",
+          "width": 480
+        },
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/640/cpsprodpb/ca63/live/5836d8e0-e0e8-11f1-b441-2b33b063138f.jpg",
+          "width": 640
+        },
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/ca63/live/5836d8e0-e0e8-11f1-b441-2b33b063138f.jpg",
+          "width": 800
+        },
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/ca63/live/5836d8e0-e0e8-11f1-b441-2b33b063138f.jpg",
+          "width": 976
+        }
+      ]
+    },
+    {
       "id": "f02bce925b3a230b",
       "headline": "Australia overpower New Zealand to win fourth consecutive men\u2019s Rugby League World Cup",
-      "summary": "Australia 32-12 New Zealand Reece Walsh stars in dominant win for Kangaroos Australia\u2019s dominance of the Rugby League World Cup continued with a fourth successive title, as the Kangaroos proved far too strong for New Zealand in a one-sided final in Brisbane. No nation has beaten\u2026",
+      "summary": "Australia 32-12 New Zealand Reece Walsh stars in dominant win for Kangaroos The more things change, the more they ultimately stay the same. The past month has given us the rebirth of New Zealand as a legitimate top-tier force and the unforgettable continuing rise of Pasifika\u2026",
       "category": "Sports",
       "sources": [
         {
@@ -60,51 +110,6 @@
         {
           "url": "https://i.guim.co.uk/img/media/c42dee4ad29d8e7b2ba8ee240c8740e0d22895b5/795_497_4045_3236/master/4045.jpg?width=700&quality=85&auto=format&fit=max&s=f146e9843e07b721a964e460917ad36d",
           "width": 700
-        }
-      ]
-    },
-    {
-      "id": "8dc55dc79b480a44",
-      "headline": "Ruthless Australia win record fourth Women's World Cup",
-      "summary": "Australia blow New Zealand away in the first half, with a hat-trick for Jaime Chapman, to win 34-10 in Brisbane and clinch a record fourth World Cup.",
-      "category": "Sports",
-      "sources": [
-        {
-          "name": "BBC Sport",
-          "url": "https://www.bbc.co.uk/sport/rugby-league/articles/c50mdzx3j039o?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-11-15T09:12:00+00:00"
-        }
-      ],
-      "source_count": 1,
-      "published_at": "2026-11-15T09:12:00+00:00",
-      "positivity_score": 56,
-      "positivity_reason": "outcome pattern: competition milestone; positive cues: world cup; multiple outcome cues",
-      "why_good": "Good news about a sporting win: it reports several signs of real progress.",
-      "review_status": "auto-accepted",
-      "is_sample": false,
-      "link": "https://www.bbc.co.uk/sport/rugby-league/articles/c50mdzx3j039o?at_medium=RSS&at_campaign=rss",
-      "impact": null,
-      "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/782e/live/a75eeb20-e0c9-11f1-a701-fddedf244c16.jpg",
-      "image_srcset": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/320/cpsprodpb/782e/live/a75eeb20-e0c9-11f1-a701-fddedf244c16.jpg",
-          "width": 320
-        },
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/782e/live/a75eeb20-e0c9-11f1-a701-fddedf244c16.jpg",
-          "width": 480
-        },
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/640/cpsprodpb/782e/live/a75eeb20-e0c9-11f1-a701-fddedf244c16.jpg",
-          "width": 640
-        },
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/782e/live/a75eeb20-e0c9-11f1-a701-fddedf244c16.jpg",
-          "width": 800
-        },
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/782e/live/a75eeb20-e0c9-11f1-a701-fddedf244c16.jpg",
-          "width": 976
         }
       ]
     },
@@ -868,14 +873,9 @@
           "name": "The Guardian Science",
           "url": "https://www.theguardian.com/society/2026/nov/11/ovarian-cancer-study-early-detection-blood",
           "published_at": "2026-11-11T13:05:57+00:00"
-        },
-        {
-          "name": "The Guardian Health",
-          "url": "https://www.theguardian.com/society/2026/nov/11/ovarian-cancer-study-early-detection-blood",
-          "published_at": "2026-11-11T13:05:57+00:00"
         }
       ],
-      "source_count": 2,
+      "source_count": 1,
       "published_at": "2026-11-11T13:05:57+00:00",
       "positivity_score": 74,
       "positivity_reason": "positive cues: breakthrough, study finds, helps detect; multiple outcome cues; concrete outcome language",
