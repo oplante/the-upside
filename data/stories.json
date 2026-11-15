@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-15T14:30:28.955819+00:00",
+  "generated_at": "2026-11-15T15:23:55.527465+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 39 feeds, 833 headlines. Accepted 39, held for review 128, rejected 672. Carried 6 recent items (up to 96h) for re-check.",
+  "ingest_notes": "Fetched 39 feeds, 834 headlines. Accepted 39, held for review 127, rejected 674. Carried 6 recent items (up to 96h) for re-check.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -32,12 +32,22 @@
           "published_at": "2026-11-15T13:02:52+00:00"
         },
         {
+          "name": "The Guardian Sport",
+          "url": "https://www.theguardian.com/sport/2026/nov/15/australia-kangaroos-new-zealand-kiwis-mens-rugby-league-world-cup-final-match-report",
+          "published_at": "2026-11-15T10:49:12+00:00"
+        },
+        {
+          "name": "The Guardian Sport",
+          "url": "https://www.theguardian.com/sport/live/2026/nov/15/australia-kangaroos-vs-new-zealand-kiwis-mens-rugby-league-world-cup-final-live-updates",
+          "published_at": "2026-11-15T10:40:52+00:00"
+        },
+        {
           "name": "BBC Sport",
           "url": "https://www.bbc.co.uk/sport/rugby-league/articles/c50mdzx3j039o?at_medium=RSS&at_campaign=rss",
           "published_at": "2026-11-15T09:12:00+00:00"
         }
       ],
-      "source_count": 1,
+      "source_count": 2,
       "published_at": "2026-11-15T13:02:52+00:00",
       "positivity_score": 61,
       "positivity_reason": "outcome pattern: competition milestone; positive cues: world cup, record-breaking; multiple outcome cues",
@@ -71,45 +81,47 @@
       ]
     },
     {
-      "id": "f02bce925b3a230b",
-      "headline": "Australia overpower New Zealand to win fourth consecutive men\u2019s Rugby League World Cup",
-      "summary": "Australia 32-12 New Zealand Reece Walsh stars in dominant win for Kangaroos The more things change, the more they ultimately stay the same. The past month has given us the rebirth of New Zealand as a legitimate top-tier force and the unforgettable continuing rise of Pasifika\u2026",
+      "id": "8cb25b7cc6261a66",
+      "headline": "Dominant Australia defeat New Zealand in Men's World Cup final",
+      "summary": "Australia win a fourth successive Men's Rugby League World Cup, beating New Zealand comfortably in the final in Brisbane.",
       "category": "Sports",
       "sources": [
         {
           "name": "BBC Sport",
           "url": "https://www.bbc.co.uk/sport/rugby-league/articles/cm9q8l51pgeqo?at_medium=RSS&at_campaign=rss",
           "published_at": "2026-11-15T12:24:20+00:00"
-        },
-        {
-          "name": "The Guardian Sport",
-          "url": "https://www.theguardian.com/sport/2026/nov/15/australia-kangaroos-new-zealand-kiwis-mens-rugby-league-world-cup-final-match-report",
-          "published_at": "2026-11-15T10:49:12+00:00"
-        },
-        {
-          "name": "The Guardian Sport",
-          "url": "https://www.theguardian.com/sport/live/2026/nov/15/australia-kangaroos-vs-new-zealand-kiwis-mens-rugby-league-world-cup-final-live-updates",
-          "published_at": "2026-11-15T10:40:52+00:00"
         }
       ],
-      "source_count": 2,
+      "source_count": 1,
       "published_at": "2026-11-15T12:24:20+00:00",
       "positivity_score": 56,
       "positivity_reason": "outcome pattern: competition milestone; positive cues: world cup; multiple outcome cues",
       "why_good": "This story is about a sporting win, and it points to more than one sign of real progress.",
       "review_status": "auto-accepted",
       "is_sample": false,
-      "link": "https://www.theguardian.com/sport/2026/nov/15/australia-kangaroos-new-zealand-kiwis-mens-rugby-league-world-cup-final-match-report",
+      "link": "https://www.bbc.co.uk/sport/rugby-league/articles/cm9q8l51pgeqo?at_medium=RSS&at_campaign=rss",
       "impact": null,
-      "image": "https://i.guim.co.uk/img/media/c42dee4ad29d8e7b2ba8ee240c8740e0d22895b5/795_497_4045_3236/master/4045.jpg?width=460&quality=85&auto=format&fit=max&s=dbfcaa6707ed2574e89557f59ebc8a6d",
+      "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0346/live/a3d74e60-e0f2-11f1-b441-2b33b063138f.jpg",
       "image_srcset": [
         {
-          "url": "https://i.guim.co.uk/img/media/c42dee4ad29d8e7b2ba8ee240c8740e0d22895b5/795_497_4045_3236/master/4045.jpg?width=460&quality=85&auto=format&fit=max&s=dbfcaa6707ed2574e89557f59ebc8a6d",
-          "width": 460
+          "url": "https://ichef.bbci.co.uk/ace/standard/320/cpsprodpb/0346/live/a3d74e60-e0f2-11f1-b441-2b33b063138f.jpg",
+          "width": 320
         },
         {
-          "url": "https://i.guim.co.uk/img/media/c42dee4ad29d8e7b2ba8ee240c8740e0d22895b5/795_497_4045_3236/master/4045.jpg?width=700&quality=85&auto=format&fit=max&s=f146e9843e07b721a964e460917ad36d",
-          "width": 700
+          "url": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0346/live/a3d74e60-e0f2-11f1-b441-2b33b063138f.jpg",
+          "width": 480
+        },
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/640/cpsprodpb/0346/live/a3d74e60-e0f2-11f1-b441-2b33b063138f.jpg",
+          "width": 640
+        },
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/0346/live/a3d74e60-e0f2-11f1-b441-2b33b063138f.jpg",
+          "width": 800
+        },
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/0346/live/a3d74e60-e0f2-11f1-b441-2b33b063138f.jpg",
+          "width": 976
         }
       ]
     },
