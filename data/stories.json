@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-16T00:30:29.952068+00:00",
+  "generated_at": "2026-11-16T07:30:59.376154+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 39 feeds, 830 headlines. Accepted 40, held for review 113, rejected 685. Carried 8 recent items (up to 96h) for re-check.",
+  "ingest_notes": "Fetched 39 feeds, 832 headlines. Accepted 42, held for review 111, rejected 687. Carried 8 recent items (up to 96h) for re-check.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -20,6 +20,39 @@
     "review": 48
   },
   "stories": [
+    {
+      "id": "9ee5267db600e29e",
+      "headline": "Leihani Zoric, 14, stuns surfing world with gold medal to give Australia Olympic boost",
+      "summary": "Teenager\u2019s ISA World Surfing Games win earns extra place at LA Games Compatriot Ethan Ewing also wins gold at men\u2019s event in Peru Australian surfing prodigy Leihani Zoric\u2019s meteoric rise appears to have no bounds after the 14-year-old upstaged a star-studded field at the ISA\u2026",
+      "category": "Sports",
+      "sources": [
+        {
+          "name": "The Guardian Sport",
+          "url": "https://www.theguardian.com/sport/2026/nov/16/australian-surfer-leihani-zoric-14-wins-gold-isa-world-surfing-games",
+          "published_at": "2026-11-16T03:50:53+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-16T03:50:53+00:00",
+      "positivity_score": 56,
+      "positivity_reason": "positive cues: gold medal, wins gold; multiple outcome cues",
+      "why_good": "This story is about a sporting win, and it points to more than one sign of real progress.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://www.theguardian.com/sport/2026/nov/16/australian-surfer-leihani-zoric-14-wins-gold-isa-world-surfing-games",
+      "impact": null,
+      "image": "https://i.guim.co.uk/img/media/e3af33aa9f1b0fd53610f35db5426543a0418ef1/218_0_3471_2777/master/3471.jpg?width=460&quality=85&auto=format&fit=max&s=58d6293299bf449a577a83eaa689b89c",
+      "image_srcset": [
+        {
+          "url": "https://i.guim.co.uk/img/media/e3af33aa9f1b0fd53610f35db5426543a0418ef1/218_0_3471_2777/master/3471.jpg?width=460&quality=85&auto=format&fit=max&s=58d6293299bf449a577a83eaa689b89c",
+          "width": 460
+        },
+        {
+          "url": "https://i.guim.co.uk/img/media/e3af33aa9f1b0fd53610f35db5426543a0418ef1/218_0_3471_2777/master/3471.jpg?width=700&quality=85&auto=format&fit=max&s=35c830a1f7da7cd8ec3b8d972c04a373",
+          "width": 700
+        }
+      ]
+    },
     {
       "id": "b416e25e05676fa1",
       "headline": "When the Saudi desert was green: A 125,000-year-old lakeside reveals how early humans lived",
@@ -43,6 +76,39 @@
       "impact": null,
       "image": "https://scx1.b-cdn.net/csz/news/800a/2026/when-the-saudi-desert.jpg",
       "image_srcset": []
+    },
+    {
+      "id": "5740594e7a74266a",
+      "headline": "Australia slowly going nowhere after trudge through Murrayfield rain | Daniel Gallan",
+      "summary": "The Wallabies have lost the sparkle of their World Cup-winning rugby league counterparts \u2013 rediscovering it will not be easy On the same day that Australia\u2019s rugby league men\u2019s side swept aside New Zealand to win a fourth consecutive World Cup, the Wallabies trudged through the\u2026",
+      "category": "Sports",
+      "sources": [
+        {
+          "name": "The Guardian Sport",
+          "url": "https://www.theguardian.com/sport/2026/nov/15/australia-wallabies-scotland-murrayfield-nations-championship-rugby-union",
+          "published_at": "2026-11-15T21:50:01+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-15T21:50:01+00:00",
+      "positivity_score": 56,
+      "positivity_reason": "outcome pattern: competition milestone; positive cues: world cup; multiple outcome cues",
+      "why_good": "This story is about a sporting win, and it reports several signs of real progress.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://www.theguardian.com/sport/2026/nov/15/australia-wallabies-scotland-murrayfield-nations-championship-rugby-union",
+      "impact": null,
+      "image": "https://i.guim.co.uk/img/media/fb16308a6fe6d3bf7b2110bb395a401db487d97f/697_529_2600_2080/master/2600.jpg?width=460&quality=85&auto=format&fit=max&s=d27e3bc4068625d3876a0478aa1bfa6d",
+      "image_srcset": [
+        {
+          "url": "https://i.guim.co.uk/img/media/fb16308a6fe6d3bf7b2110bb395a401db487d97f/697_529_2600_2080/master/2600.jpg?width=460&quality=85&auto=format&fit=max&s=d27e3bc4068625d3876a0478aa1bfa6d",
+          "width": 460
+        },
+        {
+          "url": "https://i.guim.co.uk/img/media/fb16308a6fe6d3bf7b2110bb395a401db487d97f/697_529_2600_2080/master/2600.jpg?width=700&quality=85&auto=format&fit=max&s=7441618cb10610c700b6b71b4361765c",
+          "width": 700
+        }
+      ]
     },
     {
       "id": "08ae6aee8037f3f7",
