@@ -44,28 +44,36 @@
       This is a <strong>sample</strong> feed. Live stories could not be loaded, so every card below is labelled Sample and is not real news.
     </p>
 
-    <section class="signup" id="signup" aria-labelledby="signup-title">
-      <div class="signup-copy">
-        <h2 id="signup-title">Three good things, every weekday morning</h2>
-        <p class="signup-lede">A two-minute email with three stories of things going right. No ads, no doom.</p>
-      </div>
-      <form class="signup-form" id="signup-form" action="https://assets.mailerlite.com/jsonp/2798749/forms/204243387640972358/subscribe" method="post" novalidate>
-        <label class="signup-label" for="signup-email">Email address</label>
-        <div class="signup-row">
-          <input class="signup-input" id="signup-email" name="fields[email]" type="email" autocomplete="email" inputmode="email" required placeholder="you@example.com" aria-describedby="signup-consent signup-msg">
-          <input type="hidden" name="ml-submit" value="1">
-          <input type="hidden" name="anticsrf" value="true">
-          <button class="signup-button" type="submit">Sign up</button>
+    <!-- Email signup. app.js places one copy after the 6th card and one at the
+         end of the feed; __S__ becomes a per-copy id suffix so ids stay unique. -->
+    <template id="signup-template">
+      <section class="signup" data-slot="__SLOT__" id="signup__S__" aria-labelledby="signup-title__S__">
+        <div class="signup-copy">
+          <h2 id="signup-title__S__">Three good things, every weekday morning</h2>
+          <p class="signup-lede">A two-minute email with three stories of things going right. No ads, no doom.</p>
         </div>
-        <p class="signup-consent" id="signup-consent">A weekday email (Monday to Friday) with three good-news stories. We'll send a link to confirm first. Unsubscribe any time. <a href="privacy.html">How we handle your email</a>.</p>
-        <p class="signup-msg" id="signup-msg" role="status" aria-live="polite"></p>
-      </form>
-    </section>
+        <form class="signup-form" id="signup-form__S__" action="https://assets.mailerlite.com/jsonp/2798749/forms/204243387640972358/subscribe" method="post" novalidate>
+          <label class="signup-label" for="signup-email__S__">Email address</label>
+          <div class="signup-row">
+            <input class="signup-input" id="signup-email__S__" name="fields[email]" type="email" autocomplete="email" inputmode="email" required placeholder="you@example.com" aria-describedby="signup-consent__S__ signup-msg__S__">
+            <input type="hidden" name="ml-submit" value="1">
+            <input type="hidden" name="anticsrf" value="true">
+            <button class="signup-button" type="submit">Sign up</button>
+          </div>
+          <p class="signup-consent" id="signup-consent__S__">A weekday email (Monday to Friday) with three good-news stories. We'll send a link to confirm first. Unsubscribe any time. <a href="privacy.html">How we handle your email</a>.</p>
+          <p class="signup-msg" id="signup-msg__S__" role="status" aria-live="polite"></p>
+        </form>
+      </section>
+    </template>
 
     <section id="feed" class="feed" aria-label="Good news stories"></section>
     <p class="empty" id="empty" hidden></p>
     <div class="more-wrap" id="more-wrap" hidden>
       <button type="button" class="load-more" id="load-more">Load more</button>
+    </div>
+    <div class="feed-end" id="feed-end" hidden>
+      <p class="feed-end-note" id="feed-end-note" hidden><span class="feed-end-mark" aria-hidden="true"></span>You're up to date. Next edition tomorrow.</p>
+      <div id="signup-end-slot"></div>
     </div>
   </main>
 

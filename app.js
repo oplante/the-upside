@@ -13,6 +13,13 @@ const TAXONOMY = [
 
 const PAGE_SIZE = 12;
 
+// Publisher images are off by default (no hotlinking; rights-safe text cards).
+// Flip to true to bring thumbnails back; cardImage() is still wired up.
+const SHOW_IMAGES = false;
+
+// The email signup appears after this many cards, and once more at the end.
+const SIGNUP_AFTER = 6;
+
 // Preview image sizing. Grid cards render ~290px wide on desktop, so 640px
 // covers 2x screens; only the full-width lead card may use a larger rendition.
 const IMG_CARD_MAX = 640;
@@ -246,16 +253,23 @@ function cardHtml(story, isLead) {
   const sample = story.is_sample
     ? `<span class="pill-sample">Sample</span>`
     : "";
-  const newToday = isToday(story.published_at)
+  // Forward-compatible: ingest may add a new_today boolean later. When the
+  // field is absent, keep the existing small dot for stories published today.
+  const hasNewFlag = typeof story.new_today === "boolean";
+  const newTag = story.new_today === true ? `<li class="tag-new">New today</li>` : "";
+  const newToday = !hasNewFlag && isToday(story.published_at)
     ? `<span class="new-dot" title="New today" aria-label="New today"></span>`
     : "";
+  const showImage = SHOW_IMAGES && Boolean(safeUrl(story.image));
   const timeTitle = formatExact(story.published_at);
   const preview = previewHref(story);
   const href = preview ? `href="${escapeHtml(preview)}"` : "";
   const source = escapeHtml(primarySourceName(story));
   const reasonId = `reason-${escapeHtml(story.id)}`;
+  // Fixed figure slot: always directly under the headline. With no stated
+  // figure nothing is rendered, so there is no empty gap.
   const impactHtml = impact
-    ? `<p class="impact"><span class="impact-value">${escapeHtml(
+    ? `<p class="impact figure-slot"><span class="impact-value">${escapeHtml(
         impact.value
       )}</span><span class="impact-label">${escapeHtml(impact.label)}</span></p>`
     : "";
@@ -273,9 +287,9 @@ function cardHtml(story, isLead) {
     )}" data-sample="${
       story.is_sample ? "true" : "false"
     }" data-impact="${impact ? "true" : "false"}" data-image="${
-      safeUrl(story.image) ? "true" : "false"
+      showImage ? "true" : "false"
     }">
-      ${cardImage(story, isLead)}
+      ${showImage ? cardImage(story, isLead) : ""}
       <ul class="meta">
         <li class="cat">${escapeHtml(story.category || "World")}${sample}</li>
         <li>${escapeHtml(sourceLine(story))}</li>
@@ -283,7 +297,7 @@ function cardHtml(story, isLead) {
           <time datetime="${escapeHtml(story.published_at || "")}" title="${escapeHtml(
             timeTitle
           )}">${escapeHtml(relativeTime(story.published_at))}</time>${newToday}
-        </li>
+        </li>${newTag}
       </ul>
       <h2>${headlineHtml}</h2>
       ${impactHtml}
@@ -330,7 +344,10 @@ function renderFeed() {
     const parts = [];
     shown.forEach((story, index) => {
       parts.push(cardHtml(story, index === 0));
-      if ((index + 1) % 6 === 0 && index !== shown.length - 1) {
+      // The mid-feed signup takes the first divider slot (after card 6).
+      if (index + 1 === SIGNUP_AFTER && index !== shown.length - 1) {
+        parts.push(`<div class="signup-mid-slot" data-signup-slot="mid"></div>`);
+      } else if ((index + 1) % 6 === 0 && index !== shown.length - 1) {
         const label =
           state.category === "All"
             ? "That's the latest in today's feed"
@@ -341,15 +358,57 @@ function renderFeed() {
     feed.innerHTML = parts.join("");
     moreWrap.hidden = shown.length >= all.length;
   }
+  placeSignups(feed, all.length > 0, shown.length >= all.length);
 
-  const when = data.generated_at ? formatExact(data.generated_at) : "";
-  const filter = state.category === "All" ? "all categories" : state.category;
-  status.textContent = `${all.length} ${
+  status.textContent = `${editionLabel(data.generated_at)} · ${all.length} ${
     all.length === 1 ? "story" : "stories"
-  } · ${filter}${when ? " · updated " + when : ""}`;
+  } · ${state.category === "All" ? "all categories" : state.category}`;
   bindThumbFallbacks(feed);
 }
 
+// "Today's edition · updated 03:04 UK" (same Europe/London zone as the rest
+// of the page). An older feed says "Latest edition" and keeps its date.
+function editionLabel(iso) {
+  if (!iso) return "Today's edition";
+  const d = new Date(iso);
+  if (Number.isNaN(d.getTime())) return "Today's edition";
+  const time = new Intl.DateTimeFormat("en-GB", {
+    hour: "2-digit",
+    minute: "2-digit",
+    timeZone: "Europe/London",
+  }).format(d);
+  if (isToday(iso)) return `Today's edition · updated ${time} UK`;
+  return `Latest edition · updated ${formatExact(iso)}`;
+}
+
+// Signup copies are built once from <template id="signup-template"> and moved
+// into place after every render, so typed input and the confirmation message
+// survive filter changes. Ids get a per-copy suffix and stay unique.
+const signups = { mid: null, end: null };
+
+function buildSignup(slot, suffix) {
+  const tpl = $("signup-template");
+  if (!tpl || typeof tpl.innerHTML !== "string" || !tpl.innerHTML.includes("__S__")) return null;
+  if (typeof document.createElement !== "function") return null;
+  const holder = document.createElement("div");
+  holder.innerHTML = tpl.innerHTML.replaceAll("__S__", suffix).replaceAll("__SLOT__", slot).trim();
+  return holder.firstElementChild || null;
+}
+
+function placeSignups(feed, hasStories, atEnd) {
+  if (!signups.mid) signups.mid = buildSignup("mid", "");
+  if (!signups.end) signups.end = buildSignup("end", "-end");
+  const midSlot = feed.querySelector ? feed.querySelector('[data-signup-slot="mid"]') : null;
+  if (signups.mid && midSlot && midSlot.replaceWith) midSlot.replaceWith(signups.mid);
+  const end = $("feed-end");
+  const endSlot = $("signup-end-slot");
+  if (end) end.hidden = !hasStories;
+  if (signups.end && endSlot && endSlot.appendChild && signups.end.parentNode !== endSlot) {
+    endSlot.appendChild(signups.end);
+  }
+  const note = $("feed-end-note");
+  if (note) note.hidden = !(hasStories && atEnd);
+}
 
 function bindThumbFallbacks(root) {
   root.querySelectorAll("img.thumb-img").forEach((img) => {

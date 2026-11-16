@@ -84,3 +84,20 @@
 @media (prefers-reduced-motion: reduce) {
   .signup-button { transition: none; }
 }
+
+/* Placement: one copy sits in the feed after the 6th card, one closes the feed.
+   Lead + 5 cards leaves exactly one empty cell in both the 2- and 3-column
+   grids, so on wider screens the mid copy fills that cell as a stacked card. */
+.feed > .signup { margin: 0; }
+.feed-end .signup { margin: 0; }
+@media (min-width: 720px) {
+  .feed > .signup {
+    grid-template-columns: 1fr;
+    align-content: center;
+    gap: 16px;
+    padding: var(--pad-y) var(--pad-x);
+  }
+  .feed > .signup h2 { font-size: 24px; }
+  .feed > .signup .signup-row { flex-direction: column; }
+  .feed > .signup .signup-button { width: 100%; }
+}

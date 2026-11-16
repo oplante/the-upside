@@ -670,3 +670,90 @@ main {
 .card .summary { flex: 0 0 auto; }
 .card .why-note { margin-top: auto; }
 .card .why-note + .card-foot { margin-top: 0; }
+
+/* ---- Display fixes, 15 Nov 2026: text-only cards, figure slot, feed ending ---- */
+
+/* Text-only cards (images off by default). A thin category rule on top gives
+   each card a quiet anchor where the photo used to be. */
+.card[data-image="false"] {
+  padding-top: calc(var(--pad-y) + 4px);
+}
+.card[data-image="false"] .meta { margin-bottom: 10px; }
+.card[data-image="false"] h2 { margin-bottom: 10px; }
+
+/* Lead card without a photo: bigger type, readable measure, more air. */
+.card.lead[data-image="false"] {
+  padding: 28px var(--pad-x) 24px;
+  background:
+    linear-gradient(to bottom, var(--accent-soft), var(--accent-soft)) top / 100% 4px no-repeat,
+    var(--paper-raised);
+}
+.card.lead[data-image="false"] h2 { max-width: 28ch; }
+.card.lead[data-image="false"] .summary {
+  max-width: 64ch;
+  font-size: 18px;
+  -webkit-line-clamp: 4;
+  line-clamp: 4;
+}
+.card.lead[data-image="false"] .why-note { max-width: 64ch; }
+@media (min-width: 720px) {
+  .card.lead[data-image="false"] { padding: 36px 40px 28px; }
+  .card.lead[data-image="false"] .summary { font-size: 19px; }
+}
+
+/* Fixed figure slot: always directly under the headline, same spacing on
+   every card. Cards without a stated figure simply have no slot. */
+.card .figure-slot {
+  margin: 2px 0 14px;
+  padding: 0;
+  min-height: 32px;
+  align-items: baseline;
+}
+.card .figure-slot .impact-label {
+  font-size: 14px;
+  color: var(--ink-soft);
+}
+.card.lead .figure-slot { min-height: 48px; }
+
+/* "New today" tag (only when ingest sends new_today: true). */
+.meta .tag-new {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  line-height: 1.4;
+}
+
+/* End of the feed: a calm full stop, then the second signup. */
+.feed-end {
+  margin: 40px 0 8px;
+  display: grid;
+  gap: 24px;
+}
+.feed-end-note {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  text-align: center;
+  font-family: var(--serif);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 19px;
+  color: var(--ink-soft);
+}
+.feed-end-mark {
+  display: inline-block;
+  width: 22px;
+  height: 11px;
+  border: 2px solid var(--accent);
+  border-bottom: 0;
+  border-radius: 22px 22px 0 0;
+  flex: none;
+}
+.more-wrap + .feed-end { margin-top: 32px; }
