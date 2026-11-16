@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-16T10:45:28.011728+00:00",
+  "generated_at": "2026-11-16T11:00:34.393246+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 39 feeds, 834 headlines. Accepted 41, held for review 110, rejected 693. Carried 10 recent items (up to 96h) for re-check.",
+  "ingest_notes": "Fetched 39 feeds, 833 headlines. Accepted 42, held for review 106, rejected 695. Carried 10 recent items (up to 96h) for re-check.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -52,6 +52,54 @@
           "width": 700
         }
       ]
+    },
+    {
+      "id": "63498ca28c882cfa",
+      "headline": "Physicists defy expectations by controlling the magnetic heart of a single atom",
+      "summary": "Scientists have unexpectedly discovered how to control the magnetic spin inside a single atom's nucleus using radio waves, overturning previous assumptions about atomic behavior. The breakthrough could pave the way for more reliable quantum memory, although researchers are still\u2026",
+      "category": "Science",
+      "sources": [
+        {
+          "name": "ScienceDaily Technology",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261114202232.htm",
+          "published_at": "2026-11-16T02:56:02+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-16T02:56:02+00:00",
+      "positivity_score": 57,
+      "positivity_reason": "positive cues: breakthrough, discovered",
+      "why_good": "It's a story of a breakthrough and a new discovery, and it describes something that went right.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://www.sciencedaily.com/releases/2026/11/261114202232.htm",
+      "impact": null,
+      "image": "https://www.sciencedaily.com/images/600/electron-and-nucleus-spins-controlled-by-wave-signals.webp",
+      "image_srcset": []
+    },
+    {
+      "id": "0138d8f0eade07a3",
+      "headline": "MIT scientists discover a surprising way to boost the brain\u2019s nighttime cleaning system",
+      "summary": "MIT scientists discovered that carefully timed bursts of gentle pink noise during sleep can strengthen the brain\u2019s natural cleaning waves, which help flush away potentially harmful waste. The breakthrough could pave the way for new treatments aimed at improving sleep and memory\u2026",
+      "category": "Health",
+      "sources": [
+        {
+          "name": "ScienceDaily Health",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261115085533.htm",
+          "published_at": "2026-11-16T01:40:04+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-16T01:40:04+00:00",
+      "positivity_score": 57,
+      "positivity_reason": "positive cues: breakthrough, discovered",
+      "why_good": "This story is about a breakthrough and a new discovery, and it describes something that went right.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://www.sciencedaily.com/releases/2026/11/261115085533.htm",
+      "impact": null,
+      "image": "https://www.sciencedaily.com/images/600/brain-waves-neural-signals-treatment.webp",
+      "image_srcset": []
     },
     {
       "id": "b416e25e05676fa1",
@@ -973,30 +1021,6 @@
       "link": "https://reasonstobecheerful.world/rural-colleges-student-parents-support/",
       "impact": null,
       "image": "https://reasonstobecheerful.world/wp-content/uploads/2026/11/IMG_9554-653x870-1.jpeg",
-      "image_srcset": []
-    },
-    {
-      "id": "49ffad837aa44303",
-      "headline": "Caltech robot makes history by building a structure in space",
-      "summary": "For the first time, a robot has autonomously built part of a structure in space, demonstrating a breakthrough that could fundamentally change space exploration. The technology could one day allow scientists to construct enormous telescopes, communications antennas, and solar\u2026",
-      "category": "Tech",
-      "sources": [
-        {
-          "name": "ScienceDaily Technology",
-          "url": "https://www.sciencedaily.com/releases/2026/11/261108233043.htm",
-          "published_at": "2026-11-09T10:01:13+00:00"
-        }
-      ],
-      "source_count": 1,
-      "published_at": "2026-11-09T10:01:13+00:00",
-      "positivity_score": 60,
-      "positivity_reason": "positive cues: breakthrough, first time, solar",
-      "why_good": "This story is about a breakthrough and clean energy, and it describes something that went right.",
-      "review_status": "auto-accepted",
-      "is_sample": false,
-      "link": "https://www.sciencedaily.com/releases/2026/11/261108233043.htm",
-      "impact": null,
-      "image": "https://www.sciencedaily.com/images/600/darpa-nom4d-caltech-robotic-space-demo.webp",
       "image_srcset": []
     },
     {
