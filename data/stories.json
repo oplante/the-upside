@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-16T16:34:55.522458+00:00",
+  "generated_at": "2026-11-16T16:37:20.523242+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 48 feeds, 1016 headlines. Accepted 30, held for review 185, rejected 804. Carried 3 recent items (up to 96h) for re-check. Published window 72h. Auto-promoted from review: 1.",
+  "ingest_notes": "Fetched 48 feeds, 1016 headlines. Accepted 28, held for review 187, rejected 804. Carried 3 recent items (up to 96h) for re-check. Published window 72h. Auto-promoted from review: 0.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -21,32 +21,6 @@
     "publish_hours": 72
   },
   "stories": [
-    {
-      "id": "0694cd381f673cb2",
-      "headline": "Eating without fear: A single vaccine shows promise against multiple food allergies",
-      "summary": "According to U.N. figures, more than 220 million people worldwide suffer from food allergies, which cause the body to perceive an otherwise harmless protein in food as dangerous. As a result, the immune system launches an attack on the protein, which in the worst cases can be\u2026",
-      "category": "Health",
-      "sources": [
-        {
-          "name": "Medical Xpress",
-          "url": "https://medicalxpress.com/news/2026-11-vaccine-multiple-food-allergies.html",
-          "published_at": "2026-11-16T16:20:10+00:00"
-        }
-      ],
-      "source_count": 1,
-      "published_at": "2026-11-16T16:20:10+00:00",
-      "positivity_score": 51,
-      "positivity_reason": "positive cues: launches; caution: dangerous; stated figure from the source; auto-promoted: stated figure, no grim or soft flags",
-      "why_good": "According to U.N. figures, more than 220 million people worldwide suffer from food allergies.",
-      "review_status": "auto-accepted",
-      "is_sample": false,
-      "link": "https://medicalxpress.com/news/2026-11-vaccine-multiple-food-allergies.html",
-      "impact": {
-        "value": "220",
-        "label": "million people worldwide suffer from food"
-      },
-      "new_today": true
-    },
     {
       "id": "e2dbf4c7a05229bf",
       "headline": "Steiner and state: Comparing two schools of thought",
