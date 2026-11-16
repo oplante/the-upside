@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-16T00:00:37.784390+00:00",
+  "generated_at": "2026-11-16T00:06:26.684779+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 39 feeds, 830 headlines. Accepted 42, held for review 126, rejected 671. Carried 9 recent items (up to 96h) for re-check.",
+  "ingest_notes": "Fetched 39 feeds, 830 headlines. Accepted 40, held for review 113, rejected 686. Carried 9 recent items (up to 96h) for re-check.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -297,42 +297,6 @@
       "impact": null,
       "image": "https://i.cbc.ca/ais/8d983b44-a868-4ecc-8ac8-c7a1ecaff7f8,1794630252032/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C563%2C8640%2C4860%29%3B",
       "image_srcset": []
-    },
-    {
-      "id": "855f60edb186034e",
-      "headline": "Ecuadorian fishermen who survived US boat strikes sue Trump administration",
-      "summary": "US military has killed nearly 250 people in attack on \u2018narco-terrorism\u2019, and on 17 March, sank the 16 plaintiffs\u2019 boat, leaving two with serious burns More than a dozen Ecuadorian fishermen are suing the US government after they survived a military drone attack in the Pacific\u2026",
-      "category": "Business",
-      "sources": [
-        {
-          "name": "The Guardian Business",
-          "url": "https://www.theguardian.com/us-news/2026/nov/14/ecuadorian-fishermen-lawsuit-trump-boat-strike",
-          "published_at": "2026-11-14T11:00:42+00:00"
-        }
-      ],
-      "source_count": 1,
-      "published_at": "2026-11-14T11:00:42+00:00",
-      "positivity_score": 57,
-      "positivity_reason": "positive cues: survived; improvement framing of a grim topic; stated figure from the source",
-      "why_good": "It's a story of a recovery, and it reports a concrete result: 250 people in attack on narco-terrorism.",
-      "review_status": "auto-accepted",
-      "is_sample": false,
-      "link": "https://www.theguardian.com/us-news/2026/nov/14/ecuadorian-fishermen-lawsuit-trump-boat-strike",
-      "impact": {
-        "value": "250",
-        "label": "people in attack on narco-terrorism"
-      },
-      "image": "https://i.guim.co.uk/img/media/e9bbe2a454aa4cdf64f2e5bec0b62bbab27473a7/307_0_5139_4112/master/5139.jpg?width=460&quality=85&auto=format&fit=max&s=75c8d0553c7ef83e8247d3bbf8b7d67d",
-      "image_srcset": [
-        {
-          "url": "https://i.guim.co.uk/img/media/e9bbe2a454aa4cdf64f2e5bec0b62bbab27473a7/307_0_5139_4112/master/5139.jpg?width=460&quality=85&auto=format&fit=max&s=75c8d0553c7ef83e8247d3bbf8b7d67d",
-          "width": 460
-        },
-        {
-          "url": "https://i.guim.co.uk/img/media/e9bbe2a454aa4cdf64f2e5bec0b62bbab27473a7/307_0_5139_4112/master/5139.jpg?width=700&quality=85&auto=format&fit=max&s=13d895b55e7dddb1f6e5a87a3dae2151",
-          "width": 700
-        }
-      ]
     },
     {
       "id": "d71e677fd29f4e45",
@@ -734,30 +698,6 @@
       "link": "https://www.goodnewsnetwork.org/worlds-largest-liquid-air-renewable-energy-storage-system-switches-on/",
       "impact": null,
       "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/Qinghai-60MW-Liquid-Air-Energy-Storage-Project-credit-China-Green-Development-Investment-Group.jpg",
-      "image_srcset": []
-    },
-    {
-      "id": "9bd865c1b710dd52",
-      "headline": "Filmmaker Helps 103-yo D-Day Survivor Recover His Lost War Medals",
-      "summary": "A 103-year-old D-Day veteran was reunited with his war medals just in time for Remembrance Day. The story came about through a remarkable coincidence when an amateur WWII historian came across the man\u2019s military record and medals, and contacted the family wondering if he still\u2026",
-      "category": "Community",
-      "sources": [
-        {
-          "name": "Good News Network",
-          "url": "https://www.goodnewsnetwork.org/documentarian-helps-103-yo-d-day-survivor-recover-his-lost-war-medals-just-in-time-for-veterans-day/",
-          "published_at": "2026-11-12T16:30:00+00:00"
-        }
-      ],
-      "source_count": 1,
-      "published_at": "2026-11-12T16:30:00+00:00",
-      "positivity_score": 56,
-      "positivity_reason": "solutions-focused source; positive cues: reunited; improvement framing of a grim topic",
-      "why_good": "This solutions-focused story is about people coming back together, and it follows a difficult situation that is turning around.",
-      "review_status": "auto-accepted",
-      "is_sample": false,
-      "link": "https://www.goodnewsnetwork.org/documentarian-helps-103-yo-d-day-survivor-recover-his-lost-war-medals-just-in-time-for-veterans-day/",
-      "impact": null,
-      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/Douglas-Halley-103-with-his-grandson-Luke-credit-SWNS.jpg",
       "image_srcset": []
     },
     {
