@@ -294,15 +294,23 @@ function whyGood(story) {
   return text || WHY_FALLBACK;
 }
 
-// The card's one destination: the go.html preview (clicks are counted there).
-// Only when the story has an id and a valid http(s) source URL; otherwise the
-// card has no link at all and the title stays plain text.
-function previewHref(story) {
-  const id = String(story?.id ?? "").trim();
-  if (!id) return "";
-  const target = safeUrl(story?.link) || safeUrl(story?.sources?.[0]?.url);
-  if (!target) return "";
-  return `go.html?id=${encodeURIComponent(id)}`;
+// The card's one destination: the publisher's own article (16 Nov 2026: the
+// go.html middle page was removed). Absolute http(s) URLs only; otherwise the
+// card has no link at all and the title stays plain text. Clicks on the site
+// are not counted (the site runs no analytics); email clicks are counted by
+// MailerLite's own click tracking.
+function absoluteHttpUrl(value) {
+  try {
+    const url = new URL(String(value ?? "").trim());
+    if (url.protocol === "http:" || url.protocol === "https:") return url.href;
+  } catch {
+    /* ignore invalid */
+  }
+  return "";
+}
+
+function storyHref(story) {
+  return absoluteHttpUrl(story?.link) || absoluteHttpUrl(story?.sources?.[0]?.url);
 }
 
 // variant: "lead" | "rail" | "second" | "river". A boolean still works
@@ -325,7 +333,7 @@ function cardHtml(story, variant, opts = {}) {
   const wantsImage = opts.image ?? (variant !== "river");
   const showImage = SHOW_IMAGES && wantsImage && Boolean(imageUrl(story));
   const timeTitle = formatExact(story.published_at);
-  const preview = previewHref(story);
+  const preview = storyHref(story);
   const href = preview ? `href="${escapeHtml(preview)}"` : "";
   const source = escapeHtml(primarySourceName(story));
   const reasonId = `reason-${escapeHtml(story.id)}`;

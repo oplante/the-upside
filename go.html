@@ -2,271 +2,28 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="A preview of a story from The Upside, before you continue to the original article.">
   <meta name="robots" content="noindex">
   <title>The Upside</title>
-  <link rel="stylesheet" href="fonts/fonts.css">
-  <link rel="stylesheet" href="styles.css">
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' fill='none' stroke='%231C5A3D' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 22c5-9 15-9 20 0'/%3E%3Ccircle cx='16' cy='11' r='2.25'/%3E%3C/svg%3E">
-  <style>
-    .go-page main {
-      max-width: var(--measure);
-      margin: 0 auto;
-      padding: 28px var(--gap) 72px;
-    }
-    .go-back {
-      display: inline-block;
-      margin: 0 0 28px;
-      color: var(--accent);
-      font-size: 15px;
-      font-weight: 600;
-      text-decoration: none;
-    }
-    .go-back:hover { text-decoration: underline; }
-    .go-kicker {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px 14px;
-      margin: 0 0 10px;
-      padding: 0;
-      list-style: none;
-      color: var(--muted);
-      font-size: 13px;
-      font-weight: 600;
-      letter-spacing: 0.02em;
-      text-transform: uppercase;
-    }
-    .go-kicker .cat { color: var(--accent); font-weight: 700; }
-    .go-headline {
-      font-family: var(--serif);
-      font-weight: 500;
-      text-wrap: balance;
-      font-size: 32px;
-      line-height: 1.2;
-      letter-spacing: -0.02em;
-      color: var(--ink);
-      margin: 0 0 16px;
-    }
-    .go-headline a { color: inherit; text-decoration: none; }
-    .go-headline a:hover { text-decoration: underline; text-underline-offset: 3px; }
-    @media (min-width: 720px) {
-      .go-headline { font-size: 40px; }
-    }
-    .go-url {
-      margin: 0 0 24px;
-      padding: 12px 14px;
-      background: var(--paper-raised);
-      border: 1px solid var(--line);
-      border-radius: var(--radius);
-      font-size: 15px;
-      line-height: 1.5;
-      word-break: break-all;
-      color: var(--ink-soft);
-    }
-    .go-url a { color: inherit; text-decoration: none; }
-    .go-url a:hover { text-decoration: underline; }
-    .go-url .host {
-      color: var(--ink);
-      font-weight: 700;
-    }
-    .go-continue {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      min-height: 52px;
-      padding: 14px 28px;
-      margin: 0 0 32px;
-      border-radius: var(--radius);
-      background: var(--accent);
-      color: #fff;
-      font: 600 18px/1.2 var(--sans);
-      text-decoration: none;
-      text-align: center;
-    }
-    @media (hover: hover) and (pointer: fine) { .go-continue:hover { background: var(--accent-hover); } }
-    .go-continue[hidden], .go-missing[hidden] { display: none !important; }
-    .go-own { margin: 8px 0 0; }
-    .go-own .impact { margin: 0 0 16px; }
-    .go-own .why-note { margin: 0; }
-    .go-missing {
-      font-family: var(--serif);
-      font-size: 24px;
-      line-height: 1.3;
-      color: var(--ink);
-      margin: 0 0 16px;
-    }
-    .go-missing-body { margin: 0 0 24px; color: var(--ink-soft); font-size: 17px; }
-  </style>
-</head>
-<body class="go-page">
-  <a class="skip" href="#go-title">Skip to story</a>
-
-  <header class="masthead masthead--compact">
-    <div class="masthead-inner">
-      <div class="brand">
-        <svg class="mark" width="36" height="36" viewBox="0 0 36 36" aria-hidden="true" focusable="false">
-          <path d="M4 27c9-5 19-5 28 0" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"/>
-          <circle cx="18" cy="12" r="2.5" fill="none" stroke="currentColor" stroke-width="1.75"/>
-        </svg>
-        <p class="title"><a href="./">The Upside</a></p>
-      </div>
-      <p class="tag">News that's going right.</p>
-    </div>
-  </header>
-
-  <main id="go">
-    <a class="go-back" href="./">Back to the feed</a>
-    <p class="go-missing" id="go-missing" hidden>That story isn’t in today’s feed.</p>
-    <p class="go-missing-body" id="go-missing-body" hidden>It may have dropped out of the current edition. You can go back and pick another story.</p>
-    <article id="go-article" hidden>
-      <ul class="go-kicker" id="go-kicker"></ul>
-      <h1 class="go-headline" id="go-title"></h1>
-      <p class="go-url" id="go-url"></p>
-      <a class="go-continue" id="go-continue" rel="noopener noreferrer">Continue</a>
-      <div class="go-own" id="go-own"></div>
-    </article>
-  </main>
-
-  <script>
+  <!-- Old link-preview page, kept so links in earlier emails still work.
+       Since 16 Nov 2026 it shows nothing: it sends the reader straight to the
+       story's own article. Only URLs taken from our stories.json (by id) are
+       used, and only absolute http(s) ones, so it can't be an open redirect.
+       Anything else goes to the feed. -->
+  <noscript><meta http-equiv="refresh" content="0;url=./"></noscript>
+  <script id="go-redirect">
 (function () {
-  var WHY_FALLBACK = "It reports a concrete, positive outcome from the original source.";
-
-  function $(id) { return document.getElementById(id); }
-
-  function escapeHtml(value) {
-    return String(value ?? "")
-      .replaceAll("&", "&amp;")
-      .replaceAll("<", "&lt;")
-      .replaceAll(">", "&gt;")
-      .replaceAll('"', "&quot;")
-      .replaceAll("'", "&#39;");
-  }
-
-  function safeUrl(value) {
+  var HOME = "./";
+  function go(url) { window.location.replace(url); }
+  function httpUrl(value) {
     try {
-      var url = new URL(String(value ?? ""), window.location.href);
-      if (url.protocol === "http:" || url.protocol === "https:") return url;
+      var url = new URL(String(value == null ? "" : value).trim());
+      if (url.protocol === "http:" || url.protocol === "https:") return url.href;
     } catch (e) { /* ignore */ }
-    return null;
+    return "";
   }
-
-  function displayHost(url) {
-    return url.hostname.replace(/^www\./i, "");
-  }
-
-  function formatExact(iso) {
-    if (!iso) return "";
-    var d = new Date(iso);
-    if (Number.isNaN(d.getTime())) return "";
-    return new Intl.DateTimeFormat("en-GB", {
-      dateStyle: "medium",
-      timeZone: "Europe/London",
-    }).format(d);
-  }
-
-  function uniqueSources(story) {
-    var names = [];
-    (story.sources || []).forEach(function (src) {
-      if (src.name && names.indexOf(src.name) === -1) names.push(src.name);
-    });
-    return names;
-  }
-
-  function statedImpact(story) {
-    var impact = story.impact;
-    if (!impact || typeof impact !== "object") return null;
-    var value = String(impact.value || "").trim();
-    var label = String(impact.label || "").trim();
-    if (!value || !label || value.length > 24) return null;
-    return { value: value, label: label };
-  }
-
-  function whyGood(story) {
-    var text = String(story.why_good || "").trim();
-    return text || WHY_FALLBACK;
-  }
-
-  function showMissing() {
-    $("go-article").hidden = true;
-    $("go-missing").hidden = false;
-    $("go-missing-body").hidden = false;
-    document.title = "Story not found - The Upside";
-  }
-
-  function renderUrl(url) {
-    var host = displayHost(url);
-    var path = url.pathname + url.search + url.hash;
-    if (path === "/") path = "";
-    var html = '<a href="' + escapeHtml(url.href) + '" rel="noopener noreferrer">' +
-      escapeHtml(url.protocol + "//") +
-      '<span class="host">' + escapeHtml(host) + "</span>" +
-      escapeHtml(path) +
-      "</a>";
-    $("go-url").innerHTML = html;
-  }
-
-  function render(story) {
-    var url = safeUrl(story.link);
-    if (!url && Array.isArray(story.sources) && story.sources[0]) {
-      url = safeUrl(story.sources[0].url);
-    }
-    if (!url) {
-      showMissing();
-      return;
-    }
-
-    var source = uniqueSources(story)[0] || "Unknown source";
-    var date = formatExact(story.published_at);
-    var kicker = [];
-    if (story.category) kicker.push('<li class="cat">' + escapeHtml(story.category) + "</li>");
-    kicker.push("<li>" + escapeHtml(source) + "</li>");
-    if (date) {
-      kicker.push("<li><time datetime=\"" + escapeHtml(story.published_at || "") + "\">" + escapeHtml(date) + "</time></li>");
-    }
-    if (story.evidence_strength) {
-      kicker.push("<li>" + escapeHtml(String(story.evidence_strength)) + "</li>");
-    }
-    $("go-kicker").innerHTML = kicker.join("");
-
-    var title = escapeHtml(story.headline || "Untitled story");
-    $("go-title").innerHTML = '<a href="' + escapeHtml(url.href) + '" rel="noopener noreferrer">' + title + "</a>";
-    document.title = (story.headline ? story.headline + " - " : "") + "The Upside";
-
-    renderUrl(url);
-
-    var host = displayHost(url);
-    var btn = $("go-continue");
-    btn.href = url.href;
-    btn.textContent = "Continue to " + host;
-    btn.hidden = false;
-
-    var own = [];
-    var impact = statedImpact(story);
-    if (impact) {
-      own.push(
-        '<p class="impact"><span class="impact-value">' + escapeHtml(impact.value) +
-        '</span><span class="impact-label">' + escapeHtml(impact.label) + "</span></p>"
-      );
-    }
-    own.push(
-      '<p class="why-note"><span class="visually-hidden">Why it\'s good: </span>' +
-      escapeHtml(whyGood(story)) + "</p>"
-    );
-    $("go-own").innerHTML = own.join("");
-
-    $("go-missing").hidden = true;
-    $("go-missing-body").hidden = true;
-    $("go-article").hidden = false;
-  }
-
-  var params = new URLSearchParams(window.location.search);
-  var id = (params.get("id") || "").trim();
-  if (!id) {
-    showMissing();
-    return;
-  }
-
+  var id = "";
+  try { id = (new URLSearchParams(window.location.search).get("id") || "").trim(); } catch (e) { id = ""; }
+  if (!id) { go(HOME); return; }
   fetch("data/stories.json", { cache: "no-store" })
     .then(function (res) {
       if (!res.ok) throw new Error("missing feed");
@@ -274,16 +31,17 @@
     })
     .then(function (data) {
       var stories = (data && data.stories) || [];
-      var story = stories.find(function (s) { return String(s.id) === id; });
-      if (!story) showMissing();
-      else render(story);
+      var story = null;
+      for (var i = 0; i < stories.length; i++) {
+        if (stories[i] && String(stories[i].id) === id) { story = stories[i]; break; }
+      }
+      var first = story && Array.isArray(story.sources) ? story.sources[0] : null;
+      var target = story ? (httpUrl(story.link) || httpUrl(first && first.url)) : "";
+      go(target || HOME);
     })
-    .catch(function () {
-      $("go-missing").textContent = "This preview could not be loaded just now.";
-      $("go-missing-body").textContent = "Please go back to the feed and try again.";
-      showMissing();
-    });
+    .catch(function () { go(HOME); });
 })();
   </script>
-</body>
+</head>
+<body></body>
 </html>
