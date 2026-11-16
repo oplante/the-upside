@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-16T14:37:53.676081+00:00",
+  "generated_at": "2026-11-16T14:42:49.512304+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 39 feeds, 834 headlines. Accepted 59, held for review 111, rejected 678. Carried 14 recent items (up to 96h) for re-check.",
+  "ingest_notes": "Fetched 39 feeds, 834 headlines. Accepted 58, held for review 112, rejected 678. Carried 14 recent items (up to 96h) for re-check.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -42,30 +42,6 @@
       "link": "https://phys.org/news/2026-11-steiner-state-schools-thought.html",
       "impact": null,
       "image": "https://scx1.b-cdn.net/csz/news/800a/2026/education-3.jpg",
-      "image_srcset": []
-    },
-    {
-      "id": "0ed419d0691e5b5b",
-      "headline": "Your First Home: government loan scheme for first-time buyers could strain an already punishing property market",
-      "summary": "Rob Hyrons/Shutterstock Housing in the UK has become markedly less affordable over the last 25 years. Between 2000 and 2025, English house prices rose by about 250% in cash terms (roughly 85% in real terms), while median earnings only doubled in cash terms, and rose by around\u2026",
-      "category": "Politics",
-      "sources": [
-        {
-          "name": "The Conversation",
-          "url": "https://theconversation.com/your-first-home-government-loan-scheme-for-first-time-buyers-could-strain-an-already-punishing-property-market-295802",
-          "published_at": "2026-11-16T13:20:02+00:00"
-        }
-      ],
-      "source_count": 1,
-      "published_at": "2026-11-16T13:20:02+00:00",
-      "positivity_score": 54,
-      "positivity_reason": "positive cues: doubled, affordable; multiple outcome cues",
-      "why_good": "Good news about growth worth celebrating and affordable housing: it points to more than one sign of real progress.",
-      "review_status": "auto-accepted",
-      "is_sample": false,
-      "link": "https://theconversation.com/your-first-home-government-loan-scheme-for-first-time-buyers-could-strain-an-already-punishing-property-market-295802",
-      "impact": null,
-      "image": "https://images.theconversation.com/files/771346/original/file-20261111-64-gpf8e1.jpg?ixlib=rb-4.1.1&rect=599%2C0%2C6479%2C4320&q=45&auto=format&w=1050&h=700&fit=crop",
       "image_srcset": []
     },
     {
