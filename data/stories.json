@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T16:01:44.005260+00:00",
+  "generated_at": "2026-11-16T16:03:33.892456+00:00",
   "is_sample": false,
   "ingest_notes": "Fetched 39 feeds, 835 headlines. Accepted 30, held for review 145, rejected 663. Carried 3 recent items (up to 96h) for re-check. Published window 72h. Auto-promoted from review: 0.",
   "taxonomy": [
@@ -44,7 +44,11 @@
       "impact": null,
       "image": "https://scx1.b-cdn.net/csz/news/800a/2026/glp-1-medications.jpg",
       "image_srcset": [],
-      "new_today": true
+      "new_today": true,
+      "image_url": "https://api.openverse.org/v1/images/cc6f11d6-6c3d-48b2-b1a1-4e4089f9041c/thumb/",
+      "image_credit": "Clean Wal-Mart",
+      "image_licence": "CC BY 2.0",
+      "image_source_url": "https://www.flickr.com/photos/33677599@N00/1583764466"
     },
     {
       "id": "e2dbf4c7a05229bf",
@@ -107,7 +111,11 @@
           "width": 976
         }
       ],
-      "new_today": true
+      "new_today": true,
+      "image_url": "https://api.openverse.org/v1/images/6afce347-3378-4a84-a35f-de46a042323b/thumb/",
+      "image_credit": "shahbasharat",
+      "image_licence": "CC BY 2.0",
+      "image_source_url": "https://www.flickr.com/photos/20681804@N03/2253093712"
     },
     {
       "id": "63498ca28c882cfa",
@@ -132,7 +140,11 @@
       "impact": null,
       "image": "https://www.sciencedaily.com/images/600/electron-and-nucleus-spins-controlled-by-wave-signals.webp",
       "image_srcset": [],
-      "new_today": true
+      "new_today": true,
+      "image_url": "https://api.openverse.org/v1/images/0a36eb0f-fa8a-46fb-a63d-1c8e2ac963b8/thumb/",
+      "image_credit": "pingnews.com",
+      "image_licence": "Public Domain Mark 1.0",
+      "image_source_url": "https://www.flickr.com/photos/39735679@N00/475109138"
     },
     {
       "id": "0138d8f0eade07a3",
@@ -157,7 +169,11 @@
       "impact": null,
       "image": "https://www.sciencedaily.com/images/600/brain-waves-neural-signals-treatment.webp",
       "image_srcset": [],
-      "new_today": true
+      "new_today": true,
+      "image_url": "https://api.openverse.org/v1/images/26d1b996-f6aa-49c8-a211-48c85f021b45/thumb/",
+      "image_credit": "Stefan-Mueller-climate",
+      "image_licence": "CC BY 2.0",
+      "image_source_url": "https://www.flickr.com/photos/184802432@N05/52458891713"
     },
     {
       "id": "1720e81d7c4866f8",
@@ -207,7 +223,11 @@
       "impact": null,
       "image": "https://www.sciencedaily.com/images/600/vitamin-c-supplement-capsules.webp",
       "image_srcset": [],
-      "new_today": false
+      "new_today": false,
+      "image_url": "https://api.openverse.org/v1/images/cf195fbe-d0ea-4bcb-97e4-7d21e85ffeab/thumb/",
+      "image_credit": "cheeseslave",
+      "image_licence": "CC BY 2.0",
+      "image_source_url": "https://www.flickr.com/photos/19359283@N00/17229449551"
     },
     {
       "id": "3e5be7cc2248eeb7",
@@ -232,7 +252,11 @@
       "impact": null,
       "image": "https://www.sciencedaily.com/images/600/radiograph-x-ray-back-bone-spinal-pain.webp",
       "image_srcset": [],
-      "new_today": false
+      "new_today": false,
+      "image_url": "https://api.openverse.org/v1/images/d9247047-1fce-4e5d-8cb7-bdfee0d4839a/thumb/",
+      "image_credit": "gnuckx",
+      "image_licence": "CC0",
+      "image_source_url": "https://www.flickr.com/photos/34409164@N06/11335341573"
     },
     {
       "id": "09b35d1b1a751791",
@@ -308,7 +332,11 @@
       "impact": null,
       "image": "https://www.sciencedaily.com/images/600/laser-light-crystal-quantum-material.webp",
       "image_srcset": [],
-      "new_today": false
+      "new_today": false,
+      "image_url": "https://api.openverse.org/v1/images/0a36eb0f-fa8a-46fb-a63d-1c8e2ac963b8/thumb/",
+      "image_credit": "pingnews.com",
+      "image_licence": "Public Domain Mark 1.0",
+      "image_source_url": "https://www.flickr.com/photos/39735679@N00/475109138"
     },
     {
       "id": "4db0f23084d8c2de",
@@ -358,7 +386,11 @@
       "impact": null,
       "image": "https://www.sciencedaily.com/images/600/knee-joint-pain-tendon-inflammation.webp",
       "image_srcset": [],
-      "new_today": false
+      "new_today": false,
+      "image_url": "https://api.openverse.org/v1/images/cf0e483d-10bf-44f0-81e8-2abccd1c409b/thumb/",
+      "image_credit": "kevin dooley",
+      "image_licence": "CC BY 2.0",
+      "image_source_url": "https://www.flickr.com/photos/12836528@N00/3202881843"
     },
     {
       "id": "d3a839a802b77726",
@@ -408,7 +440,11 @@
       "impact": null,
       "image": "https://www.sciencedaily.com/images/600/noncollinear-sum-frequency-generation.webp",
       "image_srcset": [],
-      "new_today": false
+      "new_today": false,
+      "image_url": "https://api.openverse.org/v1/images/d6b8aa7b-ceae-427a-9c44-ecc1cfe38e84/thumb/",
+      "image_credit": "NTNU, Faculty of Natural Sciences",
+      "image_licence": "CC BY 2.0",
+      "image_source_url": "https://www.flickr.com/photos/92416586@N05/12188230786"
     },
     {
       "id": "fe61751fa8aede0b",
@@ -433,7 +469,11 @@
       "impact": null,
       "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/credit-@rickaddante-via-X.jpg",
       "image_srcset": [],
-      "new_today": false
+      "new_today": false,
+      "image_url": "https://api.openverse.org/v1/images/4c7f6528-ff90-49b4-ab1a-d4acd4ee6be6/thumb/",
+      "image_credit": "whereareyousimon",
+      "image_licence": "CC BY 2.0",
+      "image_source_url": "https://www.flickr.com/photos/93057807@N00/376803469"
     }
   ]
 }
