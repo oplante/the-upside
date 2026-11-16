@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-16T16:44:26.573763+00:00",
+  "generated_at": "2026-11-16T16:48:22.828894+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 53 feeds, 1081 headlines. Accepted 30, held for review 217, rejected 837. Carried 3 recent items (up to 96h) for re-check. Published window 72h. Auto-promoted from review: 0.",
+  "ingest_notes": "Fetched 53 feeds, 1081 headlines. Accepted 36, held for review 221, rejected 827. Carried 3 recent items (up to 96h) for re-check. Published window 72h. Auto-promoted from review: 2.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -21,6 +21,32 @@
     "publish_hours": 72
   },
   "stories": [
+    {
+      "id": "b61cc056e6674219",
+      "headline": "NASA is offering $1 million for bold ideas to help build a Moon base",
+      "summary": "NASA is offering $1 million in its new Moon Base Challenge, inviting U.S. students to develop innovative solutions for building humanity\u2019s first permanent lunar outpost. From power systems to astronaut safety, their ideas could help make long-term life on the Moon possible and\u2026",
+      "category": "Tech",
+      "sources": [
+        {
+          "name": "ScienceDaily Technology",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261115085542.htm",
+          "published_at": "2026-11-16T14:02:10+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-16T14:02:10+00:00",
+      "positivity_score": 56,
+      "positivity_reason": "positive cues: solutions; stated figure from the source",
+      "why_good": "NASA is offering $1 million in its new Moon Base Challenge, inviting U.S. students to develop innovative solutions for building humanity\u2019s first permanent lunar outpost.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://www.sciencedaily.com/releases/2026/11/261115085542.htm",
+      "impact": {
+        "value": "$1 million",
+        "label": "bold ideas to help build"
+      },
+      "new_today": true
+    },
     {
       "id": "e2dbf4c7a05229bf",
       "headline": "Steiner and state: Comparing two schools of thought",
@@ -42,6 +68,58 @@
       "is_sample": false,
       "link": "https://phys.org/news/2026-11-steiner-state-schools-thought.html",
       "impact": null,
+      "new_today": true
+    },
+    {
+      "id": "70acd92a4d779634",
+      "headline": "Bedrock Energy raises $24M to build more AI-enabled geothermal drill rigs for enterprise buildings",
+      "summary": "Geothermal heat pumps could free up significant space on the grid. Bedrock Energy raised $24 million to bring its AI-guided drill rigs to more markets.",
+      "category": "Business",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/16/bedrock-energy-raises-24m-to-build-more-ai-enabled-geothermal-drill-rigs-for-enterprise-buildings/",
+          "published_at": "2026-11-16T13:00:00+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-16T13:00:00+00:00",
+      "positivity_score": 52,
+      "positivity_reason": "positive cues: raised $; stated figure from the source",
+      "why_good": "Bedrock Energy raised $24 million to bring its AI-guided drill rigs to more markets.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://techcrunch.com/2026/11/16/bedrock-energy-raises-24m-to-build-more-ai-enabled-geothermal-drill-rigs-for-enterprise-buildings/",
+      "impact": {
+        "value": "$24M",
+        "label": "build more AI-enabled geothermal drill"
+      },
+      "new_today": true
+    },
+    {
+      "id": "99725f1d7135fe75",
+      "headline": "Freshworks alums raise $53M to take on Salesforce, HubSpot with AI-native CRM",
+      "summary": "Dreamteam has signed up more than 100 customers across 13 countries, with some businesses switching from established CRMs.",
+      "category": "Business",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/16/freshworks-alums-raise-53m-to-take-on-salesforce-hubspot-with-ai-native-crm/",
+          "published_at": "2026-11-16T12:30:00+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-16T12:30:00+00:00",
+      "positivity_score": 52,
+      "positivity_reason": "positive cues: raise $; stated figure from the source",
+      "why_good": "Dreamteam has signed up more than 100 customers across 13 countries, with some businesses switching from established CRMs.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://techcrunch.com/2026/11/16/freshworks-alums-raise-53m-to-take-on-salesforce-hubspot-with-ai-native-crm/",
+      "impact": {
+        "value": "$53M",
+        "label": "take on Salesforce HubSpot"
+      },
       "new_today": true
     },
     {
@@ -231,6 +309,32 @@
       "is_sample": false,
       "link": "https://www.sciencedaily.com/releases/2026/11/261112230500.htm",
       "impact": null,
+      "new_today": false
+    },
+    {
+      "id": "5a0bce3516ad63ce",
+      "headline": "$3.4 Billion \u2014 Anthropic Order for Gas Power Plants!",
+      "summary": "Wow, this is a nasty, dirty, polluting stunner I didn\u2019t see until just now. Anthropic, the AI company behind Claude, has reportedly signed a $3.4 billion contract to buy gas-fired engines (power plants) from OnePWR Solutions, a Texas-based energy company. These gas power plants\u2026",
+      "category": "Tech",
+      "sources": [
+        {
+          "name": "CleanTechnica",
+          "url": "https://cleantechnica.com/2026/11/14/3-4-billion-anthropic-order-for-gas-power-plants/",
+          "published_at": "2026-11-15T00:33:38+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-15T00:33:38+00:00",
+      "positivity_score": 48,
+      "positivity_reason": "positive cues: solutions; stated figure from the source; auto-promoted: stated figure, no grim or soft flags",
+      "why_good": "Anthropic, the AI company behind Claude, has reportedly signed a $3.4 billion contract to buy gas-fired engines.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://cleantechnica.com/2026/11/14/3-4-billion-anthropic-order-for-gas-power-plants/",
+      "impact": {
+        "value": "$3.4 Billion",
+        "label": "Anthropic Order for gas power plants"
+      },
       "new_today": false
     },
     {
