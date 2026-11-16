@@ -294,9 +294,14 @@ function whyGood(story) {
   return text || WHY_FALLBACK;
 }
 
+// The card's one destination: the go.html preview (clicks are counted there).
+// Only when the story has an id and a valid http(s) source URL; otherwise the
+// card has no link at all and the title stays plain text.
 function previewHref(story) {
   const id = String(story?.id ?? "").trim();
   if (!id) return "";
+  const target = safeUrl(story?.link) || safeUrl(story?.sources?.[0]?.url);
+  if (!target) return "";
   return `go.html?id=${encodeURIComponent(id)}`;
 }
 
@@ -332,8 +337,10 @@ function cardHtml(story, variant, opts = {}) {
       )}</span><span class="impact-label">${escapeHtml(impact.label)}</span></p>`
     : "";
   const leadClass = ` is-${variant}${isLead ? " lead" : ""}`;
+  // Title and "Read at" share exactly the same href (and neither sets a
+  // target or rel), so clicking either opens the source the same way.
   const headlineHtml = preview
-    ? `<a ${href}>${escapeHtml(story.headline)}</a>`
+    ? `<a class="title-link" ${href}>${escapeHtml(story.headline)}</a>`
     : escapeHtml(story.headline);
   const readHtml = preview
     ? `<a class="read" ${href}>Read at ${source}&nbsp;<svg class="read-arrow" viewBox="0 0 12 12" aria-hidden="true" focusable="false"><path d="M2 6h8M7 3l3 3-3 3"/></svg></a>`

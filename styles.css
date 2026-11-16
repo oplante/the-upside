@@ -383,6 +383,14 @@ main {
   overflow-wrap: anywhere;
 }
 .card h2 a { color: var(--ink); text-decoration: none; }
+/* Title links: ink, no underline at rest; 1px underline on hover/focus and the
+   same green focus ring as the tabs. */
+.card h2 a:focus-visible {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  outline: 2px solid var(--accent);
+}
 
 /* Figure slot: always directly under the headline, only when the source states
    it. Fix 4: no reserved height, so a card without a figure has no gap. */
@@ -771,7 +779,7 @@ main {
 /* ---------- Hover (pointer devices only) ---------- */
 @media (hover: hover) and (pointer: fine) {
   .filters button:not(:disabled):hover { color: var(--ink); }
-  .card h2 a:hover { text-decoration: underline; text-decoration-thickness: 1px; text-decoration-color: var(--line); }
+  .card h2 a:hover { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; }
   .card-foot a.read:hover { color: var(--accent-hover); }
   .card-foot a.read:hover .read-arrow { transform: translateX(3px); }
   .load-more:hover { background: var(--ink); color: var(--paper); }
