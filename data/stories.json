@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-16T16:51:37.668589+00:00",
+  "generated_at": "2026-11-16T16:55:09.830438+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 53 feeds, 1081 headlines. Accepted 34, held for review 223, rejected 827. Carried 3 recent items (up to 96h) for re-check. Published window 72h. Auto-promoted from review: 0.",
+  "ingest_notes": "Fetched 53 feeds, 1081 headlines. Accepted 32, held for review 229, rejected 823. Carried 3 recent items (up to 96h) for re-check. Published window 72h. Auto-promoted from review: 0.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -68,58 +68,6 @@
       "is_sample": false,
       "link": "https://phys.org/news/2026-11-steiner-state-schools-thought.html",
       "impact": null,
-      "new_today": true
-    },
-    {
-      "id": "70acd92a4d779634",
-      "headline": "Bedrock Energy raises $24M to build more AI-enabled geothermal drill rigs for enterprise buildings",
-      "summary": "Geothermal heat pumps could free up significant space on the grid. Bedrock Energy raised $24 million to bring its AI-guided drill rigs to more markets.",
-      "category": "Business",
-      "sources": [
-        {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/16/bedrock-energy-raises-24m-to-build-more-ai-enabled-geothermal-drill-rigs-for-enterprise-buildings/",
-          "published_at": "2026-11-16T13:00:00+00:00"
-        }
-      ],
-      "source_count": 1,
-      "published_at": "2026-11-16T13:00:00+00:00",
-      "positivity_score": 52,
-      "positivity_reason": "positive cues: raised $; stated figure from the source",
-      "why_good": "Bedrock Energy raised $24 million to bring its AI-guided drill rigs to more markets.",
-      "review_status": "auto-accepted",
-      "is_sample": false,
-      "link": "https://techcrunch.com/2026/11/16/bedrock-energy-raises-24m-to-build-more-ai-enabled-geothermal-drill-rigs-for-enterprise-buildings/",
-      "impact": {
-        "value": "$24M",
-        "label": "build more AI-enabled geothermal drill"
-      },
-      "new_today": true
-    },
-    {
-      "id": "99725f1d7135fe75",
-      "headline": "Freshworks alums raise $53M to take on Salesforce, HubSpot with AI-native CRM",
-      "summary": "Dreamteam has signed up more than 100 customers across 13 countries, with some businesses switching from established CRMs.",
-      "category": "Business",
-      "sources": [
-        {
-          "name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/16/freshworks-alums-raise-53m-to-take-on-salesforce-hubspot-with-ai-native-crm/",
-          "published_at": "2026-11-16T12:30:00+00:00"
-        }
-      ],
-      "source_count": 1,
-      "published_at": "2026-11-16T12:30:00+00:00",
-      "positivity_score": 52,
-      "positivity_reason": "positive cues: raise $; stated figure from the source",
-      "why_good": "Dreamteam has signed up more than 100 customers across 13 countries, with some businesses switching from established CRMs.",
-      "review_status": "auto-accepted",
-      "is_sample": false,
-      "link": "https://techcrunch.com/2026/11/16/freshworks-alums-raise-53m-to-take-on-salesforce-hubspot-with-ai-native-crm/",
-      "impact": {
-        "value": "$53M",
-        "label": "take on Salesforce HubSpot"
-      },
       "new_today": true
     },
     {
