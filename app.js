@@ -13,7 +13,7 @@ const TAXONOMY = [
 
 // The whole edition renders at once so the page reaches its ending;
 // "Load more" only appears if a day ever runs past this.
-const PAGE_SIZE = 40;
+const PAGE_SIZE = 60;
 
 // Publisher images are off by default (no hotlinking; rights-safe text cards).
 // Images are shown only when a story carries a free-licence image with a
