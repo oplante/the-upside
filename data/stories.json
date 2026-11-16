@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-16T16:03:33.892456+00:00",
+  "generated_at": "2026-11-16T16:12:17.840784+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 39 feeds, 835 headlines. Accepted 30, held for review 145, rejected 663. Carried 3 recent items (up to 96h) for re-check. Published window 72h. Auto-promoted from review: 0.",
+  "ingest_notes": "Fetched 39 feeds, 835 headlines. Accepted 29, held for review 146, rejected 663. Carried 3 recent items (up to 96h) for re-check. Published window 72h. Auto-promoted from review: 0.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -21,35 +21,6 @@
     "publish_hours": 72
   },
   "stories": [
-    {
-      "id": "7d2ea0442a1b5346",
-      "headline": "Ending Medicaid coverage for weight-loss drugs linked to sharp drop in GLP-1 use",
-      "summary": "Medicaid prescriptions for weight loss\u2013approved GLP-1 medications fell sharply after four states ended coverage of the drugs, according to a new study led by researchers at the University of Pittsburgh. The findings, published in JAMA, demonstrate how state coverage decisions\u2026",
-      "category": "Science",
-      "sources": [
-        {
-          "name": "Medical Xpress",
-          "url": "https://medicalxpress.com/news/2026-11-medicaid-coverage-weight-loss-drugs.html",
-          "published_at": "2026-11-16T16:00:09+00:00"
-        }
-      ],
-      "source_count": 1,
-      "published_at": "2026-11-16T16:00:09+00:00",
-      "positivity_score": 58,
-      "positivity_reason": "positive cues: approved; concrete outcome language",
-      "why_good": "Medicaid prescriptions for weight loss\u2013approved GLP-1 medications fell sharply after four states ended coverage of the drugs.",
-      "review_status": "auto-accepted",
-      "is_sample": false,
-      "link": "https://medicalxpress.com/news/2026-11-medicaid-coverage-weight-loss-drugs.html",
-      "impact": null,
-      "image": "https://scx1.b-cdn.net/csz/news/800a/2026/glp-1-medications.jpg",
-      "image_srcset": [],
-      "new_today": true,
-      "image_url": "https://api.openverse.org/v1/images/cc6f11d6-6c3d-48b2-b1a1-4e4089f9041c/thumb/",
-      "image_credit": "Clean Wal-Mart",
-      "image_licence": "CC BY 2.0",
-      "image_source_url": "https://www.flickr.com/photos/33677599@N00/1583764466"
-    },
     {
       "id": "e2dbf4c7a05229bf",
       "headline": "Steiner and state: Comparing two schools of thought",
