@@ -37,10 +37,11 @@
       letter-spacing: 0.02em;
       text-transform: uppercase;
     }
-    .go-kicker .cat { color: var(--accent); }
+    .go-kicker .cat { color: var(--accent); font-weight: 700; }
     .go-headline {
       font-family: var(--serif);
-      font-weight: 600;
+      font-weight: 500;
+      text-wrap: balance;
       font-size: 32px;
       line-height: 1.2;
       letter-spacing: -0.02em;
@@ -76,14 +77,14 @@
       min-height: 52px;
       padding: 14px 28px;
       margin: 0 0 32px;
-      border-radius: 999px;
+      border-radius: var(--radius);
       background: var(--accent);
       color: #fff;
       font: 600 18px/1.2 var(--sans);
       text-decoration: none;
       text-align: center;
     }
-    .go-continue:hover { background: var(--accent-hover); }
+    @media (hover: hover) and (pointer: fine) { .go-continue:hover { background: var(--accent-hover); } }
     .go-continue[hidden], .go-missing[hidden] { display: none !important; }
     .go-own { margin: 8px 0 0; }
     .go-own .impact { margin: 0 0 16px; }
@@ -101,18 +102,16 @@
 <body class="go-page">
   <a class="skip" href="#go-title">Skip to story</a>
 
-  <header class="masthead">
+  <header class="masthead masthead--compact">
     <div class="masthead-inner">
       <div class="brand">
         <svg class="mark" width="36" height="36" viewBox="0 0 36 36" aria-hidden="true" focusable="false">
-          <path d="M4 27c9-5 19-5 28 0" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-          <circle cx="18" cy="11" r="2.35" fill="none" stroke="currentColor" stroke-width="2"/>
+          <path d="M4 27c9-5 19-5 28 0" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"/>
+          <circle cx="18" cy="12" r="2.5" fill="none" stroke="currentColor" stroke-width="1.75"/>
         </svg>
-        <div>
-          <p class="title"><a href="./">The Upside</a></p>
-          <p class="tag">News that's going right.</p>
-        </div>
+        <p class="title"><a href="./">The Upside</a></p>
       </div>
+      <p class="tag">News that's going right.</p>
     </div>
   </header>
 

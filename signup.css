@@ -1,103 +1,111 @@
-/* "Three good things" email signup (MailerLite). Uses variables from styles.css. */
+/* "Three good things" email signup (MailerLite). Uses variables from styles.css.
+   One <template> in index.html, two copies placed by app.js:
+   [data-slot="mid"] after the 6th story, [data-slot="end"] closing the feed. */
 .signup {
+  display: grid;
+  gap: 14px 40px;
+  margin: 32px 0;
+  padding: 24px 0;
+  border-top: 1px solid var(--rule);
+}
+.signup[data-slot="end"] {
+  margin: 32px 0 0;
+  padding: 28px 24px;
   background: var(--paper-raised);
   border: 1px solid var(--line);
-  border-left: 4px solid var(--accent);
   border-radius: var(--radius);
-  padding: 20px 24px;
-  margin: 0 0 32px;
-  display: grid;
-  gap: 12px 32px;
 }
 .signup h2 {
   font-family: var(--serif);
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 1.2;
-  letter-spacing: -0.01em;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 1.15;
+  letter-spacing: -0.015em;
   color: var(--ink);
-  margin: 0 0 4px;
+  margin: 0 0 6px;
+  text-wrap: balance;
 }
-.signup-lede { margin: 0; color: var(--ink-soft); font-size: 16px; }
+.signup-lede {
+  margin: 0;
+  color: var(--ink-soft);
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 18px;
+  line-height: 1.45;
+  max-width: 44ch;
+}
 .signup-form { margin: 0; }
 .signup-label {
   display: block;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
   color: var(--ink-soft);
-  margin: 0 0 6px;
+  margin: 0 0 8px;
 }
 .signup-row { display: flex; gap: 8px; }
 .signup-input {
   flex: 1 1 auto;
   min-width: 0;
-  height: 44px;
+  height: 48px;
   padding: 0 14px;
-  border: 1px solid var(--line);
-  border-radius: 999px;
-  background: var(--paper);
+  border: 1px solid #8C836F;
+  border-radius: var(--radius);
+  background: var(--paper-raised);
   color: var(--ink);
   font: 500 16px/1 var(--sans);
+  caret-color: var(--accent);
 }
+.signup[data-slot="end"] .signup-input { background: var(--paper); }
 .signup-input::placeholder { color: var(--muted); }
 .signup-input:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-color: var(--accent); }
 .signup-input[aria-invalid="true"] { border-color: #A3412F; }
 .signup-button {
   flex: none;
   appearance: none;
-  height: 44px;
-  padding: 0 20px;
+  height: 48px;
+  padding: 0 24px;
   border: 0;
-  border-radius: 999px;
+  border-radius: var(--radius);
   background: var(--accent);
   color: #fff;
   font: 600 15px/1 var(--sans);
+  letter-spacing: 0.02em;
   cursor: pointer;
-  transition: background-color 160ms var(--ease-out), transform 160ms var(--ease-out);
+  transition: background-color 160ms ease, transform 160ms var(--ease-out);
 }
-.signup-button:hover { background: var(--accent-hover); }
 .signup-button:active { transform: scale(0.97); }
 .signup-button[disabled] { opacity: 0.6; cursor: progress; }
-.signup-consent { margin: 8px 0 0; color: var(--muted); font-size: 13px; line-height: 1.45; }
+.signup-consent { margin: 10px 0 0; color: var(--muted); font-size: 13px; line-height: 1.5; max-width: 62ch; }
 .signup-consent a { color: var(--accent); }
-.signup-msg { margin: 8px 0 0; font-size: 14px; font-weight: 600; min-height: 0; }
+.signup-msg { margin: 10px 0 0; font-size: 14px; font-weight: 600; }
 .signup-msg:empty { display: none; }
 .signup-msg.is-ok { color: var(--accent); }
 .signup-msg.is-error { color: #A3412F; }
 .signup.is-done .signup-row,
 .signup.is-done .signup-label { display: none; }
 
-@media (min-width: 900px) {
-  .signup { grid-template-columns: 1fr 1.1fr; align-items: center; padding: 24px 28px; }
-  .signup h2 { font-size: 28px; }
+@media (hover: hover) and (pointer: fine) {
+  .signup-button:hover { background: var(--accent-hover); }
 }
 
-/* Compact on phones: smaller heading, stacked button */
+.feed > .signup { margin: 36px 0 0; }
+
+@media (min-width: 900px) {
+  .signup { grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); align-items: center; padding: 32px 0; }
+  .signup[data-slot="end"] { padding: 36px 40px; }
+  .signup h2 { font-size: 32px; }
+}
+
 @media (max-width: 519px) {
-  .signup { padding: 16px; margin-bottom: 24px; gap: 8px; }
-  .signup h2 { font-size: 20px; }
-  .signup-lede { font-size: 15px; }
+  .signup h2 { font-size: 23px; }
+  .signup-lede { font-size: 17px; }
   .signup-row { flex-direction: column; }
   .signup-button { width: 100%; }
+  .signup[data-slot="end"] { padding: 22px 18px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
   .signup-button { transition: none; }
-}
-
-/* Placement: one copy sits in the feed after the 6th card, one closes the feed.
-   Lead + 5 cards leaves exactly one empty cell in both the 2- and 3-column
-   grids, so on wider screens the mid copy fills that cell as a stacked card. */
-.feed > .signup { margin: 0; }
-.feed-end .signup { margin: 0; }
-@media (min-width: 720px) {
-  .feed > .signup {
-    grid-template-columns: 1fr;
-    align-content: center;
-    gap: 16px;
-    padding: var(--pad-y) var(--pad-x);
-  }
-  .feed > .signup h2 { font-size: 24px; }
-  .feed > .signup .signup-row { flex-direction: column; }
-  .feed > .signup .signup-button { width: 100%; }
 }

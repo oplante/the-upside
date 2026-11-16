@@ -11,11 +11,15 @@ const TAXONOMY = [
   "Community",
 ];
 
-const PAGE_SIZE = 12;
+// The whole edition renders at once so the page reaches its ending;
+// "Load more" only appears if a day ever runs past this.
+const PAGE_SIZE = 40;
 
 // Publisher images are off by default (no hotlinking; rights-safe text cards).
-// Flip to true to bring thumbnails back; cardImage() is still wired up.
-const SHOW_IMAGES = false;
+// Images are shown only when a story carries a free-licence image with a
+// credit (see licensedImage). Publisher photos (`image`) are never shown.
+// Set to false to make every card text-only.
+const SHOW_IMAGES = true;
 
 // The email signup appears after this many cards, and once more at the end.
 const SIGNUP_AFTER = 6;
@@ -24,8 +28,9 @@ const SIGNUP_AFTER = 6;
 // covers 2x screens; only the full-width lead card may use a larger rendition.
 const IMG_CARD_MAX = 640;
 const IMG_LEAD_MAX = 1100;
-const SIZES_CARD = "(min-width: 1100px) 290px, (min-width: 720px) calc(50vw - 88px), calc(100vw - 92px)";
-const SIZES_LEAD = "(min-width: 1120px) 1020px, calc(100vw - 96px)";
+const SIZES_CARD = "(min-width: 1024px) 380px, calc(100vw - 40px)";
+const SIZES_THUMB = "(min-width: 1024px) 120px, (min-width: 720px) 104px, 80px";
+const SIZES_LEAD = "(min-width: 1024px) 740px, calc(100vw - 40px)";
 
 const state = {
   data: null,
@@ -56,9 +61,9 @@ function safeUrl(value) {
   return "";
 }
 
-function ymdInLondon(date) {
+// Reader's local calendar date (masthead, "new today"). Was Europe/London.
+function ymdLocal(date) {
   const parts = new Intl.DateTimeFormat("en-GB", {
-    timeZone: "Europe/London",
     year: "numeric",
     month: "2-digit",
     day: "2-digit",
@@ -91,18 +96,17 @@ function formatExact(iso) {
   if (!iso) return "";
   const d = new Date(iso);
   if (Number.isNaN(d.getTime())) return "";
-  return new Intl.DateTimeFormat("en-GB", {
+  return new Intl.DateTimeFormat(undefined, {
     dateStyle: "medium",
     timeStyle: "short",
-    timeZone: "Europe/London",
-  }).format(d) + " UK";
+  }).format(d);
 }
 
 function isToday(iso) {
   if (!iso) return false;
   const d = new Date(iso);
   if (Number.isNaN(d.getTime())) return false;
-  return ymdInLondon(d) === ymdInLondon(new Date());
+  return ymdLocal(d) === ymdLocal(new Date());
 }
 
 function currentCategoryFromUrl() {
@@ -168,6 +172,9 @@ function renderFilters() {
       btn.setAttribute("aria-label", `${cat}, no stories yet`);
       btn.title = "No stories yet";
       btn.dataset.empty = "true";
+      // PM decision 15 Nov: tabs with no stories are hidden, not shown greyed.
+      // Kept in the DOM (disabled) so old ?category= links still fall back to All.
+      btn.hidden = true;
     } else {
       btn.addEventListener("click", () => setCategory(cat, true));
     }
@@ -207,7 +214,8 @@ function statedImpact(story) {
 }
 
 function imageSrcset(story, isLead) {
-  const list = Array.isArray(story.image_srcset) ? story.image_srcset : [];
+  // Optional renditions of the licensed image: [{ url, width }].
+  const list = Array.isArray(story.image_url_srcset) ? story.image_url_srcset : [];
   const max = isLead ? IMG_LEAD_MAX : IMG_CARD_MAX;
   const seen = new Set();
   const parts = [];
@@ -222,16 +230,60 @@ function imageSrcset(story, isLead) {
   return parts.length >= 2 ? parts.join(", ") : "";
 }
 
-function cardImage(story, isLead) {
-  const src = safeUrl(story.image);
+// Images: the lead, the rail and the second row get a 16:9 image; the river
+// gets a small square thumbnail on roughly every other story (see layoutHtml).
+// Licences we may show. No NC (non-commercial) or ND (no-derivatives) terms.
+const LICENCE_OK = /^(cc0( 1\.0)?|public domain( mark)?( 1\.0)?|pdm( 1\.0)?|cc by( \d\.\d)?|cc by-sa( \d\.\d)?)$/i;
+
+function text(value) {
+  return String(value ?? "").trim();
+}
+
+// Contract with ingest: image_url, image_credit, image_licence, and ideally
+// image_source_url (+ optional image_provider). Anything missing = no image.
+// The old publisher `image` / `image_srcset` fields are ignored on purpose.
+function licensedImage(story) {
+  const raw = text(story?.image_url);
+  const url = raw ? safeUrl(raw) : ""; // an empty string would resolve to the page URL
+  const credit = text(story?.image_credit);
+  const licence = text(story?.image_licence);
+  if (!url || !credit || !LICENCE_OK.test(licence)) return null;
+  const sourceRaw = text(story?.image_source_url);
+  return {
+    url,
+    credit,
+    licence,
+    provider: text(story?.image_provider),
+    sourceUrl: sourceRaw ? safeUrl(sourceRaw) : "",
+  };
+}
+
+function imageUrl(story) {
+  return licensedImage(story)?.url || "";
+}
+
+// "Illustrative photo: Author / Wikimedia Commons, CC BY-SA 4.0", linked to the source page.
+function creditHtml(story) {
+  const img = licensedImage(story);
+  if (!img) return "";
+  const who = escapeHtml(img.provider ? `${img.credit} / ${img.provider}` : img.credit);
+  const body = `Illustrative photo: ${who}, ${escapeHtml(img.licence)}`;
+  const inner = img.sourceUrl
+    ? `<a href="${escapeHtml(img.sourceUrl)}" rel="noopener noreferrer">${body}</a>`
+    : body;
+  return `<p class="credit">${inner}</p>`;
+}
+
+function cardImage(story, isLead, sizes) {
+  const src = imageUrl(story);
   if (!src) return "";
   const srcset = imageSrcset(story, isLead);
   const responsive = srcset
-    ? ` srcset="${escapeHtml(srcset)}" sizes="${isLead ? SIZES_LEAD : SIZES_CARD}"`
+    ? ` srcset="${escapeHtml(srcset)}" sizes="${sizes || (isLead ? SIZES_LEAD : SIZES_CARD)}"`
     : "";
   return `<div class="thumb"><img class="thumb-img" src="${escapeHtml(
     src
-  )}"${responsive} alt="" width="640" height="360" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div>`;
+  )}"${responsive} alt="" width="640" height="360" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div>${creditHtml(story)}`;
 }
 
 // Reader-facing sentence written at ingest (why_good). Internal keyword
@@ -248,7 +300,12 @@ function previewHref(story) {
   return `go.html?id=${encodeURIComponent(id)}`;
 }
 
-function cardHtml(story, isLead) {
+// variant: "lead" | "rail" | "second" | "river". A boolean still works
+// (true = lead) so older callers and tests keep their meaning.
+function cardHtml(story, variant, opts = {}) {
+  if (variant === true) variant = "lead";
+  if (!variant) variant = "river";
+  const isLead = variant === "lead";
   const impact = statedImpact(story);
   const sample = story.is_sample
     ? `<span class="pill-sample">Sample</span>`
@@ -258,9 +315,10 @@ function cardHtml(story, isLead) {
   const hasNewFlag = typeof story.new_today === "boolean";
   const newTag = story.new_today === true ? `<li class="tag-new">New today</li>` : "";
   const newToday = !hasNewFlag && isToday(story.published_at)
-    ? `<span class="new-dot" title="New today" aria-label="New today"></span>`
+    ? `<span class="new-dot" role="img" title="New today" aria-label="New today"></span>`
     : "";
-  const showImage = SHOW_IMAGES && Boolean(safeUrl(story.image));
+  const wantsImage = opts.image ?? (variant !== "river");
+  const showImage = SHOW_IMAGES && wantsImage && Boolean(imageUrl(story));
   const timeTitle = formatExact(story.published_at);
   const preview = previewHref(story);
   const href = preview ? `href="${escapeHtml(preview)}"` : "";
@@ -273,12 +331,12 @@ function cardHtml(story, isLead) {
         impact.value
       )}</span><span class="impact-label">${escapeHtml(impact.label)}</span></p>`
     : "";
-  const leadClass = isLead ? " lead" : "";
+  const leadClass = ` is-${variant}${isLead ? " lead" : ""}`;
   const headlineHtml = preview
     ? `<a ${href}>${escapeHtml(story.headline)}</a>`
     : escapeHtml(story.headline);
   const readHtml = preview
-    ? `<a class="read" ${href}>Read at ${source} <svg class="read-arrow" viewBox="0 0 12 12" aria-hidden="true" focusable="false"><path d="M2 6h8M7 3l3 3-3 3"/></svg></a>`
+    ? `<a class="read" ${href}>Read at ${source}&nbsp;<svg class="read-arrow" viewBox="0 0 12 12" aria-hidden="true" focusable="false"><path d="M2 6h8M7 3l3 3-3 3"/></svg></a>`
     : "";
   const reason = escapeHtml(whyGood(story));
   return `
@@ -289,25 +347,60 @@ function cardHtml(story, isLead) {
     }" data-impact="${impact ? "true" : "false"}" data-image="${
       showImage ? "true" : "false"
     }">
-      ${showImage ? cardImage(story, isLead) : ""}
+      ${showImage ? cardImage(story, isLead, variant === "river" ? SIZES_THUMB : variant === "rail" ? "(min-width: 1024px) 340px, (min-width: 720px) calc(100vw - 64px), 80px" : "") : ""}
       <ul class="meta">
         <li class="cat">${escapeHtml(story.category || "World")}${sample}</li>
-        <li>${escapeHtml(sourceLine(story))}</li>
-        <li>
+        <li class="src">${escapeHtml(sourceLine(story))}</li>
+        <li class="when">
           <time datetime="${escapeHtml(story.published_at || "")}" title="${escapeHtml(
             timeTitle
           )}">${escapeHtml(relativeTime(story.published_at))}</time>${newToday}
         </li>${newTag}
       </ul>
-      <h2>${headlineHtml}</h2>
-      ${impactHtml}
-      <p class="summary">${escapeHtml(story.summary || "")}</p>
-      <p class="why-note" id="${reasonId}"><span class="visually-hidden">Why it's good: </span>${reason}</p>
-      <div class="card-foot">
-        ${readHtml}
+      <div class="body">
+        <h2>${headlineHtml}</h2>
+        ${impactHtml}
+        <p class="summary">${escapeHtml(story.summary || "")}</p>
+        <p class="why-note" id="${reasonId}"><span class="visually-hidden">Why it's good: </span>${reason}</p>
+        <div class="card-foot">
+          ${readHtml}
+        </div>
       </div>
     </article>
   `;
+}
+
+// Front-page layout: lead + 2-story rail, a second row of 3, the mid-feed
+// signup slot (after story SIGNUP_AFTER), then a dense river of the rest.
+function layoutHtml(stories) {
+  const lead = stories.slice(0, 1);
+  const rail = stories.slice(1, 3);
+  const second = stories.slice(3, SIGNUP_AFTER);
+  const river = stories.slice(SIGNUP_AFTER);
+  const parts = [];
+  parts.push(
+    `<div class="front${rail.length ? "" : " solo"}">` +
+      lead.map((s) => cardHtml(s, "lead")).join("") +
+      (rail.length ? `<div class="rail">${rail.map((s) => cardHtml(s, "rail")).join("")}</div>` : "") +
+      `</div>`
+  );
+  if (second.length) {
+    parts.push(
+      `<div class="second count-${second.length}">${second.map((s) => cardHtml(s, "second")).join("")}</div>`
+    );
+  }
+  if (river.length) {
+    parts.push(`<div class="signup-mid-slot" data-signup-slot="mid"></div>`);
+    // Thumbnail on every other river story that has an image.
+    let previousHadImage = false;
+    const riverHtml = river.map((s) => {
+      const image = !previousHadImage && Boolean(imageUrl(s));
+      previousHadImage = image;
+      return cardHtml(s, "river", { image });
+    });
+    parts.push(`<div class="river">${riverHtml.join("")}</div>`);
+  }
+  return parts.join("");
 }
 
 function visibleStories() {
@@ -341,21 +434,8 @@ function renderFeed() {
     moreWrap.hidden = true;
   } else {
     empty.hidden = true;
-    const parts = [];
-    shown.forEach((story, index) => {
-      parts.push(cardHtml(story, index === 0));
-      // The mid-feed signup takes the first divider slot (after card 6).
-      if (index + 1 === SIGNUP_AFTER && index !== shown.length - 1) {
-        parts.push(`<div class="signup-mid-slot" data-signup-slot="mid"></div>`);
-      } else if ((index + 1) % 6 === 0 && index !== shown.length - 1) {
-        const label =
-          state.category === "All"
-            ? "That's the latest in today's feed"
-            : `That's the latest in ${state.category}`;
-        parts.push(`<p class="pace">${escapeHtml(label)}</p>`);
-      }
-    });
-    feed.innerHTML = parts.join("");
+    // No more "That's the latest" dividers: the layout sections pace the page.
+    feed.innerHTML = layoutHtml(shown);
     moreWrap.hidden = shown.length >= all.length;
   }
   placeSignups(feed, all.length > 0, shown.length >= all.length);
@@ -366,18 +446,14 @@ function renderFeed() {
   bindThumbFallbacks(feed);
 }
 
-// "Today's edition · updated 03:04 UK" (same Europe/London zone as the rest
-// of the page). An older feed says "Latest edition" and keeps its date.
+// "Today's edition · updated 3:30 PM", in the reader's own time zone.
+// An older feed says "Latest edition" and keeps its date.
 function editionLabel(iso) {
   if (!iso) return "Today's edition";
   const d = new Date(iso);
   if (Number.isNaN(d.getTime())) return "Today's edition";
-  const time = new Intl.DateTimeFormat("en-GB", {
-    hour: "2-digit",
-    minute: "2-digit",
-    timeZone: "Europe/London",
-  }).format(d);
-  if (isToday(iso)) return `Today's edition · updated ${time} UK`;
+  const time = new Intl.DateTimeFormat(undefined, { hour: "numeric", minute: "2-digit" }).format(d);
+  if (isToday(iso)) return `Today's edition · updated ${time}`;
   return `Latest edition · updated ${formatExact(iso)}`;
 }
 
@@ -411,10 +487,17 @@ function placeSignups(feed, hasStories, atEnd) {
 }
 
 function bindThumbFallbacks(root) {
+  if (!root || typeof root.querySelectorAll !== "function") return;
   root.querySelectorAll("img.thumb-img").forEach((img) => {
+    // A missing or broken image is removed so the card falls back to its
+    // text layout with no empty box.
     const fail = () => {
       const thumb = img.closest(".thumb");
+      const card = img.closest(".card");
       if (thumb) thumb.classList.add("is-fallback");
+      const credit = card && card.querySelector(".credit");
+      if (credit) credit.remove();
+      if (card) card.dataset.image = "false";
     };
     img.addEventListener("error", fail);
     if (img.complete && img.naturalWidth === 0) fail();
@@ -423,12 +506,12 @@ function bindThumbFallbacks(root) {
 
 function setDateline() {
   const el = $("dateline");
-  el.textContent = new Intl.DateTimeFormat("en-GB", {
+  // Reader's local date (no fixed time zone).
+  el.textContent = new Intl.DateTimeFormat(undefined, {
     weekday: "long",
     day: "numeric",
     month: "long",
     year: "numeric",
-    timeZone: "Europe/London",
   }).format(new Date());
 }
 
@@ -456,9 +539,13 @@ async function init() {
     const res = await fetch("data/stories.json", { cache: "no-store" });
     if (!res.ok) throw new Error("Could not load data/stories.json");
     state.data = await res.json();
+    const total = (state.data.stories || []).length;
     $("edition-label").textContent = state.data.is_sample
       ? "Sample feed, not live news."
-      : "From public news feeds.";
+      : editionLabel(state.data.generated_at).replace(
+          " · ",
+          ` · ${total} ${total === 1 ? "story" : "stories"} · `
+        );
     ensureNonEmptyCategory();
     renderFilters();
     renderFeed();
