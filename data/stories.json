@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-16T08:30:34.336764+00:00",
+  "generated_at": "2026-11-16T09:27:00.659370+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 39 feeds, 835 headlines. Accepted 42, held for review 108, rejected 693. Carried 8 recent items (up to 96h) for re-check.",
+  "ingest_notes": "Fetched 39 feeds, 835 headlines. Accepted 41, held for review 109, rejected 694. Carried 9 recent items (up to 96h) for re-check.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -812,46 +812,6 @@
         },
         {
           "url": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/b029/live/c4ae2930-de89-11f1-b441-2b33b063138f.jpg",
-          "width": 976
-        }
-      ]
-    },
-    {
-      "id": "e4d2b005c9474c11",
-      "headline": "She Track Down 119 Missing Children in Just 11 Months! \u2764\ufe0f",
-      "summary": "A police uniform comes with the responsibility of protecting people. For Delhi Police Head Constable Chanchal, that responsibility has also meant helping families find their missing children. In just 11 months, she helped reunite 119 missing children with their families\u2026",
-      "category": "Community",
-      "sources": [
-        {
-          "name": "The Better India",
-          "url": "https://thebetterindia.com/videos/society/she-track-down-119-missing-children-in-just-11-months-12803547",
-          "published_at": "2026-11-12T08:55:41+00:00"
-        }
-      ],
-      "source_count": 1,
-      "published_at": "2026-11-12T08:55:41+00:00",
-      "positivity_score": 56,
-      "positivity_reason": "solutions-focused source; stated figure from the source",
-      "why_good": "From a newsroom that covers solutions, it puts a number on the result (119).",
-      "review_status": "auto-accepted",
-      "is_sample": false,
-      "link": "https://thebetterindia.com/videos/society/she-track-down-119-missing-children-in-just-11-months-12803547",
-      "impact": {
-        "value": "119",
-        "label": "Missing Children in Just 11 Months"
-      },
-      "image": "https://img-cdn.publive.online/fit-in/480x960/filters:format(webp)/english-betterindia/media/youtube_thumbnails/vi/UnPtVERsRMo/maxresdefault.jpg",
-      "image_srcset": [
-        {
-          "url": "https://img-cdn.publive.online/fit-in/480x960/filters:format(webp)/english-betterindia/media/youtube_thumbnails/vi/UnPtVERsRMo/maxresdefault.jpg",
-          "width": 480
-        },
-        {
-          "url": "https://img-cdn.publive.online/fit-in/640x1280/filters:format(webp)/english-betterindia/media/youtube_thumbnails/vi/UnPtVERsRMo/maxresdefault.jpg",
-          "width": 640
-        },
-        {
-          "url": "https://img-cdn.publive.online/fit-in/976x1952/filters:format(webp)/english-betterindia/media/youtube_thumbnails/vi/UnPtVERsRMo/maxresdefault.jpg",
           "width": 976
         }
       ]
