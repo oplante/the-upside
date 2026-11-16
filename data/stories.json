@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-16T16:30:35.390306+00:00",
+  "generated_at": "2026-11-16T16:34:55.522458+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 48 feeds, 1016 headlines. Accepted 30, held for review 163, rejected 826. Carried 3 recent items (up to 96h) for re-check. Published window 72h. Auto-promoted from review: 1.",
+  "ingest_notes": "Fetched 48 feeds, 1016 headlines. Accepted 30, held for review 185, rejected 804. Carried 3 recent items (up to 96h) for re-check. Published window 72h. Auto-promoted from review: 1.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -348,29 +348,6 @@
       "review_status": "auto-accepted",
       "is_sample": false,
       "link": "https://www.sciencedaily.com/releases/2026/11/261111005913.htm",
-      "impact": null,
-      "new_today": false
-    },
-    {
-      "id": "fe61751fa8aede0b",
-      "headline": "Man Rescues Trapped Neighbors from \u2018Biblical\u2019 Florida Flooding",
-      "summary": "A man put his life on the line to rescue his vulnerable neighbors during a flood in Florida he he described as \u201cbiblical.\u201d With one recovering from surgery and the other stricken with ALS, their survival hinged on help, which their neighbor Rick Addante heroically provided. It\u2026",
-      "category": "Community",
-      "sources": [
-        {
-          "name": "Good News Network",
-          "url": "https://www.goodnewsnetwork.org/update-stories-of-daring-rescues-continue-to-surface-from-flooded-florida-communities/",
-          "published_at": "2026-11-13T16:30:59+00:00"
-        }
-      ],
-      "source_count": 1,
-      "published_at": "2026-11-13T16:30:59+00:00",
-      "positivity_score": 62,
-      "positivity_reason": "solutions-focused source; positive cues: rescue; improvement framing of a grim topic",
-      "why_good": "A man put his life on the line to rescue his vulnerable neighbors during a flood in Florida he described as \u201cbiblical.\u201d",
-      "review_status": "auto-accepted",
-      "is_sample": false,
-      "link": "https://www.goodnewsnetwork.org/update-stories-of-daring-rescues-continue-to-surface-from-flooded-florida-communities/",
       "impact": null,
       "new_today": false
     }
