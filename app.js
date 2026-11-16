@@ -19,7 +19,8 @@ const PAGE_SIZE = 60;
 // Images are shown only when a story carries a free-licence image with a
 // credit (see licensedImage). Publisher photos (`image`) are never shown.
 // Set to false to make every card text-only.
-const SHOW_IMAGES = true;
+// Keep in sync with ingest.IMAGES_ENABLED. Off until SA Design signs off.
+const SHOW_IMAGES = false;
 
 // The email signup appears after this many cards, and once more at the end.
 const SIGNUP_AFTER = 6;

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-16T16:12:17.840784+00:00",
+  "generated_at": "2026-11-16T16:16:58.934322+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 39 feeds, 835 headlines. Accepted 29, held for review 146, rejected 663. Carried 3 recent items (up to 96h) for re-check. Published window 72h. Auto-promoted from review: 0.",
+  "ingest_notes": "Fetched 48 feeds, 1018 headlines. Accepted 30, held for review 162, rejected 829. Carried 3 recent items (up to 96h) for re-check. Published window 72h. Auto-promoted from review: 0.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -42,8 +42,6 @@
       "is_sample": false,
       "link": "https://phys.org/news/2026-11-steiner-state-schools-thought.html",
       "impact": null,
-      "image": "https://scx1.b-cdn.net/csz/news/800a/2026/education-3.jpg",
-      "image_srcset": [],
       "new_today": true
     },
     {
@@ -67,26 +65,7 @@
       "is_sample": false,
       "link": "https://thebetterindia.com/culture/ruksana-begum-ghar-batti-kashmir-food-business-12813199",
       "impact": null,
-      "image": "https://img-cdn.publive.online/fit-in/480x960/filters:format(webp)/english-betterindia/media/media_files/2026/11/16/1-2026-11-16-12-32-33.png",
-      "image_srcset": [
-        {
-          "url": "https://img-cdn.publive.online/fit-in/480x960/filters:format(webp)/english-betterindia/media/media_files/2026/11/16/1-2026-11-16-12-32-33.png",
-          "width": 480
-        },
-        {
-          "url": "https://img-cdn.publive.online/fit-in/640x1280/filters:format(webp)/english-betterindia/media/media_files/2026/11/16/1-2026-11-16-12-32-33.png",
-          "width": 640
-        },
-        {
-          "url": "https://img-cdn.publive.online/fit-in/976x1952/filters:format(webp)/english-betterindia/media/media_files/2026/11/16/1-2026-11-16-12-32-33.png",
-          "width": 976
-        }
-      ],
-      "new_today": true,
-      "image_url": "https://api.openverse.org/v1/images/6afce347-3378-4a84-a35f-de46a042323b/thumb/",
-      "image_credit": "shahbasharat",
-      "image_licence": "CC BY 2.0",
-      "image_source_url": "https://www.flickr.com/photos/20681804@N03/2253093712"
+      "new_today": true
     },
     {
       "id": "63498ca28c882cfa",
@@ -109,13 +88,7 @@
       "is_sample": false,
       "link": "https://www.sciencedaily.com/releases/2026/11/261114202232.htm",
       "impact": null,
-      "image": "https://www.sciencedaily.com/images/600/electron-and-nucleus-spins-controlled-by-wave-signals.webp",
-      "image_srcset": [],
-      "new_today": true,
-      "image_url": "https://api.openverse.org/v1/images/0a36eb0f-fa8a-46fb-a63d-1c8e2ac963b8/thumb/",
-      "image_credit": "pingnews.com",
-      "image_licence": "Public Domain Mark 1.0",
-      "image_source_url": "https://www.flickr.com/photos/39735679@N00/475109138"
+      "new_today": true
     },
     {
       "id": "0138d8f0eade07a3",
@@ -138,13 +111,7 @@
       "is_sample": false,
       "link": "https://www.sciencedaily.com/releases/2026/11/261115085533.htm",
       "impact": null,
-      "image": "https://www.sciencedaily.com/images/600/brain-waves-neural-signals-treatment.webp",
-      "image_srcset": [],
-      "new_today": true,
-      "image_url": "https://api.openverse.org/v1/images/26d1b996-f6aa-49c8-a211-48c85f021b45/thumb/",
-      "image_credit": "Stefan-Mueller-climate",
-      "image_licence": "CC BY 2.0",
-      "image_source_url": "https://www.flickr.com/photos/184802432@N05/52458891713"
+      "new_today": true
     },
     {
       "id": "1720e81d7c4866f8",
@@ -167,8 +134,6 @@
       "is_sample": false,
       "link": "https://www.goodnewsnetwork.org/world-first-bone-marrow-transplant-successfully-treats-non-malignant-disease/",
       "impact": null,
-      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/Patient-liver-tissue-specimen-in-lab-by-CBC-wLYNbwhcq3U-unsplash.jpeg",
-      "image_srcset": [],
       "new_today": false
     },
     {
@@ -192,13 +157,7 @@
       "is_sample": false,
       "link": "https://www.sciencedaily.com/releases/2026/11/261114202236.htm",
       "impact": null,
-      "image": "https://www.sciencedaily.com/images/600/vitamin-c-supplement-capsules.webp",
-      "image_srcset": [],
-      "new_today": false,
-      "image_url": "https://api.openverse.org/v1/images/cf195fbe-d0ea-4bcb-97e4-7d21e85ffeab/thumb/",
-      "image_credit": "cheeseslave",
-      "image_licence": "CC BY 2.0",
-      "image_source_url": "https://www.flickr.com/photos/19359283@N00/17229449551"
+      "new_today": false
     },
     {
       "id": "3e5be7cc2248eeb7",
@@ -221,13 +180,7 @@
       "is_sample": false,
       "link": "https://www.sciencedaily.com/releases/2026/11/261113232105.htm",
       "impact": null,
-      "image": "https://www.sciencedaily.com/images/600/radiograph-x-ray-back-bone-spinal-pain.webp",
-      "image_srcset": [],
-      "new_today": false,
-      "image_url": "https://api.openverse.org/v1/images/d9247047-1fce-4e5d-8cb7-bdfee0d4839a/thumb/",
-      "image_credit": "gnuckx",
-      "image_licence": "CC0",
-      "image_source_url": "https://www.flickr.com/photos/34409164@N06/11335341573"
+      "new_today": false
     },
     {
       "id": "09b35d1b1a751791",
@@ -255,29 +208,6 @@
       "is_sample": false,
       "link": "https://www.bbc.co.uk/sport/rugby-league/videos/c6kgrvpnmdgdo?at_medium=RSS&at_campaign=rss",
       "impact": null,
-      "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/ca63/live/5836d8e0-e0e8-11f1-b441-2b33b063138f.jpg",
-      "image_srcset": [
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/320/cpsprodpb/ca63/live/5836d8e0-e0e8-11f1-b441-2b33b063138f.jpg",
-          "width": 320
-        },
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/ca63/live/5836d8e0-e0e8-11f1-b441-2b33b063138f.jpg",
-          "width": 480
-        },
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/640/cpsprodpb/ca63/live/5836d8e0-e0e8-11f1-b441-2b33b063138f.jpg",
-          "width": 640
-        },
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/ca63/live/5836d8e0-e0e8-11f1-b441-2b33b063138f.jpg",
-          "width": 800
-        },
-        {
-          "url": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/ca63/live/5836d8e0-e0e8-11f1-b441-2b33b063138f.jpg",
-          "width": 976
-        }
-      ],
       "new_today": false
     },
     {
@@ -301,13 +231,7 @@
       "is_sample": false,
       "link": "https://www.sciencedaily.com/releases/2026/11/261112230500.htm",
       "impact": null,
-      "image": "https://www.sciencedaily.com/images/600/laser-light-crystal-quantum-material.webp",
-      "image_srcset": [],
-      "new_today": false,
-      "image_url": "https://api.openverse.org/v1/images/0a36eb0f-fa8a-46fb-a63d-1c8e2ac963b8/thumb/",
-      "image_credit": "pingnews.com",
-      "image_licence": "Public Domain Mark 1.0",
-      "image_source_url": "https://www.flickr.com/photos/39735679@N00/475109138"
+      "new_today": false
     },
     {
       "id": "4db0f23084d8c2de",
@@ -330,8 +254,6 @@
       "is_sample": false,
       "link": "https://www.sciencedaily.com/releases/2026/11/261112230450.htm",
       "impact": null,
-      "image": "https://www.sciencedaily.com/images/600/woman-holding-stomach-digestive-heart-health.webp",
-      "image_srcset": [],
       "new_today": false
     },
     {
@@ -355,13 +277,7 @@
       "is_sample": false,
       "link": "https://www.sciencedaily.com/releases/2026/11/261112025538.htm",
       "impact": null,
-      "image": "https://www.sciencedaily.com/images/600/knee-joint-pain-tendon-inflammation.webp",
-      "image_srcset": [],
-      "new_today": false,
-      "image_url": "https://api.openverse.org/v1/images/cf0e483d-10bf-44f0-81e8-2abccd1c409b/thumb/",
-      "image_credit": "kevin dooley",
-      "image_licence": "CC BY 2.0",
-      "image_source_url": "https://www.flickr.com/photos/12836528@N00/3202881843"
+      "new_today": false
     },
     {
       "id": "d3a839a802b77726",
@@ -384,8 +300,6 @@
       "is_sample": false,
       "link": "https://www.cbc.ca/news/business/microsoft-services-restored-after-outage-9.7422072?cmp=rss",
       "impact": null,
-      "image": "https://i.cbc.ca/ais/8d983b44-a868-4ecc-8ac8-c7a1ecaff7f8,1794630252032/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C563%2C8640%2C4860%29%3B",
-      "image_srcset": [],
       "new_today": false
     },
     {
@@ -409,13 +323,30 @@
       "is_sample": false,
       "link": "https://www.sciencedaily.com/releases/2026/11/261111005913.htm",
       "impact": null,
-      "image": "https://www.sciencedaily.com/images/600/noncollinear-sum-frequency-generation.webp",
-      "image_srcset": [],
-      "new_today": false,
-      "image_url": "https://api.openverse.org/v1/images/d6b8aa7b-ceae-427a-9c44-ecc1cfe38e84/thumb/",
-      "image_credit": "NTNU, Faculty of Natural Sciences",
-      "image_licence": "CC BY 2.0",
-      "image_source_url": "https://www.flickr.com/photos/92416586@N05/12188230786"
+      "new_today": false
+    },
+    {
+      "id": "d15232d5044b5185",
+      "headline": "Trump Administration Stalling Protections for Imperiled Fish Near Massive Alabama Data Center, Groups Say",
+      "summary": "The Birmingham darter, though only recently discovered by science, is a survivor. The roughly two-inch long fish, adorned with red spots and stripes along translucent fins, has survived 100 years of coal mining, steel-making, quarrying and suburban development along the rolling\u2026",
+      "category": "Environment",
+      "sources": [
+        {
+          "name": "Inside Climate News",
+          "url": "https://insideclimatenews.org/news/13112026/trump-administration-stalling-protections-for-imperiled-fish-near-massive-alabama-data-center-groups-say/",
+          "published_at": "2026-11-13T20:28:49+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-13T20:28:49+00:00",
+      "positivity_score": 52,
+      "positivity_reason": "positive cues: survived, discovered; improvement framing of a grim topic",
+      "why_good": "The Birmingham darter, though only recently discovered by science, is a survivor.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://insideclimatenews.org/news/13112026/trump-administration-stalling-protections-for-imperiled-fish-near-massive-alabama-data-center-groups-say/",
+      "impact": null,
+      "new_today": false
     },
     {
       "id": "fe61751fa8aede0b",
@@ -438,13 +369,7 @@
       "is_sample": false,
       "link": "https://www.goodnewsnetwork.org/update-stories-of-daring-rescues-continue-to-surface-from-flooded-florida-communities/",
       "impact": null,
-      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/credit-@rickaddante-via-X.jpg",
-      "image_srcset": [],
-      "new_today": false,
-      "image_url": "https://api.openverse.org/v1/images/4c7f6528-ff90-49b4-ab1a-d4acd4ee6be6/thumb/",
-      "image_credit": "whereareyousimon",
-      "image_licence": "CC BY 2.0",
-      "image_source_url": "https://www.flickr.com/photos/93057807@N00/376803469"
+      "new_today": false
     }
   ]
 }
