@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-16T11:30:34.996996+00:00",
+  "generated_at": "2026-11-16T14:37:53.676081+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 39 feeds, 833 headlines. Accepted 42, held for review 105, rejected 696. Carried 10 recent items (up to 96h) for re-check.",
+  "ingest_notes": "Fetched 39 feeds, 834 headlines. Accepted 59, held for review 111, rejected 678. Carried 14 recent items (up to 96h) for re-check.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -15,11 +15,168 @@
     "Community"
   ],
   "thresholds": {
-    "accept": 56,
-    "solutions_accept": 56,
+    "accept": 52,
+    "solutions_accept": 52,
     "review": 48
   },
   "stories": [
+    {
+      "id": "e2dbf4c7a05229bf",
+      "headline": "Steiner and state: Comparing two schools of thought",
+      "summary": "Children who receive a Steiner education show greater academic success in multiple subjects than those at mainstream schools, a new international study has found.",
+      "category": "Science",
+      "sources": [
+        {
+          "name": "Phys.org",
+          "url": "https://phys.org/news/2026-11-steiner-state-schools-thought.html",
+          "published_at": "2026-11-16T14:00:07+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-16T14:00:07+00:00",
+      "positivity_score": 53,
+      "positivity_reason": "positive cues: success; concrete outcome language",
+      "why_good": "It's a story of a breakthrough, and it describes a real, measurable outcome.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://phys.org/news/2026-11-steiner-state-schools-thought.html",
+      "impact": null,
+      "image": "https://scx1.b-cdn.net/csz/news/800a/2026/education-3.jpg",
+      "image_srcset": []
+    },
+    {
+      "id": "0ed419d0691e5b5b",
+      "headline": "Your First Home: government loan scheme for first-time buyers could strain an already punishing property market",
+      "summary": "Rob Hyrons/Shutterstock Housing in the UK has become markedly less affordable over the last 25 years. Between 2000 and 2025, English house prices rose by about 250% in cash terms (roughly 85% in real terms), while median earnings only doubled in cash terms, and rose by around\u2026",
+      "category": "Politics",
+      "sources": [
+        {
+          "name": "The Conversation",
+          "url": "https://theconversation.com/your-first-home-government-loan-scheme-for-first-time-buyers-could-strain-an-already-punishing-property-market-295802",
+          "published_at": "2026-11-16T13:20:02+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-16T13:20:02+00:00",
+      "positivity_score": 54,
+      "positivity_reason": "positive cues: doubled, affordable; multiple outcome cues",
+      "why_good": "Good news about growth worth celebrating and affordable housing: it points to more than one sign of real progress.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://theconversation.com/your-first-home-government-loan-scheme-for-first-time-buyers-could-strain-an-already-punishing-property-market-295802",
+      "impact": null,
+      "image": "https://images.theconversation.com/files/771346/original/file-20261111-64-gpf8e1.jpg?ixlib=rb-4.1.1&rect=599%2C0%2C6479%2C4320&q=45&auto=format&w=1050&h=700&fit=crop",
+      "image_srcset": []
+    },
+    {
+      "id": "ee555b0dfcdef162",
+      "headline": "Climbers Lug Endangered and Orphaned Seal Pup Up a Cliff to Safety",
+      "summary": "What began as an exciting hiking trip quickly turned into something else entirely when climbers in Greece found an orphaned seal pup on a beach at the bottom of a cliff. Considered a Critically Endangered species in Greece, the climbers resolved to go right back up the way they\u2026",
+      "category": "Environment",
+      "sources": [
+        {
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/climbers-lug-endangered-and-orphaned-seal-pup-up-a-cliff-to-safety/",
+          "published_at": "2026-11-16T12:30:00+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-16T12:30:00+00:00",
+      "positivity_score": 56,
+      "positivity_reason": "solutions-focused source; positive cues: endangered; concrete outcome language",
+      "why_good": "This solutions-focused story is about wildlife protection, and it describes a real, measurable outcome.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://www.goodnewsnetwork.org/climbers-lug-endangered-and-orphaned-seal-pup-up-a-cliff-to-safety/",
+      "impact": null,
+      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/Greek-baby-seal-rescue-NEEDS-CAPTION.jpg",
+      "image_srcset": []
+    },
+    {
+      "id": "227684f5477ef318",
+      "headline": "Breastfeeding is associated with fewer maternal depressive symptoms, study finds",
+      "summary": "Researchers from the University of Sharjah examined the relationship between breastfeeding and depressive symptoms among mothers in selected low- and middle-income countries (LMICs) across Africa and South Asia. The work is published in the journal Discover Mental Health.",
+      "category": "Science",
+      "sources": [
+        {
+          "name": "Medical Xpress",
+          "url": "https://medicalxpress.com/news/2026-11-breastfeeding-maternal-depressive-symptoms.html",
+          "published_at": "2026-11-16T12:00:01+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-16T12:00:01+00:00",
+      "positivity_score": 58,
+      "positivity_reason": "positive cues: study finds; concrete outcome language",
+      "why_good": "Good news about a new discovery: it describes a real, measurable outcome.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://medicalxpress.com/news/2026-11-breastfeeding-maternal-depressive-symptoms.html",
+      "impact": null,
+      "image": "https://scx1.b-cdn.net/csz/news/800a/2026/black-baby.jpg",
+      "image_srcset": []
+    },
+    {
+      "id": "76eda0d95e6060ab",
+      "headline": "48-YO Kashmiri Teacher Quits Job to Sell Home-Cooked Meals, Now Caters for 200-Guest Events",
+      "summary": "At 48, after 19 years in the classroom, Ruksana Begum found herself preparing for a different kind of working day. In November 2019, she started Ghar Batti Food Service with a modest aim: to turn the food she loved making into a livelihood. The first customers were buying\u2026",
+      "category": "Community",
+      "sources": [
+        {
+          "name": "The Better India",
+          "url": "https://thebetterindia.com/culture/ruksana-begum-ghar-batti-kashmir-food-business-12813199",
+          "published_at": "2026-11-16T07:30:37+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-16T07:30:37+00:00",
+      "positivity_score": 55,
+      "positivity_reason": "solutions-focused source; positive cues: working; concrete outcome language",
+      "why_good": "This solutions-focused story is about practical solutions, and it reports a concrete result.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://thebetterindia.com/culture/ruksana-begum-ghar-batti-kashmir-food-business-12813199",
+      "impact": null,
+      "image": "https://img-cdn.publive.online/fit-in/480x960/filters:format(webp)/english-betterindia/media/media_files/2026/11/16/1-2026-11-16-12-32-33.png",
+      "image_srcset": [
+        {
+          "url": "https://img-cdn.publive.online/fit-in/480x960/filters:format(webp)/english-betterindia/media/media_files/2026/11/16/1-2026-11-16-12-32-33.png",
+          "width": 480
+        },
+        {
+          "url": "https://img-cdn.publive.online/fit-in/640x1280/filters:format(webp)/english-betterindia/media/media_files/2026/11/16/1-2026-11-16-12-32-33.png",
+          "width": 640
+        },
+        {
+          "url": "https://img-cdn.publive.online/fit-in/976x1952/filters:format(webp)/english-betterindia/media/media_files/2026/11/16/1-2026-11-16-12-32-33.png",
+          "width": 976
+        }
+      ]
+    },
+    {
+      "id": "fe0e5b383d892d32",
+      "headline": "Mutual-help group attendance in alcohol treatment drops sharply, with wide racial and ethnic gaps",
+      "summary": "Among people in inpatient alcohol treatment, the share attending Alcoholics Anonymous or similar groups at least weekly fell from more than half to fewer than four in 10 in just seven years, according to a study published in the Journal of Studies on Alcohol and Drugs\u2026",
+      "category": "Health",
+      "sources": [
+        {
+          "name": "Medical Xpress",
+          "url": "https://medicalxpress.com/news/2026-11-mutual-group-alcohol-treatment-sharply.html",
+          "published_at": "2026-11-16T06:00:01+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-16T06:00:01+00:00",
+      "positivity_score": 53,
+      "positivity_reason": "positive cues: treatment; concrete outcome language",
+      "why_good": "It's a story of better health care, and it reports a concrete result.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://medicalxpress.com/news/2026-11-mutual-group-alcohol-treatment-sharply.html",
+      "impact": null,
+      "image": "https://scx1.b-cdn.net/csz/news/800a/2020/grouptherapy.jpg",
+      "image_srcset": []
+    },
     {
       "id": "9ee5267db600e29e",
       "headline": "Leihani Zoric, 14, stuns surfing world with gold medal to give Australia Olympic boost",
@@ -225,6 +382,54 @@
       "link": "https://www.goodnewsnetwork.org/world-first-bone-marrow-transplant-successfully-treats-non-malignant-disease/",
       "impact": null,
       "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/Patient-liver-tissue-specimen-in-lab-by-CBC-wLYNbwhcq3U-unsplash.jpeg",
+      "image_srcset": []
+    },
+    {
+      "id": "6970f08b2733ed89",
+      "headline": "Vitamin C could help block cancer-linked chemicals in your stomach, study finds",
+      "summary": "Scientists have discovered that vitamin C may help prevent potentially cancer-causing chemicals from forming in the stomach after eating foods containing nitrates and nitrites. A new mathematical model suggests that taking vitamin C after meals could reduce these harmful\u2026",
+      "category": "Science",
+      "sources": [
+        {
+          "name": "ScienceDaily Health",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261114202236.htm",
+          "published_at": "2026-11-15T14:13:18+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-15T14:13:18+00:00",
+      "positivity_score": 55,
+      "positivity_reason": "positive cues: study finds, discovered",
+      "why_good": "It's a story of a new discovery, and it highlights a positive development.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://www.sciencedaily.com/releases/2026/11/261114202236.htm",
+      "impact": null,
+      "image": "https://www.sciencedaily.com/images/600/vitamin-c-supplement-capsules.webp",
+      "image_srcset": []
+    },
+    {
+      "id": "3e5be7cc2248eeb7",
+      "headline": "A common osteoporosis drug blocked spinal damage in a surprising new study",
+      "summary": "Scientists have uncovered a surprising genetic connection to spinal degeneration and found that an existing osteoporosis drug can prevent damaging mineral buildup in zebrafish spines. The discovery could pave the way for new treatments that slow or prevent a major cause of\u2026",
+      "category": "Health",
+      "sources": [
+        {
+          "name": "ScienceDaily Health",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261113232105.htm",
+          "published_at": "2026-11-15T14:03:39+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-15T14:03:39+00:00",
+      "positivity_score": 53,
+      "positivity_reason": "positive cues: discovery; concrete outcome language",
+      "why_good": "This story is about a new discovery, and it describes a real, measurable outcome.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://www.sciencedaily.com/releases/2026/11/261113232105.htm",
+      "impact": null,
+      "image": "https://www.sciencedaily.com/images/600/radiograph-x-ray-back-bone-spinal-pain.webp",
       "image_srcset": []
     },
     {
@@ -483,6 +688,54 @@
       ]
     },
     {
+      "id": "5ba6381a3ff9650f",
+      "headline": "Scientists capture electrons making seemingly impossible quantum jumps",
+      "summary": "Scientists have captured electrons making seemingly impossible jumps across forbidden energy gaps in graphene, with some transitions occurring at a remarkable 100% probability. The breakthrough offers an unprecedented look at quantum behavior and could help unlock a new\u2026",
+      "category": "Science",
+      "sources": [
+        {
+          "name": "ScienceDaily Technology",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261112025523.htm",
+          "published_at": "2026-11-14T01:13:05+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-14T01:13:05+00:00",
+      "positivity_score": 54,
+      "positivity_reason": "positive cues: breakthrough",
+      "why_good": "Good news about a breakthrough: it highlights a positive development.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://www.sciencedaily.com/releases/2026/11/261112025523.htm",
+      "impact": null,
+      "image": "https://www.sciencedaily.com/images/600/electric-field-of-light-accelerates-electrons.webp",
+      "image_srcset": []
+    },
+    {
+      "id": "20ac22bd9a828bdc",
+      "headline": "AI supercharges laser physics with a stunning 250x speed boost",
+      "summary": "Researchers at Stanford, UCLA, and SLAC have developed an AI system that simulates complex laser interactions thousands of times faster than conventional methods. The breakthrough allows scientists to predict how laser pulses behave inside special crystals in just milliseconds\u2026",
+      "category": "Science",
+      "sources": [
+        {
+          "name": "ScienceDaily Technology",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261111005913.htm",
+          "published_at": "2026-11-13T23:41:08+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-13T23:41:08+00:00",
+      "positivity_score": 54,
+      "positivity_reason": "positive cues: breakthrough",
+      "why_good": "This story is about a breakthrough, and it highlights a positive development.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://www.sciencedaily.com/releases/2026/11/261111005913.htm",
+      "impact": null,
+      "image": "https://www.sciencedaily.com/images/600/noncollinear-sum-frequency-generation.webp",
+      "image_srcset": []
+    },
+    {
       "id": "535aad6c88b38736",
       "headline": "Mountain growth spurts may have sparked complex life on Earth",
       "summary": "Mountain ranges grew higher throughout Earth's history in two distinct \"spurts\" that correlated with the flourishing of biological diversity on our planet, according to new research published in the journal Science Advances. The study suggests mountains may have played a key\u2026",
@@ -703,6 +956,51 @@
       ]
     },
     {
+      "id": "478d72f680a2607e",
+      "headline": "National Trust takes back land for nature restoration",
+      "summary": "The trust hopes to restore the site, create new wildlife habitats and improve access to green space.",
+      "category": "Environment",
+      "sources": [
+        {
+          "name": "BBC Science & Environment",
+          "url": "https://www.bbc.co.uk/news/articles/cqvg257kl440o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-11-13T07:04:09+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-13T07:04:09+00:00",
+      "positivity_score": 54,
+      "positivity_reason": "positive cues: restoration; improvement framing of a grim topic",
+      "why_good": "Good news about nature being restored: it shows things getting better after a hard time.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://www.bbc.co.uk/news/articles/cqvg257kl440o?at_medium=RSS&at_campaign=rss",
+      "impact": null,
+      "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/33b9/live/2f5ae2d0-ddc4-11f1-a50f-85eebf9e50e5.jpg",
+      "image_srcset": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/320/cpsprodpb/33b9/live/2f5ae2d0-ddc4-11f1-a50f-85eebf9e50e5.jpg",
+          "width": 320
+        },
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/33b9/live/2f5ae2d0-ddc4-11f1-a50f-85eebf9e50e5.jpg",
+          "width": 480
+        },
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/640/cpsprodpb/33b9/live/2f5ae2d0-ddc4-11f1-a50f-85eebf9e50e5.jpg",
+          "width": 640
+        },
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/33b9/live/2f5ae2d0-ddc4-11f1-a50f-85eebf9e50e5.jpg",
+          "width": 800
+        },
+        {
+          "url": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/33b9/live/2f5ae2d0-ddc4-11f1-a50f-85eebf9e50e5.jpg",
+          "width": 976
+        }
+      ]
+    },
+    {
       "id": "82ebe82ecd45790c",
       "headline": "From Russia to Bengal's Coast: The Journey of a Critically Endangered Spoon-Billed Sandpiper",
       "summary": "This story is part of The Better India\u2019s new wildlife series, Species in Focus: 52 species. 52 stories. 52 reasons to protect India\u2019s wildlife. One species at a time, the series explores India\u2019s rare, endangered and lesser-known wildlife, their habitats, behaviour, ecological\u2026",
@@ -767,6 +1065,54 @@
       "image_srcset": []
     },
     {
+      "id": "4ab39ace57bfb4c4",
+      "headline": "A Global Rebound for Mangroves",
+      "summary": "After decades of decline, this ecologically significant type of forest is making a comeback.",
+      "category": "Science",
+      "sources": [
+        {
+          "name": "NASA",
+          "url": "https://science.nasa.gov/earth/earth-observatory/a-global-rebound-for-mangroves/",
+          "published_at": "2026-11-13T05:01:00+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-13T05:01:00+00:00",
+      "positivity_score": 52,
+      "positivity_reason": "positive cues: rebound",
+      "why_good": "Good news about a recovery: it describes something that went right.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://science.nasa.gov/earth/earth-observatory/a-global-rebound-for-mangroves/",
+      "impact": null,
+      "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/about/NASA-EO-Logo-mediumBlue2016-stacked-mark.png?w=585",
+      "image_srcset": []
+    },
+    {
+      "id": "eb6e9f08a3353da4",
+      "headline": "A breakthrough in magnetism could make AI chips use dramatically less energy",
+      "summary": "Researchers at Brown University have overcome a major obstacle to creating ultra-low-power computer chips that could help slash the energy demands of AI. Their breakthrough eliminates a long-standing \"dead layer\" problem that causes promising materials to stop working when made\u2026",
+      "category": "Tech",
+      "sources": [
+        {
+          "name": "ScienceDaily Technology",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261111005853.htm",
+          "published_at": "2026-11-13T01:40:17+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-13T01:40:17+00:00",
+      "positivity_score": 55,
+      "positivity_reason": "positive cues: breakthrough, working",
+      "why_good": "It's a story of a breakthrough and practical solutions, and it describes something that went right.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://www.sciencedaily.com/releases/2026/11/261111005853.htm",
+      "impact": null,
+      "image": "https://www.sciencedaily.com/images/600/multiferroic-material-three-layer-system.webp",
+      "image_srcset": []
+    },
+    {
       "id": "8a5748bedf630808",
       "headline": "Energy, prosperity, emissions, and innovation: A decarbonization progress report",
       "summary": "Eric Toone, CTO of Breakthrough Energy, assessed global decarbonization, and the opportunities and challenges that remain, at MITEI\u2019s annual research conference.",
@@ -812,6 +1158,81 @@
       "link": "https://www.goodnewsnetwork.org/worlds-largest-liquid-air-renewable-energy-storage-system-switches-on/",
       "impact": null,
       "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/Qinghai-60MW-Liquid-Air-Energy-Storage-Project-credit-China-Green-Development-Investment-Group.jpg",
+      "image_srcset": []
+    },
+    {
+      "id": "66d834d9222a02f1",
+      "headline": "\u2018There\u2019s a Georgia O\u2019Keeffe in the Closet\u2019 \u2013 Words that Led to Painting\u2019s Joyous Rediscovery",
+      "summary": "\u201cOh, by the way, there\u2019s a Georgia O\u2019Keeffe in the closet.\u201d One can only imagine the pause, double-take, or request for clarity which followed this comment, made by a woman\u2019s elderly aunt in the midst of an effort to clean out her East Village apartment. Yet as the woman, who\u2026",
+      "category": "Community",
+      "sources": [
+        {
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/theres-a-georgia-okeefe-in-the-closet-words-that-led-to-paintings-joyous-rediscovery/",
+          "published_at": "2026-11-12T14:00:23+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-12T14:00:23+00:00",
+      "positivity_score": 55,
+      "positivity_reason": "solutions-focused source; positive cues: rediscovery",
+      "why_good": "This solutions-focused story is about wildlife protection, and it highlights a positive development.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://www.goodnewsnetwork.org/theres-a-georgia-okeefe-in-the-closet-words-that-led-to-paintings-joyous-rediscovery/",
+      "impact": null,
+      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/credit-Christies-released.jpg",
+      "image_srcset": []
+    },
+    {
+      "id": "6d65b3043b93d59c",
+      "headline": "Kenya begins countdown towards end of Ebola after last patient discharged",
+      "summary": "Kenya began a 42-day countdown to the end of its Ebola outbreak on Thursday, a day after the last patient being treated for the disease went home and 11 people were released from quarantine.",
+      "category": "Health",
+      "sources": [
+        {
+          "name": "UN News",
+          "url": "https://news.un.org/feed/view/en/story/2026/11/1168790",
+          "published_at": "2026-11-12T12:00:00+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-12T12:00:00+00:00",
+      "positivity_score": 52,
+      "positivity_reason": "improvement framing of a grim topic; stated figure from the source",
+      "why_good": "It reports a concrete result: 11 people were released from quarantine.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://news.un.org/feed/view/en/story/2026/11/1168790",
+      "impact": {
+        "value": "11",
+        "label": "people were released from quarantine"
+      },
+      "image": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/10/06-10-2026-WHO-Kenya-Bundibugyo-02.jpg/image560x340cropped.jpg",
+      "image_srcset": []
+    },
+    {
+      "id": "79c556194e74c375",
+      "headline": "AI-powered bionic eye breakthrough could help the blind see again",
+      "summary": "Scientists have developed an AI-powered approach that makes experimental bionic vision technology more precise, helping predict the flashes and shapes of light perceived by a blind man with a brain implant. By learning how an individual's brain responds to electrical\u2026",
+      "category": "Tech",
+      "sources": [
+        {
+          "name": "ScienceDaily Technology",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261110042553.htm",
+          "published_at": "2026-11-12T11:55:55+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-12T11:55:55+00:00",
+      "positivity_score": 54,
+      "positivity_reason": "positive cues: breakthrough",
+      "why_good": "Good news about a breakthrough: it describes something that went right.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://www.sciencedaily.com/releases/2026/11/261110042553.htm",
+      "impact": null,
+      "image": "https://www.sciencedaily.com/images/600/beyeler-bionic-eye.webp",
       "image_srcset": []
     },
     {
@@ -865,6 +1286,30 @@
       ]
     },
     {
+      "id": "7529dee9eb9fb6cf",
+      "headline": "Inside this quantum computer, memory vibrates like a guitar string",
+      "summary": "Researchers have created a quantum computer that stores information in microscopic vibrations, potentially making quantum machines smaller, more powerful, and better at preserving information. The breakthrough successfully demonstrated advanced quantum calculations and could\u2026",
+      "category": "Science",
+      "sources": [
+        {
+          "name": "ScienceDaily Technology",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261109205416.htm",
+          "published_at": "2026-11-12T02:35:20+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-12T02:35:20+00:00",
+      "positivity_score": 54,
+      "positivity_reason": "positive cues: breakthrough",
+      "why_good": "It's a story of a breakthrough, and it describes something that went right.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://www.sciencedaily.com/releases/2026/11/261109205416.htm",
+      "impact": null,
+      "image": "https://www.sciencedaily.com/images/600/computer-vibration-memory.webp",
+      "image_srcset": []
+    },
+    {
       "id": "4545c61f1a887039",
       "headline": "For Centuries, Visitors Walked Right by 280 Unseen Ice Age Cave Paintings",
       "summary": "The third-largest collection of Ice Age-era engravings ever found on Spain\u2019s Mediterranean side was sitting in plain sight where visitors for centuries had been walking right by them. \u201cFor more than six decades, thousands of visitors passed directly in front of the engraved\u2026",
@@ -889,57 +1334,6 @@
         "label": "Unseen Ice Age Cave Paintings"
       },
       "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/A-horse-representaion-where-cave-floor-is-used-to-represent-the-ground-credit-2026-Verges-et-al.-Antiquiry-CC-4.0.-BY-SA-e1794413594768.jpg",
-      "image_srcset": []
-    },
-    {
-      "id": "d9b764ce15745f8a",
-      "headline": "Brown Bear Population in Spain Doubles With Incredible Increase of its Breeding Range",
-      "summary": "From the brink of extinction to roaming across 6,500 square miles, populations of Cantabrian brown bears have doubled in Spain over the last 20 years to 370. Numbering as few as 140 by estimates in the early 21st century, they\u2019re another example of Spain\u2019s ongoing success in\u2026",
-      "category": "Environment",
-      "sources": [
-        {
-          "name": "Good News Network",
-          "url": "https://www.goodnewsnetwork.org/spain-sees-incredible-doubling-of-her-brown-bear-population-and-its-breeding-range/",
-          "published_at": "2026-11-11T16:30:25+00:00"
-        }
-      ],
-      "source_count": 1,
-      "published_at": "2026-11-11T16:30:25+00:00",
-      "positivity_score": 84,
-      "positivity_reason": "solutions-focused source; positive cues: doubles, doubled, breeding range; multiple outcome cues; stated figure from the source",
-      "why_good": "This solutions-focused story is about growth worth celebrating and wildlife protection, and it gives a concrete figure (2\u00d7).",
-      "review_status": "auto-accepted",
-      "is_sample": false,
-      "link": "https://www.goodnewsnetwork.org/spain-sees-incredible-doubling-of-her-brown-bear-population-and-its-breeding-range/",
-      "impact": {
-        "value": "2\u00d7",
-        "label": "Brown Bear Population in Spain"
-      },
-      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/A-Cantabrian-brown-bear-credit-Juan-Iacruz-CC-BY-SA-4.0.jpg",
-      "image_srcset": []
-    },
-    {
-      "id": "d183ba40062d67f4",
-      "headline": "\u2018I pulled him out, I heard more screaming\u2019 \u2013 How a Cadet Saved a Father and Son from Drowning",
-      "summary": "A merchant marine cadet has been hailed as a hero for saving a father who nearly drowned in a swimming pool while trying to save his drowning 25-year-old son. \u201cWhen I arrived at the pool, I saw the father floating face down,\u201d Zion Jerge said, recounting the rescue that took\u2026",
-      "category": "Community",
-      "sources": [
-        {
-          "name": "Good News Network",
-          "url": "https://www.goodnewsnetwork.org/i-pulled-him-out-i-heard-more-screaming-how-a-cadet-saved-a-father-and-son-from-drowning/",
-          "published_at": "2026-11-11T14:00:06+00:00"
-        }
-      ],
-      "source_count": 1,
-      "published_at": "2026-11-11T14:00:06+00:00",
-      "positivity_score": 64,
-      "positivity_reason": "solutions-focused source; positive cues: rescue, saved; multiple outcome cues",
-      "why_good": "A solutions story about a rescue: it points to more than one sign of real progress.",
-      "review_status": "auto-accepted",
-      "is_sample": false,
-      "link": "https://www.goodnewsnetwork.org/i-pulled-him-out-i-heard-more-screaming-how-a-cadet-saved-a-father-and-son-from-drowning/",
-      "impact": null,
-      "image": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/Jerge-Zion-is-recognized-at-the-Cal-Poly-Maritime-Academy-credit-@calpoly_maritime.jpg",
       "image_srcset": []
     },
     {
@@ -1000,6 +1394,33 @@
       "image_srcset": []
     },
     {
+      "id": "588a805e2b05d11d",
+      "headline": "NASA offers $500,000 to develop next-generation electric rocket engines",
+      "summary": "NASA is putting $500,000 on the line in a new competition to accelerate the development of advanced electric rocket engines for satellites and future space exploration. The AMPERE Challenge will reward up to two U.S. companies with cash prizes and access to NASA testing\u2026",
+      "category": "Business",
+      "sources": [
+        {
+          "name": "ScienceDaily Technology",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261109205404.htm",
+          "published_at": "2026-11-10T02:36:21+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-10T02:36:21+00:00",
+      "positivity_score": 52,
+      "positivity_reason": "stated figure from the source",
+      "why_good": "It reports a concrete result: $500,000 develop next-generation electric rocket engines.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://www.sciencedaily.com/releases/2026/11/261109205404.htm",
+      "impact": {
+        "value": "$500,000",
+        "label": "develop next-generation electric rocket engines"
+      },
+      "image": "https://www.sciencedaily.com/images/600/hall-effect-thruster-testing-at-glenn-research-center.webp",
+      "image_srcset": []
+    },
+    {
       "id": "c28069c4379b628c",
       "headline": "Colleges Are Getting Creative to Help Students With Kids",
       "summary": "This story was originally published by Open Campus. Walking by New River\u2019s advising office one day, Stephanie Addikis noticed that the coloring books and Legos that she had helped stock in a nearby box were \u2026 \u201cwell-loved.\u201d This was just what she was hoping would happen. The\u2026",
@@ -1024,27 +1445,27 @@
       "image_srcset": []
     },
     {
-      "id": "14e6c7bca9d78b07",
-      "headline": "Virginia voters enshrined marriage equality into the state's constitution",
-      "summary": "Virginia\u2019s ban on gay marriage has not been enforceable since 2015, when the Supreme Court issued its landmark ruling in Obergefell v. Hodges that established a federal right to marry for same-sex couples.",
-      "category": "Community",
+      "id": "059d805bd6fee1a6",
+      "headline": "New study shows that 'queer friendships' are good for your health",
+      "summary": "Researchers at Michigan State University and the University of Kentucky found links between LGTBQ+ peers and their mental well-being.",
+      "category": "Science",
       "sources": [
         {
           "name": "Good Good Good",
-          "url": "https://www.goodgoodgood.co/articles/virginia-ban-same-sex-marriage",
-          "published_at": "2026-11-09T04:33:00+00:00"
+          "url": "https://www.goodgoodgood.co/articles/new-study-queer-friendship-health",
+          "published_at": "2026-11-09T16:20:00+00:00"
         }
       ],
       "source_count": 1,
-      "published_at": "2026-11-09T04:33:00+00:00",
-      "positivity_score": 56,
-      "positivity_reason": "solutions-focused source; positive cues: marriage equality",
-      "why_good": "This solutions-focused story is about progress on rights, and it highlights a positive development.",
+      "published_at": "2026-11-09T16:20:00+00:00",
+      "positivity_score": 54,
+      "positivity_reason": "solutions-focused source; concrete outcome language",
+      "why_good": "From a solutions-focused outlet, it describes a real, measurable outcome.",
       "review_status": "auto-accepted",
       "is_sample": false,
-      "link": "https://www.goodgoodgood.co/articles/virginia-ban-same-sex-marriage",
+      "link": "https://www.goodgoodgood.co/articles/new-study-queer-friendship-health",
       "impact": null,
-      "image": "https://cdn.prod.website-files.com/5f6cc9cd16d59d990c8fca33/6af146f3d9c17783a03dac57_6af14635e61daa8cf9b6355a_virginia-ban-same-sex-marriage-featured.webp",
+      "image": "https://cdn.prod.website-files.com/5f6cc9cd16d59d990c8fca33/6af1f288bdcdefc967667671_6af1f285946f0fab106ab27c_new-study-queer-friendship-health-featured.webp",
       "image_srcset": []
     },
     {
@@ -1093,6 +1514,30 @@
       "link": "https://www.smithsonianmag.com/science-nature/ben-franklin-wasnt-serious-when-implied-wild-turkey-respectable-national-symbol-wasnt-wrong-180989642/",
       "impact": null,
       "image": "https://th-thumbnailer.cdn-si-edu.com/0wQSJAgYe1cdZCwZDy4GmHZR61Y=/420x240/filters:focal(450x300:451x301)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/a8/28/a828c064-e027-42b4-b3a2-7796c66acf86/untitled-3.jpg",
+      "image_srcset": []
+    },
+    {
+      "id": "2356481b6da5f05d",
+      "headline": "New study: Googly-eyed buoys and kites help keep seabirds out of fishing nets",
+      "summary": "A study off Cornwall, England, found that nets fitted with bird-of-prey kites had 71% lower odds of catching guillemots and razorbills, and nets with spinning \u201clooming-eye\u201d buoys had 59% lower odds.",
+      "category": "Community",
+      "sources": [
+        {
+          "name": "Good Good Good",
+          "url": "https://www.goodgoodgood.co/articles/buoy-kite-seabirds-fishing-nets",
+          "published_at": "2026-10-27T17:13:00+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-10-27T17:13:00+00:00",
+      "positivity_score": 54,
+      "positivity_reason": "solutions-focused source; concrete outcome language",
+      "why_good": "From a newsroom that covers solutions, it describes a real, measurable outcome.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://www.goodgoodgood.co/articles/buoy-kite-seabirds-fishing-nets",
+      "impact": null,
+      "image": "https://cdn.prod.website-files.com/5f6cc9cd16d59d990c8fca33/6ae0db309e0da5e8013cfd1e_6ae0db21fddce4e8a74c5916_buoy-kite-seabirds-fishing-nets-featured.jpeg",
       "image_srcset": []
     },
     {
