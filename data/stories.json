@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-16T16:16:58.934322+00:00",
+  "generated_at": "2026-11-16T16:28:21.234663+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 48 feeds, 1018 headlines. Accepted 30, held for review 162, rejected 829. Carried 3 recent items (up to 96h) for re-check. Published window 72h. Auto-promoted from review: 0.",
+  "ingest_notes": "Fetched 48 feeds, 1016 headlines. Accepted 30, held for review 163, rejected 826. Carried 3 recent items (up to 96h) for re-check. Published window 72h. Auto-promoted from review: 1.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -21,6 +21,32 @@
     "publish_hours": 72
   },
   "stories": [
+    {
+      "id": "0694cd381f673cb2",
+      "headline": "Eating without fear: A single vaccine shows promise against multiple food allergies",
+      "summary": "According to U.N. figures, more than 220 million people worldwide suffer from food allergies, which cause the body to perceive an otherwise harmless protein in food as dangerous. As a result, the immune system launches an attack on the protein, which in the worst cases can be\u2026",
+      "category": "Health",
+      "sources": [
+        {
+          "name": "Medical Xpress",
+          "url": "https://medicalxpress.com/news/2026-11-vaccine-multiple-food-allergies.html",
+          "published_at": "2026-11-16T16:20:10+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-16T16:20:10+00:00",
+      "positivity_score": 51,
+      "positivity_reason": "positive cues: launches; caution: dangerous; stated figure from the source; auto-promoted: stated figure, no grim or soft flags",
+      "why_good": "According to U.N. figures, more than 220 million people worldwide suffer from food allergies.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://medicalxpress.com/news/2026-11-vaccine-multiple-food-allergies.html",
+      "impact": {
+        "value": "220",
+        "label": "million people worldwide suffer from food"
+      },
+      "new_today": true
+    },
     {
       "id": "e2dbf4c7a05229bf",
       "headline": "Steiner and state: Comparing two schools of thought",
@@ -322,29 +348,6 @@
       "review_status": "auto-accepted",
       "is_sample": false,
       "link": "https://www.sciencedaily.com/releases/2026/11/261111005913.htm",
-      "impact": null,
-      "new_today": false
-    },
-    {
-      "id": "d15232d5044b5185",
-      "headline": "Trump Administration Stalling Protections for Imperiled Fish Near Massive Alabama Data Center, Groups Say",
-      "summary": "The Birmingham darter, though only recently discovered by science, is a survivor. The roughly two-inch long fish, adorned with red spots and stripes along translucent fins, has survived 100 years of coal mining, steel-making, quarrying and suburban development along the rolling\u2026",
-      "category": "Environment",
-      "sources": [
-        {
-          "name": "Inside Climate News",
-          "url": "https://insideclimatenews.org/news/13112026/trump-administration-stalling-protections-for-imperiled-fish-near-massive-alabama-data-center-groups-say/",
-          "published_at": "2026-11-13T20:28:49+00:00"
-        }
-      ],
-      "source_count": 1,
-      "published_at": "2026-11-13T20:28:49+00:00",
-      "positivity_score": 52,
-      "positivity_reason": "positive cues: survived, discovered; improvement framing of a grim topic",
-      "why_good": "The Birmingham darter, though only recently discovered by science, is a survivor.",
-      "review_status": "auto-accepted",
-      "is_sample": false,
-      "link": "https://insideclimatenews.org/news/13112026/trump-administration-stalling-protections-for-imperiled-fish-near-massive-alabama-data-center-groups-say/",
       "impact": null,
       "new_today": false
     },
