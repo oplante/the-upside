@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-17T19:00:46.929391+00:00",
+  "generated_at": "2026-11-17T20:59:28.365633+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 53 feeds, 1082 headlines. Accepted 36, held for review 215, rejected 839. Carried 8 recent items (up to 96h) for re-check. Published window 72h. Auto-promoted from review: 0.",
+  "ingest_notes": "Fetched 52 feeds, 1058 headlines. Accepted 36, held for review 188, rejected 844. Carried 10 recent items (up to 96h) for re-check. Published window 72h. Auto-promoted from review: 0.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -21,6 +21,29 @@
     "publish_hours": 72
   },
   "stories": [
+    {
+      "id": "4ddf00a5da654553",
+      "headline": "West Coast\u2019s First Ever Sea Turtle Hatchlings Released into the Pacific (LOOK)",
+      "summary": "Olive ridley sea turtle hatchlings saved from an approaching storm in California were released into the wild over the weekend. It was late September when a female turtle climbed out of the sea, dug a nest on the beach, deposited her clutch, and slipped back into the water\u2026",
+      "category": "Community",
+      "sources": [
+        {
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/west-coasts-first-ever-sea-turtle-hatchlings-released-into-the-pacific-look/",
+          "published_at": "2026-11-17T19:30:43+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-17T19:30:43+00:00",
+      "positivity_score": 54,
+      "positivity_reason": "solutions-focused source; positive cues: saved",
+      "why_good": "Olive ridley sea turtle hatchlings saved from an approaching storm in California were released into the wild over the weekend.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://www.goodnewsnetwork.org/west-coasts-first-ever-sea-turtle-hatchlings-released-into-the-pacific-look/",
+      "impact": null,
+      "new_today": true
+    },
     {
       "id": "700a11c5bdb247ce",
       "headline": "Cameras Capture First Animal To Use World\u2019s Largest Wildlife Crossing, Which Stretches Over 10 Freeway Lanes and Cost $114 Million",
@@ -240,7 +263,7 @@
       "id": "d577780b2c892dd7",
       "headline": "\u201814 Years Ago, We Spoke of This Possibility\u2019: How AIIMS Delhi Performed India\u2019s First Open Foetal Surgery to Repair a Baby\u2019s Spine",
       "summary": "The institute announced on 14 November that this was India\u2019s first open foetal repair of a lumbosacral myelomeningocele, the most severe form of spina bifida.",
-      "category": "Health",
+      "category": "Community",
       "sources": [
         {
           "name": "The Better India",
