@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-17T12:00:42.035409+00:00",
+  "generated_at": "2026-11-17T12:54:39.844514+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 53 feeds, 1081 headlines. Accepted 34, held for review 216, rejected 836. Carried 5 recent items (up to 96h) for re-check. Published window 72h. Auto-promoted from review: 0.",
+  "ingest_notes": "Fetched 53 feeds, 1081 headlines. Accepted 34, held for review 216, rejected 838. Carried 7 recent items (up to 96h) for re-check. Published window 72h. Auto-promoted from review: 0.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -21,6 +21,34 @@
     "publish_hours": 72
   },
   "stories": [
+    {
+      "id": "5aa3501842334c6e",
+      "headline": "Scientists tracked kids for 8 years. What they found about screen time was surprising",
+      "summary": "A surprising Finnish study found that children who spent more time using screens tended to have better cognitive processing abilities as teenagers, challenging the assumption that screen time is always harmful. Researchers suggest that what children do on screens may matter more\u2026",
+      "category": "Science",
+      "sources": [
+        {
+          "name": "ScienceDaily Health",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261116014725.htm",
+          "published_at": "2026-11-17T12:03:58+00:00"
+        },
+        {
+          "name": "ScienceDaily Technology",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261116014725.htm",
+          "published_at": "2026-11-17T12:03:58+00:00"
+        }
+      ],
+      "source_count": 2,
+      "published_at": "2026-11-17T12:03:58+00:00",
+      "positivity_score": 58,
+      "positivity_reason": "positive cues: study found; concrete outcome language",
+      "why_good": "A surprising Finnish study found that children who spent more time using screens tended to have better cognitive processing abilities as teenagers.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://www.sciencedaily.com/releases/2026/11/261116014725.htm",
+      "impact": null,
+      "new_today": true
+    },
     {
       "id": "c8da80c8ae2d0cb3",
       "headline": "Nigerians among 12 suspects arrested in $4.5m Canada luxury car theft syndicate",
@@ -374,75 +402,6 @@
       "review_status": "auto-accepted",
       "is_sample": false,
       "link": "https://www.sciencedaily.com/releases/2026/11/261112230500.htm",
-      "impact": null,
-      "new_today": false
-    },
-    {
-      "id": "4db0f23084d8c2de",
-      "headline": "A new fiber supplement could help millions suffering from irritable bowel syndrome",
-      "summary": "Scientists have developed a promising new fiber supplement that improves gut health in people with irritable bowel syndrome (IBS) without worsening bloating, pain, or other digestive symptoms. The specially designed blend also improved gut-related anxiety and produced\u2026",
-      "category": "Health",
-      "sources": [
-        {
-          "name": "ScienceDaily Health",
-          "url": "https://www.sciencedaily.com/releases/2026/11/261112230450.htm",
-          "published_at": "2026-11-14T12:35:36+00:00"
-        }
-      ],
-      "source_count": 1,
-      "published_at": "2026-11-14T12:35:36+00:00",
-      "positivity_score": 60,
-      "positivity_reason": "positive cues: improves, improved; multiple outcome cues",
-      "why_good": "Scientists have developed a promising new fiber supplement that improves gut health in people with irritable bowel syndrome.",
-      "review_status": "auto-accepted",
-      "is_sample": false,
-      "link": "https://www.sciencedaily.com/releases/2026/11/261112230450.htm",
-      "impact": null,
-      "new_today": false
-    },
-    {
-      "id": "0b88a5eb3df8b438",
-      "headline": "Exercise after ACL surgery may protect knees from early osteoarthritis",
-      "summary": "A new study suggests that the right kind of exercise could help protect young adults from early knee osteoarthritis following ACL surgery. Researchers found that a four-month supervised rehabilitation program improved pain, muscle strength, and quality of life without damaging\u2026",
-      "category": "Science",
-      "sources": [
-        {
-          "name": "ScienceDaily Health",
-          "url": "https://www.sciencedaily.com/releases/2026/11/261112025538.htm",
-          "published_at": "2026-11-14T12:14:57+00:00"
-        }
-      ],
-      "source_count": 1,
-      "published_at": "2026-11-14T12:14:57+00:00",
-      "positivity_score": 56,
-      "positivity_reason": "positive cues: improved; concrete outcome language",
-      "why_good": "A new study suggests that the right kind of exercise could help protect young adults from early knee osteoarthritis following ACL surgery.",
-      "review_status": "auto-accepted",
-      "is_sample": false,
-      "link": "https://www.sciencedaily.com/releases/2026/11/261112025538.htm",
-      "impact": null,
-      "new_today": false
-    },
-    {
-      "id": "d3a839a802b77726",
-      "headline": "Microsoft services fully restored after global outage",
-      "summary": "Microsoft said on Saturday that services had fully recovered across Teams, Outlook and its other products, ending a global outage that crippled online communications \u200cfor businesses and governments for over 24 hours.",
-      "category": "World",
-      "sources": [
-        {
-          "name": "CBC World",
-          "url": "https://www.cbc.ca/news/business/microsoft-services-restored-after-outage-9.7422072?cmp=rss",
-          "published_at": "2026-11-14T12:11:29+00:00"
-        }
-      ],
-      "source_count": 1,
-      "published_at": "2026-11-14T12:11:29+00:00",
-      "positivity_score": 61,
-      "positivity_reason": "positive cues: restored, recovered; multiple outcome cues; improvement framing of a grim topic",
-      "why_good": "Microsoft said on Saturday that services had fully recovered across Teams, Outlook and its other products.",
-      "review_status": "auto-accepted",
-      "is_sample": false,
-      "link": "https://www.cbc.ca/news/business/microsoft-services-restored-after-outage-9.7422072?cmp=rss",
       "impact": null,
       "new_today": false
     }
