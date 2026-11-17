@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-16T18:30:33.241875+00:00",
+  "generated_at": "2026-11-17T07:25:54.431631+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 53 feeds, 1080 headlines. Accepted 32, held for review 228, rejected 824. Carried 4 recent items (up to 96h) for re-check. Published window 72h. Auto-promoted from review: 0.",
+  "ingest_notes": "Fetched 53 feeds, 1080 headlines. Accepted 35, held for review 222, rejected 827. Carried 4 recent items (up to 96h) for re-check. Published window 72h. Auto-promoted from review: 0.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -21,6 +21,101 @@
     "publish_hours": 72
   },
   "stories": [
+    {
+      "id": "98f0bfc32a6f3bd2",
+      "headline": "ADHD reform needs GP training and Medicare support, study finds",
+      "summary": "Expanding attention-deficit/hyperactivity disorder (ADHD) care to general practitioners (GPs) should be matched with additional training and Medicare support, University of Queensland research has found.",
+      "category": "Science",
+      "sources": [
+        {
+          "name": "Medical Xpress",
+          "url": "https://medicalxpress.com/news/2026-11-adhd-reform-gp-medicare.html",
+          "published_at": "2026-11-17T02:40:01+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-17T02:40:01+00:00",
+      "positivity_score": 58,
+      "positivity_reason": "positive cues: study finds; concrete outcome language",
+      "why_good": "Expanding attention-deficit/hyperactivity disorder (ADHD) care to general practitioners (GPs) should be matched with additional training and Medicare support, University of Queensland research has found.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://medicalxpress.com/news/2026-11-adhd-reform-gp-medicare.html",
+      "impact": null,
+      "new_today": true
+    },
+    {
+      "id": "06395f6d34242788",
+      "headline": "Turning biomass into renewable fuels and chemicals using microorganisms",
+      "summary": "Texas A&M University researchers have developed a process that converts biomass into renewable fuels and chemicals. Dr. Mark Holtzapple, professor in the Artie McFerrin Department of Chemical Engineering, aims to make producing these products more efficient and affordable by\u2026",
+      "category": "Science",
+      "sources": [
+        {
+          "name": "Phys.org",
+          "url": "https://phys.org/news/2026-11-biomass-renewable-fuels-chemicals-microorganisms.html",
+          "published_at": "2026-11-16T23:20:01+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-16T23:20:01+00:00",
+      "positivity_score": 55,
+      "positivity_reason": "positive cues: affordable, renewable",
+      "why_good": "Texas A&M University researchers have developed a process that converts biomass into renewable fuels and chemicals.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://phys.org/news/2026-11-biomass-renewable-fuels-chemicals-microorganisms.html",
+      "impact": null,
+      "new_today": false
+    },
+    {
+      "id": "a56d445f62eea6bd",
+      "headline": "Treating iron deficiency: The everyday factors that affect how your supplements work",
+      "summary": "Iron deficiency is the most common nutritional deficiency worldwide, affecting around 2 billion people. Yet many people may not even realize they have low iron for months or even years.",
+      "category": "Health",
+      "sources": [
+        {
+          "name": "Medical Xpress",
+          "url": "https://medicalxpress.com/news/2026-11-iron-deficiency-everyday-factors-affect.html",
+          "published_at": "2026-11-16T19:20:01+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-16T19:20:01+00:00",
+      "positivity_score": 52,
+      "positivity_reason": "stated figure from the source",
+      "why_good": "Iron deficiency is the most common nutritional deficiency worldwide, affecting around 2 billion people.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://medicalxpress.com/news/2026-11-iron-deficiency-everyday-factors-affect.html",
+      "impact": {
+        "value": "2",
+        "label": "billion people Yet many people may"
+      },
+      "new_today": false
+    },
+    {
+      "id": "b744c50f9b749881",
+      "headline": "Astaxanthin supplements: What the science says about skin, exercise and your brain",
+      "summary": "Smoother skin, sharper eyesight, better memory, stronger joints, improved athletic performance and even protection against aging\u2014astaxanthin is marketed as a supplement with an extraordinary range of health benefits. But how much of this promise is backed by evidence in people?",
+      "category": "Health",
+      "sources": [
+        {
+          "name": "Medical Xpress",
+          "url": "https://medicalxpress.com/news/2026-11-astaxanthin-supplements-science-skin-brain.html",
+          "published_at": "2026-11-16T18:40:26+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-16T18:40:26+00:00",
+      "positivity_score": 55,
+      "positivity_reason": "positive cues: improved, protection",
+      "why_good": "Smoother skin, sharper eyesight, better memory, stronger joints, improved athletic performance and even protection against aging\u2014astaxanthin is marketed.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://medicalxpress.com/news/2026-11-astaxanthin-supplements-science-skin-brain.html",
+      "impact": null,
+      "new_today": false
+    },
     {
       "id": "b61cc056e6674219",
       "headline": "NASA is offering $1 million for bold ideas to help build a Moon base",
@@ -45,7 +140,7 @@
         "value": "$1 million",
         "label": "bold ideas to help build"
       },
-      "new_today": true
+      "new_today": false
     },
     {
       "id": "e2dbf4c7a05229bf",
@@ -68,7 +163,7 @@
       "is_sample": false,
       "link": "https://phys.org/news/2026-11-steiner-state-schools-thought.html",
       "impact": null,
-      "new_today": true
+      "new_today": false
     },
     {
       "id": "76eda0d95e6060ab",
@@ -91,7 +186,7 @@
       "is_sample": false,
       "link": "https://thebetterindia.com/culture/ruksana-begum-ghar-batti-kashmir-food-business-12813199",
       "impact": null,
-      "new_today": true
+      "new_today": false
     },
     {
       "id": "63498ca28c882cfa",
@@ -114,7 +209,7 @@
       "is_sample": false,
       "link": "https://www.sciencedaily.com/releases/2026/11/261114202232.htm",
       "impact": null,
-      "new_today": true
+      "new_today": false
     },
     {
       "id": "0138d8f0eade07a3",
@@ -137,7 +232,7 @@
       "is_sample": false,
       "link": "https://www.sciencedaily.com/releases/2026/11/261115085533.htm",
       "impact": null,
-      "new_today": true
+      "new_today": false
     },
     {
       "id": "1720e81d7c4866f8",
@@ -325,29 +420,6 @@
       "review_status": "auto-accepted",
       "is_sample": false,
       "link": "https://www.cbc.ca/news/business/microsoft-services-restored-after-outage-9.7422072?cmp=rss",
-      "impact": null,
-      "new_today": false
-    },
-    {
-      "id": "20ac22bd9a828bdc",
-      "headline": "AI supercharges laser physics with a stunning 250x speed boost",
-      "summary": "Researchers at Stanford, UCLA, and SLAC have developed an AI system that simulates complex laser interactions thousands of times faster than conventional methods. The breakthrough allows scientists to predict how laser pulses behave inside special crystals in just milliseconds\u2026",
-      "category": "Science",
-      "sources": [
-        {
-          "name": "ScienceDaily Technology",
-          "url": "https://www.sciencedaily.com/releases/2026/11/261111005913.htm",
-          "published_at": "2026-11-13T23:41:08+00:00"
-        }
-      ],
-      "source_count": 1,
-      "published_at": "2026-11-13T23:41:08+00:00",
-      "positivity_score": 54,
-      "positivity_reason": "positive cues: breakthrough",
-      "why_good": "Researchers at Stanford, UCLA, and SLAC have developed an AI system that simulates complex laser interactions thousands of times faster than conventional methods.",
-      "review_status": "auto-accepted",
-      "is_sample": false,
-      "link": "https://www.sciencedaily.com/releases/2026/11/261111005913.htm",
       "impact": null,
       "new_today": false
     }
