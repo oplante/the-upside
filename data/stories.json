@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-17T15:45:04.267793+00:00",
+  "generated_at": "2026-11-17T15:53:48.327023+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 53 feeds, 1077 headlines. Accepted 33, held for review 207, rejected 845. Carried 8 recent items (up to 96h) for re-check. Published window 72h. Auto-promoted from review: 0.",
+  "ingest_notes": "Fetched 53 feeds, 1077 headlines. Accepted 37, held for review 205, rejected 842. Carried 7 recent items (up to 96h) for re-check. Published window 72h. Auto-promoted from review: 0.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -45,6 +45,75 @@
         "value": "$114 Million",
         "label": "10 Freeway Lanes and Cost"
       },
+      "new_today": true
+    },
+    {
+      "id": "a04d403a74ac7e0f",
+      "headline": "Largest Electric Bus Fleet in New York to Serve Bronx Neighborhood Elevated Asthma Rates",
+      "summary": "The largest fleet of electric school buses in New York State is up and running in a South Bronx neighborhood where childhood asthma rates are more than twice the national average.",
+      "category": "Community",
+      "sources": [
+        {
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/largest-electric-bus-fleet-in-new-york-to-serve-bronx-neighborhood-riddled-with-asthma/",
+          "published_at": "2026-11-17T14:00:28+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-17T14:00:28+00:00",
+      "positivity_score": 48,
+      "positivity_reason": "solutions-focused source; fact-check pass",
+      "why_good": "The largest fleet of electric school buses in New York State is up and running in a South Bronx neighborhood where childhood asthma rates are more than twice the national average.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://www.goodnewsnetwork.org/largest-electric-bus-fleet-in-new-york-to-serve-bronx-neighborhood-riddled-with-asthma/",
+      "impact": null,
+      "new_today": true
+    },
+    {
+      "id": "ae0bc23dc1726acb",
+      "headline": "A Waterfall of Fog and Lots of Lighting, These Images Won the UK\u2019s Weather Photography Awards",
+      "summary": "From a waterfall of fog to almighty storms and sunrises, the winners of the 2026 Weather Photographer of the Year competition have been announced.",
+      "category": "Community",
+      "sources": [
+        {
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/a-waterfall-of-fog-and-almighty-storms-these-images-won-the-uks-weather-photography-awards/",
+          "published_at": "2026-11-17T12:30:18+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-17T12:30:18+00:00",
+      "positivity_score": 48,
+      "positivity_reason": "solutions-focused source; fact-check pass",
+      "why_good": "From a waterfall of fog to almighty storms and sunrises, the winners of the 2026 Weather Photographer of the Year competition have been announced.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://www.goodnewsnetwork.org/a-waterfall-of-fog-and-almighty-storms-these-images-won-the-uks-weather-photography-awards/",
+      "impact": null,
+      "new_today": true
+    },
+    {
+      "id": "bacf1aaec72b11bc",
+      "headline": "As Groundwater Levels Fall, Rewari Is Reviving 10 Ponds to Store 120 Million Litres of Water",
+      "summary": "The Energy and Resources Institute (TERI) and Nokia India have joined hands to restore these waterbodies over 24 months, with a target of increasing their combined storage capacity to 120 million litres.",
+      "category": "Community",
+      "sources": [
+        {
+          "name": "The Better India",
+          "url": "https://thebetterindia.com/conservation/nature/rewari-haryana-village-pond-restoration-teri-water-conservation-12816963",
+          "published_at": "2026-11-17T12:14:02+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-17T12:14:02+00:00",
+      "positivity_score": 48,
+      "positivity_reason": "solutions-focused source; fact-check pass",
+      "why_good": "The Energy and Resources Institute (TERI) and Nokia India have joined hands to restore these waterbodies over 24 months, with a target of increasing their combined storage capacity to 120 million litres.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://thebetterindia.com/conservation/nature/rewari-haryana-village-pond-restoration-teri-water-conservation-12816963",
+      "impact": null,
       "new_today": true
     },
     {
@@ -399,6 +468,29 @@
       "review_status": "auto-accepted",
       "is_sample": false,
       "link": "https://www.sciencedaily.com/releases/2026/11/261112230504.htm",
+      "impact": null,
+      "new_today": false
+    },
+    {
+      "id": "c26afbcdc0b7a209",
+      "headline": "Couple with Autism and ADHD Find Passion Cleaning Filthy Street Signs",
+      "summary": "A married couple is spending their time cleaning filthy street signs\u2014with dreams of traveling across the country until they are all spotless.",
+      "category": "Community",
+      "sources": [
+        {
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/couple-with-autism-and-adhd-find-passion-cleaning-filthy-street-signs/",
+          "published_at": "2026-11-14T18:56:02+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-14T18:56:02+00:00",
+      "positivity_score": 48,
+      "positivity_reason": "solutions-focused source; fact-check pass",
+      "why_good": "A married couple is spending their time cleaning filthy street signs\u2014with dreams of traveling across the country until they are all spotless.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://www.goodnewsnetwork.org/couple-with-autism-and-adhd-find-passion-cleaning-filthy-street-signs/",
       "impact": null,
       "new_today": false
     }
