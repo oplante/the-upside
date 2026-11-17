@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-17T15:38:28.097233+00:00",
+  "generated_at": "2026-11-17T15:45:04.267793+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 53 feeds, 1077 headlines. Accepted 34, held for review 219, rejected 832. Carried 8 recent items (up to 96h) for re-check. Published window 72h. Auto-promoted from review: 0.",
+  "ingest_notes": "Fetched 53 feeds, 1077 headlines. Accepted 33, held for review 207, rejected 845. Carried 8 recent items (up to 96h) for re-check. Published window 72h. Auto-promoted from review: 0.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -145,32 +145,6 @@
       "new_today": false
     },
     {
-      "id": "a56d445f62eea6bd",
-      "headline": "Treating iron deficiency: The everyday factors that affect how your supplements work",
-      "summary": "Iron deficiency is the most common nutritional deficiency worldwide, affecting around 2 billion people. Yet many people may not even realize they have low iron for months or even years.",
-      "category": "Health",
-      "sources": [
-        {
-          "name": "Medical Xpress",
-          "url": "https://medicalxpress.com/news/2026-11-iron-deficiency-everyday-factors-affect.html",
-          "published_at": "2026-11-16T19:20:01+00:00"
-        }
-      ],
-      "source_count": 1,
-      "published_at": "2026-11-16T19:20:01+00:00",
-      "positivity_score": 52,
-      "positivity_reason": "stated figure from the source",
-      "why_good": "Iron deficiency is the most common nutritional deficiency worldwide, affecting around 2 billion people.",
-      "review_status": "auto-accepted",
-      "is_sample": false,
-      "link": "https://medicalxpress.com/news/2026-11-iron-deficiency-everyday-factors-affect.html",
-      "impact": {
-        "value": "2",
-        "label": "billion people Yet many people may"
-      },
-      "new_today": false
-    },
-    {
       "id": "b744c50f9b749881",
       "headline": "Astaxanthin supplements: What the science says about skin, exercise and your brain",
       "summary": "Smoother skin, sharper eyesight, better memory, stronger joints, improved athletic performance and even protection against aging\u2014astaxanthin is marketed as a supplement with an extraordinary range of health benefits. But how much of this promise is backed by evidence in people?",
@@ -191,32 +165,6 @@
       "is_sample": false,
       "link": "https://medicalxpress.com/news/2026-11-astaxanthin-supplements-science-skin-brain.html",
       "impact": null,
-      "new_today": false
-    },
-    {
-      "id": "b61cc056e6674219",
-      "headline": "NASA is offering $1 million for bold ideas to help build a Moon base",
-      "summary": "NASA is offering $1 million in its new Moon Base Challenge, inviting U.S. students to develop innovative solutions for building humanity\u2019s first permanent lunar outpost. From power systems to astronaut safety, their ideas could help make long-term life on the Moon possible and\u2026",
-      "category": "Tech",
-      "sources": [
-        {
-          "name": "ScienceDaily Technology",
-          "url": "https://www.sciencedaily.com/releases/2026/11/261115085542.htm",
-          "published_at": "2026-11-16T14:02:10+00:00"
-        }
-      ],
-      "source_count": 1,
-      "published_at": "2026-11-16T14:02:10+00:00",
-      "positivity_score": 56,
-      "positivity_reason": "positive cues: solutions; stated figure from the source",
-      "why_good": "NASA is offering $1 million in its new Moon Base Challenge, inviting U.S. students to develop innovative solutions for building humanity\u2019s first permanent lunar outpost.",
-      "review_status": "auto-accepted",
-      "is_sample": false,
-      "link": "https://www.sciencedaily.com/releases/2026/11/261115085542.htm",
-      "impact": {
-        "value": "$1 million",
-        "label": "bold ideas to help build"
-      },
       "new_today": false
     },
     {
@@ -428,6 +376,29 @@
       "review_status": "auto-accepted",
       "is_sample": false,
       "link": "https://www.sciencedaily.com/releases/2026/11/261112230500.htm",
+      "impact": null,
+      "new_today": false
+    },
+    {
+      "id": "543079bcab2318b3",
+      "headline": "Euclid discovers ancient cosmic beacons from the dawn of time, shining like a trillion suns",
+      "summary": "ESA\u2019s Euclid space telescope has discovered 31 ancient quasars, including two record-breaking objects that shone with the brightness of a trillion Suns when the Universe was just 670 million years old. Powered by supermassive black holes, these extraordinary cosmic beacons\u2026",
+      "category": "Science",
+      "sources": [
+        {
+          "name": "ScienceDaily Technology",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261112230504.htm",
+          "published_at": "2026-11-15T01:52:47+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-15T01:52:47+00:00",
+      "positivity_score": 52,
+      "positivity_reason": "positive cues: record-breaking, discovered; score met the threshold but no concrete outcome cue; held for review; fact-check pass",
+      "why_good": "ESA\u2019s Euclid space telescope has discovered 31 ancient quasars.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://www.sciencedaily.com/releases/2026/11/261112230504.htm",
       "impact": null,
       "new_today": false
     }
