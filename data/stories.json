@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-17T12:54:39.844514+00:00",
+  "generated_at": "2026-11-17T15:11:02.854968+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 53 feeds, 1081 headlines. Accepted 34, held for review 216, rejected 838. Carried 7 recent items (up to 96h) for re-check. Published window 72h. Auto-promoted from review: 0.",
+  "ingest_notes": "Fetched 53 feeds, 1078 headlines. Accepted 34, held for review 216, rejected 835. Carried 7 recent items (up to 96h) for re-check. Published window 72h. Auto-promoted from review: 0.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -21,6 +21,32 @@
     "publish_hours": 72
   },
   "stories": [
+    {
+      "id": "700a11c5bdb247ce",
+      "headline": "Cameras Capture First Animal To Use World\u2019s Largest Wildlife Crossing, Which Stretches Over 10 Freeway Lanes and Cost $114 Million",
+      "summary": "A coyote has become the first large mammal to cross the Wallis Annenberg Wildlife Crossing, weeks before its planned Dec. 2 completion Source: Cameras Capture First Animal To Use World\u2019s Largest Wildlife Crossing, Which Stretches Over 10 Freeway Lanes and Cost $114 Million Very\u2026",
+      "category": "Environment",
+      "sources": [
+        {
+          "name": "Not All News Is Bad",
+          "url": "https://notallnewsisbad.com/cameras-capture-first-animal-to-use-worlds-largest-wildlife-crossing-which-stretches-over-10-freeway-lanes-and-cost-114-million/",
+          "published_at": "2026-11-17T15:00:11+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-17T15:00:11+00:00",
+      "positivity_score": 56,
+      "positivity_reason": "solutions-focused source; stated figure from the source",
+      "why_good": "A coyote has become the first large mammal to cross the Wallis Annenberg Wildlife Crossing, weeks before its planned Dec.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://notallnewsisbad.com/cameras-capture-first-animal-to-use-worlds-largest-wildlife-crossing-which-stretches-over-10-freeway-lanes-and-cost-114-million/",
+      "impact": {
+        "value": "$114 Million",
+        "label": "10 Freeway Lanes and Cost"
+      },
+      "new_today": true
+    },
     {
       "id": "5aa3501842334c6e",
       "headline": "Scientists tracked kids for 8 years. What they found about screen time was surprising",
