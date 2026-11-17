@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-17T21:01:02.435576+00:00",
+  "generated_at": "2026-11-17T22:51:40.303403+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 53 feeds, 1083 headlines. Accepted 36, held for review 207, rejected 848. Carried 8 recent items (up to 96h) for re-check. Published window 72h. Auto-promoted from review: 0.",
+  "ingest_notes": "Fetched 53 feeds, 1081 headlines. Accepted 38, held for review 196, rejected 855. Carried 8 recent items (up to 96h) for re-check. Published window 72h. Auto-promoted from review: 0.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -21,6 +21,52 @@
     "publish_hours": 72
   },
   "stories": [
+    {
+      "id": "5586bcb08d8cacee",
+      "headline": "New Asian flying frog species identified in Indonesia",
+      "summary": "In the lush mountain rainforests of Indonesia, researchers have identified a new species of Asian flying frog with distinctive physical features, calls and unusual egg-laying habits. The discovery is described in a paper published in the journal Zootaxa by scientists from Museum\u2026",
+      "category": "Science",
+      "sources": [
+        {
+          "name": "Phys.org",
+          "url": "https://phys.org/news/2026-11-asian-flying-frog-species-indonesia.html",
+          "published_at": "2026-11-17T22:20:06+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-17T22:20:06+00:00",
+      "positivity_score": 53,
+      "positivity_reason": "positive cues: discovery; concrete outcome language",
+      "why_good": "Researchers have identified a new species of Asian flying frog with distinctive physical features, calls and unusual egg-laying habits.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://phys.org/news/2026-11-asian-flying-frog-species-indonesia.html",
+      "impact": null,
+      "new_today": true
+    },
+    {
+      "id": "3d8779d5a472fcb8",
+      "headline": "Regenerated bone keeps maturing after its shape is largely restored, study reveals",
+      "summary": "Regeneration is often judged by what researchers can see\u2014whether missing tissue has returned and its shape has been restored. But a new Texas A&M study shows that bone may continue to mature mechanically beneath the surface even after it appears whole.",
+      "category": "Science",
+      "sources": [
+        {
+          "name": "Medical Xpress",
+          "url": "https://medicalxpress.com/news/2026-11-regenerated-bone-maturing-largely-reveals.html",
+          "published_at": "2026-11-17T22:20:03+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-17T22:20:03+00:00",
+      "positivity_score": 68,
+      "positivity_reason": "positive cues: restored; improvement framing of a grim topic; concrete outcome language",
+      "why_good": "Regeneration is often judged by what researchers can see\u2014whether missing tissue has returned and its shape has been restored.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://medicalxpress.com/news/2026-11-regenerated-bone-maturing-largely-reveals.html",
+      "impact": null,
+      "new_today": true
+    },
     {
       "id": "4ddf00a5da654553",
       "headline": "West Coast\u2019s First Ever Sea Turtle Hatchlings Released into the Pacific (LOOK)",
