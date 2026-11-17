@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-17T20:59:28.365633+00:00",
+  "generated_at": "2026-11-17T21:01:02.435576+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 52 feeds, 1058 headlines. Accepted 36, held for review 188, rejected 844. Carried 10 recent items (up to 96h) for re-check. Published window 72h. Auto-promoted from review: 0.",
+  "ingest_notes": "Fetched 53 feeds, 1083 headlines. Accepted 36, held for review 207, rejected 848. Carried 8 recent items (up to 96h) for re-check. Published window 72h. Auto-promoted from review: 0.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -263,7 +263,7 @@
       "id": "d577780b2c892dd7",
       "headline": "\u201814 Years Ago, We Spoke of This Possibility\u2019: How AIIMS Delhi Performed India\u2019s First Open Foetal Surgery to Repair a Baby\u2019s Spine",
       "summary": "The institute announced on 14 November that this was India\u2019s first open foetal repair of a lumbosacral myelomeningocele, the most severe form of spina bifida.",
-      "category": "Community",
+      "category": "Health",
       "sources": [
         {
           "name": "The Better India",
