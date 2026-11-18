@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-18T12:00:44.290289+00:00",
+  "generated_at": "2026-11-18T12:54:37.356519+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 53 feeds, 1081 headlines. Accepted 41, held for review 214, rejected 839. Carried 13 recent items (up to 96h) for re-check. Published window 72h. Auto-promoted from review: 0.",
+  "ingest_notes": "Fetched 53 feeds, 1082 headlines. Accepted 40, held for review 212, rejected 842. Carried 12 recent items (up to 96h) for re-check. Published window 72h. Auto-promoted from review: 0.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -22,6 +22,98 @@
   },
   "stories": [
     {
+      "id": "9d6618883cc6de09",
+      "headline": "A rare disease reveals a hidden flaw in the immune system",
+      "summary": "Scientists have discovered that a rare, potentially life-threatening inflammatory disorder is driven by malfunctioning immune cells, overturning three decades of scientific understanding. The breakthrough points to a promising new treatment using existing medications, with one\u2026",
+      "category": "Health",
+      "sources": [
+        {
+          "name": "ScienceDaily Health",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261117035052.htm",
+          "published_at": "2026-11-18T12:33:09+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-18T12:33:09+00:00",
+      "positivity_score": 60,
+      "positivity_reason": "positive cues: breakthrough, discovered, treatment",
+      "why_good": "Scientists have discovered that a rare, potentially life-threatening inflammatory disorder is driven by malfunctioning immune cells, overturning three decades of scientific understanding.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://www.sciencedaily.com/releases/2026/11/261117035052.htm",
+      "impact": null,
+      "new_today": true
+    },
+    {
+      "id": "a6735fe44525fcaa",
+      "headline": "Cold hard facts: When ice baths help... and when they hurt",
+      "summary": "A major review has found that plunging into cold water after exercise can speed recovery and boost performance in some situations\u2014but using it after every workout could be detrimental to strength and muscle gains.",
+      "category": "Health",
+      "sources": [
+        {
+          "name": "Medical Xpress",
+          "url": "https://medicalxpress.com/news/2026-11-cold-hard-facts-ice.html",
+          "published_at": "2026-11-18T12:30:01+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-18T12:30:01+00:00",
+      "positivity_score": 59,
+      "positivity_reason": "positive cues: recovery; improvement framing of a grim topic",
+      "why_good": "A major review has found that plunging into cold water after exercise can speed recovery and boost performance in some situations\u2014but using it.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://medicalxpress.com/news/2026-11-cold-hard-facts-ice.html",
+      "impact": null,
+      "new_today": true
+    },
+    {
+      "id": "a5e2e80ab990bb3d",
+      "headline": "Scientists create a remarkable new rechargeable battery using vitamin B12",
+      "summary": "Scientists have found a surprising new use for vitamin B12, developing a rechargeable battery that uses the essential nutrient to help generate and store electricity. The prototype survived up to 250 charging cycles and could open the door to safer, cheaper, and more\u2026",
+      "category": "World",
+      "sources": [
+        {
+          "name": "ScienceDaily Technology",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261117033909.htm",
+          "published_at": "2026-11-18T12:26:20+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-18T12:26:20+00:00",
+      "positivity_score": 57,
+      "positivity_reason": "positive cues: survived; improvement framing of a grim topic",
+      "why_good": "Scientists have found a surprising new use for vitamin B12, developing a rechargeable battery that uses the essential nutrient to help generate and store electricity.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://www.sciencedaily.com/releases/2026/11/261117033909.htm",
+      "impact": null,
+      "new_today": true
+    },
+    {
+      "id": "6fa152f41f036a0b",
+      "headline": "New discovery reveals what may be holding back room-temperature superconductors",
+      "summary": "A major breakthrough in superconductivity research has revealed that one of the essential ingredients for electricity to flow without resistance can exist at room temperature. Scientists discovered that electrons can form stable pairs at much higher temperatures than previously\u2026",
+      "category": "Science",
+      "sources": [
+        {
+          "name": "ScienceDaily Technology",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261116023358.htm",
+          "published_at": "2026-11-18T12:16:46+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-18T12:16:46+00:00",
+      "positivity_score": 60,
+      "positivity_reason": "positive cues: breakthrough, discovered, discovery",
+      "why_good": "A major breakthrough in superconductivity research has revealed that one of the essential ingredients for electricity to flow without resistance can exist at room temperature.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://www.sciencedaily.com/releases/2026/11/261116023358.htm",
+      "impact": null,
+      "new_today": true
+    },
+    {
       "id": "a93548edf25b32ed",
       "headline": "Millions Had His Painting. Few Knew His Name!",
       "summary": "Copy: For over five decades, his artwork found a place in millions of Indian homes, becoming a familiar sight across generations. Artist S.M. Srinivasan, who passed away at 86, was known for his paintings of deities, especially his two iconic depictions of Lord Venkateswara\u2026",
@@ -41,6 +133,29 @@
       "review_status": "auto-accepted",
       "is_sample": false,
       "link": "https://thebetterindia.com/videos/hobby/millions-had-his-painting-few-knew-his-name-12818977",
+      "impact": null,
+      "new_today": true
+    },
+    {
+      "id": "6979d2ddf2d3a8e8",
+      "headline": "NASA pushes Mars helicopter blades beyond the speed of sound",
+      "summary": "NASA has successfully tested Mars helicopter rotor blades at supersonic speeds, boosting potential lift by 30% and overcoming a major obstacle to more powerful aircraft on the Red Planet. The breakthrough could enable next-generation helicopters to carry heavier scientific\u2026",
+      "category": "Tech",
+      "sources": [
+        {
+          "name": "ScienceDaily Technology",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261117033920.htm",
+          "published_at": "2026-11-18T03:16:19+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-18T03:16:19+00:00",
+      "positivity_score": 54,
+      "positivity_reason": "positive cues: breakthrough",
+      "why_good": "NASA has successfully tested Mars helicopter rotor blades at supersonic speeds.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://www.sciencedaily.com/releases/2026/11/261117033920.htm",
       "impact": null,
       "new_today": true
     },
