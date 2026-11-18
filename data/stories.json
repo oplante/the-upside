@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-18T12:54:37.356519+00:00",
+  "generated_at": "2026-11-18T13:53:19.033586+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 53 feeds, 1082 headlines. Accepted 40, held for review 212, rejected 842. Carried 12 recent items (up to 96h) for re-check. Published window 72h. Auto-promoted from review: 0.",
+  "ingest_notes": "Fetched 53 feeds, 1081 headlines. Accepted 40, held for review 219, rejected 834. Carried 12 recent items (up to 96h) for re-check. Published window 72h. Auto-promoted from review: 0.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -693,34 +693,6 @@
       "review_status": "auto-accepted",
       "is_sample": false,
       "link": "https://www.sciencedaily.com/releases/2026/11/261113232105.htm",
-      "impact": null,
-      "new_today": false
-    },
-    {
-      "id": "09b35d1b1a751791",
-      "headline": "Four in a row - Australia win women's rugby league World Cup again",
-      "summary": "Jamie Chapman scores a hat-trick to help Australia comfortably beat New Zealand 34-10 in the women's rugby league World Cup final, securing a record-breaking fourth successive title.",
-      "category": "Sports",
-      "sources": [
-        {
-          "name": "BBC Sport",
-          "url": "https://www.bbc.co.uk/sport/rugby-league/videos/c6kgrvpnmdgdo?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-11-15T13:02:52+00:00"
-        },
-        {
-          "name": "BBC Sport",
-          "url": "https://www.bbc.co.uk/sport/rugby-league/articles/c50mdzx3j039o?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-11-15T09:12:00+00:00"
-        }
-      ],
-      "source_count": 1,
-      "published_at": "2026-11-15T13:02:52+00:00",
-      "positivity_score": 61,
-      "positivity_reason": "outcome pattern: competition milestone; positive cues: world cup, record-breaking; multiple outcome cues",
-      "why_good": "Jamie Chapman scores a hat-trick to help Australia comfortably beat New Zealand 34-10 in the women's rugby league World Cup final.",
-      "review_status": "auto-accepted",
-      "is_sample": false,
-      "link": "https://www.bbc.co.uk/sport/rugby-league/videos/c6kgrvpnmdgdo?at_medium=RSS&at_campaign=rss",
       "impact": null,
       "new_today": false
     }
