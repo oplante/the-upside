@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-18T13:53:19.033586+00:00",
+  "generated_at": "2026-11-18T15:24:09.735496+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 53 feeds, 1081 headlines. Accepted 40, held for review 219, rejected 834. Carried 12 recent items (up to 96h) for re-check. Published window 72h. Auto-promoted from review: 0.",
+  "ingest_notes": "Fetched 53 feeds, 1083 headlines. Accepted 41, held for review 211, rejected 845. Carried 14 recent items (up to 96h) for re-check. Published window 72h. Auto-promoted from review: 0.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -21,6 +21,29 @@
     "publish_hours": 72
   },
   "stories": [
+    {
+      "id": "69bcbf94a1d3bf67",
+      "headline": "This Blue Whale Population Grew 1,000% Since the End of Antarctic Whaling",
+      "summary": "Antarctic blue whales have increased in number 1,000% since 1973 when the harpoons were finally hung up for good. Growing from just 418 whales to 4,018, the superb recovery has averaged 4.5% per year. Though the International Whaling Commission banned the killing of Antarctic\u2026",
+      "category": "World",
+      "sources": [
+        {
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/this-blue-whale-population-grew-1000-since-the-end-of-whaling/",
+          "published_at": "2026-11-18T14:00:45+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-18T14:00:45+00:00",
+      "positivity_score": 63,
+      "positivity_reason": "solutions-focused source; positive cues: recovery; improvement framing of a grim topic",
+      "why_good": "Antarctic blue whales have increased in number 1,000% since 1973 when the harpoons were finally hung up for good.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://www.goodnewsnetwork.org/this-blue-whale-population-grew-1000-since-the-end-of-whaling/",
+      "impact": null,
+      "new_today": true
+    },
     {
       "id": "9d6618883cc6de09",
       "headline": "A rare disease reveals a hidden flaw in the immune system",
@@ -516,7 +539,7 @@
       "id": "d577780b2c892dd7",
       "headline": "\u201814 Years Ago, We Spoke of This Possibility\u2019: How AIIMS Delhi Performed India\u2019s First Open Foetal Surgery to Repair a Baby\u2019s Spine",
       "summary": "The institute announced on 14 November that this was India\u2019s first open foetal repair of a lumbosacral myelomeningocele, the most severe form of spina bifida.",
-      "category": "Health",
+      "category": "Community",
       "sources": [
         {
           "name": "The Better India",
@@ -647,52 +670,6 @@
       "review_status": "auto-accepted",
       "is_sample": false,
       "link": "https://www.goodnewsnetwork.org/world-first-bone-marrow-transplant-successfully-treats-non-malignant-disease/",
-      "impact": null,
-      "new_today": false
-    },
-    {
-      "id": "6970f08b2733ed89",
-      "headline": "Vitamin C could help block cancer-linked chemicals in your stomach, study finds",
-      "summary": "Scientists have discovered that vitamin C may help prevent potentially cancer-causing chemicals from forming in the stomach after eating foods containing nitrates and nitrites. A new mathematical model suggests that taking vitamin C after meals could reduce these harmful\u2026",
-      "category": "Science",
-      "sources": [
-        {
-          "name": "ScienceDaily Health",
-          "url": "https://www.sciencedaily.com/releases/2026/11/261114202236.htm",
-          "published_at": "2026-11-15T14:13:18+00:00"
-        }
-      ],
-      "source_count": 1,
-      "published_at": "2026-11-15T14:13:18+00:00",
-      "positivity_score": 55,
-      "positivity_reason": "positive cues: study finds, discovered",
-      "why_good": "Scientists have discovered that vitamin C may help prevent potentially cancer-causing chemicals from forming in the stomach after eating foods containing nitrates and nitrites.",
-      "review_status": "auto-accepted",
-      "is_sample": false,
-      "link": "https://www.sciencedaily.com/releases/2026/11/261114202236.htm",
-      "impact": null,
-      "new_today": false
-    },
-    {
-      "id": "3e5be7cc2248eeb7",
-      "headline": "A common osteoporosis drug blocked spinal damage in a surprising new study",
-      "summary": "Scientists have uncovered a surprising genetic connection to spinal degeneration and found that an existing osteoporosis drug can prevent damaging mineral buildup in zebrafish spines. The discovery could pave the way for new treatments that slow or prevent a major cause of\u2026",
-      "category": "Health",
-      "sources": [
-        {
-          "name": "ScienceDaily Health",
-          "url": "https://www.sciencedaily.com/releases/2026/11/261113232105.htm",
-          "published_at": "2026-11-15T14:03:39+00:00"
-        }
-      ],
-      "source_count": 1,
-      "published_at": "2026-11-15T14:03:39+00:00",
-      "positivity_score": 53,
-      "positivity_reason": "positive cues: discovery; concrete outcome language",
-      "why_good": "Scientists have uncovered a surprising genetic connection to spinal degeneration and found that an existing osteoporosis drug can prevent damaging mineral buildup in zebrafish spines.",
-      "review_status": "auto-accepted",
-      "is_sample": false,
-      "link": "https://www.sciencedaily.com/releases/2026/11/261113232105.htm",
       "impact": null,
       "new_today": false
     }
