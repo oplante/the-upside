@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-18T20:17:09.957254+00:00",
+  "generated_at": "2026-11-18T20:41:49.766175+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 53 feeds, 1081 headlines. Accepted 42, held for review 233, rejected 819. Carried 13 recent items (up to 96h) for re-check. Published window 72h. Auto-promoted from review: 0.",
+  "ingest_notes": "Fetched 53 feeds, 1081 headlines. Accepted 43, held for review 231, rejected 820. Carried 13 recent items (up to 96h) for re-check. Published window 72h. Auto-promoted from review: 0.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -21,6 +21,29 @@
     "publish_hours": 72
   },
   "stories": [
+    {
+      "id": "a739abfc51f31b3c",
+      "headline": "Electrified fabric captures phosphate for potential recovery from wastewater",
+      "summary": "When rain falls on farmland, lawns and gardens, it can wash phosphate from fertilizers into nearby waterways, triggering harmful algal blooms that cloud lakes and rivers, release toxins and rob the water of oxygen needed to sustain aquatic life. Now, Northwestern University and\u2026",
+      "category": "Science",
+      "sources": [
+        {
+          "name": "Phys.org",
+          "url": "https://phys.org/news/2026-11-electrified-fabric-captures-phosphate-potential.html",
+          "published_at": "2026-11-18T20:20:04+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-18T20:20:04+00:00",
+      "positivity_score": 59,
+      "positivity_reason": "positive cues: recovery; improvement framing of a grim topic",
+      "why_good": "When rain falls on farmland, lawns and gardens, it can wash phosphate from fertilizers into nearby waterways.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://phys.org/news/2026-11-electrified-fabric-captures-phosphate-potential.html",
+      "impact": null,
+      "new_today": true
+    },
     {
       "id": "c20d7421e9fa46b6",
       "headline": "Opening new grocery stores doesn't increase food access in low-income areas, research shows",
@@ -731,29 +754,6 @@
       "review_status": "auto-accepted",
       "is_sample": false,
       "link": "https://www.sciencedaily.com/releases/2026/11/261115085533.htm",
-      "impact": null,
-      "new_today": false
-    },
-    {
-      "id": "1720e81d7c4866f8",
-      "headline": "World-First Bone Marrow Transplant Successfully Treats Non-Malignant Disease",
-      "summary": "A Catholic health care system in the American Midwest has successfully completed the world\u2019s first reported bone marrow transplant to treat a non-malignant disease. Doctors at Franciscan Health used bone marrow recovered from a deceased organ donor to treat a 40-year-old woman\u2026",
-      "category": "Health",
-      "sources": [
-        {
-          "name": "Good News Network",
-          "url": "https://www.goodnewsnetwork.org/world-first-bone-marrow-transplant-successfully-treats-non-malignant-disease/",
-          "published_at": "2026-11-15T20:32:08+00:00"
-        }
-      ],
-      "source_count": 1,
-      "published_at": "2026-11-15T20:32:08+00:00",
-      "positivity_score": 64,
-      "positivity_reason": "solutions-focused source; positive cues: recovered; improvement framing of a grim topic",
-      "why_good": "A Catholic health care system in the American Midwest has successfully completed the world\u2019s first reported bone marrow transplant to treat a non-malignant disease.",
-      "review_status": "auto-accepted",
-      "is_sample": false,
-      "link": "https://www.goodnewsnetwork.org/world-first-bone-marrow-transplant-successfully-treats-non-malignant-disease/",
       "impact": null,
       "new_today": false
     }
