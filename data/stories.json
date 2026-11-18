@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-17T22:51:40.303403+00:00",
+  "generated_at": "2026-11-18T00:29:25.167983+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 53 feeds, 1081 headlines. Accepted 38, held for review 196, rejected 855. Carried 8 recent items (up to 96h) for re-check. Published window 72h. Auto-promoted from review: 0.",
+  "ingest_notes": "Fetched 53 feeds, 1082 headlines. Accepted 40, held for review 199, rejected 851. Carried 8 recent items (up to 96h) for re-check. Published window 72h. Auto-promoted from review: 0.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -21,6 +21,52 @@
     "publish_hours": 72
   },
   "stories": [
+    {
+      "id": "1a4a9a1a7ed0d3c3",
+      "headline": "Implanted electrodes restore function after severe muscle loss in early tests",
+      "summary": "Traumatic muscle injuries, whether from battlefield wounds, gunshots, surgical resections, or major open fractures, can cause volumetric muscle loss (VML), the loss of so much tissue that the muscle cannot regenerate on its own. Recovery typically brings chronic inflammation\u2026",
+      "category": "Health",
+      "sources": [
+        {
+          "name": "Medical Xpress",
+          "url": "https://medicalxpress.com/news/2026-11-implanted-electrodes-function-severe-muscle.html",
+          "published_at": "2026-11-17T23:20:05+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-17T23:20:05+00:00",
+      "positivity_score": 53,
+      "positivity_reason": "positive cues: recovery; improvement framing of a grim topic",
+      "why_good": "Traumatic muscle injuries, whether from battlefield wounds, gunshots, surgical resections, or major open fractures, can cause volumetric muscle loss.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://medicalxpress.com/news/2026-11-implanted-electrodes-function-severe-muscle.html",
+      "impact": null,
+      "new_today": false
+    },
+    {
+      "id": "df199f9b40265380",
+      "headline": "Chronic loneliness increases dementia risk by 38%, but occasional loneliness appears harmless, 30-year study finds",
+      "summary": "A new study that tracked people over the course of 30 years finds that only chronic, persistent loneliness is strongly linked with dementia.",
+      "category": "Health",
+      "sources": [
+        {
+          "name": "Medical Xpress",
+          "url": "https://medicalxpress.com/news/2026-11-chronic-loneliness-dementia-occasional-harmless.html",
+          "published_at": "2026-11-17T23:10:01+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-17T23:10:01+00:00",
+      "positivity_score": 52,
+      "positivity_reason": "positive cues: study finds",
+      "why_good": "A new study that tracked people over the course of 30 years finds that only chronic, persistent loneliness is strongly linked with dementia.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://medicalxpress.com/news/2026-11-chronic-loneliness-dementia-occasional-harmless.html",
+      "impact": null,
+      "new_today": false
+    },
     {
       "id": "5586bcb08d8cacee",
       "headline": "New Asian flying frog species identified in Indonesia",
@@ -42,7 +88,7 @@
       "is_sample": false,
       "link": "https://phys.org/news/2026-11-asian-flying-frog-species-indonesia.html",
       "impact": null,
-      "new_today": true
+      "new_today": false
     },
     {
       "id": "3d8779d5a472fcb8",
@@ -65,7 +111,7 @@
       "is_sample": false,
       "link": "https://medicalxpress.com/news/2026-11-regenerated-bone-maturing-largely-reveals.html",
       "impact": null,
-      "new_today": true
+      "new_today": false
     },
     {
       "id": "4ddf00a5da654553",
@@ -88,7 +134,7 @@
       "is_sample": false,
       "link": "https://www.goodnewsnetwork.org/west-coasts-first-ever-sea-turtle-hatchlings-released-into-the-pacific-look/",
       "impact": null,
-      "new_today": true
+      "new_today": false
     },
     {
       "id": "700a11c5bdb247ce",
@@ -114,7 +160,7 @@
         "value": "$114 Million",
         "label": "10 Freeway Lanes and Cost"
       },
-      "new_today": true
+      "new_today": false
     },
     {
       "id": "a04d403a74ac7e0f",
@@ -137,7 +183,7 @@
       "is_sample": false,
       "link": "https://www.goodnewsnetwork.org/largest-electric-bus-fleet-in-new-york-to-serve-bronx-neighborhood-riddled-with-asthma/",
       "impact": null,
-      "new_today": true
+      "new_today": false
     },
     {
       "id": "ae0bc23dc1726acb",
@@ -160,7 +206,7 @@
       "is_sample": false,
       "link": "https://www.goodnewsnetwork.org/a-waterfall-of-fog-and-almighty-storms-these-images-won-the-uks-weather-photography-awards/",
       "impact": null,
-      "new_today": true
+      "new_today": false
     },
     {
       "id": "5aa3501842334c6e",
@@ -188,7 +234,7 @@
       "is_sample": false,
       "link": "https://www.sciencedaily.com/releases/2026/11/261116014725.htm",
       "impact": null,
-      "new_today": true
+      "new_today": false
     },
     {
       "id": "c8da80c8ae2d0cb3",
@@ -211,7 +257,7 @@
       "is_sample": false,
       "link": "https://www.bbc.co.uk/news/articles/cm5y1wr1535ko?at_medium=RSS&at_campaign=rss",
       "impact": null,
-      "new_today": true
+      "new_today": false
     },
     {
       "id": "98f0bfc32a6f3bd2",
@@ -234,7 +280,7 @@
       "is_sample": false,
       "link": "https://medicalxpress.com/news/2026-11-adhd-reform-gp-medicare.html",
       "impact": null,
-      "new_today": true
+      "new_today": false
     },
     {
       "id": "06395f6d34242788",
