@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-18T17:16:58.988178+00:00",
+  "generated_at": "2026-11-18T17:30:37.186731+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 53 feeds, 1083 headlines. Accepted 41, held for review 233, rejected 820. Carried 11 recent items (up to 96h) for re-check. Published window 72h. Auto-promoted from review: 0.",
+  "ingest_notes": "Fetched 53 feeds, 1083 headlines. Accepted 43, held for review 233, rejected 817. Carried 10 recent items (up to 96h) for re-check. Published window 72h. Auto-promoted from review: 0.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -21,6 +21,55 @@
     "publish_hours": 72
   },
   "stories": [
+    {
+      "id": "c20d7421e9fa46b6",
+      "headline": "Opening new grocery stores doesn't increase food access in low-income areas, research shows",
+      "summary": "Food deserts, according to the U.S. Department of Agriculture, are low-income neighborhoods where residents have limited access to healthy and affordable food. Opening a grocery store is a commonly proposed solution to improve food access in these areas, but that doesn't\u2026",
+      "category": "Community",
+      "sources": [
+        {
+          "name": "Medical Xpress",
+          "url": "https://medicalxpress.com/news/2026-11-grocery-doesnt-food-access-income.html",
+          "published_at": "2026-11-18T17:20:16+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-18T17:20:16+00:00",
+      "positivity_score": 56,
+      "positivity_reason": "positive cues: affordable, solution, opening",
+      "why_good": "Department of Agriculture, are low-income neighborhoods where residents have limited access to healthy and affordable food.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://medicalxpress.com/news/2026-11-grocery-doesnt-food-access-income.html",
+      "impact": null,
+      "new_today": true
+    },
+    {
+      "id": "2c42e0a2cb5dc432",
+      "headline": "Miniaturization found at the origin of amphibians opens new ecological territory",
+      "summary": "Frogs, salamanders and caecilians\u2014the three groups of living amphibians\u2014together number more than 9,000 species. On average, they are the smallest of all four-limbed vertebrates, and some are extremely small: Brachycephalus toads measure less than 7 millimeters (0.28 inches)\u2026",
+      "category": "Science",
+      "sources": [
+        {
+          "name": "Phys.org",
+          "url": "https://phys.org/news/2026-11-miniaturization-amphibians-ecological-territory.html",
+          "published_at": "2026-11-18T17:20:09+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-18T17:20:09+00:00",
+      "positivity_score": 62,
+      "positivity_reason": "positive cues: opens; concrete outcome language; stated figure from the source",
+      "why_good": "Frogs, salamanders and caecilians\u2014the three groups of living amphibians\u2014together number more than 9,000 species.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://phys.org/news/2026-11-miniaturization-amphibians-ecological-territory.html",
+      "impact": {
+        "value": "9,000",
+        "label": "species On average they are"
+      },
+      "new_today": true
+    },
     {
       "id": "baca7445adf9e433",
       "headline": "New guidance addresses GLP-1 medication use and eating disorders",
