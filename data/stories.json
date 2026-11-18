@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-18T15:40:30.111493+00:00",
+  "generated_at": "2026-11-18T15:49:49.879361+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 53 feeds, 1083 headlines. Accepted 41, held for review 212, rejected 844. Carried 14 recent items (up to 96h) for re-check. Published window 72h. Auto-promoted from review: 0.",
+  "ingest_notes": "Fetched 53 feeds, 1082 headlines. Accepted 45, held for review 200, rejected 851. Carried 14 recent items (up to 96h) for re-check. Published window 72h. Auto-promoted from review: 0.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -21,6 +21,32 @@
     "publish_hours": 72
   },
   "stories": [
+    {
+      "id": "43027ac96371baad",
+      "headline": "Cancer patients at NHS trust harmed by years of unnecessary chemotherapy, report finds",
+      "summary": "Trust apologises after findings on treatment of 20 brain tumour patients under oncologist who retired in 2023 Cancer patients were severely harmed after being given years of unnecessary chemotherapy treatment by an NHS trust, a report has found. Some people were misdiagnosed and\u2026",
+      "category": "Health",
+      "sources": [
+        {
+          "name": "The Guardian Health",
+          "url": "https://www.theguardian.com/society/2026/nov/18/cancer-patients-nhs-trust-unnecessary-chemotherapy-coventry",
+          "published_at": "2026-11-18T15:35:05+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-18T15:35:05+00:00",
+      "positivity_score": 53,
+      "positivity_reason": "positive cues: treatment; concrete outcome language; stated figure from the source",
+      "why_good": "Trust apologises after findings on treatment of 20 brain tumour patients under oncologist who retired in 2023 Cancer patients were severely harmed.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://www.theguardian.com/society/2026/nov/18/cancer-patients-nhs-trust-unnecessary-chemotherapy-coventry",
+      "impact": {
+        "value": "20",
+        "label": "brain tumour patients under oncologist who"
+      },
+      "new_today": true
+    },
     {
       "id": "69bcbf94a1d3bf67",
       "headline": "This Blue Whale Population Grew 1,000% Since the End of Antarctic Whaling",
@@ -206,6 +232,32 @@
       "new_today": true
     },
     {
+      "id": "b25fb6207b2fcdd4",
+      "headline": "US homelessness decline hits its steepest one-year drop in a decade",
+      "summary": "Homelessness in the United States fell by more than six percent in 2025, the steepest one-year homelessness decline in more than a decade, which works out to roughly 49,000 fewer people without housing.",
+      "category": "Community",
+      "sources": [
+        {
+          "name": "Optimist Daily",
+          "url": "https://www.optimistdaily.com/2026/11/us-homelessness-decline-hits-its-steepest-one-year-drop-in-a-decade/",
+          "published_at": "2026-11-18T00:00:36+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-18T00:00:36+00:00",
+      "positivity_score": 66,
+      "positivity_reason": "solutions-focused source; positive cues: works; improvement framing of a grim topic; stated figure from the source",
+      "why_good": "Homelessness in the United States fell by more than six percent in 2025, the steepest one-year homelessness decline in more than a decade, which works out to roughly 49,000 fewer people without housing.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://www.optimistdaily.com/2026/11/us-homelessness-decline-hits-its-steepest-one-year-drop-in-a-decade/",
+      "impact": {
+        "value": "49,000",
+        "label": "fewer people without housing It was"
+      },
+      "new_today": true
+    },
+    {
       "id": "1a4a9a1a7ed0d3c3",
       "headline": "Implanted electrodes restore function after severe muscle loss in early tests",
       "summary": "Traumatic muscle injuries, whether from battlefield wounds, gunshots, surgical resections, or major open fractures, can cause volumetric muscle loss (VML), the loss of so much tissue that the muscle cannot regenerate on its own. Recovery typically brings chronic inflammation\u2026",
@@ -298,6 +350,29 @@
       "new_today": false
     },
     {
+      "id": "c4c10536bcd90cba",
+      "headline": "NASA Space Apps Challenge Breaks Global Hackathon Records",
+      "summary": "On Nov. 14 and 15, NASA held the annual Space Apps Challenge with a record-breaking 181,835 registered participants taking part in 593 events around the world.",
+      "category": "Science",
+      "sources": [
+        {
+          "name": "NASA",
+          "url": "https://science.nasa.gov/open-science/nasa-space-apps-challenge-breaks-global-hackathon-records/",
+          "published_at": "2026-11-17T21:50:34+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-17T21:50:34+00:00",
+      "positivity_score": 49,
+      "positivity_reason": "positive cues: record-breaking; fact-check pass",
+      "why_good": "On Nov. 14 and 15, NASA held the annual Space Apps Challenge with a record-breaking 181,835 registered participants taking part in 593 events around the world.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://science.nasa.gov/open-science/nasa-space-apps-challenge-breaks-global-hackathon-records/",
+      "impact": null,
+      "new_today": false
+    },
+    {
       "id": "4ddf00a5da654553",
       "headline": "West Coast\u2019s First Ever Sea Turtle Hatchlings Released into the Pacific (LOOK)",
       "summary": "Olive ridley sea turtle hatchlings saved from an approaching storm in California were released into the wild over the weekend. It was late September when a female turtle climbed out of the sea, dug a nest on the beach, deposited her clutch, and slipped back into the water\u2026",
@@ -318,6 +393,32 @@
       "is_sample": false,
       "link": "https://www.goodnewsnetwork.org/west-coasts-first-ever-sea-turtle-hatchlings-released-into-the-pacific-look/",
       "impact": null,
+      "new_today": false
+    },
+    {
+      "id": "7f2c29e713411b27",
+      "headline": "Warren Buffett Gives Away $5.5 Billion in Thanksgiving Gift, Saying Kindness Is Priceless",
+      "summary": "Warren Buffett marked another Thanksgiving by converting thousands of Berkshire Hathaway shares into a charitable donation valued at about $5.5 billion.",
+      "category": "Business",
+      "sources": [
+        {
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/warren-buffett-gives-away-5-5-billion-thanksgiving-gift/",
+          "published_at": "2026-11-17T15:55:24+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-17T15:55:24+00:00",
+      "positivity_score": 60,
+      "positivity_reason": "solutions-focused source; positive cues: donation; stated figure from the source",
+      "why_good": "Warren Buffett marked another Thanksgiving by converting thousands of Berkshire Hathaway shares into a charitable donation valued at about $5.5 billion.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://www.goodnewsnetwork.org/warren-buffett-gives-away-5-5-billion-thanksgiving-gift/",
+      "impact": {
+        "value": "$5.5 Billion",
+        "label": "Thanksgiving Gift Saying Kindness is"
+      },
       "new_today": false
     },
     {
