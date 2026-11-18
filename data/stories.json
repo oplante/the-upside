@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-18T02:24:53.539812+00:00",
+  "generated_at": "2026-11-18T06:08:09.375149+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 53 feeds, 1082 headlines. Accepted 39, held for review 206, rejected 845. Carried 8 recent items (up to 96h) for re-check. Published window 72h. Auto-promoted from review: 0.",
+  "ingest_notes": "Fetched 53 feeds, 1082 headlines. Accepted 41, held for review 201, rejected 849. Carried 9 recent items (up to 96h) for re-check. Published window 72h. Auto-promoted from review: 0.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -21,6 +21,52 @@
     "publish_hours": 72
   },
   "stories": [
+    {
+      "id": "a93548edf25b32ed",
+      "headline": "Millions Had His Painting. Few Knew His Name!",
+      "summary": "Copy: For over five decades, his artwork found a place in millions of Indian homes, becoming a familiar sight across generations. Artist S.M. Srinivasan, who passed away at 86, was known for his paintings of deities, especially his two iconic depictions of Lord Venkateswara\u2026",
+      "category": "Culture",
+      "sources": [
+        {
+          "name": "The Better India",
+          "url": "https://thebetterindia.com/videos/hobby/millions-had-his-painting-few-knew-his-name-12818977",
+          "published_at": "2026-11-18T04:20:59+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-18T04:20:59+00:00",
+      "positivity_score": 54,
+      "positivity_reason": "solutions-focused source; concrete outcome language",
+      "why_good": "Copy: For over five decades, his artwork found a place in millions of Indian homes, becoming a familiar sight across generations.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://thebetterindia.com/videos/hobby/millions-had-his-painting-few-knew-his-name-12818977",
+      "impact": null,
+      "new_today": true
+    },
+    {
+      "id": "5a72d3176d65d901",
+      "headline": "Psilocybin may improve a difficult-to-treat symptom of depression, study finds",
+      "summary": "New research from the University of Colorado Anschutz suggests that psilocybin may help improve anhedonia, the loss of interest or ability to experience pleasure, in people with treatment-resistant depression. In a clinical trial, researchers found significant improvement in\u2026",
+      "category": "Science",
+      "sources": [
+        {
+          "name": "Medical Xpress",
+          "url": "https://medicalxpress.com/news/2026-11-psilocybin-difficult-symptom-depression.html",
+          "published_at": "2026-11-18T03:00:01+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-18T03:00:01+00:00",
+      "positivity_score": 71,
+      "positivity_reason": "positive cues: study finds, improvement, treatment; multiple outcome cues; concrete outcome language",
+      "why_good": "New research from the University of Colorado Anschutz suggests that psilocybin may help improve anhedonia, the loss of interest or ability to experience pleasure.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://medicalxpress.com/news/2026-11-psilocybin-difficult-symptom-depression.html",
+      "impact": null,
+      "new_today": true
+    },
     {
       "id": "1a4a9a1a7ed0d3c3",
       "headline": "Implanted electrodes restore function after severe muscle loss in early tests",
