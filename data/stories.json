@@ -255,29 +255,6 @@
       "new_today": false
     },
     {
-      "id": "df199f9b40265380",
-      "headline": "Chronic loneliness increases dementia risk by 38%, but occasional loneliness appears harmless, 30-year study finds",
-      "summary": "A new study that tracked people over the course of 30 years finds that only chronic, persistent loneliness is strongly linked with dementia.",
-      "category": "Health",
-      "sources": [
-        {
-          "name": "Medical Xpress",
-          "url": "https://medicalxpress.com/news/2026-11-chronic-loneliness-dementia-occasional-harmless.html",
-          "published_at": "2026-11-17T23:10:01+00:00"
-        }
-      ],
-      "source_count": 1,
-      "published_at": "2026-11-17T23:10:01+00:00",
-      "positivity_score": 52,
-      "positivity_reason": "positive cues: study finds",
-      "why_good": "A new study that tracked people over the course of 30 years finds that only chronic, persistent loneliness is strongly linked with dementia.",
-      "review_status": "auto-accepted",
-      "is_sample": false,
-      "link": "https://medicalxpress.com/news/2026-11-chronic-loneliness-dementia-occasional-harmless.html",
-      "impact": null,
-      "new_today": false
-    },
-    {
       "id": "5586bcb08d8cacee",
       "headline": "New Asian flying frog species identified in Indonesia",
       "summary": "In the lush mountain rainforests of Indonesia, researchers have identified a new species of Asian flying frog with distinctive physical features, calls and unusual egg-laying habits. The discovery is described in a paper published in the journal Zootaxa by scientists from Museum…",
@@ -496,29 +473,6 @@
       "new_today": false
     },
     {
-      "id": "c8da80c8ae2d0cb3",
-      "headline": "Nigerians among 12 suspects arrested in $4.5m Canada luxury car theft syndicate",
-      "summary": "Canadian authorities say they have recovered 96 luxury vehicles destined for West Africa.",
-      "category": "World",
-      "sources": [
-        {
-          "name": "BBC World",
-          "url": "https://www.bbc.co.uk/news/articles/cm5y1wr1535ko?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-11-17T08:11:20+00:00"
-        }
-      ],
-      "source_count": 1,
-      "published_at": "2026-11-17T08:11:20+00:00",
-      "positivity_score": 52,
-      "positivity_reason": "positive cues: recovered; improvement framing of a grim topic",
-      "why_good": "Canadian authorities say they have recovered 96 luxury vehicles destined for West Africa.",
-      "review_status": "auto-accepted",
-      "is_sample": false,
-      "link": "https://www.bbc.co.uk/news/articles/cm5y1wr1535ko?at_medium=RSS&at_campaign=rss",
-      "impact": null,
-      "new_today": false
-    },
-    {
       "id": "98f0bfc32a6f3bd2",
       "headline": "ADHD reform needs GP training and Medicare support, study finds",
       "summary": "Expanding attention-deficit/hyperactivity disorder (ADHD) care to general practitioners (GPs) should be matched with additional training and Medicare support, University of Queensland research has found.",
@@ -561,52 +515,6 @@
       "review_status": "auto-accepted",
       "is_sample": false,
       "link": "https://phys.org/news/2026-11-biomass-renewable-fuels-chemicals-microorganisms.html",
-      "impact": null,
-      "new_today": false
-    },
-    {
-      "id": "b744c50f9b749881",
-      "headline": "Astaxanthin supplements: What the science says about skin, exercise and your brain",
-      "summary": "Smoother skin, sharper eyesight, better memory, stronger joints, improved athletic performance and even protection against aging—astaxanthin is marketed as a supplement with an extraordinary range of health benefits. But how much of this promise is backed by evidence in people?",
-      "category": "Health",
-      "sources": [
-        {
-          "name": "Medical Xpress",
-          "url": "https://medicalxpress.com/news/2026-11-astaxanthin-supplements-science-skin-brain.html",
-          "published_at": "2026-11-16T18:40:26+00:00"
-        }
-      ],
-      "source_count": 1,
-      "published_at": "2026-11-16T18:40:26+00:00",
-      "positivity_score": 55,
-      "positivity_reason": "positive cues: improved, protection",
-      "why_good": "Smoother skin, sharper eyesight, better memory, stronger joints, improved athletic performance and even protection against aging—astaxanthin is marketed.",
-      "review_status": "auto-accepted",
-      "is_sample": false,
-      "link": "https://medicalxpress.com/news/2026-11-astaxanthin-supplements-science-skin-brain.html",
-      "impact": null,
-      "new_today": false
-    },
-    {
-      "id": "e2dbf4c7a05229bf",
-      "headline": "Steiner and state: Comparing two schools of thought",
-      "summary": "Children who receive a Steiner education show greater academic success in multiple subjects than those at mainstream schools, a new international study has found.",
-      "category": "Science",
-      "sources": [
-        {
-          "name": "Phys.org",
-          "url": "https://phys.org/news/2026-11-steiner-state-schools-thought.html",
-          "published_at": "2026-11-16T14:00:07+00:00"
-        }
-      ],
-      "source_count": 1,
-      "published_at": "2026-11-16T14:00:07+00:00",
-      "positivity_score": 53,
-      "positivity_reason": "positive cues: success; concrete outcome language",
-      "why_good": "Children who receive a Steiner education show greater academic success in multiple subjects than those at mainstream schools, a new international study has found.",
-      "review_status": "auto-accepted",
-      "is_sample": false,
-      "link": "https://phys.org/news/2026-11-steiner-state-schools-thought.html",
       "impact": null,
       "new_today": false
     },
