@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-18T20:41:49.766175+00:00",
+  "generated_at": "2026-11-18T23:57:46.884992+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 53 feeds, 1081 headlines. Accepted 43, held for review 231, rejected 820. Carried 13 recent items (up to 96h) for re-check. Published window 72h. Auto-promoted from review: 0.",
+  "ingest_notes": "Fetched 53 feeds, 1082 headlines. Accepted 44, held for review 243, rejected 811. Carried 16 recent items (up to 96h) for re-check. Published window 72h. Auto-promoted from review: 0.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -21,6 +21,32 @@
     "publish_hours": 72
   },
   "stories": [
+    {
+      "id": "b937174d1b02c154",
+      "headline": "Creatine supplement use nearly doubles among US college students, new study finds",
+      "summary": "The use of creatine and protein supplements among U.S. college and university students has increased significantly over a five-year period, according to new research published in the journal Performance Enhancement & Health and led by researchers at the University of Toronto.",
+      "category": "Science",
+      "sources": [
+        {
+          "name": "Medical Xpress",
+          "url": "https://medicalxpress.com/news/2026-11-creatine-supplement-college-students.html",
+          "published_at": "2026-11-18T22:40:05+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-18T22:40:05+00:00",
+      "positivity_score": 78,
+      "positivity_reason": "positive cues: study finds, doubles; multiple outcome cues; concrete outcome language; stated figure from the source",
+      "why_good": "The use of creatine and protein supplements among U.S. college and university students has increased significantly over a five-year period.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://medicalxpress.com/news/2026-11-creatine-supplement-college-students.html",
+      "impact": {
+        "value": "2\u00d7",
+        "label": "Creatine supplement use nearly among US college students"
+      },
+      "new_today": true
+    },
     {
       "id": "a739abfc51f31b3c",
       "headline": "Electrified fabric captures phosphate for potential recovery from wastewater",
