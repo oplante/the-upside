@@ -22,35 +22,9 @@
   },
   "stories": [
     {
-      "id": "43027ac96371baad",
-      "headline": "Cancer patients at NHS trust harmed by years of unnecessary chemotherapy, report finds",
-      "summary": "Trust apologises after findings on treatment of 20 brain tumour patients under oncologist who retired in 2023 Cancer patients were severely harmed after being given years of unnecessary chemotherapy treatment by an NHS trust, a report has found. Some people were misdiagnosed and\u2026",
-      "category": "Health",
-      "sources": [
-        {
-          "name": "The Guardian Health",
-          "url": "https://www.theguardian.com/society/2026/nov/18/cancer-patients-nhs-trust-unnecessary-chemotherapy-coventry",
-          "published_at": "2026-11-18T15:35:05+00:00"
-        }
-      ],
-      "source_count": 1,
-      "published_at": "2026-11-18T15:35:05+00:00",
-      "positivity_score": 53,
-      "positivity_reason": "positive cues: treatment; concrete outcome language; stated figure from the source",
-      "why_good": "Trust apologises after findings on treatment of 20 brain tumour patients under oncologist who retired in 2023 Cancer patients were severely harmed.",
-      "review_status": "auto-accepted",
-      "is_sample": false,
-      "link": "https://www.theguardian.com/society/2026/nov/18/cancer-patients-nhs-trust-unnecessary-chemotherapy-coventry",
-      "impact": {
-        "value": "20",
-        "label": "brain tumour patients under oncologist who"
-      },
-      "new_today": true
-    },
-    {
       "id": "69bcbf94a1d3bf67",
       "headline": "This Blue Whale Population Grew 1,000% Since the End of Antarctic Whaling",
-      "summary": "Antarctic blue whales have increased in number 1,000% since 1973 when the harpoons were finally hung up for good. Growing from just 418 whales to 4,018, the superb recovery has averaged 4.5% per year. Though the International Whaling Commission banned the killing of Antarctic\u2026",
+      "summary": "Antarctic blue whales have increased in number 1,000% since 1973 when the harpoons were finally hung up for good. Growing from just 418 whales to 4,018, the superb recovery has averaged 4.5% per year. Though the International Whaling Commission banned the killing of Antarctic…",
       "category": "World",
       "sources": [
         {
@@ -73,7 +47,7 @@
     {
       "id": "9d6618883cc6de09",
       "headline": "A rare disease reveals a hidden flaw in the immune system",
-      "summary": "Scientists have discovered that a rare, potentially life-threatening inflammatory disorder is driven by malfunctioning immune cells, overturning three decades of scientific understanding. The breakthrough points to a promising new treatment using existing medications, with one\u2026",
+      "summary": "Scientists have discovered that a rare, potentially life-threatening inflammatory disorder is driven by malfunctioning immune cells, overturning three decades of scientific understanding. The breakthrough points to a promising new treatment using existing medications, with one…",
       "category": "Health",
       "sources": [
         {
@@ -96,7 +70,7 @@
     {
       "id": "a6735fe44525fcaa",
       "headline": "Cold hard facts: When ice baths help... and when they hurt",
-      "summary": "A major review has found that plunging into cold water after exercise can speed recovery and boost performance in some situations\u2014but using it after every workout could be detrimental to strength and muscle gains.",
+      "summary": "A major review has found that plunging into cold water after exercise can speed recovery and boost performance in some situations—but using it after every workout could be detrimental to strength and muscle gains.",
       "category": "Health",
       "sources": [
         {
@@ -109,7 +83,7 @@
       "published_at": "2026-11-18T12:30:01+00:00",
       "positivity_score": 59,
       "positivity_reason": "positive cues: recovery; improvement framing of a grim topic",
-      "why_good": "A major review has found that plunging into cold water after exercise can speed recovery and boost performance in some situations\u2014but using it.",
+      "why_good": "A major review has found that plunging into cold water after exercise can speed recovery and boost performance in some situations—but using it.",
       "review_status": "auto-accepted",
       "is_sample": false,
       "link": "https://medicalxpress.com/news/2026-11-cold-hard-facts-ice.html",
@@ -119,7 +93,7 @@
     {
       "id": "a5e2e80ab990bb3d",
       "headline": "Scientists create a remarkable new rechargeable battery using vitamin B12",
-      "summary": "Scientists have found a surprising new use for vitamin B12, developing a rechargeable battery that uses the essential nutrient to help generate and store electricity. The prototype survived up to 250 charging cycles and could open the door to safer, cheaper, and more\u2026",
+      "summary": "Scientists have found a surprising new use for vitamin B12, developing a rechargeable battery that uses the essential nutrient to help generate and store electricity. The prototype survived up to 250 charging cycles and could open the door to safer, cheaper, and more…",
       "category": "World",
       "sources": [
         {
@@ -142,7 +116,7 @@
     {
       "id": "6fa152f41f036a0b",
       "headline": "New discovery reveals what may be holding back room-temperature superconductors",
-      "summary": "A major breakthrough in superconductivity research has revealed that one of the essential ingredients for electricity to flow without resistance can exist at room temperature. Scientists discovered that electrons can form stable pairs at much higher temperatures than previously\u2026",
+      "summary": "A major breakthrough in superconductivity research has revealed that one of the essential ingredients for electricity to flow without resistance can exist at room temperature. Scientists discovered that electrons can form stable pairs at much higher temperatures than previously…",
       "category": "Science",
       "sources": [
         {
@@ -165,7 +139,7 @@
     {
       "id": "a93548edf25b32ed",
       "headline": "Millions Had His Painting. Few Knew His Name!",
-      "summary": "Copy: For over five decades, his artwork found a place in millions of Indian homes, becoming a familiar sight across generations. Artist S.M. Srinivasan, who passed away at 86, was known for his paintings of deities, especially his two iconic depictions of Lord Venkateswara\u2026",
+      "summary": "Copy: For over five decades, his artwork found a place in millions of Indian homes, becoming a familiar sight across generations. Artist S.M. Srinivasan, who passed away at 86, was known for his paintings of deities, especially his two iconic depictions of Lord Venkateswara…",
       "category": "Culture",
       "sources": [
         {
@@ -188,7 +162,7 @@
     {
       "id": "6979d2ddf2d3a8e8",
       "headline": "NASA pushes Mars helicopter blades beyond the speed of sound",
-      "summary": "NASA has successfully tested Mars helicopter rotor blades at supersonic speeds, boosting potential lift by 30% and overcoming a major obstacle to more powerful aircraft on the Red Planet. The breakthrough could enable next-generation helicopters to carry heavier scientific\u2026",
+      "summary": "NASA has successfully tested Mars helicopter rotor blades at supersonic speeds, boosting potential lift by 30% and overcoming a major obstacle to more powerful aircraft on the Red Planet. The breakthrough could enable next-generation helicopters to carry heavier scientific…",
       "category": "Tech",
       "sources": [
         {
@@ -211,7 +185,7 @@
     {
       "id": "5a72d3176d65d901",
       "headline": "Psilocybin may improve a difficult-to-treat symptom of depression, study finds",
-      "summary": "New research from the University of Colorado Anschutz suggests that psilocybin may help improve anhedonia, the loss of interest or ability to experience pleasure, in people with treatment-resistant depression. In a clinical trial, researchers found significant improvement in\u2026",
+      "summary": "New research from the University of Colorado Anschutz suggests that psilocybin may help improve anhedonia, the loss of interest or ability to experience pleasure, in people with treatment-resistant depression. In a clinical trial, researchers found significant improvement in…",
       "category": "Science",
       "sources": [
         {
@@ -260,7 +234,7 @@
     {
       "id": "1a4a9a1a7ed0d3c3",
       "headline": "Implanted electrodes restore function after severe muscle loss in early tests",
-      "summary": "Traumatic muscle injuries, whether from battlefield wounds, gunshots, surgical resections, or major open fractures, can cause volumetric muscle loss (VML), the loss of so much tissue that the muscle cannot regenerate on its own. Recovery typically brings chronic inflammation\u2026",
+      "summary": "Traumatic muscle injuries, whether from battlefield wounds, gunshots, surgical resections, or major open fractures, can cause volumetric muscle loss (VML), the loss of so much tissue that the muscle cannot regenerate on its own. Recovery typically brings chronic inflammation…",
       "category": "Health",
       "sources": [
         {
@@ -306,7 +280,7 @@
     {
       "id": "5586bcb08d8cacee",
       "headline": "New Asian flying frog species identified in Indonesia",
-      "summary": "In the lush mountain rainforests of Indonesia, researchers have identified a new species of Asian flying frog with distinctive physical features, calls and unusual egg-laying habits. The discovery is described in a paper published in the journal Zootaxa by scientists from Museum\u2026",
+      "summary": "In the lush mountain rainforests of Indonesia, researchers have identified a new species of Asian flying frog with distinctive physical features, calls and unusual egg-laying habits. The discovery is described in a paper published in the journal Zootaxa by scientists from Museum…",
       "category": "Science",
       "sources": [
         {
@@ -329,7 +303,7 @@
     {
       "id": "3d8779d5a472fcb8",
       "headline": "Regenerated bone keeps maturing after its shape is largely restored, study reveals",
-      "summary": "Regeneration is often judged by what researchers can see\u2014whether missing tissue has returned and its shape has been restored. But a new Texas A&M study shows that bone may continue to mature mechanically beneath the surface even after it appears whole.",
+      "summary": "Regeneration is often judged by what researchers can see—whether missing tissue has returned and its shape has been restored. But a new Texas A&M study shows that bone may continue to mature mechanically beneath the surface even after it appears whole.",
       "category": "Science",
       "sources": [
         {
@@ -342,7 +316,7 @@
       "published_at": "2026-11-17T22:20:03+00:00",
       "positivity_score": 68,
       "positivity_reason": "positive cues: restored; improvement framing of a grim topic; concrete outcome language",
-      "why_good": "Regeneration is often judged by what researchers can see\u2014whether missing tissue has returned and its shape has been restored.",
+      "why_good": "Regeneration is often judged by what researchers can see—whether missing tissue has returned and its shape has been restored.",
       "review_status": "auto-accepted",
       "is_sample": false,
       "link": "https://medicalxpress.com/news/2026-11-regenerated-bone-maturing-largely-reveals.html",
@@ -374,8 +348,8 @@
     },
     {
       "id": "4ddf00a5da654553",
-      "headline": "West Coast\u2019s First Ever Sea Turtle Hatchlings Released into the Pacific (LOOK)",
-      "summary": "Olive ridley sea turtle hatchlings saved from an approaching storm in California were released into the wild over the weekend. It was late September when a female turtle climbed out of the sea, dug a nest on the beach, deposited her clutch, and slipped back into the water\u2026",
+      "headline": "West Coast’s First Ever Sea Turtle Hatchlings Released into the Pacific (LOOK)",
+      "summary": "Olive ridley sea turtle hatchlings saved from an approaching storm in California were released into the wild over the weekend. It was late September when a female turtle climbed out of the sea, dug a nest on the beach, deposited her clutch, and slipped back into the water…",
       "category": "Community",
       "sources": [
         {
@@ -423,8 +397,8 @@
     },
     {
       "id": "700a11c5bdb247ce",
-      "headline": "Cameras Capture First Animal To Use World\u2019s Largest Wildlife Crossing, Which Stretches Over 10 Freeway Lanes and Cost $114 Million",
-      "summary": "A coyote has become the first large mammal to cross the Wallis Annenberg Wildlife Crossing, weeks before its planned Dec. 2 completion Source: Cameras Capture First Animal To Use World\u2019s Largest Wildlife Crossing, Which Stretches Over 10 Freeway Lanes and Cost $114 Million Very\u2026",
+      "headline": "Cameras Capture First Animal To Use World’s Largest Wildlife Crossing, Which Stretches Over 10 Freeway Lanes and Cost $114 Million",
+      "summary": "A coyote has become the first large mammal to cross the Wallis Annenberg Wildlife Crossing, weeks before its planned Dec. 2 completion Source: Cameras Capture First Animal To Use World’s Largest Wildlife Crossing, Which Stretches Over 10 Freeway Lanes and Cost $114 Million Very…",
       "category": "Environment",
       "sources": [
         {
@@ -472,7 +446,7 @@
     },
     {
       "id": "ae0bc23dc1726acb",
-      "headline": "A Waterfall of Fog and Lots of Lighting, These Images Won the UK\u2019s Weather Photography Awards",
+      "headline": "A Waterfall of Fog and Lots of Lighting, These Images Won the UK’s Weather Photography Awards",
       "summary": "From a waterfall of fog to almighty storms and sunrises, the winners of the 2026 Weather Photographer of the Year competition have been announced.",
       "category": "Community",
       "sources": [
@@ -496,7 +470,7 @@
     {
       "id": "5aa3501842334c6e",
       "headline": "Scientists tracked kids for 8 years. What they found about screen time was surprising",
-      "summary": "A surprising Finnish study found that children who spent more time using screens tended to have better cognitive processing abilities as teenagers, challenging the assumption that screen time is always harmful. Researchers suggest that what children do on screens may matter more\u2026",
+      "summary": "A surprising Finnish study found that children who spent more time using screens tended to have better cognitive processing abilities as teenagers, challenging the assumption that screen time is always harmful. Researchers suggest that what children do on screens may matter more…",
       "category": "Science",
       "sources": [
         {
@@ -570,7 +544,7 @@
     {
       "id": "06395f6d34242788",
       "headline": "Turning biomass into renewable fuels and chemicals using microorganisms",
-      "summary": "Texas A&M University researchers have developed a process that converts biomass into renewable fuels and chemicals. Dr. Mark Holtzapple, professor in the Artie McFerrin Department of Chemical Engineering, aims to make producing these products more efficient and affordable by\u2026",
+      "summary": "Texas A&M University researchers have developed a process that converts biomass into renewable fuels and chemicals. Dr. Mark Holtzapple, professor in the Artie McFerrin Department of Chemical Engineering, aims to make producing these products more efficient and affordable by…",
       "category": "Science",
       "sources": [
         {
@@ -593,7 +567,7 @@
     {
       "id": "b744c50f9b749881",
       "headline": "Astaxanthin supplements: What the science says about skin, exercise and your brain",
-      "summary": "Smoother skin, sharper eyesight, better memory, stronger joints, improved athletic performance and even protection against aging\u2014astaxanthin is marketed as a supplement with an extraordinary range of health benefits. But how much of this promise is backed by evidence in people?",
+      "summary": "Smoother skin, sharper eyesight, better memory, stronger joints, improved athletic performance and even protection against aging—astaxanthin is marketed as a supplement with an extraordinary range of health benefits. But how much of this promise is backed by evidence in people?",
       "category": "Health",
       "sources": [
         {
@@ -606,7 +580,7 @@
       "published_at": "2026-11-16T18:40:26+00:00",
       "positivity_score": 55,
       "positivity_reason": "positive cues: improved, protection",
-      "why_good": "Smoother skin, sharper eyesight, better memory, stronger joints, improved athletic performance and even protection against aging\u2014astaxanthin is marketed.",
+      "why_good": "Smoother skin, sharper eyesight, better memory, stronger joints, improved athletic performance and even protection against aging—astaxanthin is marketed.",
       "review_status": "auto-accepted",
       "is_sample": false,
       "link": "https://medicalxpress.com/news/2026-11-astaxanthin-supplements-science-skin-brain.html",
@@ -638,8 +612,8 @@
     },
     {
       "id": "d577780b2c892dd7",
-      "headline": "\u201814 Years Ago, We Spoke of This Possibility\u2019: How AIIMS Delhi Performed India\u2019s First Open Foetal Surgery to Repair a Baby\u2019s Spine",
-      "summary": "The institute announced on 14 November that this was India\u2019s first open foetal repair of a lumbosacral myelomeningocele, the most severe form of spina bifida.",
+      "headline": "‘14 Years Ago, We Spoke of This Possibility’: How AIIMS Delhi Performed India’s First Open Foetal Surgery to Repair a Baby’s Spine",
+      "summary": "The institute announced on 14 November that this was India’s first open foetal repair of a lumbosacral myelomeningocele, the most severe form of spina bifida.",
       "category": "Community",
       "sources": [
         {
@@ -652,7 +626,7 @@
       "published_at": "2026-11-16T12:36:20+00:00",
       "positivity_score": 48,
       "positivity_reason": "solutions-focused source; fact-check pass",
-      "why_good": "The institute announced on 14 November that this was India\u2019s first open foetal repair of a lumbosacral myelomeningocele, the most severe form of spina bifida.",
+      "why_good": "The institute announced on 14 November that this was India’s first open foetal repair of a lumbosacral myelomeningocele, the most severe form of spina bifida.",
       "review_status": "auto-accepted",
       "is_sample": false,
       "link": "https://thebetterindia.com/health-care/aiims-delhi-spine-repair-inside-womb-open-foetal-surgery-12814583",
@@ -661,7 +635,7 @@
     },
     {
       "id": "e342bf625be286a0",
-      "headline": "The Cozy Emergence of Repair Caf\u00e9s",
+      "headline": "The Cozy Emergence of Repair Cafés",
       "summary": "Across church basements and community halls, Americans are gathering not just to fix broken lamps and cracked chairs, but to push back against an economy that profits from loneliness and waste.",
       "category": "Community",
       "sources": [
@@ -685,7 +659,7 @@
     {
       "id": "76eda0d95e6060ab",
       "headline": "48-YO Kashmiri Teacher Quits Job to Sell Home-Cooked Meals, Now Caters for 200-Guest Events",
-      "summary": "At 48, after 19 years in the classroom, Ruksana Begum found herself preparing for a different kind of working day. In November 2019, she started Ghar Batti Food Service with a modest aim: to turn the food she loved making into a livelihood. The first customers were buying\u2026",
+      "summary": "At 48, after 19 years in the classroom, Ruksana Begum found herself preparing for a different kind of working day. In November 2019, she started Ghar Batti Food Service with a modest aim: to turn the food she loved making into a livelihood. The first customers were buying…",
       "category": "Community",
       "sources": [
         {
@@ -708,7 +682,7 @@
     {
       "id": "63498ca28c882cfa",
       "headline": "Physicists defy expectations by controlling the magnetic heart of a single atom",
-      "summary": "Scientists have unexpectedly discovered how to control the magnetic spin inside a single atom's nucleus using radio waves, overturning previous assumptions about atomic behavior. The breakthrough could pave the way for more reliable quantum memory, although researchers are still\u2026",
+      "summary": "Scientists have unexpectedly discovered how to control the magnetic spin inside a single atom's nucleus using radio waves, overturning previous assumptions about atomic behavior. The breakthrough could pave the way for more reliable quantum memory, although researchers are still…",
       "category": "Science",
       "sources": [
         {
@@ -730,8 +704,8 @@
     },
     {
       "id": "0138d8f0eade07a3",
-      "headline": "MIT scientists discover a surprising way to boost the brain\u2019s nighttime cleaning system",
-      "summary": "MIT scientists discovered that carefully timed bursts of gentle pink noise during sleep can strengthen the brain\u2019s natural cleaning waves, which help flush away potentially harmful waste. The breakthrough could pave the way for new treatments aimed at improving sleep and memory\u2026",
+      "headline": "MIT scientists discover a surprising way to boost the brain’s nighttime cleaning system",
+      "summary": "MIT scientists discovered that carefully timed bursts of gentle pink noise during sleep can strengthen the brain’s natural cleaning waves, which help flush away potentially harmful waste. The breakthrough could pave the way for new treatments aimed at improving sleep and memory…",
       "category": "Health",
       "sources": [
         {
@@ -744,7 +718,7 @@
       "published_at": "2026-11-16T01:40:04+00:00",
       "positivity_score": 57,
       "positivity_reason": "positive cues: breakthrough, discovered",
-      "why_good": "MIT scientists discovered that carefully timed bursts of gentle pink noise during sleep can strengthen the brain\u2019s natural cleaning waves.",
+      "why_good": "MIT scientists discovered that carefully timed bursts of gentle pink noise during sleep can strengthen the brain’s natural cleaning waves.",
       "review_status": "auto-accepted",
       "is_sample": false,
       "link": "https://www.sciencedaily.com/releases/2026/11/261115085533.htm",
@@ -754,7 +728,7 @@
     {
       "id": "1720e81d7c4866f8",
       "headline": "World-First Bone Marrow Transplant Successfully Treats Non-Malignant Disease",
-      "summary": "A Catholic health care system in the American Midwest has successfully completed the world\u2019s first reported bone marrow transplant to treat a non-malignant disease. Doctors at Franciscan Health used bone marrow recovered from a deceased organ donor to treat a 40-year-old woman\u2026",
+      "summary": "A Catholic health care system in the American Midwest has successfully completed the world’s first reported bone marrow transplant to treat a non-malignant disease. Doctors at Franciscan Health used bone marrow recovered from a deceased organ donor to treat a 40-year-old woman…",
       "category": "Health",
       "sources": [
         {
@@ -767,7 +741,7 @@
       "published_at": "2026-11-15T20:32:08+00:00",
       "positivity_score": 64,
       "positivity_reason": "solutions-focused source; positive cues: recovered; improvement framing of a grim topic",
-      "why_good": "A Catholic health care system in the American Midwest has successfully completed the world\u2019s first reported bone marrow transplant to treat a non-malignant disease.",
+      "why_good": "A Catholic health care system in the American Midwest has successfully completed the world’s first reported bone marrow transplant to treat a non-malignant disease.",
       "review_status": "auto-accepted",
       "is_sample": false,
       "link": "https://www.goodnewsnetwork.org/world-first-bone-marrow-transplant-successfully-treats-non-malignant-disease/",
