@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-19T07:31:11.115078+00:00",
+  "generated_at": "2026-11-19T08:19:35.155517+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 53 feeds, 1082 headlines. Accepted 45, held for review 245, rejected 809. Carried 17 recent items (up to 96h) for re-check. Published window 72h. Auto-promoted from review: 0.",
+  "ingest_notes": "Fetched 53 feeds, 1082 headlines. Accepted 44, held for review 249, rejected 806. Carried 17 recent items (up to 96h) for re-check. Published window 72h. Auto-promoted from review: 0.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -714,29 +714,6 @@
       "review_status": "auto-accepted",
       "is_sample": false,
       "link": "https://thebetterindia.com/health-care/aiims-delhi-spine-repair-inside-womb-open-foetal-surgery-12814583",
-      "impact": null,
-      "new_today": false
-    },
-    {
-      "id": "e342bf625be286a0",
-      "headline": "The Cozy Emergence of Repair Caf\u00e9s",
-      "summary": "Across church basements and community halls, Americans are gathering not just to fix broken lamps and cracked chairs, but to push back against an economy that profits from loneliness and waste.",
-      "category": "Community",
-      "sources": [
-        {
-          "name": "DailyGood",
-          "url": "https://www.dailygood.org/view.php?qid=10888",
-          "published_at": "2026-11-16T08:00:00+00:00"
-        }
-      ],
-      "source_count": 1,
-      "published_at": "2026-11-16T08:00:00+00:00",
-      "positivity_score": 50,
-      "positivity_reason": "solutions-focused source; positive cues: community; fact-check pass",
-      "why_good": "Across church basements and community halls, Americans are gathering not just to fix broken lamps and cracked chairs, but to push back against an economy that profits from loneliness and waste.",
-      "review_status": "auto-accepted",
-      "is_sample": false,
-      "link": "https://www.dailygood.org/view.php?qid=10888",
       "impact": null,
       "new_today": false
     }
