@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-19T14:30:56.809087+00:00",
+  "generated_at": "2026-11-19T14:42:47.524252+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 53 feeds, 1079 headlines. Accepted 42, held for review 256, rejected 797. Carried 16 recent items (up to 96h) for re-check. Published window 72h. Auto-promoted from review: 0.",
+  "ingest_notes": "Fetched 53 feeds, 1079 headlines. Accepted 39, held for review 256, rejected 800. Carried 16 recent items (up to 96h) for re-check. Pending release 10. Published window 72h. Auto-promoted from review: 0.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -42,7 +42,7 @@
       "is_sample": false,
       "link": "https://medicalxpress.com/news/2026-11-creatine-supplement-college-students.html",
       "impact": {
-        "value": "2×",
+        "value": "2\u00d7",
         "label": "Creatine supplement use nearly among US college students"
       },
       "new_today": false
@@ -50,7 +50,7 @@
     {
       "id": "edda785459288576",
       "headline": "Too much exercise could leave your brain stuck in overdrive",
-      "summary": "Exercising too much without adequate recovery may disrupt brain chemistry in surprising ways. Scientists found that mice subjected to prolonged, intense training had elevated dopamine levels in a brain region linked to memory and emotions, even 48 hours after exercising. The…",
+      "summary": "Exercising too much without adequate recovery may disrupt brain chemistry in surprising ways. Scientists found that mice subjected to prolonged, intense training had elevated dopamine levels in a brain region linked to memory and emotions, even 48 hours after exercising. The\u2026",
       "category": "Science",
       "sources": [
         {
@@ -73,7 +73,7 @@
     {
       "id": "a739abfc51f31b3c",
       "headline": "Electrified fabric captures phosphate for potential recovery from wastewater",
-      "summary": "When rain falls on farmland, lawns and gardens, it can wash phosphate from fertilizers into nearby waterways, triggering harmful algal blooms that cloud lakes and rivers, release toxins and rob the water of oxygen needed to sustain aquatic life. Now, Northwestern University and…",
+      "summary": "When rain falls on farmland, lawns and gardens, it can wash phosphate from fertilizers into nearby waterways, triggering harmful algal blooms that cloud lakes and rivers, release toxins and rob the water of oxygen needed to sustain aquatic life. Now, Northwestern University and\u2026",
       "category": "Science",
       "sources": [
         {
@@ -96,7 +96,7 @@
     {
       "id": "c20d7421e9fa46b6",
       "headline": "Opening new grocery stores doesn't increase food access in low-income areas, research shows",
-      "summary": "Food deserts, according to the U.S. Department of Agriculture, are low-income neighborhoods where residents have limited access to healthy and affordable food. Opening a grocery store is a commonly proposed solution to improve food access in these areas, but that doesn't…",
+      "summary": "Food deserts, according to the U.S. Department of Agriculture, are low-income neighborhoods where residents have limited access to healthy and affordable food. Opening a grocery store is a commonly proposed solution to improve food access in these areas, but that doesn't\u2026",
       "category": "Community",
       "sources": [
         {
@@ -119,7 +119,7 @@
     {
       "id": "2c42e0a2cb5dc432",
       "headline": "Miniaturization found at the origin of amphibians opens new ecological territory",
-      "summary": "Frogs, salamanders and caecilians—the three groups of living amphibians—together number more than 9,000 species. On average, they are the smallest of all four-limbed vertebrates, and some are extremely small: Brachycephalus toads measure less than 7 millimeters (0.28 inches)…",
+      "summary": "Frogs, salamanders and caecilians\u2014the three groups of living amphibians\u2014together number more than 9,000 species. On average, they are the smallest of all four-limbed vertebrates, and some are extremely small: Brachycephalus toads measure less than 7 millimeters (0.28 inches)\u2026",
       "category": "Science",
       "sources": [
         {
@@ -132,7 +132,7 @@
       "published_at": "2026-11-18T17:20:09+00:00",
       "positivity_score": 62,
       "positivity_reason": "positive cues: opens; concrete outcome language; stated figure from the source",
-      "why_good": "Frogs, salamanders and caecilians—the three groups of living amphibians—together number more than 9,000 species.",
+      "why_good": "Frogs, salamanders and caecilians\u2014the three groups of living amphibians\u2014together number more than 9,000 species.",
       "review_status": "auto-accepted",
       "is_sample": false,
       "link": "https://phys.org/news/2026-11-miniaturization-amphibians-ecological-territory.html",
@@ -220,7 +220,7 @@
     {
       "id": "69bcbf94a1d3bf67",
       "headline": "This Blue Whale Population Grew 1,000% Since the End of Antarctic Whaling",
-      "summary": "Antarctic blue whales have increased in number 1,000% since 1973 when the harpoons were finally hung up for good. Growing from just 418 whales to 4,018, the superb recovery has averaged 4.5% per year. Though the International Whaling Commission banned the killing of Antarctic…",
+      "summary": "Antarctic blue whales have increased in number 1,000% since 1973 when the harpoons were finally hung up for good. Growing from just 418 whales to 4,018, the superb recovery has averaged 4.5% per year. Though the International Whaling Commission banned the killing of Antarctic\u2026",
       "category": "World",
       "sources": [
         {
@@ -243,7 +243,7 @@
     {
       "id": "9d6618883cc6de09",
       "headline": "A rare disease reveals a hidden flaw in the immune system",
-      "summary": "Scientists have discovered that a rare, potentially life-threatening inflammatory disorder is driven by malfunctioning immune cells, overturning three decades of scientific understanding. The breakthrough points to a promising new treatment using existing medications, with one…",
+      "summary": "Scientists have discovered that a rare, potentially life-threatening inflammatory disorder is driven by malfunctioning immune cells, overturning three decades of scientific understanding. The breakthrough points to a promising new treatment using existing medications, with one\u2026",
       "category": "Health",
       "sources": [
         {
@@ -266,7 +266,7 @@
     {
       "id": "a6735fe44525fcaa",
       "headline": "Cold hard facts: When ice baths help... and when they hurt",
-      "summary": "A major review has found that plunging into cold water after exercise can speed recovery and boost performance in some situations—but using it after every workout could be detrimental to strength and muscle gains.",
+      "summary": "A major review has found that plunging into cold water after exercise can speed recovery and boost performance in some situations\u2014but using it after every workout could be detrimental to strength and muscle gains.",
       "category": "Health",
       "sources": [
         {
@@ -279,7 +279,7 @@
       "published_at": "2026-11-18T12:30:01+00:00",
       "positivity_score": 59,
       "positivity_reason": "positive cues: recovery; improvement framing of a grim topic",
-      "why_good": "A major review has found that plunging into cold water after exercise can speed recovery and boost performance in some situations—but using it.",
+      "why_good": "A major review has found that plunging into cold water after exercise can speed recovery and boost performance in some situations\u2014but using it.",
       "review_status": "auto-accepted",
       "is_sample": false,
       "link": "https://medicalxpress.com/news/2026-11-cold-hard-facts-ice.html",
@@ -289,7 +289,7 @@
     {
       "id": "a5e2e80ab990bb3d",
       "headline": "Scientists create a remarkable new rechargeable battery using vitamin B12",
-      "summary": "Scientists have found a surprising new use for vitamin B12, developing a rechargeable battery that uses the essential nutrient to help generate and store electricity. The prototype survived up to 250 charging cycles and could open the door to safer, cheaper, and more…",
+      "summary": "Scientists have found a surprising new use for vitamin B12, developing a rechargeable battery that uses the essential nutrient to help generate and store electricity. The prototype survived up to 250 charging cycles and could open the door to safer, cheaper, and more\u2026",
       "category": "World",
       "sources": [
         {
@@ -312,7 +312,7 @@
     {
       "id": "6fa152f41f036a0b",
       "headline": "New discovery reveals what may be holding back room-temperature superconductors",
-      "summary": "A major breakthrough in superconductivity research has revealed that one of the essential ingredients for electricity to flow without resistance can exist at room temperature. Scientists discovered that electrons can form stable pairs at much higher temperatures than previously…",
+      "summary": "A major breakthrough in superconductivity research has revealed that one of the essential ingredients for electricity to flow without resistance can exist at room temperature. Scientists discovered that electrons can form stable pairs at much higher temperatures than previously\u2026",
       "category": "Science",
       "sources": [
         {
@@ -335,7 +335,7 @@
     {
       "id": "a93548edf25b32ed",
       "headline": "Millions Had His Painting. Few Knew His Name!",
-      "summary": "Copy: For over five decades, his artwork found a place in millions of Indian homes, becoming a familiar sight across generations. Artist S.M. Srinivasan, who passed away at 86, was known for his paintings of deities, especially his two iconic depictions of Lord Venkateswara…",
+      "summary": "Copy: For over five decades, his artwork found a place in millions of Indian homes, becoming a familiar sight across generations. Artist S.M. Srinivasan, who passed away at 86, was known for his paintings of deities, especially his two iconic depictions of Lord Venkateswara\u2026",
       "category": "Culture",
       "sources": [
         {
@@ -358,7 +358,7 @@
     {
       "id": "6979d2ddf2d3a8e8",
       "headline": "NASA pushes Mars helicopter blades beyond the speed of sound",
-      "summary": "NASA has successfully tested Mars helicopter rotor blades at supersonic speeds, boosting potential lift by 30% and overcoming a major obstacle to more powerful aircraft on the Red Planet. The breakthrough could enable next-generation helicopters to carry heavier scientific…",
+      "summary": "NASA has successfully tested Mars helicopter rotor blades at supersonic speeds, boosting potential lift by 30% and overcoming a major obstacle to more powerful aircraft on the Red Planet. The breakthrough could enable next-generation helicopters to carry heavier scientific\u2026",
       "category": "Tech",
       "sources": [
         {
@@ -381,7 +381,7 @@
     {
       "id": "5a72d3176d65d901",
       "headline": "Psilocybin may improve a difficult-to-treat symptom of depression, study finds",
-      "summary": "New research from the University of Colorado Anschutz suggests that psilocybin may help improve anhedonia, the loss of interest or ability to experience pleasure, in people with treatment-resistant depression. In a clinical trial, researchers found significant improvement in…",
+      "summary": "New research from the University of Colorado Anschutz suggests that psilocybin may help improve anhedonia, the loss of interest or ability to experience pleasure, in people with treatment-resistant depression. In a clinical trial, researchers found significant improvement in\u2026",
       "category": "Science",
       "sources": [
         {
@@ -430,7 +430,7 @@
     {
       "id": "5586bcb08d8cacee",
       "headline": "New Asian flying frog species identified in Indonesia",
-      "summary": "In the lush mountain rainforests of Indonesia, researchers have identified a new species of Asian flying frog with distinctive physical features, calls and unusual egg-laying habits. The discovery is described in a paper published in the journal Zootaxa by scientists from Museum…",
+      "summary": "In the lush mountain rainforests of Indonesia, researchers have identified a new species of Asian flying frog with distinctive physical features, calls and unusual egg-laying habits. The discovery is described in a paper published in the journal Zootaxa by scientists from Museum\u2026",
       "category": "Science",
       "sources": [
         {
@@ -453,7 +453,7 @@
     {
       "id": "3d8779d5a472fcb8",
       "headline": "Regenerated bone keeps maturing after its shape is largely restored, study reveals",
-      "summary": "Regeneration is often judged by what researchers can see—whether missing tissue has returned and its shape has been restored. But a new Texas A&M study shows that bone may continue to mature mechanically beneath the surface even after it appears whole.",
+      "summary": "Regeneration is often judged by what researchers can see\u2014whether missing tissue has returned and its shape has been restored. But a new Texas A&M study shows that bone may continue to mature mechanically beneath the surface even after it appears whole.",
       "category": "Science",
       "sources": [
         {
@@ -466,7 +466,7 @@
       "published_at": "2026-11-17T22:20:03+00:00",
       "positivity_score": 68,
       "positivity_reason": "positive cues: restored; improvement framing of a grim topic; concrete outcome language",
-      "why_good": "Regeneration is often judged by what researchers can see—whether missing tissue has returned and its shape has been restored.",
+      "why_good": "Regeneration is often judged by what researchers can see\u2014whether missing tissue has returned and its shape has been restored.",
       "review_status": "auto-accepted",
       "is_sample": false,
       "link": "https://medicalxpress.com/news/2026-11-regenerated-bone-maturing-largely-reveals.html",
@@ -498,8 +498,8 @@
     },
     {
       "id": "4ddf00a5da654553",
-      "headline": "West Coast’s First Ever Sea Turtle Hatchlings Released into the Pacific (LOOK)",
-      "summary": "Olive ridley sea turtle hatchlings saved from an approaching storm in California were released into the wild over the weekend. It was late September when a female turtle climbed out of the sea, dug a nest on the beach, deposited her clutch, and slipped back into the water…",
+      "headline": "West Coast\u2019s First Ever Sea Turtle Hatchlings Released into the Pacific (LOOK)",
+      "summary": "Olive ridley sea turtle hatchlings saved from an approaching storm in California were released into the wild over the weekend. It was late September when a female turtle climbed out of the sea, dug a nest on the beach, deposited her clutch, and slipped back into the water\u2026",
       "category": "Community",
       "sources": [
         {
@@ -547,8 +547,8 @@
     },
     {
       "id": "700a11c5bdb247ce",
-      "headline": "Cameras Capture First Animal To Use World’s Largest Wildlife Crossing, Which Stretches Over 10 Freeway Lanes and Cost $114 Million",
-      "summary": "A coyote has become the first large mammal to cross the Wallis Annenberg Wildlife Crossing, weeks before its planned Dec. 2 completion Source: Cameras Capture First Animal To Use World’s Largest Wildlife Crossing, Which Stretches Over 10 Freeway Lanes and Cost $114 Million Very…",
+      "headline": "Cameras Capture First Animal To Use World\u2019s Largest Wildlife Crossing, Which Stretches Over 10 Freeway Lanes and Cost $114 Million",
+      "summary": "A coyote has become the first large mammal to cross the Wallis Annenberg Wildlife Crossing, weeks before its planned Dec. 2 completion Source: Cameras Capture First Animal To Use World\u2019s Largest Wildlife Crossing, Which Stretches Over 10 Freeway Lanes and Cost $114 Million Very\u2026",
       "category": "Environment",
       "sources": [
         {
@@ -596,7 +596,7 @@
     },
     {
       "id": "ae0bc23dc1726acb",
-      "headline": "A Waterfall of Fog and Lots of Lighting, These Images Won the UK’s Weather Photography Awards",
+      "headline": "A Waterfall of Fog and Lots of Lighting, These Images Won the UK\u2019s Weather Photography Awards",
       "summary": "From a waterfall of fog to almighty storms and sunrises, the winners of the 2026 Weather Photographer of the Year competition have been announced.",
       "category": "Community",
       "sources": [
@@ -620,7 +620,7 @@
     {
       "id": "5aa3501842334c6e",
       "headline": "Scientists tracked kids for 8 years. What they found about screen time was surprising",
-      "summary": "A surprising Finnish study found that children who spent more time using screens tended to have better cognitive processing abilities as teenagers, challenging the assumption that screen time is always harmful. Researchers suggest that what children do on screens may matter more…",
+      "summary": "A surprising Finnish study found that children who spent more time using screens tended to have better cognitive processing abilities as teenagers, challenging the assumption that screen time is always harmful. Researchers suggest that what children do on screens may matter more\u2026",
       "category": "Science",
       "sources": [
         {
@@ -671,7 +671,7 @@
     {
       "id": "06395f6d34242788",
       "headline": "Turning biomass into renewable fuels and chemicals using microorganisms",
-      "summary": "Texas A&M University researchers have developed a process that converts biomass into renewable fuels and chemicals. Dr. Mark Holtzapple, professor in the Artie McFerrin Department of Chemical Engineering, aims to make producing these products more efficient and affordable by…",
+      "summary": "Texas A&M University researchers have developed a process that converts biomass into renewable fuels and chemicals. Dr. Mark Holtzapple, professor in the Artie McFerrin Department of Chemical Engineering, aims to make producing these products more efficient and affordable by\u2026",
       "category": "Science",
       "sources": [
         {
