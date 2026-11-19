@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-19T12:20:43.753819+00:00",
+  "generated_at": "2026-11-19T14:26:38.602059+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 53 feeds, 1078 headlines. Accepted 46, held for review 254, rejected 795. Carried 17 recent items (up to 96h) for re-check. Published window 72h. Auto-promoted from review: 0.",
+  "ingest_notes": "Fetched 53 feeds, 1079 headlines. Accepted 42, held for review 256, rejected 798. Carried 17 recent items (up to 96h) for re-check. Published window 72h. Auto-promoted from review: 0.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -28,17 +28,12 @@
       "category": "World",
       "sources": [
         {
-          "name": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/c58j484089ewo?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-11-19T09:02:52+00:00"
-        },
-        {
           "name": "BBC World",
           "url": "https://www.bbc.co.uk/news/articles/c58j484089ewo?at_medium=RSS&at_campaign=rss",
           "published_at": "2026-11-19T09:02:52+00:00"
         }
       ],
-      "source_count": 2,
+      "source_count": 1,
       "published_at": "2026-11-19T09:02:52+00:00",
       "positivity_score": 52,
       "positivity_reason": "positive cues: recovered; improvement framing of a grim topic",
@@ -742,29 +737,6 @@
       "review_status": "auto-accepted",
       "is_sample": false,
       "link": "https://phys.org/news/2026-11-biomass-renewable-fuels-chemicals-microorganisms.html",
-      "impact": null,
-      "new_today": false
-    },
-    {
-      "id": "d577780b2c892dd7",
-      "headline": "\u201814 Years Ago, We Spoke of This Possibility\u2019: How AIIMS Delhi Performed India\u2019s First Open Foetal Surgery to Repair a Baby\u2019s Spine",
-      "summary": "The institute announced on 14 November that this was India\u2019s first open foetal repair of a lumbosacral myelomeningocele, the most severe form of spina bifida.",
-      "category": "Community",
-      "sources": [
-        {
-          "name": "The Better India",
-          "url": "https://thebetterindia.com/health-care/aiims-delhi-spine-repair-inside-womb-open-foetal-surgery-12814583",
-          "published_at": "2026-11-16T12:36:20+00:00"
-        }
-      ],
-      "source_count": 1,
-      "published_at": "2026-11-16T12:36:20+00:00",
-      "positivity_score": 48,
-      "positivity_reason": "solutions-focused source; fact-check pass",
-      "why_good": "The institute announced on 14 November that this was India\u2019s first open foetal repair of a lumbosacral myelomeningocele, the most severe form of spina bifida.",
-      "review_status": "auto-accepted",
-      "is_sample": false,
-      "link": "https://thebetterindia.com/health-care/aiims-delhi-spine-repair-inside-womb-open-foetal-surgery-12814583",
       "impact": null,
       "new_today": false
     }
