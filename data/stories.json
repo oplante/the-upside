@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-19T11:00:44.479144+00:00",
+  "generated_at": "2026-11-19T12:20:43.753819+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 53 feeds, 1075 headlines. Accepted 45, held for review 250, rejected 796. Carried 16 recent items (up to 96h) for re-check. Published window 72h. Auto-promoted from review: 0.",
+  "ingest_notes": "Fetched 53 feeds, 1078 headlines. Accepted 46, held for review 254, rejected 795. Carried 17 recent items (up to 96h) for re-check. Published window 72h. Auto-promoted from review: 0.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -99,6 +99,29 @@
         "value": "2\u00d7",
         "label": "Creatine supplement use nearly among US college students"
       },
+      "new_today": false
+    },
+    {
+      "id": "edda785459288576",
+      "headline": "Too much exercise could leave your brain stuck in overdrive",
+      "summary": "Exercising too much without adequate recovery may disrupt brain chemistry in surprising ways. Scientists found that mice subjected to prolonged, intense training had elevated dopamine levels in a brain region linked to memory and emotions, even 48 hours after exercising. The\u2026",
+      "category": "Science",
+      "sources": [
+        {
+          "name": "ScienceDaily Health",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261117033923.htm",
+          "published_at": "2026-11-18T21:28:29+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-18T21:28:29+00:00",
+      "positivity_score": 52,
+      "positivity_reason": "improvement framing of a grim topic",
+      "why_good": "Scientists found that mice subjected to prolonged, intense training had elevated dopamine levels in a brain region linked to memory and emotions, even 48 hours.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://www.sciencedaily.com/releases/2026/11/261117033923.htm",
+      "impact": null,
       "new_today": false
     },
     {
