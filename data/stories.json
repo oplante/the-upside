@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-19T08:30:40.870968+00:00",
+  "generated_at": "2026-11-19T09:33:52.346611+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 53 feeds, 1082 headlines. Accepted 44, held for review 249, rejected 806. Carried 17 recent items (up to 96h) for re-check. Published window 72h. Auto-promoted from review: 0.",
+  "ingest_notes": "Fetched 53 feeds, 1074 headlines. Accepted 45, held for review 244, rejected 801. Carried 16 recent items (up to 96h) for re-check. Published window 72h. Auto-promoted from review: 0.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -21,6 +21,34 @@
     "publish_hours": 72
   },
   "stories": [
+    {
+      "id": "d278d786ee4b7693",
+      "headline": "Dozens missing after boat carrying 100 migrants sinks off Senegal's coast",
+      "summary": "Some local media report that at least four bodies have been recovered.",
+      "category": "World",
+      "sources": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c58j484089ewo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-11-19T09:02:52+00:00"
+        },
+        {
+          "name": "BBC World",
+          "url": "https://www.bbc.co.uk/news/articles/c58j484089ewo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-11-19T09:02:52+00:00"
+        }
+      ],
+      "source_count": 2,
+      "published_at": "2026-11-19T09:02:52+00:00",
+      "positivity_score": 52,
+      "positivity_reason": "positive cues: recovered; improvement framing of a grim topic",
+      "why_good": "Some local media report that at least four bodies have been recovered.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://www.bbc.co.uk/news/articles/c58j484089ewo?at_medium=RSS&at_campaign=rss",
+      "impact": null,
+      "new_today": true
+    },
     {
       "id": "5fdd4ab54980e3f3",
       "headline": "Q&A: Schools that ban cellphones see uptick in test scores",
