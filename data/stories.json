@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-19T04:21:06.095656+00:00",
+  "generated_at": "2026-11-19T07:31:11.115078+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 53 feeds, 1082 headlines. Accepted 45, held for review 240, rejected 814. Carried 17 recent items (up to 96h) for re-check. Published window 72h. Auto-promoted from review: 0.",
+  "ingest_notes": "Fetched 53 feeds, 1082 headlines. Accepted 45, held for review 245, rejected 809. Carried 17 recent items (up to 96h) for re-check. Published window 72h. Auto-promoted from review: 0.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -737,29 +737,6 @@
       "review_status": "auto-accepted",
       "is_sample": false,
       "link": "https://www.dailygood.org/view.php?qid=10888",
-      "impact": null,
-      "new_today": false
-    },
-    {
-      "id": "76eda0d95e6060ab",
-      "headline": "48-YO Kashmiri Teacher Quits Job to Sell Home-Cooked Meals, Now Caters for 200-Guest Events",
-      "summary": "At 48, after 19 years in the classroom, Ruksana Begum found herself preparing for a different kind of working day. In November 2019, she started Ghar Batti Food Service with a modest aim: to turn the food she loved making into a livelihood. The first customers were buying\u2026",
-      "category": "Community",
-      "sources": [
-        {
-          "name": "The Better India",
-          "url": "https://thebetterindia.com/culture/ruksana-begum-ghar-batti-kashmir-food-business-12813199",
-          "published_at": "2026-11-16T07:30:37+00:00"
-        }
-      ],
-      "source_count": 1,
-      "published_at": "2026-11-16T07:30:37+00:00",
-      "positivity_score": 55,
-      "positivity_reason": "solutions-focused source; positive cues: working; concrete outcome language",
-      "why_good": "At 48, after 19 years in the classroom, Ruksana Begum found herself preparing for a different kind of working day.",
-      "review_status": "auto-accepted",
-      "is_sample": false,
-      "link": "https://thebetterindia.com/culture/ruksana-begum-ghar-batti-kashmir-food-business-12813199",
       "impact": null,
       "new_today": false
     }
