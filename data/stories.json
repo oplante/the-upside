@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-20T12:50:44.152092+00:00",
+  "generated_at": "2026-11-20T14:55:38.282501+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 52 feeds, 1052 headlines. Accepted 28, held for review 184, rejected 848. Carried 8 recent items (up to 96h) for re-check. Pending release 17. Published window 72h. Auto-promoted from review: 0.",
+  "ingest_notes": "Fetched 52 feeds, 1052 headlines. Accepted 24, held for review 185, rejected 852. Carried 9 recent items (up to 96h) for re-check. Pending release 14. Published window 72h. Auto-promoted from review: 0.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -258,29 +258,6 @@
         "value": "$114 Million",
         "label": "10 Freeway Lanes and Cost"
       },
-      "new_today": false
-    },
-    {
-      "id": "a04d403a74ac7e0f",
-      "headline": "Largest Electric Bus Fleet in New York to Serve Bronx Neighborhood Elevated Asthma Rates",
-      "summary": "The largest fleet of electric school buses in New York State is up and running in a South Bronx neighborhood where childhood asthma rates are more than twice the national average.",
-      "category": "Community",
-      "sources": [
-        {
-          "name": "Good News Network",
-          "url": "https://www.goodnewsnetwork.org/largest-electric-bus-fleet-in-new-york-to-serve-bronx-neighborhood-riddled-with-asthma/",
-          "published_at": "2026-11-17T14:00:28+00:00"
-        }
-      ],
-      "source_count": 1,
-      "published_at": "2026-11-17T14:00:28+00:00",
-      "positivity_score": 48,
-      "positivity_reason": "solutions-focused source; fact-check pass",
-      "why_good": "The largest fleet of electric school buses in New York State is up and running in a South Bronx neighborhood where childhood asthma rates are more than twice the national average.",
-      "review_status": "auto-accepted",
-      "is_sample": false,
-      "link": "https://www.goodnewsnetwork.org/largest-electric-bus-fleet-in-new-york-to-serve-bronx-neighborhood-riddled-with-asthma/",
-      "impact": null,
       "new_today": false
     }
   ]
