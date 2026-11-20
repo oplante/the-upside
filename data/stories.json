@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-20T21:13:21.048664+00:00",
+  "generated_at": "2026-11-20T22:18:06.823142+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 52 feeds, 1051 headlines. Accepted 19, held for review 114, rejected 925. Carried 7 recent items (up to 96h) for re-check. Pending release 4. Published window 72h. Auto-promoted from review: 0.",
+  "ingest_notes": "Fetched 52 feeds, 1051 headlines. Accepted 19, held for review 123, rejected 916. Carried 7 recent items (up to 96h) for re-check. Pending release 5. Published window 72h. Auto-promoted from review: 0.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -262,29 +262,6 @@
       "review_status": "auto-accepted",
       "is_sample": false,
       "link": "https://phys.org/news/2026-11-asian-flying-frog-species-indonesia.html",
-      "impact": null,
-      "new_today": false
-    },
-    {
-      "id": "c4c10536bcd90cba",
-      "headline": "NASA Space Apps Challenge Breaks Global Hackathon Records",
-      "summary": "On Nov. 14 and 15, NASA held the annual Space Apps Challenge with a record-breaking 181,835 registered participants taking part in 593 events around the world.",
-      "category": "Science",
-      "sources": [
-        {
-          "name": "NASA",
-          "url": "https://science.nasa.gov/open-science/nasa-space-apps-challenge-breaks-global-hackathon-records/",
-          "published_at": "2026-11-17T21:50:34+00:00"
-        }
-      ],
-      "source_count": 1,
-      "published_at": "2026-11-17T21:50:34+00:00",
-      "positivity_score": 49,
-      "positivity_reason": "positive cues: record-breaking; fact-check pass",
-      "why_good": "On Nov. 14 and 15, NASA held the annual Space Apps Challenge with a record-breaking 181,835 registered participants taking part in 593 events around the world.",
-      "review_status": "auto-accepted",
-      "is_sample": false,
-      "link": "https://science.nasa.gov/open-science/nasa-space-apps-challenge-breaks-global-hackathon-records/",
       "impact": null,
       "new_today": false
     }
