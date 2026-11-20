@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-20T19:27:55.723057+00:00",
+  "generated_at": "2026-11-20T20:18:57.420847+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 52 feeds, 1048 headlines. Accepted 19, held for review 112, rejected 922. Carried 5 recent items (up to 96h) for re-check. Pending release 4. Published window 72h. Auto-promoted from review: 0.",
+  "ingest_notes": "Fetched 52 feeds, 1049 headlines. Accepted 19, held for review 115, rejected 922. Carried 7 recent items (up to 96h) for re-check. Pending release 4. Published window 72h. Auto-promoted from review: 0.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -285,29 +285,6 @@
       "review_status": "auto-accepted",
       "is_sample": false,
       "link": "https://science.nasa.gov/open-science/nasa-space-apps-challenge-breaks-global-hackathon-records/",
-      "impact": null,
-      "new_today": false
-    },
-    {
-      "id": "4ddf00a5da654553",
-      "headline": "West Coast\u2019s First Ever Sea Turtle Hatchlings Released into the Pacific (LOOK)",
-      "summary": "Olive ridley sea turtle hatchlings saved from an approaching storm in California were released into the wild over the weekend. It was late September when a female turtle climbed out of the sea, dug a nest on the beach, deposited her clutch, and slipped back into the water\u2026",
-      "category": "Community",
-      "sources": [
-        {
-          "name": "Good News Network",
-          "url": "https://www.goodnewsnetwork.org/west-coasts-first-ever-sea-turtle-hatchlings-released-into-the-pacific-look/",
-          "published_at": "2026-11-17T19:30:43+00:00"
-        }
-      ],
-      "source_count": 1,
-      "published_at": "2026-11-17T19:30:43+00:00",
-      "positivity_score": 54,
-      "positivity_reason": "solutions-focused source; positive cues: saved",
-      "why_good": "Olive ridley sea turtle hatchlings saved from an approaching storm in California were released into the wild over the weekend.",
-      "review_status": "auto-accepted",
-      "is_sample": false,
-      "link": "https://www.goodnewsnetwork.org/west-coasts-first-ever-sea-turtle-hatchlings-released-into-the-pacific-look/",
       "impact": null,
       "new_today": false
     }
