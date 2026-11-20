@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-20T22:18:06.823142+00:00",
+  "generated_at": "2026-11-20T23:40:08.338901+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 52 feeds, 1051 headlines. Accepted 19, held for review 123, rejected 916. Carried 7 recent items (up to 96h) for re-check. Pending release 5. Published window 72h. Auto-promoted from review: 0.",
+  "ingest_notes": "Fetched 52 feeds, 1052 headlines. Accepted 19, held for review 125, rejected 914. Carried 6 recent items (up to 96h) for re-check. Pending release 5. Published window 72h. Auto-promoted from review: 0.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -240,29 +240,6 @@
         "value": "49,000",
         "label": "fewer people without housing It was"
       },
-      "new_today": false
-    },
-    {
-      "id": "5586bcb08d8cacee",
-      "headline": "New Asian flying frog species identified in Indonesia",
-      "summary": "In the lush mountain rainforests of Indonesia, researchers have identified a new species of Asian flying frog with distinctive physical features, calls and unusual egg-laying habits. The discovery is described in a paper published in the journal Zootaxa by scientists from Museum\u2026",
-      "category": "Science",
-      "sources": [
-        {
-          "name": "Phys.org",
-          "url": "https://phys.org/news/2026-11-asian-flying-frog-species-indonesia.html",
-          "published_at": "2026-11-17T22:20:06+00:00"
-        }
-      ],
-      "source_count": 1,
-      "published_at": "2026-11-17T22:20:06+00:00",
-      "positivity_score": 53,
-      "positivity_reason": "positive cues: discovery; concrete outcome language",
-      "why_good": "Researchers have identified a new species of Asian flying frog with distinctive physical features, calls and unusual egg-laying habits.",
-      "review_status": "auto-accepted",
-      "is_sample": false,
-      "link": "https://phys.org/news/2026-11-asian-flying-frog-species-indonesia.html",
-      "impact": null,
       "new_today": false
     }
   ]
