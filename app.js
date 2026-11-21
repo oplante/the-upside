@@ -30,6 +30,10 @@ const SHORT_EDITION_UNDER = 10;
 const SHORT_EDITION_NOTE =
   "A short edition today. We only share good news we can back up. Stories stay up for 72 hours.";
 const SITE_TZ = "America/Los_Angeles";
+// Why-line on site cards (PM, 20 Nov 2026): hidden on every card. This is the
+// one-line switch: set to true to show it again. Even when true, a why-line
+// that repeats the card's summary sentence is never shown.
+const SHOW_WHY_ON_CARDS = false;
 
 // Preview image sizing. Grid cards render ~290px wide on desktop, so 640px
 // covers 2x screens; only the full-width lead card may use a larger rendition.
@@ -301,6 +305,19 @@ function whyGood(story) {
   return text || WHY_FALLBACK;
 }
 
+// Same sentence after normalising case, whitespace and punctuation.
+function sameSentence(a, b) {
+  const norm = (s) => String(s || "").toLowerCase().replace(/[^\p{L}\p{N}]+/gu, " ").trim();
+  return norm(a) !== "" && norm(a) === norm(b);
+}
+
+function whyNoteHtml(story, reasonId) {
+  if (!SHOW_WHY_ON_CARDS) return "";
+  const text = String(story.why_good || "").trim();
+  if (!text || sameSentence(text, story.summary)) return "";
+  return `<p class="why-note" id="${reasonId}"><span class="visually-hidden">Why it's good: </span>${escapeHtml(text)}</p>`;
+}
+
 // The card's one destination: the publisher's own article (16 Nov 2026: the
 // go.html middle page was removed). Absolute http(s) URLs only; otherwise the
 // card has no link at all and the title stays plain text. Clicks on the site
@@ -360,7 +377,7 @@ function cardHtml(story, variant, opts = {}) {
   const readHtml = preview
     ? `<a class="read" ${href}>Read at ${source}&nbsp;<svg class="read-arrow" viewBox="0 0 12 12" aria-hidden="true" focusable="false"><path d="M2 6h8M7 3l3 3-3 3"/></svg></a>`
     : "";
-  const reason = escapeHtml(whyGood(story));
+  const whyHtml = whyNoteHtml(story, reasonId);
   return `
     <article class="card${leadClass}" data-testid="story-card" data-category="${escapeHtml(
       story.category
@@ -383,7 +400,7 @@ function cardHtml(story, variant, opts = {}) {
         <h2>${headlineHtml}</h2>
         ${impactHtml}
         <p class="summary">${escapeHtml(story.summary || "")}</p>
-        <p class="why-note" id="${reasonId}"><span class="visually-hidden">Why it's good: </span>${reason}</p>
+        ${whyHtml}
         <div class="card-foot">
           ${readHtml}
         </div>
@@ -462,9 +479,10 @@ function renderFeed() {
   renderEditionBar(data);
   placeSignups(feed, all.length > 0, shown.length >= all.length);
 
-  status.textContent = `${editionLabel(data.generated_at)} · ${all.length} ${
-    all.length === 1 ? "story" : "stories"
-  } · ${state.category === "All" ? "all categories" : state.category}`;
+  // Screen-reader status only; the visible count lives in the edition bar.
+  status.textContent = `Showing ${all.length} ${all.length === 1 ? "story" : "stories"} · ${
+    state.category === "All" ? "all categories" : state.category
+  }`;
   bindThumbFallbacks(feed);
 }
 
