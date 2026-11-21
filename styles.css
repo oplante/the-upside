@@ -440,7 +440,7 @@ main {
   padding-left: 12px;
   border-left: 2px solid var(--accent);
   font-family: var(--serif);
-  font-style: italic;
+  font-style: normal; /* roman, 20 Nov 2026 */
   font-weight: 400;
   font-size: 16px;
   line-height: 1.45;
@@ -705,6 +705,14 @@ main {
 .load-more:active { transform: scale(0.97); }
 
 .feed-end { margin: 32px 0 0; }
+
+/* D4 edition bar and short-edition note (20 Nov 2026). */
+.edition-bar { margin: 0 0 20px; font-family: var(--sans, "Instrument Sans", sans-serif); }
+.edition-bar-text { margin: 0; font-size: 14px; line-height: 1.5; color: var(--ink-soft); }
+.edition-note { margin: 4px 0 0; font-size: 14px; line-height: 1.5; color: var(--ink-soft); max-width: 60ch; }
+/* D5/G1 masthead link to the signup (no modal, no sticky bar). */
+.masthead-email { margin: 6px 0 0; font-size: 14px; }
+.masthead-email a { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; }
 .feed-end-note {
   margin: 0 0 32px;
   padding: 36px 0 0;
@@ -838,4 +846,13 @@ main {
     width: 80px;
     margin: 4px 0 0;
   }
+}
+
+/* summary-unclamp (20 Nov 2026): the card shows one exact publisher sentence,
+   never clipped with an ellipsis, on any layout or screen size. */
+.card .summary {
+  display: block !important;
+  -webkit-line-clamp: none !important;
+  line-clamp: none !important;
+  overflow: visible !important;
 }
