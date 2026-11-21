@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-21T05:33:48.781443+00:00",
+  "generated_at": "2026-11-21T05:40:00.247295+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 53 feeds, 1077 headlines. Accepted 39, held for review 155, rejected 886. Carried 3 recent items (up to 96h) for re-check. Pending release 29. Published window 72h. Auto-promoted from review: 0.",
+  "ingest_notes": "Fetched 53 feeds, 1076 headlines. Accepted 39, held for review 155, rejected 885. Carried 3 recent items (up to 96h) for re-check. Pending release 29. Published window 72h. Auto-promoted from review: 0.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -46,10 +46,8 @@
       "review_status": "auto-accepted",
       "is_sample": false,
       "link": "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib",
-      "impact": {
-        "value": "12",
-        "label": "patients in daraxonrasib trial while nearly"
-      },
+      "impact": null,
+      "no_lead": true,
       "new_today": false
     },
     {
@@ -73,6 +71,7 @@
       "is_sample": false,
       "link": "https://www.optimistdaily.com/2026/11/car-t-therapy-helps-stiff-person-syndrome-patients-walk-and-work-again/",
       "impact": null,
+      "no_lead": false,
       "new_today": false
     },
     {
@@ -99,6 +98,7 @@
         "value": "100",
         "label": "meals for people in need"
       },
+      "no_lead": false,
       "new_today": false
     },
     {
@@ -122,6 +122,7 @@
       "is_sample": false,
       "link": "https://www.sciencedaily.com/releases/2026/11/261117035052.htm",
       "impact": null,
+      "no_lead": false,
       "new_today": false
     }
   ]

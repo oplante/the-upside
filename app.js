@@ -213,6 +213,11 @@ function primarySourceName(story) {
   return uniqueSources(story)[0] || "source";
 }
 
+const FIGURE_DANGLING = new Set(("while nearly almost about around roughly approximately than and but or nor as " +
+  "with of to in on for the a an which that who whom whose when where after before since because more less up " +
+  "over under only just some all each by from into at so yet if though although whereas its their his her our " +
+  "is are was were be been being has have had not very also even per among between").split(" "));
+
 function statedImpact(story) {
   const impact = story.impact;
   if (!impact || typeof impact !== "object") return null;
@@ -221,6 +226,9 @@ function statedImpact(story) {
   if (!value || !label) return null;
   // Guard: never render an invented blank or a label that is just the value
   if (value.length > 24) return null;
+  // Incomplete label (ends on a connective or hedge): no figure line (20 Nov 2026).
+  const last = (label.match(/[A-Za-z0-9][A-Za-z0-9'’-]*/g) || []).pop() || "";
+  if (FIGURE_DANGLING.has(last.toLowerCase())) return null;
   return { value, label };
 }
 
@@ -421,7 +429,9 @@ function hasSentence(story) {
 // Lead slot: the highest-ranked card that has a sentence; a headline-only card
 // leads only when no card has one. The rest keep their order.
 function leadFirst(stories) {
-  const i = stories.findIndex(hasSentence);
+  // no_lead: one-off exclusion from data/lead-exclude.json (still shown, never lead).
+  let i = stories.findIndex((s) => hasSentence(s) && !s.no_lead);
+  if (i < 0) i = stories.findIndex(hasSentence);
   if (i <= 0) return stories;
   return [stories[i], ...stories.slice(0, i), ...stories.slice(i + 1)];
 }
