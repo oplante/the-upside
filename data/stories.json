@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-21T04:30:46.814040+00:00",
+  "generated_at": "2026-11-21T04:51:08.544511+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 53 feeds, 1077 headlines. Accepted 20, held for review 132, rejected 931. Carried 6 recent items (up to 96h) for re-check. Pending release 6. Published window 72h. Auto-promoted from review: 0.",
+  "ingest_notes": "Fetched 53 feeds, 1077 headlines. Accepted 8, held for review 189, rejected 886. Carried 6 recent items (up to 96h) for re-check. Pending release 3. Published window 72h. Auto-promoted from review: 0.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -22,63 +22,9 @@
   },
   "stories": [
     {
-      "id": "b56871ffd782b2f7",
-      "headline": "Study finds decades of water-saving innovation helped Northeast and Midwest avoid potential drought crises",
-      "summary": "A new study published in Environmental Research Letters finds that, despite experiencing rapid population growth, expanding economies and rising electricity demands over the past half century, the U.S. Northeast and Midwest have dramatically strengthened their resilience to\u2026",
-      "category": "Science",
-      "sources": [
-        {
-          "name": "Phys.org",
-          "url": "https://phys.org/news/2026-11-decades-northeast-midwest-potential-drought.html",
-          "published_at": "2026-11-20T12:20:04+00:00"
-        }
-      ],
-      "source_count": 1,
-      "published_at": "2026-11-20T12:20:04+00:00",
-      "positivity_score": 58,
-      "positivity_reason": "positive cues: study finds; concrete outcome language",
-      "why_good": "A new study published in Environmental Research Letters finds that, despite experiencing rapid population growth.",
-      "review_status": "auto-accepted",
-      "is_sample": false,
-      "link": "https://phys.org/news/2026-11-decades-northeast-midwest-potential-drought.html",
-      "impact": null,
-      "new_today": false
-    },
-    {
-      "id": "70a6534056e1fc14",
-      "headline": "Pill to treat pancreatic cancer hailed as \u2018biggest breakthrough in decades\u2019",
-      "summary": "Cancer undetectable for one in 12 patients in daraxonrasib trial, while nearly all participants\u2019 tumours stopped growing A pill that can shrink and potentially eliminate pancreas tumours is being hailed as the biggest breakthrough treatment for the cancer in decades. In one in\u2026",
-      "category": "Health",
-      "sources": [
-        {
-          "name": "The Guardian Science",
-          "url": "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib",
-          "published_at": "2026-11-20T09:36:10+00:00"
-        },
-        {
-          "name": "The Guardian Health",
-          "url": "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib",
-          "published_at": "2026-11-20T09:36:10+00:00"
-        }
-      ],
-      "source_count": 2,
-      "published_at": "2026-11-20T09:36:10+00:00",
-      "positivity_score": 57,
-      "positivity_reason": "positive cues: breakthrough, treatment; stated figure from the source",
-      "why_good": "Cancer undetectable for one in 12 patients in daraxonrasib trial.",
-      "review_status": "auto-accepted",
-      "is_sample": false,
-      "link": "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib",
-      "impact": {
-        "value": "12",
-        "label": "patients in daraxonrasib trial while nearly"
-      },
-      "new_today": false
-    },
-    {
       "id": "164c7a046292f0b1",
       "headline": "CAR-T therapy helps stiff person syndrome patients walk and work again",
-      "summary": "BY THE OPTIMIST DAILY EDITORIAL TEAM A cell therapy built to fight cancer is helping people with stiff person syndrome get back on their feet. In an early trial led by neurologists at Mayo Clinic, patients who had needed family members to help them walk and handle daily tasks\u2026",
+      "summary": "A cell therapy built to fight cancer is helping people with stiff person syndrome get back on their feet.",
       "category": "Health",
       "sources": [
         {
@@ -91,7 +37,7 @@
       "published_at": "2026-11-20T00:00:07+00:00",
       "positivity_score": 57,
       "positivity_reason": "solutions-focused source; positive cues: therapy; concrete outcome language",
-      "why_good": "BY THE OPTIMIST DAILY EDITORIAL TEAM A cell therapy built to fight cancer is helping people with stiff person syndrome get back on their feet.",
+      "why_good": "A cell therapy built to fight cancer is helping people with stiff person syndrome get back on their feet.",
       "review_status": "auto-accepted",
       "is_sample": false,
       "link": "https://www.optimistdaily.com/2026/11/car-t-therapy-helps-stiff-person-syndrome-patients-walk-and-work-again/",
@@ -99,35 +45,9 @@
       "new_today": false
     },
     {
-      "id": "a30b668c8bdd1ddc",
-      "headline": "Every Tuesday, this private chef turns \u2018random\u2019 food bank donations into 100 meals for people in need",
-      "summary": "Maddy Goldberg studied social work before diving into the culinary arts. In 2021, she circled back to her true passion: helping others.",
-      "category": "Community",
-      "sources": [
-        {
-          "name": "Good Good Good",
-          "url": "https://www.goodgoodgood.co/articles/toronto-chef-food-bank-maddy-goldberg",
-          "published_at": "2026-11-19T17:56:00+00:00"
-        }
-      ],
-      "source_count": 1,
-      "published_at": "2026-11-19T17:56:00+00:00",
-      "positivity_score": 56,
-      "positivity_reason": "solutions-focused source; stated figure from the source",
-      "why_good": "In 2021, she circled back to her true passion: helping others.",
-      "review_status": "auto-accepted",
-      "is_sample": false,
-      "link": "https://www.goodgoodgood.co/articles/toronto-chef-food-bank-maddy-goldberg",
-      "impact": {
-        "value": "100",
-        "label": "meals for people in need"
-      },
-      "new_today": false
-    },
-    {
       "id": "9d6618883cc6de09",
       "headline": "A rare disease reveals a hidden flaw in the immune system",
-      "summary": "Scientists have discovered that a rare, potentially life-threatening inflammatory disorder is driven by malfunctioning immune cells, overturning three decades of scientific understanding. The breakthrough points to a promising new treatment using existing medications, with one\u2026",
+      "summary": "Scientists have discovered that a rare, potentially life-threatening inflammatory disorder is driven by malfunctioning immune cells, overturning three decades of scientific understanding.",
       "category": "Health",
       "sources": [
         {
