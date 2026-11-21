@@ -29,7 +29,6 @@
         <p class="title"><a href="./">The Upside</a></p>
       </div>
       <p class="tag">News that's going right.</p>
-      <p class="masthead-email"><a href="#signup-end">Get the weekday email</a></p>
     </div>
   </header>
 
@@ -45,19 +44,13 @@
       This is a <strong>sample</strong> feed. Live stories could not be loaded, so every card below is labelled Sample and is not real news.
     </p>
 
-    <!-- D4 edition bar (20 Nov 2026). Facts only: count and update time. -->
-    <div class="edition-bar" id="edition-bar-wrap">
-      <p class="edition-bar-text" id="edition-bar"></p>
-      <p class="edition-note" id="edition-note" hidden></p>
-    </div>
-
-    <!-- Email signup (D5/G1, 20 Nov 2026). app.js places the one copy after
-         card 3, or after the last card when there are fewer; id signup-end. -->
+    <!-- Email signup. app.js places one copy after the 6th card and one at the
+         end of the feed; __S__ becomes a per-copy id suffix so ids stay unique. -->
     <template id="signup-template">
       <section class="signup" data-slot="__SLOT__" id="signup__S__" aria-labelledby="signup-title__S__">
         <div class="signup-copy">
-          <h2 id="signup-title__S__">Three good things</h2>
-          <p class="signup-lede">Every weekday morning. Free.</p>
+          <h2 id="signup-title__S__">Three good things, every weekday morning</h2>
+          <p class="signup-lede">A two-minute email with three stories of things going right. No ads, no doom.</p>
         </div>
         <form class="signup-form" id="signup-form__S__" action="https://assets.mailerlite.com/jsonp/2798749/forms/204243387640972358/subscribe" method="post" novalidate>
           <label class="signup-label" for="signup-email__S__">Email address</label>
@@ -65,9 +58,9 @@
             <input class="signup-input" id="signup-email__S__" name="fields[email]" type="email" autocomplete="email" inputmode="email" required placeholder="you@example.com" aria-describedby="signup-consent__S__ signup-msg__S__">
             <input type="hidden" name="ml-submit" value="1">
             <input type="hidden" name="anticsrf" value="true">
-            <button class="signup-button" type="submit">Subscribe</button>
+            <button class="signup-button" type="submit">Sign up</button>
           </div>
-          <p class="signup-consent" id="signup-consent__S__">We'll send a link to confirm first. Unsubscribe any time. <a href="privacy.html">How we handle your email</a>.</p>
+          <p class="signup-consent" id="signup-consent__S__">A weekday email (Monday to Friday) with three good-news stories. We'll send a link to confirm first. Unsubscribe any time. <a href="privacy.html">How we handle your email</a>.</p>
           <p class="signup-msg" id="signup-msg__S__" role="status" aria-live="polite"></p>
         </form>
       </section>
@@ -75,8 +68,12 @@
 
     <section id="feed" class="feed" aria-label="Good news stories"></section>
     <p class="empty" id="empty" hidden></p>
+    <div class="more-wrap" id="more-wrap" hidden>
+      <button type="button" class="load-more" id="load-more">Load more</button>
+    </div>
     <div class="feed-end" id="feed-end" hidden>
       <p class="feed-end-note" id="feed-end-note" hidden><svg class="feed-end-mark" width="32" height="32" viewBox="0 0 36 36" aria-hidden="true" focusable="false"><path d="M4 27c9-5 19-5 28 0" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"/><circle cx="18" cy="12" r="2.5" fill="none" stroke="currentColor" stroke-width="1.75"/></svg>You're up to date. Next edition tomorrow.</p>
+      <div id="signup-end-slot"></div>
     </div>
   </main>
 
