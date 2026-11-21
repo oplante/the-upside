@@ -22,8 +22,18 @@ const PAGE_SIZE = 60;
 // Keep in sync with ingest.IMAGES_ENABLED. Off until SA Design signs off.
 const SHOW_IMAGES = false;
 
-// The email signup appears after this many cards, and once more at the end.
-const SIGNUP_AFTER = 6;
+// The email signup appears once, after this many cards (or after the last
+// card when there are fewer). D5/G1, 20 Nov 2026.
+const SIGNUP_AFTER = 3;
+// D4: a short edition gets a calm note. No "Load more" anywhere.
+const SHORT_EDITION_UNDER = 10;
+const SHORT_EDITION_NOTE =
+  "A short edition today. We only share good news we can back up. Stories stay up for 72 hours.";
+const SITE_TZ = "America/Los_Angeles";
+// Why-line on site cards (PM, 20 Nov 2026): hidden on every card. This is the
+// one-line switch: set to true to show it again. Even when true, a why-line
+// that repeats the card's summary sentence is never shown.
+const SHOW_WHY_ON_CARDS = false;
 
 // Preview image sizing. Grid cards render ~290px wide on desktop, so 640px
 // covers 2x screens; only the full-width lead card may use a larger rendition.
@@ -295,11 +305,17 @@ function whyGood(story) {
   return text || WHY_FALLBACK;
 }
 
-// Same sentence after normalising case, whitespace and punctuation. A why-line
-// that repeats the card's summary word for word is not shown (20 Nov 2026).
+// Same sentence after normalising case, whitespace and punctuation.
 function sameSentence(a, b) {
   const norm = (s) => String(s || "").toLowerCase().replace(/[^\p{L}\p{N}]+/gu, " ").trim();
   return norm(a) !== "" && norm(a) === norm(b);
+}
+
+function whyNoteHtml(story, reasonId) {
+  if (!SHOW_WHY_ON_CARDS) return "";
+  const text = String(story.why_good || "").trim();
+  if (!text || sameSentence(text, story.summary)) return "";
+  return `<p class="why-note" id="${reasonId}"><span class="visually-hidden">Why it's good: </span>${escapeHtml(text)}</p>`;
 }
 
 // The card's one destination: the publisher's own article (16 Nov 2026: the
@@ -327,7 +343,10 @@ function cardHtml(story, variant, opts = {}) {
   if (variant === true) variant = "lead";
   if (!variant) variant = "river";
   const isLead = variant === "lead";
-  const impact = statedImpact(story);
+  // Headline-only card (Council, 21 Nov 2026): no clean publisher sentence,
+  // so no summary slot and no figure; topic, source, headline, Read at.
+  const headlineOnly = !hasSentence(story);
+  const impact = headlineOnly ? null : statedImpact(story);
   const sample = story.is_sample
     ? `<span class="pill-sample">Sample</span>`
     : "";
@@ -361,16 +380,13 @@ function cardHtml(story, variant, opts = {}) {
   const readHtml = preview
     ? `<a class="read" ${href}>Read at ${source}&nbsp;<svg class="read-arrow" viewBox="0 0 12 12" aria-hidden="true" focusable="false"><path d="M2 6h8M7 3l3 3-3 3"/></svg></a>`
     : "";
-  const why = whyGood(story);
-  const whyHtml = sameSentence(why, story.summary)
-    ? ""
-    : `<p class="why-note" id="${reasonId}"><span class="visually-hidden">Why it's good: </span>${escapeHtml(why)}</p>`;
+  const whyHtml = whyNoteHtml(story, reasonId);
   return `
     <article class="card${leadClass}" data-testid="story-card" data-category="${escapeHtml(
       story.category
     )}" data-sample="${
       story.is_sample ? "true" : "false"
-    }" data-impact="${impact ? "true" : "false"}" data-image="${
+    }" data-impact="${impact ? "true" : "false"}" data-headline-only="${headlineOnly ? "true" : "false"}" data-image="${
       showImage ? "true" : "false"
     }">
       ${showImage ? cardImage(story, isLead, variant === "river" ? SIZES_THUMB : variant === "rail" ? "(min-width: 1024px) 340px, (min-width: 720px) calc(100vw - 64px), 80px" : "") : ""}
@@ -386,7 +402,7 @@ function cardHtml(story, variant, opts = {}) {
       <div class="body">
         <h2>${headlineHtml}</h2>
         ${impactHtml}
-        <p class="summary">${escapeHtml(story.summary || "")}</p>
+        ${headlineOnly ? "" : `<p class="summary">${escapeHtml(story.summary)}</p>`}
         ${whyHtml}
         <div class="card-foot">
           ${readHtml}
@@ -398,11 +414,24 @@ function cardHtml(story, variant, opts = {}) {
 
 // Front-page layout: lead + 2-story rail, a second row of 3, the mid-feed
 // signup slot (after story SIGNUP_AFTER), then a dense river of the rest.
+function hasSentence(story) {
+  return String(story.summary || "").trim() !== "";
+}
+
+// Lead slot: the highest-ranked card that has a sentence; a headline-only card
+// leads only when no card has one. The rest keep their order.
+function leadFirst(stories) {
+  const i = stories.findIndex(hasSentence);
+  if (i <= 0) return stories;
+  return [stories[i], ...stories.slice(0, i), ...stories.slice(i + 1)];
+}
+
 function layoutHtml(stories) {
+  stories = leadFirst(stories);
   const lead = stories.slice(0, 1);
   const rail = stories.slice(1, 3);
-  const second = stories.slice(3, SIGNUP_AFTER);
-  const river = stories.slice(SIGNUP_AFTER);
+  const second = stories.slice(3, 6);
+  const river = stories.slice(6);
   const parts = [];
   parts.push(
     `<div class="front${rail.length ? "" : " solo"}">` +
@@ -410,13 +439,15 @@ function layoutHtml(stories) {
       (rail.length ? `<div class="rail">${rail.map((s) => cardHtml(s, "rail")).join("")}</div>` : "") +
       `</div>`
   );
+  // The one signup: right after card SIGNUP_AFTER (the front block holds
+  // cards 1-3), or after the last card when there are fewer.
+  parts.push(`<div class="signup-mid-slot" data-signup-slot="mid"></div>`);
   if (second.length) {
     parts.push(
       `<div class="second count-${second.length}">${second.map((s) => cardHtml(s, "second")).join("")}</div>`
     );
   }
   if (river.length) {
-    parts.push(`<div class="signup-mid-slot" data-signup-slot="mid"></div>`);
     // Thumbnail on every other river story that has an image.
     let previousHadImage = false;
     const riverHtml = river.map((s) => {
@@ -440,13 +471,12 @@ function renderFeed() {
   const empty = $("empty");
   const status = $("status");
   const banner = $("sample-banner");
-  const moreWrap = $("more-wrap");
   const data = state.data;
   if (!data) return;
 
   if (ensureNonEmptyCategory()) renderFilters();
   const all = visibleStories();
-  const shown = all.slice(0, state.visible);
+  const shown = all; // the whole edition, no "Load more" (D4)
   banner.hidden = !data.is_sample;
 
   if (!all.length) {
@@ -457,18 +487,18 @@ function renderFeed() {
       state.category === "All"
         ? "Nothing new in the feed yet today. Check back this afternoon."
         : `Nothing new in ${cat} yet today. Check back this afternoon.`;
-    moreWrap.hidden = true;
   } else {
     empty.hidden = true;
     // No more "That's the latest" dividers: the layout sections pace the page.
     feed.innerHTML = layoutHtml(shown);
-    moreWrap.hidden = shown.length >= all.length;
   }
+  renderEditionBar(data);
   placeSignups(feed, all.length > 0, shown.length >= all.length);
 
-  status.textContent = `${editionLabel(data.generated_at)} · ${all.length} ${
-    all.length === 1 ? "story" : "stories"
-  } · ${state.category === "All" ? "all categories" : state.category}`;
+  // Screen-reader status only; the visible count lives in the edition bar.
+  status.textContent = `Showing ${all.length} ${all.length === 1 ? "story" : "stories"} · ${
+    state.category === "All" ? "all categories" : state.category
+  }`;
   bindThumbFallbacks(feed);
 }
 
@@ -483,10 +513,48 @@ function editionLabel(iso) {
   return `Latest edition · updated ${formatExact(iso)}`;
 }
 
+// D4 edition bar: "Today's edition · N stories · updated 8:55 PM PT".
+// Facts only. It never claims that stories were checked or passed: no such
+// wording exists in this file's output (20 Nov 2026, PM / Roast Room).
+function ptParts(date) {
+  const fmt = (opts) => new Intl.DateTimeFormat("en-US", { timeZone: SITE_TZ, ...opts }).format(date);
+  return {
+    day: fmt({ year: "numeric", month: "2-digit", day: "2-digit" }),
+    time: fmt({ hour: "numeric", minute: "2-digit" }),
+    date: fmt({ weekday: "short", day: "numeric", month: "short" }),
+  };
+}
+
+function editionBarText(data, now = new Date()) {
+  const n = (data && Array.isArray(data.stories) ? data.stories : []).length;
+  const count = `${n} ${n === 1 ? "story" : "stories"}`;
+  const d = new Date(data && data.generated_at);
+  if (!data || Number.isNaN(d.getTime())) return `Today's edition · ${count}`;
+  const p = ptParts(d);
+  if (p.day === ptParts(now).day) return `Today's edition · ${count} · updated ${p.time} PT`;
+  return `Latest edition · ${count} · updated ${p.date}, ${p.time} PT`;
+}
+
+function editionNote(data) {
+  const n = (data && Array.isArray(data.stories) ? data.stories : []).length;
+  return n > 0 && n < SHORT_EDITION_UNDER ? SHORT_EDITION_NOTE : "";
+}
+
+function renderEditionBar(data) {
+  const bar = $("edition-bar");
+  const note = $("edition-note");
+  if (bar) bar.textContent = data && data.is_sample ? "Sample feed, not live news." : editionBarText(data);
+  if (note) {
+    const t = data && !data.is_sample ? editionNote(data) : "";
+    note.textContent = t;
+    note.hidden = !t;
+  }
+}
+
 // Signup copies are built once from <template id="signup-template"> and moved
 // into place after every render, so typed input and the confirmation message
 // survive filter changes. Ids get a per-copy suffix and stay unique.
-const signups = { mid: null, end: null };
+const signups = { mid: null };
 
 function buildSignup(slot, suffix) {
   const tpl = $("signup-template");
@@ -498,16 +566,12 @@ function buildSignup(slot, suffix) {
 }
 
 function placeSignups(feed, hasStories, atEnd) {
-  if (!signups.mid) signups.mid = buildSignup("mid", "");
-  if (!signups.end) signups.end = buildSignup("end", "-end");
+  // One form only, id "signup-end" (the masthead and footer link to it).
+  if (!signups.mid) signups.mid = buildSignup("end", "-end");
   const midSlot = feed.querySelector ? feed.querySelector('[data-signup-slot="mid"]') : null;
   if (signups.mid && midSlot && midSlot.replaceWith) midSlot.replaceWith(signups.mid);
   const end = $("feed-end");
-  const endSlot = $("signup-end-slot");
   if (end) end.hidden = !hasStories;
-  if (signups.end && endSlot && endSlot.appendChild && signups.end.parentNode !== endSlot) {
-    endSlot.appendChild(signups.end);
-  }
   const note = $("feed-end-note");
   if (note) note.hidden = !(hasStories && atEnd);
 }
@@ -545,10 +609,6 @@ async function init() {
   setDateline();
   state.category = currentCategoryFromUrl();
   renderFilters();
-  $("load-more").addEventListener("click", () => {
-    state.visible += PAGE_SIZE;
-    renderFeed();
-  });
   $("filters").addEventListener("keydown", (event) => {
     if (event.key !== "ArrowRight" && event.key !== "ArrowLeft") return;
     const buttons = [...$("filters").querySelectorAll("button:not(:disabled)")];
@@ -565,13 +625,8 @@ async function init() {
     const res = await fetch("data/stories.json", { cache: "no-store" });
     if (!res.ok) throw new Error("Could not load data/stories.json");
     state.data = await res.json();
-    const total = (state.data.stories || []).length;
-    $("edition-label").textContent = state.data.is_sample
-      ? "Sample feed, not live news."
-      : editionLabel(state.data.generated_at).replace(
-          " · ",
-          ` · ${total} ${total === 1 ? "story" : "stories"} · `
-        );
+    // The masthead keeps its static label; the count lives in the edition bar.
+    if (state.data.is_sample) $("edition-label").textContent = "Sample feed, not live news.";
     ensureNonEmptyCategory();
     renderFilters();
     renderFeed();
