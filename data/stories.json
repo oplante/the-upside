@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-21T15:32:56.701862+00:00",
+  "generated_at": "2026-11-21T16:00:47.404706+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 52 feeds, 1058 headlines. Accepted 41, held for review 155, rejected 870. Carried 8 recent items (up to 96h) for re-check. Pending release 31. Published window 72h. Auto-promoted from review: 0.",
+  "ingest_notes": "Fetched 52 feeds, 1057 headlines. Accepted 16, held for review 153, rejected 896. Carried 8 recent items (up to 96h) for re-check. Pending release 4. Published window 72h. Auto-promoted from review: 0.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -21,6 +21,32 @@
     "publish_hours": 72
   },
   "stories": [
+    {
+      "id": "ca0efcf3e4f02f2a",
+      "headline": "Nearly half of adults over 70 benefited from exercise training across several areas of physical function",
+      "summary": "A yearlong exercise program improved physical function among adults aged over 70, but the benefits varied considerably between individuals.",
+      "category": "Health",
+      "sources": [
+        {
+          "name": "Medical Xpress",
+          "url": "https://medicalxpress.com/news/2026-11-adults-benefited-areas-physical-function.html",
+          "published_at": "2026-11-20T19:00:20+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-20T19:00:20+00:00",
+      "positivity_score": 53,
+      "positivity_reason": "positive cues: improved, success",
+      "why_good": "A yearlong exercise program improved physical function among adults aged over 70, but the benefits varied considerably between individuals.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://medicalxpress.com/news/2026-11-adults-benefited-areas-physical-function.html",
+      "impact": null,
+      "no_lead": false,
+      "new_today": false,
+      "released_at": "2026-11-21T16:00:00.524430+00:00",
+      "edition": "2026-11-21"
+    },
     {
       "id": "70a6534056e1fc14",
       "headline": "Pill to treat pancreatic cancer hailed as \u2018biggest breakthrough in decades\u2019",
@@ -106,6 +132,32 @@
       "new_today": false,
       "released_at": "2026-11-20T16:00:43.091544+00:00",
       "edition": "2026-11-20"
+    },
+    {
+      "id": "0ba81845e543b990",
+      "headline": "Empire State Building Lit Up with Gold Marks Historic Milestone of NASA\u2019s Voyager 1 This Week",
+      "summary": "This week the Empire State Building was illuminated in gold to celebrate NASA\u2019s Voyager 1 spacecraft passing one light-day away from Earth.",
+      "category": "Science",
+      "sources": [
+        {
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/empire-state-building-lit-up-with-gold-to-celebrate-nasa-spacecraft-passing-one-light-day-from-earth/",
+          "published_at": "2026-11-19T14:00:49+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-19T14:00:49+00:00",
+      "positivity_score": 54,
+      "positivity_reason": "solutions-focused source; positive cues: milestone",
+      "why_good": null,
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://www.goodnewsnetwork.org/empire-state-building-lit-up-with-gold-to-celebrate-nasa-spacecraft-passing-one-light-day-from-earth/",
+      "impact": null,
+      "no_lead": false,
+      "new_today": false,
+      "released_at": "2026-11-21T16:00:00.524430+00:00",
+      "edition": "2026-11-21"
     }
   ]
 }
