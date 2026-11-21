@@ -295,6 +295,13 @@ function whyGood(story) {
   return text || WHY_FALLBACK;
 }
 
+// Same sentence after normalising case, whitespace and punctuation. A why-line
+// that repeats the card's summary word for word is not shown (20 Nov 2026).
+function sameSentence(a, b) {
+  const norm = (s) => String(s || "").toLowerCase().replace(/[^\p{L}\p{N}]+/gu, " ").trim();
+  return norm(a) !== "" && norm(a) === norm(b);
+}
+
 // The card's one destination: the publisher's own article (16 Nov 2026: the
 // go.html middle page was removed). Absolute http(s) URLs only; otherwise the
 // card has no link at all and the title stays plain text. Clicks on the site
@@ -354,7 +361,10 @@ function cardHtml(story, variant, opts = {}) {
   const readHtml = preview
     ? `<a class="read" ${href}>Read at ${source}&nbsp;<svg class="read-arrow" viewBox="0 0 12 12" aria-hidden="true" focusable="false"><path d="M2 6h8M7 3l3 3-3 3"/></svg></a>`
     : "";
-  const reason = escapeHtml(whyGood(story));
+  const why = whyGood(story);
+  const whyHtml = sameSentence(why, story.summary)
+    ? ""
+    : `<p class="why-note" id="${reasonId}"><span class="visually-hidden">Why it's good: </span>${escapeHtml(why)}</p>`;
   return `
     <article class="card${leadClass}" data-testid="story-card" data-category="${escapeHtml(
       story.category
@@ -377,7 +387,7 @@ function cardHtml(story, variant, opts = {}) {
         <h2>${headlineHtml}</h2>
         ${impactHtml}
         <p class="summary">${escapeHtml(story.summary || "")}</p>
-        <p class="why-note" id="${reasonId}"><span class="visually-hidden">Why it's good: </span>${reason}</p>
+        ${whyHtml}
         <div class="card-foot">
           ${readHtml}
         </div>
