@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-20T23:40:08.338901+00:00",
+  "generated_at": "2026-11-21T03:34:47.610474+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 52 feeds, 1052 headlines. Accepted 19, held for review 125, rejected 914. Carried 6 recent items (up to 96h) for re-check. Pending release 5. Published window 72h. Auto-promoted from review: 0.",
+  "ingest_notes": "Fetched 53 feeds, 1077 headlines. Accepted 20, held for review 132, rejected 931. Carried 6 recent items (up to 96h) for re-check. Pending release 6. Published window 72h. Auto-promoted from review: 0.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -42,7 +42,7 @@
       "is_sample": false,
       "link": "https://phys.org/news/2026-11-decades-northeast-midwest-potential-drought.html",
       "impact": null,
-      "new_today": true
+      "new_today": false
     },
     {
       "id": "70a6534056e1fc14",
@@ -73,7 +73,7 @@
         "value": "12",
         "label": "patients in daraxonrasib trial while nearly"
       },
-      "new_today": true
+      "new_today": false
     },
     {
       "id": "164c7a046292f0b1",
@@ -96,7 +96,7 @@
       "is_sample": false,
       "link": "https://www.optimistdaily.com/2026/11/car-t-therapy-helps-stiff-person-syndrome-patients-walk-and-work-again/",
       "impact": null,
-      "new_today": true
+      "new_today": false
     },
     {
       "id": "a30b668c8bdd1ddc",
@@ -168,78 +168,6 @@
       "is_sample": false,
       "link": "https://www.sciencedaily.com/releases/2026/11/261117035052.htm",
       "impact": null,
-      "new_today": false
-    },
-    {
-      "id": "6979d2ddf2d3a8e8",
-      "headline": "NASA pushes Mars helicopter blades beyond the speed of sound",
-      "summary": "NASA has successfully tested Mars helicopter rotor blades at supersonic speeds, boosting potential lift by 30% and overcoming a major obstacle to more powerful aircraft on the Red Planet. The breakthrough could enable next-generation helicopters to carry heavier scientific\u2026",
-      "category": "Tech",
-      "sources": [
-        {
-          "name": "ScienceDaily Technology",
-          "url": "https://www.sciencedaily.com/releases/2026/11/261117033920.htm",
-          "published_at": "2026-11-18T03:16:19+00:00"
-        }
-      ],
-      "source_count": 1,
-      "published_at": "2026-11-18T03:16:19+00:00",
-      "positivity_score": 54,
-      "positivity_reason": "positive cues: breakthrough",
-      "why_good": "NASA has successfully tested Mars helicopter rotor blades at supersonic speeds.",
-      "review_status": "auto-accepted",
-      "is_sample": false,
-      "link": "https://www.sciencedaily.com/releases/2026/11/261117033920.htm",
-      "impact": null,
-      "new_today": false
-    },
-    {
-      "id": "5a72d3176d65d901",
-      "headline": "Psilocybin may improve a difficult-to-treat symptom of depression, study finds",
-      "summary": "New research from the University of Colorado Anschutz suggests that psilocybin may help improve anhedonia, the loss of interest or ability to experience pleasure, in people with treatment-resistant depression. In a clinical trial, researchers found significant improvement in\u2026",
-      "category": "Science",
-      "sources": [
-        {
-          "name": "Medical Xpress",
-          "url": "https://medicalxpress.com/news/2026-11-psilocybin-difficult-symptom-depression.html",
-          "published_at": "2026-11-18T03:00:01+00:00"
-        }
-      ],
-      "source_count": 1,
-      "published_at": "2026-11-18T03:00:01+00:00",
-      "positivity_score": 71,
-      "positivity_reason": "positive cues: study finds, improvement, treatment; multiple outcome cues; concrete outcome language",
-      "why_good": "New research from the University of Colorado Anschutz suggests that psilocybin may help improve anhedonia, the loss of interest or ability to experience pleasure.",
-      "review_status": "auto-accepted",
-      "is_sample": false,
-      "link": "https://medicalxpress.com/news/2026-11-psilocybin-difficult-symptom-depression.html",
-      "impact": null,
-      "new_today": false
-    },
-    {
-      "id": "b25fb6207b2fcdd4",
-      "headline": "US homelessness decline hits its steepest one-year drop in a decade",
-      "summary": "Homelessness in the United States fell by more than six percent in 2025, the steepest one-year homelessness decline in more than a decade, which works out to roughly 49,000 fewer people without housing.",
-      "category": "Community",
-      "sources": [
-        {
-          "name": "Optimist Daily",
-          "url": "https://www.optimistdaily.com/2026/11/us-homelessness-decline-hits-its-steepest-one-year-drop-in-a-decade/",
-          "published_at": "2026-11-18T00:00:36+00:00"
-        }
-      ],
-      "source_count": 1,
-      "published_at": "2026-11-18T00:00:36+00:00",
-      "positivity_score": 66,
-      "positivity_reason": "solutions-focused source; positive cues: works; improvement framing of a grim topic; stated figure from the source",
-      "why_good": "Homelessness in the United States fell by more than six percent in 2025, the steepest one-year homelessness decline in more than a decade, which works out to roughly 49,000 fewer people without housing.",
-      "review_status": "auto-accepted",
-      "is_sample": false,
-      "link": "https://www.optimistdaily.com/2026/11/us-homelessness-decline-hits-its-steepest-one-year-drop-in-a-decade/",
-      "impact": {
-        "value": "49,000",
-        "label": "fewer people without housing It was"
-      },
       "new_today": false
     }
   ]
