@@ -760,7 +760,9 @@ main {
   text-decoration: underline;
   text-decoration-color: var(--line);
 }
-.colophon {
+/* .method .colophon beats ".method p" (margin 0, 62ch), which pinned the
+   line to the far left on desktop (20 Nov 2026); same column as .method-inner. */
+.method .colophon {
   max-width: var(--max);
   margin: 0 auto;
   padding: 12px var(--gutter) 40px;
