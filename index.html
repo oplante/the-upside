@@ -75,6 +75,11 @@
 
     <section id="feed" class="feed" aria-label="Good news stories"></section>
     <p class="empty" id="empty" hidden></p>
+    <!-- Load more (21 Nov 2026, Olivier): adds the previous edition still in
+         the public feed (72-hour window). Hidden when there is none. -->
+    <div class="more-wrap" id="more-wrap" hidden>
+      <button type="button" class="load-more" id="load-more" aria-controls="feed">Load more</button>
+    </div>
     <div class="feed-end" id="feed-end" hidden>
       <p class="feed-end-note" id="feed-end-note" hidden><svg class="feed-end-mark" width="32" height="32" viewBox="0 0 36 36" aria-hidden="true" focusable="false"><path d="M4 27c9-5 19-5 28 0" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"/><circle cx="18" cy="12" r="2.5" fill="none" stroke="currentColor" stroke-width="1.75"/></svg>You're up to date. Next edition tomorrow.</p>
     </div>

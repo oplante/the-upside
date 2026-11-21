@@ -11,9 +11,16 @@ const TAXONOMY = [
   "Community",
 ];
 
-// The whole edition renders at once so the page reaches its ending;
-// "Load more" only appears if a day ever runs past this.
+// Legacy page size (kept for old callers); editions are capped by EDITION_CAP.
 const PAGE_SIZE = 60;
+
+// Daily editions (21 Nov 2026, Olivier): an edition is the stories released
+// on one Pacific-time day (story.edition from ingest). Each edition shows at
+// most EDITION_CAP stories, grouped under category headings. A cap, never a
+// quota: an edition only holds what was released. "Load more" adds the next
+// older edition still in the public feed; the feed itself only carries
+// stories inside the 72-hour window, so nothing stays up longer.
+const EDITION_CAP = 15;
 
 // Publisher images are off by default (no hotlinking; rights-safe text cards).
 // Images are shown only when a story carries a free-licence image with a
@@ -25,7 +32,7 @@ const SHOW_IMAGES = false;
 // The email signup appears once, after this many cards (or after the last
 // card when there are fewer). D5/G1, 20 Nov 2026.
 const SIGNUP_AFTER = 3;
-// D4: a short edition gets a calm note. No "Load more" anywhere.
+// D4: a short edition gets a calm note.
 const SHORT_EDITION_UNDER = 10;
 const SHORT_EDITION_NOTE =
   "A short edition today. We only share good news we can back up. Stories stay up for 72 hours.";
@@ -47,6 +54,7 @@ const state = {
   data: null,
   category: "All",
   visible: PAGE_SIZE,
+  editionsShown: 1,
 };
 
 function $(id) {
@@ -130,6 +138,7 @@ function currentCategoryFromUrl() {
 function setCategory(category, push) {
   state.category = category;
   state.visible = PAGE_SIZE;
+  state.editionsShown = 1;
   if (push) {
     const url = new URL(window.location.href);
     if (category === "All") url.searchParams.delete("category");
@@ -140,9 +149,68 @@ function setCategory(category, push) {
   renderFeed();
 }
 
+// ---------- Daily editions ----------
+const DAY_KEY = /^\d{4}-\d{2}-\d{2}$/;
+
+// YYYY-MM-DD of a moment in Pacific time (the edition day).
+function ptDay(date) {
+  return new Intl.DateTimeFormat("en-CA", {
+    timeZone: SITE_TZ, year: "numeric", month: "2-digit", day: "2-digit",
+  }).format(date);
+}
+
+// A story's edition day. Ingest sets story.edition (release day, PT). A feed
+// without it (older ingest) is treated as one edition, the generated day.
+function editionKeyOf(story, data) {
+  const k = String(story?.edition || "");
+  if (DAY_KEY.test(k)) return k;
+  const d = new Date(data?.generated_at);
+  return Number.isNaN(d.getTime()) ? "latest" : ptDay(d);
+}
+
+// Newest edition first; feed order (ranking) kept inside each; capped.
+function buildEditions(data) {
+  const byKey = new Map();
+  for (const story of data?.stories || []) {
+    if (!story) continue;
+    const key = editionKeyOf(story, data);
+    if (!byKey.has(key)) byKey.set(key, []);
+    byKey.get(key).push(story);
+  }
+  return [...byKey.keys()]
+    .sort((a, b) => (a < b ? 1 : a > b ? -1 : 0))
+    .map((key) => ({ key, stories: byKey.get(key).slice(0, EDITION_CAP) }));
+}
+
+// Every story the page can show (all editions, after the cap).
+function editionStories(data) {
+  return buildEditions(data).flatMap((e) => e.stories);
+}
+
+function dayFromKey(key) {
+  const d = new Date(`${key}T12:00:00Z`);
+  return Number.isNaN(d.getTime()) ? null : d;
+}
+
+// "Today's edition", "Yesterday's edition", "Thursday's edition".
+function editionName(key, now = new Date()) {
+  if (!DAY_KEY.test(key) || key === ptDay(now)) return "Today's edition";
+  if (key === ptDay(new Date(now.getTime() - 86400000))) return "Yesterday's edition";
+  const d = dayFromKey(key);
+  const wd = new Intl.DateTimeFormat("en-GB", { weekday: "long", timeZone: "UTC" }).format(d);
+  return `${wd}'s edition`;
+}
+
+// "Fri 20 Nov"
+function editionDate(key) {
+  const d = DAY_KEY.test(key) ? dayFromKey(key) : null;
+  if (!d) return "";
+  return new Intl.DateTimeFormat("en-GB", { weekday: "short", day: "numeric", month: "short", timeZone: "UTC" }).format(d);
+}
+
 function categoryCounts(data) {
   const counts = Object.fromEntries(TAXONOMY.map((c) => [c, 0]));
-  for (const story of data?.stories || []) {
+  for (const story of editionStories(data)) {
     if (story && Object.prototype.hasOwnProperty.call(counts, story.category)) {
       counts[story.category] += 1;
     }
@@ -160,6 +228,7 @@ function ensureNonEmptyCategory() {
   if (!isEmptyCategory(state.category)) return false;
   state.category = "All";
   state.visible = PAGE_SIZE;
+  state.editionsShown = 1;
   const url = new URL(window.location.href);
   url.searchParams.delete("category");
   history.replaceState({ category: "All" }, "", url);
@@ -408,7 +477,7 @@ function cardHtml(story, variant, opts = {}) {
         </li>${newTag}
       </ul>
       <div class="body">
-        <h2>${headlineHtml}</h2>
+        <h4>${headlineHtml}</h4>
         ${impactHtml}
         ${headlineOnly ? "" : `<p class="summary">${escapeHtml(story.summary)}</p>`}
         ${whyHtml}
@@ -436,38 +505,129 @@ function leadFirst(stories) {
   return [stories[i], ...stories.slice(0, i), ...stories.slice(i + 1)];
 }
 
-function layoutHtml(stories) {
-  stories = leadFirst(stories);
-  const lead = stories.slice(0, 1);
-  const rail = stories.slice(1, 3);
-  const second = stories.slice(3, 6);
-  const river = stories.slice(6);
+// Category sections: the lead's category first (so the lead stays at the
+// top), then the fixed TAXONOMY order, then anything unknown A-Z.
+function categorySections(stories) {
+  const groups = new Map();
+  for (const s of stories) {
+    const cat = TAXONOMY.includes(s.category) ? s.category : String(s.category || "World");
+    if (!groups.has(cat)) groups.set(cat, []);
+    groups.get(cat).push(s);
+  }
+  const first = stories.length ? (TAXONOMY.includes(stories[0].category) ? stories[0].category : String(stories[0].category || "World")) : null;
+  const rest = [...groups.keys()].filter((c) => c !== first).sort((a, b) => {
+    const ia = TAXONOMY.indexOf(a), ib = TAXONOMY.indexOf(b);
+    if (ia >= 0 && ib >= 0) return ia - ib;
+    if (ia >= 0) return -1;
+    if (ib >= 0) return 1;
+    return a.localeCompare(b);
+  });
+  return (first ? [first, ...rest] : rest).map((cat) => ({ cat, stories: groups.get(cat) }));
+}
+
+function slug(value) {
+  return String(value || "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+}
+
+// One edition: cards grouped under category headings (h3; card titles h4).
+// opts.lead (default true): the top card with a sentence gets the lead style.
+// opts.signup (default true): the one signup slot right after card
+// SIGNUP_AFTER, or after the last card when there are fewer.
+// opts.key: edition key, used for unique heading ids.
+function layoutHtml(stories, opts = {}) {
+  const withLead = opts.lead !== false;
+  const withSignup = opts.signup !== false;
+  const key = slug(opts.key || "latest") || "latest";
+  if (withLead) stories = leadFirst(stories);
+  const total = stories.length;
+  const signupAt = withSignup && total ? Math.min(SIGNUP_AFTER, total) : -1;
+  const slot = `<div class="signup-mid-slot" data-signup-slot="mid"></div>`;
+  let seen = 0;
   const parts = [];
-  parts.push(
-    `<div class="front${rail.length ? "" : " solo"}">` +
-      lead.map((s) => cardHtml(s, "lead")).join("") +
-      (rail.length ? `<div class="rail">${rail.map((s) => cardHtml(s, "rail")).join("")}</div>` : "") +
-      `</div>`
-  );
-  // The one signup: right after card SIGNUP_AFTER (the front block holds
-  // cards 1-3), or after the last card when there are fewer.
-  parts.push(`<div class="signup-mid-slot" data-signup-slot="mid"></div>`);
-  if (second.length) {
+  for (const section of categorySections(stories)) {
+    const id = `cat-${key}-${slug(section.cat)}`;
+    const inner = [];
+    let river = [];
+    const flush = () => {
+      if (river.length) inner.push(`<div class="river">${river.join("")}</div>`);
+      river = [];
+    };
+    for (const s of section.stories) {
+      seen += 1;
+      if (withLead && seen === 1) {
+        inner.push(`<div class="front solo">${cardHtml(s, "lead")}</div>`);
+      } else {
+        river.push(cardHtml(s, "river", { image: false }));
+      }
+      if (seen === signupAt) {
+        flush();
+        inner.push(slot);
+      }
+    }
+    flush();
     parts.push(
-      `<div class="second count-${second.length}">${second.map((s) => cardHtml(s, "second")).join("")}</div>`
+      `<section class="cat-section" data-category="${escapeHtml(section.cat)}" aria-labelledby="${id}">` +
+        `<h3 class="cat-heading" id="${id}">${escapeHtml(section.cat)}</h3>` +
+        inner.join("") +
+        `</section>`
     );
   }
-  if (river.length) {
-    // Thumbnail on every other river story that has an image.
-    let previousHadImage = false;
-    const riverHtml = river.map((s) => {
-      const image = !previousHadImage && Boolean(imageUrl(s));
-      previousHadImage = image;
-      return cardHtml(s, "river", { image });
-    });
-    parts.push(`<div class="river">${riverHtml.join("")}</div>`);
-  }
   return parts.join("");
+}
+
+function editionSectionHtml(edition, index, count) {
+  const key = slug(edition.key) || "latest";
+  const id = `edition-${key}`;
+  const name = editionName(edition.key);
+  const date = editionDate(edition.key);
+  const n = edition.stories.length;
+  const label = `${name}${date && name !== "Today's edition" ? ` · ${date}` : ""}`;
+  // The top edition's heading is for screen readers (the edition bar shows
+  // it); older editions get a visible divider. tabindex lets Load more move
+  // focus to the edition it added.
+  const heading =
+    index === 0
+      ? `<h2 class="edition-heading visually-hidden" id="${id}">${escapeHtml(label)}</h2>`
+      : `<h2 class="edition-heading" id="${id}" tabindex="-1">${escapeHtml(label)}<span class="edition-heading-count"> · ${n} ${n === 1 ? "story" : "stories"}</span></h2>`;
+  return (
+    `<section class="edition-block${index === 0 ? " is-latest" : " is-older"}" data-edition="${escapeHtml(edition.key)}" aria-labelledby="${id}">` +
+    heading +
+    layoutHtml(edition.stories, { lead: index === 0, signup: index === 0, key: edition.key }) +
+    `</section>`
+  );
+}
+
+// Editions for the current category view (editions with nothing in the
+// chosen category are skipped).
+function visibleEditions() {
+  const all = buildEditions(state.data);
+  if (state.category === "All") return all;
+  return all
+    .map((e) => ({ key: e.key, stories: e.stories.filter((s) => s.category === state.category) }))
+    .filter((e) => e.stories.length);
+}
+
+function renderLoadMore(editions, shownCount) {
+  const wrap = $("more-wrap");
+  const btn = $("load-more");
+  if (!wrap || !btn) return;
+  const next = editions[shownCount];
+  wrap.hidden = !next;
+  if (next) {
+    const date = editionDate(next.key);
+    const name = editionName(next.key);
+    btn.textContent = `Load more · ${name}${date ? `, ${date}` : ""}`;
+  }
+}
+
+function loadMore() {
+  const editions = visibleEditions();
+  if (state.editionsShown >= editions.length) return;
+  state.editionsShown += 1;
+  const added = editions[state.editionsShown - 1];
+  renderFeed();
+  const heading = $(`edition-${slug(added.key) || "latest"}`);
+  if (heading && typeof heading.focus === "function") heading.focus();
 }
 
 function visibleStories() {
@@ -485,11 +645,13 @@ function renderFeed() {
   if (!data) return;
 
   if (ensureNonEmptyCategory()) renderFilters();
-  const all = visibleStories();
-  const shown = all; // the whole edition, no "Load more" (D4)
+  const editions = visibleEditions();
+  state.editionsShown = Math.max(1, Math.min(state.editionsShown, editions.length || 1));
+  const shownEditions = editions.slice(0, state.editionsShown);
+  const shownCount = shownEditions.reduce((n, e) => n + e.stories.length, 0);
   banner.hidden = !data.is_sample;
 
-  if (!all.length) {
+  if (!editions.length) {
     feed.innerHTML = "";
     empty.hidden = false;
     const cat = state.category === "All" ? "today" : state.category;
@@ -499,14 +661,14 @@ function renderFeed() {
         : `Nothing new in ${cat} yet today. Check back this afternoon.`;
   } else {
     empty.hidden = true;
-    // No more "That's the latest" dividers: the layout sections pace the page.
-    feed.innerHTML = layoutHtml(shown);
+    feed.innerHTML = shownEditions.map((e, i) => editionSectionHtml(e, i, editions.length)).join("");
   }
   renderEditionBar(data);
-  placeSignups(feed, all.length > 0, shown.length >= all.length);
+  renderLoadMore(editions, shownEditions.length);
+  placeSignups(feed, shownCount > 0, shownEditions.length >= editions.length);
 
   // Screen-reader status only; the visible count lives in the edition bar.
-  status.textContent = `Showing ${all.length} ${all.length === 1 ? "story" : "stories"} · ${
+  status.textContent = `Showing ${shownCount} ${shownCount === 1 ? "story" : "stories"} · ${
     state.category === "All" ? "all categories" : state.category
   }`;
   bindThumbFallbacks(feed);
@@ -535,18 +697,28 @@ function ptParts(date) {
   };
 }
 
+function latestEditionCount(data) {
+  const first = buildEditions(data)[0];
+  return first ? first.stories.length : 0;
+}
+
+// The top edition's name, count and the feed's update time. Facts only.
 function editionBarText(data, now = new Date()) {
-  const n = (data && Array.isArray(data.stories) ? data.stories : []).length;
+  const n = latestEditionCount(data);
   const count = `${n} ${n === 1 ? "story" : "stories"}`;
   const d = new Date(data && data.generated_at);
   if (!data || Number.isNaN(d.getTime())) return `Today's edition · ${count}`;
+  const latest = buildEditions(data)[0];
+  const key = latest ? latest.key : ptDay(d);
+  const name = editionName(key, now);
+  const label = name === "Today's edition" ? name : `${name} · ${editionDate(key)}`;
   const p = ptParts(d);
-  if (p.day === ptParts(now).day) return `Today's edition · ${count} · updated ${p.time} PT`;
-  return `Latest edition · ${count} · updated ${p.date}, ${p.time} PT`;
+  if (p.day === ptParts(now).day) return `${label} · ${count} · updated ${p.time} PT`;
+  return `${label} · ${count} · updated ${p.date}, ${p.time} PT`;
 }
 
 function editionNote(data) {
-  const n = (data && Array.isArray(data.stories) ? data.stories : []).length;
+  const n = latestEditionCount(data);
   return n > 0 && n < SHORT_EDITION_UNDER ? SHORT_EDITION_NOTE : "";
 }
 
@@ -631,6 +803,8 @@ async function init() {
         : (index - 1 + buttons.length) % buttons.length;
     buttons[next].focus();
   });
+  const more = $("load-more");
+  if (more && typeof more.addEventListener === "function") more.addEventListener("click", loadMore);
   try {
     const res = await fetch("data/stories.json", { cache: "no-store" });
     if (!res.ok) throw new Error("Could not load data/stories.json");
@@ -650,6 +824,7 @@ async function init() {
 window.addEventListener("popstate", () => {
   state.category = currentCategoryFromUrl();
   state.visible = PAGE_SIZE;
+  state.editionsShown = 1;
   ensureNonEmptyCategory();
   renderFilters();
   renderFeed();

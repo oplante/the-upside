@@ -371,7 +371,7 @@ main {
   color: var(--ink-soft);
 }
 
-.card h2 {
+.card h4 {
   margin: 0 0 10px;
   font-family: var(--serif);
   font-weight: 600;
@@ -382,10 +382,10 @@ main {
   text-wrap: balance;
   overflow-wrap: anywhere;
 }
-.card h2 a { color: var(--ink); text-decoration: none; }
+.card h4 a { color: var(--ink); text-decoration: none; }
 /* Title links: ink, no underline at rest; 1px underline on hover/focus and the
    same green focus ring as the tabs. */
-.card h2 a:focus-visible {
+.card h4 a:focus-visible {
   text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 3px;
@@ -523,7 +523,7 @@ main {
   border-top: 3px solid var(--cat, var(--ink));
 }
 .card.is-lead .meta { font-size: 12.5px; margin-bottom: 14px; }
-.card.is-lead h2 {
+.card.is-lead h4 {
   font-weight: 500;
   font-size: 34px;
   line-height: 1.08;
@@ -546,7 +546,7 @@ main {
   padding: 18px 0 4px;
   border-top: 1px solid var(--line);
 }
-.rail .card h2 { font-size: 22px; }
+.rail .card h4 { font-size: 22px; }
 
 /* ---------- Second row ---------- */
 .second {
@@ -569,7 +569,7 @@ main {
   margin: 0 0 14px;
   background: var(--cat, var(--ink));
 }
-.second .card h2 { font-size: 23px; }
+.second .card h4 { font-size: 23px; }
 
 /* ---------- River ---------- */
 .river {
@@ -596,17 +596,17 @@ main {
   margin: 4px 0 0;
 }
 .river .card:last-child { border-bottom: 0; }
-.river .card h2 { font-size: 20px; }
+.river .card h4 { font-size: 20px; }
 .river .impact-value { font-size: 26px; }
 .river .why-note { font-size: 15px; }
 
 /* ---------- Tablet ---------- */
 @media (min-width: 720px) {
-  .card.is-lead h2 { font-size: 42px; }
+  .card.is-lead h4 { font-size: 42px; }
   .second { grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: var(--col-gap); }
   .second .card { border-top: 0; }
   .second.count-3 .card:first-child { grid-column: 1 / -1; padding-bottom: 20px; border-bottom: 1px solid var(--line); }
-  .second.count-3 .card:first-child h2 { font-size: 30px; font-weight: 500; letter-spacing: -0.015em; max-width: 28ch; }
+  .second.count-3 .card:first-child h4 { font-size: 30px; font-weight: 500; letter-spacing: -0.015em; max-width: 28ch; }
   .second.count-1 { grid-template-columns: minmax(0, 1fr); }
   .river .card,
   .river .card[data-image="true"] {
@@ -623,7 +623,7 @@ main {
   .river .meta { flex-direction: column; align-items: stretch; margin: 3px 0 0; gap: 2px; }
   .river .meta .src { max-width: 100%; }
   .river .meta li:not(:last-child)::after { content: none; }
-  .river .card h2 { font-size: 22px; }
+  .river .card h4 { font-size: 22px; }
 }
 
 /* ---------- Desktop: 12-col front page ---------- */
@@ -635,7 +635,7 @@ main {
   .front.solo { grid-template-columns: minmax(0, 1fr); }
   .card.is-lead { padding-right: 40px; align-self: start; }
   .card.is-lead .card-foot { margin-top: 0; }
-  .card.is-lead h2 { font-size: 48px; line-height: 1.06; }
+  .card.is-lead h4 { font-size: 48px; line-height: 1.06; }
   .card.is-lead .summary { font-size: 19px; }
   .rail {
     border-left: 1px solid var(--line);
@@ -651,13 +651,13 @@ main {
   .second .card:last-child { padding-right: 0; }
   .second.count-3 { grid-template-columns: minmax(0, 6fr) minmax(0, 3fr) minmax(0, 3fr); }
   .second.count-3 .card:first-child { grid-column: auto; padding-bottom: 4px; }
-  .second.count-3 .card:first-child h2 { font-size: 32px; }
+  .second.count-3 .card:first-child h4 { font-size: 32px; }
   .second.count-3 .card:first-child .summary { font-size: 17px; }
 
   .river .card,
   .river .card[data-image="true"] { grid-template-columns: minmax(0, 3fr) minmax(0, 7fr) minmax(0, 2fr); }
   .river .thumb { width: 120px; justify-self: end; }
-  .river .card h2 { font-size: 24px; }
+  .river .card h4 { font-size: 24px; }
   .river .summary { font-size: 17px; }
 }
 
@@ -780,7 +780,7 @@ main {
 /* ---------- Hover (pointer devices only) ---------- */
 @media (hover: hover) and (pointer: fine) {
   .filters button:not(:disabled):hover { color: var(--ink); }
-  .card h2 a:hover { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+  .card h4 a:hover { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; }
   .card-foot a.read:hover { color: var(--accent-hover); }
   .card-foot a.read:hover .read-arrow { transform: translateX(3px); }
   .load-more:hover { background: var(--ink); color: var(--paper); }
@@ -849,3 +849,66 @@ main {
   line-clamp: none !important;
   overflow: visible !important;
 }
+
+/* ---------- Daily editions + category sections (21 Nov 2026) ---------- */
+.edition-block + .edition-block { margin-top: 48px; }
+.edition-heading {
+  margin: 0 0 4px;
+  padding-top: 20px;
+  border-top: 3px double var(--rule);
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+}
+.edition-heading:focus { outline: none; }
+.edition-heading:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
+.edition-heading-count {
+  font-family: var(--sans);
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--muted);
+  letter-spacing: 0;
+}
+.cat-section { margin-top: 28px; }
+.edition-block .cat-section:first-of-type { margin-top: 8px; }
+.cat-heading {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0 0 6px;
+  font-family: var(--sans);
+  font-size: 12.5px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+.cat-heading::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: var(--line);
+}
+.cat-section .front + .river { margin-top: 20px; }
+.cat-section .signup-mid-slot + .river,
+.cat-section .signup + .river { margin-top: 20px; }
+.load-more { width: 100%; max-width: 420px; }
+.load-more:hover { background: var(--ink); color: var(--paper); }
+.load-more:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+@media (min-width: 720px) {
+  .cat-section { margin-top: 40px; }
+  .edition-heading { font-size: 30px; }
+  .load-more { width: auto; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .load-more { transition: none; }
+  .load-more:active { transform: none; }
+}
+/* The category heading already draws the rule; no second line under it. */
+.cat-heading + .river,
+.cat-heading + .front .card.is-lead { border-top: 0; }
+.cat-heading + .river { margin-top: 0; }
+.cat-heading + .front .card.is-lead { padding-top: 6px; }
