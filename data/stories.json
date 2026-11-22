@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-22T09:15:00.243584+00:00",
+  "generated_at": "2026-11-22T09:22:30.083013+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 52 feeds, 1057 headlines. Accepted 18, held for review 160, rejected 881. Carried 2 recent items (up to 96h) for re-check. Pending release 6. Published window 72h. Auto-promoted from review: 0.",
+  "ingest_notes": "Fetched 52 feeds, 1057 headlines. Accepted 17, held for review 144, rejected 898. Carried 2 recent items (up to 96h) for re-check. Pending release 4. Published window 72h. Auto-promoted from review: 0.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -21,6 +21,35 @@
     "publish_hours": 72
   },
   "stories": [
+    {
+      "id": "e6b45600c6ae9d98",
+      "headline": "\u2018I Left a US Tech Career To Turn My Father\u2019s Surplus Amla Into 25+ Products for 4000 Customers\u2019",
+      "summary": "By the time the amla ripened at her father's farm in Iduvai, Tamil Nadu, there was more fruit than the family could consume or sell fresh.",
+      "category": "Tech",
+      "sources": [
+        {
+          "name": "The Better India",
+          "url": "https://thebetterindia.com/farming/kalaiselvi-aruvi-eco-organics-surplus-amla-natural-products-12827171",
+          "published_at": "2026-11-22T05:10:08+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-22T05:10:08+00:00",
+      "positivity_score": 56,
+      "positivity_reason": "solutions-focused source; stated figure from the source",
+      "why_good": "Kalaiselvi estimates that processing helps the farm use nearly 60 percent of its suitable surplus produce, depending on the season.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://thebetterindia.com/farming/kalaiselvi-aruvi-eco-organics-surplus-amla-natural-products-12827171",
+      "impact": {
+        "value": "25+",
+        "label": "Products for 4000 Customers"
+      },
+      "no_lead": false,
+      "new_today": true,
+      "released_at": "2026-11-22T09:21:44.100386+00:00",
+      "edition": "2026-11-22"
+    },
     {
       "id": "ca0efcf3e4f02f2a",
       "headline": "Nearly half of adults over 70 benefited from exercise training across several areas of physical function",
@@ -50,25 +79,20 @@
     {
       "id": "70a6534056e1fc14",
       "headline": "Pill to treat pancreatic cancer hailed as \u2018biggest breakthrough in decades\u2019",
-      "summary": "A pill that can shrink and potentially eliminate pancreas tumours is being hailed as the biggest breakthrough treatment for the cancer in decades.",
+      "summary": "In one in 12 of the patients given the drug, daraxonrasib, during a trial, the cancer became undetectable, and the tumours stopped growing in almost all of the 61 patients.",
       "category": "Health",
       "sources": [
         {
           "name": "The Guardian Science",
           "url": "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib",
           "published_at": "2026-11-20T09:36:10+00:00"
-        },
-        {
-          "name": "The Guardian Health",
-          "url": "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib",
-          "published_at": "2026-11-20T09:36:10+00:00"
         }
       ],
-      "source_count": 2,
+      "source_count": 1,
       "published_at": "2026-11-20T09:36:10+00:00",
       "positivity_score": 57,
       "positivity_reason": "positive cues: breakthrough, treatment; stated figure from the source",
-      "why_good": null,
+      "why_good": "In one in 12 of the patients given the drug, daraxonrasib, during a trial, the cancer became undetectable, and the tumours stopped growing in almost all of the 61 patients.",
       "review_status": "auto-accepted",
       "is_sample": false,
       "link": "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib",
