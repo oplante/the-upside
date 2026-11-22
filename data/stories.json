@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-22T14:25:55.413018+00:00",
+  "generated_at": "2026-11-22T16:47:14.043887+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 53 feeds, 1084 headlines. Accepted 19, held for review 145, rejected 920. Carried 0 recent items (up to 96h) for re-check. Pending release 0. Published window 72h. Auto-promoted from review: 0.",
+  "ingest_notes": "Fetched 53 feeds, 1084 headlines. Accepted 20, held for review 146, rejected 918. Carried 0 recent items (up to 96h) for re-check. Pending release 2. Published window 72h. Auto-promoted from review: 0.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -244,32 +244,6 @@
       "new_today": false,
       "released_at": "2026-11-20T16:00:43.091544+00:00",
       "edition": "2026-11-20"
-    },
-    {
-      "id": "fb117f5a682743cc",
-      "headline": "Zookeepers save endangered peacock-pheasant chicks, thanks to foster \u2018mom\u2019 and rubber glove hack",
-      "summary": "With just 15 Malay peacock-pheasants being raised in captivity, every chick is vital to the survival of the endangered species.",
-      "category": "Environment",
-      "sources": [
-        {
-          "name": "Good Good Good",
-          "url": "https://www.goodgoodgood.co/articles/endangered-species-peacock-pheasant-chicks",
-          "published_at": "2026-11-19T14:33:00+00:00"
-        }
-      ],
-      "source_count": 1,
-      "published_at": "2026-11-19T14:33:00+00:00",
-      "positivity_score": 50,
-      "positivity_reason": "solutions-focused source; positive cues: endangered; fact-check pass",
-      "why_good": "With just 15 Malay peacock-pheasants being raised in captivity, every chick is vital to the survival of the endangered species.",
-      "review_status": "auto-accepted",
-      "is_sample": false,
-      "link": "https://www.goodgoodgood.co/articles/endangered-species-peacock-pheasant-chicks",
-      "impact": null,
-      "no_lead": false,
-      "new_today": false,
-      "released_at": "2026-11-22T09:26:39.323181+00:00",
-      "edition": "2026-11-22"
     }
   ]
 }
