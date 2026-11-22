@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-22T09:32:21.613043+00:00",
+  "generated_at": "2026-11-22T10:00:49.519949+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 53 feeds, 1082 headlines. Accepted 19, held for review 146, rejected 917. Carried 0 recent items (up to 96h) for re-check. Pending release 3. Published window 72h. Auto-promoted from review: 0.",
+  "ingest_notes": "Fetched 53 feeds, 1084 headlines. Accepted 19, held for review 146, rejected 919. Carried 0 recent items (up to 96h) for re-check. Pending release 0. Published window 72h. Auto-promoted from review: 0.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -48,6 +48,58 @@
       "no_lead": false,
       "new_today": true,
       "released_at": "2026-11-22T09:21:44.100386+00:00",
+      "edition": "2026-11-22"
+    },
+    {
+      "id": "239c21f87f25aa43",
+      "headline": "The British island that made a deal with nature",
+      "summary": "Out in the Bristol Channel, nestled between Wales and England, the rugged island of Lundy is one of the UK\u2019s most pioneering conservation stories.",
+      "category": "Environment",
+      "sources": [
+        {
+          "name": "Mongabay",
+          "url": "https://news.mongabay.com/video/2026/11/the-british-island-that-made-a-deal-with-nature/",
+          "published_at": "2026-11-21T09:10:37+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-21T09:10:37+00:00",
+      "positivity_score": 53,
+      "positivity_reason": "positive cues: conservation, thriving; multiple outcome cues",
+      "why_good": "From the return of thousands of seabirds to thriving marine life beneath its waves, decades of conservation have helped transform this small island.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://news.mongabay.com/video/2026/11/the-british-island-that-made-a-deal-with-nature/",
+      "impact": null,
+      "no_lead": false,
+      "new_today": false,
+      "released_at": "2026-11-22T10:00:01.091455+00:00",
+      "edition": "2026-11-22"
+    },
+    {
+      "id": "5306fc9d0f181470",
+      "headline": "After 8 years in space, a groundbreaking X-ray telescope finally opens its eyes",
+      "summary": "",
+      "category": "Science",
+      "sources": [
+        {
+          "name": "ScienceDaily Technology",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261120075547.htm",
+          "published_at": "2026-11-21T02:11:14+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-21T02:11:14+00:00",
+      "positivity_score": 48,
+      "positivity_reason": "positive cues: opens; fact-check pass; headline-only card",
+      "why_good": null,
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://www.sciencedaily.com/releases/2026/11/261120075547.htm",
+      "impact": null,
+      "no_lead": false,
+      "new_today": false,
+      "released_at": "2026-11-22T10:00:01.091455+00:00",
       "edition": "2026-11-22"
     },
     {
@@ -101,6 +153,32 @@
       "new_today": false,
       "released_at": "2026-11-20T16:00:43.091544+00:00",
       "edition": "2026-11-20"
+    },
+    {
+      "id": "770bf221a9872723",
+      "headline": "\u2018I Became Six Characters at Once\u2019: A 10-YO Gives the Panchatantra and Mahabharata His Own Voice Through a Free Audio Library",
+      "summary": "",
+      "category": "Community",
+      "sources": [
+        {
+          "name": "The Better India",
+          "url": "https://thebetterindia.com/changemakers/reading-habit-children-free-audio-library-vyasa-project-12825584",
+          "published_at": "2026-11-20T09:14:56+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-20T09:14:56+00:00",
+      "positivity_score": 48,
+      "positivity_reason": "solutions-focused source; fact-check pass; headline-only card",
+      "why_good": "The child featured in this story has therefore been identified by their chosen nickname.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://thebetterindia.com/changemakers/reading-habit-children-free-audio-library-vyasa-project-12825584",
+      "impact": null,
+      "no_lead": false,
+      "new_today": false,
+      "released_at": "2026-11-22T10:00:01.091455+00:00",
+      "edition": "2026-11-22"
     },
     {
       "id": "164c7a046292f0b1",
