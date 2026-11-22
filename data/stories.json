@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-22T13:03:43.913192+00:00",
+  "generated_at": "2026-11-22T14:25:55.413018+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 53 feeds, 1084 headlines. Accepted 19, held for review 148, rejected 917. Carried 0 recent items (up to 96h) for re-check. Pending release 0. Published window 72h. Auto-promoted from review: 0.",
+  "ingest_notes": "Fetched 53 feeds, 1084 headlines. Accepted 19, held for review 145, rejected 920. Carried 0 recent items (up to 96h) for re-check. Pending release 0. Published window 72h. Auto-promoted from review: 0.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -270,32 +270,6 @@
       "new_today": false,
       "released_at": "2026-11-22T09:26:39.323181+00:00",
       "edition": "2026-11-22"
-    },
-    {
-      "id": "0ba81845e543b990",
-      "headline": "Empire State Building Lit Up with Gold Marks Historic Milestone of NASA\u2019s Voyager 1 This Week",
-      "summary": "This week the Empire State Building was illuminated in gold to celebrate NASA\u2019s Voyager 1 spacecraft passing one light-day away from Earth.",
-      "category": "Science",
-      "sources": [
-        {
-          "name": "Good News Network",
-          "url": "https://www.goodnewsnetwork.org/empire-state-building-lit-up-with-gold-to-celebrate-nasa-spacecraft-passing-one-light-day-from-earth/",
-          "published_at": "2026-11-19T14:00:49+00:00"
-        }
-      ],
-      "source_count": 1,
-      "published_at": "2026-11-19T14:00:49+00:00",
-      "positivity_score": 54,
-      "positivity_reason": "solutions-focused source; positive cues: milestone",
-      "why_good": null,
-      "review_status": "auto-accepted",
-      "is_sample": false,
-      "link": "https://www.goodnewsnetwork.org/empire-state-building-lit-up-with-gold-to-celebrate-nasa-spacecraft-passing-one-light-day-from-earth/",
-      "impact": null,
-      "no_lead": false,
-      "new_today": false,
-      "released_at": "2026-11-21T16:00:00.524430+00:00",
-      "edition": "2026-11-21"
     }
   ]
 }
