@@ -702,7 +702,15 @@ main {
 .edition-bar-text { margin: 0; font-size: 14px; line-height: 1.5; color: var(--ink-soft); }
 .edition-note { margin: 4px 0 0; font-size: 14px; line-height: 1.5; color: var(--ink-soft); max-width: 60ch; }
 /* D5/G1 masthead link to the signup (no modal, no sticky bar). */
-.masthead-email { margin: 6px 0 0; font-size: 14px; }
+.masthead-email { order: 4; margin: 6px 0 0; font-size: 14px; }
+/* 22 Nov 2026 (Olivier): its own line below the tagline on wider screens,
+   and not in the masthead on phones (the signup after card 3 covers it). */
+@media (min-width: 720px) {
+  .masthead-email { margin-top: 16px; }
+}
+@media (max-width: 600px) {
+  .masthead-email { display: none; }
+}
 .masthead-email a { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; }
 .feed-end-note {
   margin: 0 0 32px;
