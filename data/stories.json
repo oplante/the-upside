@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-22T17:48:21.535700+00:00",
+  "generated_at": "2026-11-22T18:09:30.157264+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 53 feeds, 1084 headlines. Accepted 20, held for review 143, rejected 921. Carried 0 recent items (up to 96h) for re-check. Pending release 2. Published window 72h. Auto-promoted from review: 0.",
+  "ingest_notes": "Fetched 53 feeds, 1084 headlines. Accepted 20, held for review 143, rejected 922. Carried 1 recent items (up to 96h) for re-check. Pending release 2. Published window 72h. Auto-promoted from review: 0.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -201,45 +201,6 @@
       "is_sample": false,
       "link": "https://www.optimistdaily.com/2026/11/car-t-therapy-helps-stiff-person-syndrome-patients-walk-and-work-again/",
       "impact": null,
-      "no_lead": false,
-      "new_today": false,
-      "released_at": "2026-11-20T16:00:43.091544+00:00",
-      "edition": "2026-11-20"
-    },
-    {
-      "id": "a30b668c8bdd1ddc",
-      "headline": "Every Tuesday, this private chef turns \u2018random\u2019 food bank donations into 100 meals for people in need",
-      "summary": "Maddy Goldberg studied social work before diving into the culinary arts.",
-      "category": "Community",
-      "sources": [
-        {
-          "name": "Good Good Good",
-          "url": "https://www.goodgoodgood.co/articles/toronto-chef-food-bank-maddy-goldberg",
-          "published_at": "2026-11-19T17:56:00+00:00"
-        },
-        {
-          "name": "DailyGood",
-          "url": "https://www.dailygood.org/view.php?qid=10894",
-          "published_at": "2026-11-21T08:00:00+00:00"
-        },
-        {
-          "name": "Good News Network",
-          "url": "https://www.goodnewsnetwork.org/every-tuesday-this-chef-cooks-for-100-people-in-need-using-random-food-bank-ingredients/",
-          "published_at": "2026-11-20T12:30:29+00:00"
-        }
-      ],
-      "source_count": 3,
-      "published_at": "2026-11-19T17:56:00+00:00",
-      "positivity_score": 56,
-      "positivity_reason": "solutions-focused source; stated figure from the source",
-      "why_good": "In 2021, she circled back to her true passion: helping others.",
-      "review_status": "auto-accepted",
-      "is_sample": false,
-      "link": "https://www.goodgoodgood.co/articles/toronto-chef-food-bank-maddy-goldberg",
-      "impact": {
-        "value": "100",
-        "label": "meals for people in need"
-      },
       "no_lead": false,
       "new_today": false,
       "released_at": "2026-11-20T16:00:43.091544+00:00",
