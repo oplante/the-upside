@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-22T09:30:47.398377+00:00",
+  "generated_at": "2026-11-22T09:32:21.613043+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 52 feeds, 1057 headlines. Accepted 17, held for review 144, rejected 897. Carried 1 recent items (up to 96h) for re-check. Pending release 3. Published window 72h. Auto-promoted from review: 0.",
+  "ingest_notes": "Fetched 53 feeds, 1082 headlines. Accepted 19, held for review 146, rejected 917. Carried 0 recent items (up to 96h) for re-check. Pending release 3. Published window 72h. Auto-promoted from review: 0.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -25,7 +25,7 @@
       "id": "e6b45600c6ae9d98",
       "headline": "\u2018I Left a US Tech Career To Turn My Father\u2019s Surplus Amla Into 25+ Products for 4000 Customers\u2019",
       "summary": "By the time the amla ripened at her father's farm in Iduvai, Tamil Nadu, there was more fruit than the family could consume or sell fresh.",
-      "category": "Tech",
+      "category": "Community",
       "sources": [
         {
           "name": "The Better India",
@@ -138,9 +138,19 @@
           "name": "Good Good Good",
           "url": "https://www.goodgoodgood.co/articles/toronto-chef-food-bank-maddy-goldberg",
           "published_at": "2026-11-19T17:56:00+00:00"
+        },
+        {
+          "name": "DailyGood",
+          "url": "https://www.dailygood.org/view.php?qid=10894",
+          "published_at": "2026-11-21T08:00:00+00:00"
+        },
+        {
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/every-tuesday-this-chef-cooks-for-100-people-in-need-using-random-food-bank-ingredients/",
+          "published_at": "2026-11-20T12:30:29+00:00"
         }
       ],
-      "source_count": 1,
+      "source_count": 3,
       "published_at": "2026-11-19T17:56:00+00:00",
       "positivity_score": 56,
       "positivity_reason": "solutions-focused source; stated figure from the source",
