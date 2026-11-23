@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-22T21:04:32.326403+00:00",
+  "generated_at": "2026-11-23T07:25:28.503621+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 53 feeds, 1084 headlines. Accepted 21, held for review 141, rejected 923. Carried 1 recent items (up to 96h) for re-check. Pending release 3. Published window 72h. Auto-promoted from review: 0.",
+  "ingest_notes": "Fetched 53 feeds, 1082 headlines. Accepted 26, held for review 137, rejected 920. Carried 1 recent items (up to 96h) for re-check. Pending release 9. Published window 72h. Auto-promoted from review: 0.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -46,7 +46,7 @@
         "label": "Products for 4000 Customers"
       },
       "no_lead": false,
-      "new_today": true,
+      "new_today": false,
       "released_at": "2026-11-22T09:21:44.100386+00:00",
       "edition": "2026-11-22"
     },
@@ -179,32 +179,6 @@
       "new_today": false,
       "released_at": "2026-11-22T10:00:01.091455+00:00",
       "edition": "2026-11-22"
-    },
-    {
-      "id": "164c7a046292f0b1",
-      "headline": "CAR-T therapy helps stiff person syndrome patients walk and work again",
-      "summary": "A cell therapy built to fight cancer is helping people with stiff person syndrome get back on their feet.",
-      "category": "Health",
-      "sources": [
-        {
-          "name": "Optimist Daily",
-          "url": "https://www.optimistdaily.com/2026/11/car-t-therapy-helps-stiff-person-syndrome-patients-walk-and-work-again/",
-          "published_at": "2026-11-20T00:00:07+00:00"
-        }
-      ],
-      "source_count": 1,
-      "published_at": "2026-11-20T00:00:07+00:00",
-      "positivity_score": 57,
-      "positivity_reason": "solutions-focused source; positive cues: therapy; concrete outcome language",
-      "why_good": "A cell therapy built to fight cancer is helping people with stiff person syndrome get back on their feet.",
-      "review_status": "auto-accepted",
-      "is_sample": false,
-      "link": "https://www.optimistdaily.com/2026/11/car-t-therapy-helps-stiff-person-syndrome-patients-walk-and-work-again/",
-      "impact": null,
-      "no_lead": false,
-      "new_today": false,
-      "released_at": "2026-11-20T16:00:43.091544+00:00",
-      "edition": "2026-11-20"
     }
   ]
 }
