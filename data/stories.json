@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-23T08:30:47.557509+00:00",
+  "generated_at": "2026-11-23T09:17:07.441605+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 53 feeds, 1082 headlines. Accepted 26, held for review 136, rejected 921. Carried 1 recent items (up to 96h) for re-check. Pending release 9. Published window 72h. Auto-promoted from review: 0.",
+  "ingest_notes": "Fetched 53 feeds, 1082 headlines. Accepted 25, held for review 142, rejected 916. Carried 1 recent items (up to 96h) for re-check. Pending release 9. Published window 72h. Auto-promoted from review: 0.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -153,32 +153,6 @@
       "new_today": false,
       "released_at": "2026-11-20T16:00:43.091544+00:00",
       "edition": "2026-11-20"
-    },
-    {
-      "id": "770bf221a9872723",
-      "headline": "\u2018I Became Six Characters at Once\u2019: A 10-YO Gives the Panchatantra and Mahabharata His Own Voice Through a Free Audio Library",
-      "summary": "",
-      "category": "Community",
-      "sources": [
-        {
-          "name": "The Better India",
-          "url": "https://thebetterindia.com/changemakers/reading-habit-children-free-audio-library-vyasa-project-12825584",
-          "published_at": "2026-11-20T09:14:56+00:00"
-        }
-      ],
-      "source_count": 1,
-      "published_at": "2026-11-20T09:14:56+00:00",
-      "positivity_score": 48,
-      "positivity_reason": "solutions-focused source; fact-check pass; headline-only card",
-      "why_good": "The child featured in this story has therefore been identified by their chosen nickname.",
-      "review_status": "auto-accepted",
-      "is_sample": false,
-      "link": "https://thebetterindia.com/changemakers/reading-habit-children-free-audio-library-vyasa-project-12825584",
-      "impact": null,
-      "no_lead": false,
-      "new_today": false,
-      "released_at": "2026-11-22T10:00:01.091455+00:00",
-      "edition": "2026-11-22"
     }
   ]
 }
