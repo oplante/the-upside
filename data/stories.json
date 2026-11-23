@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-23T09:34:27.139329+00:00",
+  "generated_at": "2026-11-23T10:00:48.548235+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 53 feeds, 1081 headlines. Accepted 16, held for review 125, rejected 941. Carried 1 recent items (up to 96h) for re-check. Pending release 0. Published window 72h. Auto-promoted from review: 0.",
+  "ingest_notes": "Fetched 53 feeds, 1082 headlines. Accepted 16, held for review 124, rejected 943. Carried 1 recent items (up to 96h) for re-check. Pending release 0. Published window 72h. Auto-promoted from review: 0.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -127,32 +127,6 @@
       "new_today": false,
       "released_at": "2026-11-21T16:00:00.524430+00:00",
       "edition": "2026-11-21"
-    },
-    {
-      "id": "70a6534056e1fc14",
-      "headline": "Pill to treat pancreatic cancer hailed as \u2018biggest breakthrough in decades\u2019",
-      "summary": "In one in 12 of the patients given the drug, daraxonrasib, during a trial, the cancer became undetectable, and the tumours stopped growing in almost all of the 61 patients.",
-      "category": "Health",
-      "sources": [
-        {
-          "name": "The Guardian Science",
-          "url": "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib",
-          "published_at": "2026-11-20T09:36:10+00:00"
-        }
-      ],
-      "source_count": 1,
-      "published_at": "2026-11-20T09:36:10+00:00",
-      "positivity_score": 57,
-      "positivity_reason": "positive cues: breakthrough, treatment; stated figure from the source",
-      "why_good": "In one in 12 of the patients given the drug, daraxonrasib, during a trial, the cancer became undetectable, and the tumours stopped growing in almost all of the 61 patients.",
-      "review_status": "auto-accepted",
-      "is_sample": false,
-      "link": "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib",
-      "impact": null,
-      "no_lead": true,
-      "new_today": false,
-      "released_at": "2026-11-20T16:00:43.091544+00:00",
-      "edition": "2026-11-20"
     }
   ]
 }
