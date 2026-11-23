@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-23T11:00:49.612880+00:00",
+  "generated_at": "2026-11-23T19:25:33.627558+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 53 feeds, 1082 headlines. Accepted 17, held for review 126, rejected 940. Carried 1 recent items (up to 96h) for re-check. Pending release 1. Published window 72h. Auto-promoted from review: 0.",
+  "ingest_notes": "Fetched 53 feeds, 1083 headlines. Accepted 21, held for review 153, rejected 910. Carried 1 recent items (up to 96h) for re-check. Pending release 7. Published window 72h. Auto-promoted from review: 0.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -101,32 +101,6 @@
       "new_today": false,
       "released_at": "2026-11-22T10:00:01.091455+00:00",
       "edition": "2026-11-22"
-    },
-    {
-      "id": "ca0efcf3e4f02f2a",
-      "headline": "Nearly half of adults over 70 benefited from exercise training across several areas of physical function",
-      "summary": "A yearlong exercise program improved physical function among adults aged over 70, but the benefits varied considerably between individuals.",
-      "category": "Health",
-      "sources": [
-        {
-          "name": "Medical Xpress",
-          "url": "https://medicalxpress.com/news/2026-11-adults-benefited-areas-physical-function.html",
-          "published_at": "2026-11-20T19:00:20+00:00"
-        }
-      ],
-      "source_count": 1,
-      "published_at": "2026-11-20T19:00:20+00:00",
-      "positivity_score": 53,
-      "positivity_reason": "positive cues: improved, success",
-      "why_good": "A yearlong exercise program improved physical function among adults aged over 70, but the benefits varied considerably between individuals.",
-      "review_status": "auto-accepted",
-      "is_sample": false,
-      "link": "https://medicalxpress.com/news/2026-11-adults-benefited-areas-physical-function.html",
-      "impact": null,
-      "no_lead": false,
-      "new_today": false,
-      "released_at": "2026-11-21T16:00:00.524430+00:00",
-      "edition": "2026-11-21"
     }
   ]
 }
