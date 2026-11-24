@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-24T07:25:58.481750+00:00",
+  "generated_at": "2026-11-24T09:16:16.473867+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 53 feeds, 1081 headlines. Accepted 29, held for review 160, rejected 895. Carried 3 recent items (up to 96h) for re-check. Pending release 16. Published window 72h. Auto-promoted from review: 0.",
+  "ingest_notes": "Fetched 53 feeds, 1083 headlines. Accepted 28, held for review 157, rejected 901. Carried 3 recent items (up to 96h) for re-check. Pending release 16. Published window 72h. Auto-promoted from review: 0.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -48,32 +48,6 @@
       "no_lead": false,
       "new_today": false,
       "released_at": "2026-11-22T09:21:44.100386+00:00",
-      "edition": "2026-11-22"
-    },
-    {
-      "id": "239c21f87f25aa43",
-      "headline": "The British island that made a deal with nature",
-      "summary": "Out in the Bristol Channel, nestled between Wales and England, the rugged island of Lundy is one of the UK\u2019s most pioneering conservation stories.",
-      "category": "Environment",
-      "sources": [
-        {
-          "name": "Mongabay",
-          "url": "https://news.mongabay.com/video/2026/11/the-british-island-that-made-a-deal-with-nature/",
-          "published_at": "2026-11-21T09:10:37+00:00"
-        }
-      ],
-      "source_count": 1,
-      "published_at": "2026-11-21T09:10:37+00:00",
-      "positivity_score": 53,
-      "positivity_reason": "positive cues: conservation, thriving; multiple outcome cues",
-      "why_good": "From the return of thousands of seabirds to thriving marine life beneath its waves, decades of conservation have helped transform this small island.",
-      "review_status": "auto-accepted",
-      "is_sample": false,
-      "link": "https://news.mongabay.com/video/2026/11/the-british-island-that-made-a-deal-with-nature/",
-      "impact": null,
-      "no_lead": false,
-      "new_today": false,
-      "released_at": "2026-11-22T10:00:01.091455+00:00",
       "edition": "2026-11-22"
     }
   ]
