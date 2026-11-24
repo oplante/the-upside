@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-23T20:26:00.236849+00:00",
+  "generated_at": "2026-11-24T06:17:22.461727+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 53 feeds, 1083 headlines. Accepted 23, held for review 149, rejected 912. Carried 1 recent items (up to 96h) for re-check. Pending release 9. Published window 72h. Auto-promoted from review: 0.",
+  "ingest_notes": "Fetched 53 feeds, 1081 headlines. Accepted 27, held for review 153, rejected 904. Carried 3 recent items (up to 96h) for re-check. Pending release 14. Published window 72h. Auto-promoted from review: 0.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -70,32 +70,6 @@
       "review_status": "auto-accepted",
       "is_sample": false,
       "link": "https://news.mongabay.com/video/2026/11/the-british-island-that-made-a-deal-with-nature/",
-      "impact": null,
-      "no_lead": false,
-      "new_today": false,
-      "released_at": "2026-11-22T10:00:01.091455+00:00",
-      "edition": "2026-11-22"
-    },
-    {
-      "id": "5306fc9d0f181470",
-      "headline": "After 8 years in space, a groundbreaking X-ray telescope finally opens its eyes",
-      "summary": "",
-      "category": "Science",
-      "sources": [
-        {
-          "name": "ScienceDaily Technology",
-          "url": "https://www.sciencedaily.com/releases/2026/11/261120075547.htm",
-          "published_at": "2026-11-21T02:11:14+00:00"
-        }
-      ],
-      "source_count": 1,
-      "published_at": "2026-11-21T02:11:14+00:00",
-      "positivity_score": 48,
-      "positivity_reason": "positive cues: opens; fact-check pass; headline-only card",
-      "why_good": null,
-      "review_status": "auto-accepted",
-      "is_sample": false,
-      "link": "https://www.sciencedaily.com/releases/2026/11/261120075547.htm",
       "impact": null,
       "no_lead": false,
       "new_today": false,
