@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-25T10:00:48.182742+00:00",
+  "generated_at": "2026-11-25T10:30:46.997623+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 53 feeds, 1083 headlines. Accepted 23, held for review 129, rejected 933. Carried 2 recent items (up to 96h) for re-check. Pending release 5. Published window 72h. Auto-promoted from review: 0.",
+  "ingest_notes": "Fetched 53 feeds, 1082 headlines. Accepted 25, held for review 128, rejected 931. Carried 2 recent items (up to 96h) for re-check. Pending release 6. Published window 72h. Auto-promoted from review: 0.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -230,6 +230,32 @@
       "no_lead": false,
       "new_today": false,
       "released_at": "2026-11-25T10:00:00.409832+00:00",
+      "edition": "2026-11-25"
+    },
+    {
+      "id": "95d0f653b4e8f259",
+      "headline": "Researcher who helped improve melanoma survival rates wins top Australian science prize",
+      "summary": "",
+      "category": "Science",
+      "sources": [
+        {
+          "name": "The Guardian Science",
+          "url": "https://www.theguardian.com/australia-news/2026/nov/24/georgina-long-melanoma-anthony-thomas-2026-prime-ministers-prizes-for-science",
+          "published_at": "2026-11-24T11:00:45+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-24T11:00:45+00:00",
+      "positivity_score": 36,
+      "positivity_reason": "neutral wording; no strong positive outcome cue; live_blog hold lifted for this story only (PM, 25 Nov 2026); held for review; fact-check pass; headline-only card",
+      "why_good": null,
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://www.theguardian.com/australia-news/2026/nov/24/georgina-long-melanoma-anthony-thomas-2026-prime-ministers-prizes-for-science",
+      "impact": null,
+      "no_lead": false,
+      "new_today": false,
+      "released_at": "2026-11-25T10:30:00.542373+00:00",
       "edition": "2026-11-25"
     },
     {
