@@ -308,6 +308,10 @@ const FIGURE_DANGLING = new Set(("while nearly almost about around roughly appro
   "over under only just some all each by from into at so yet if though although whereas its their his her our " +
   "is are was were be been being has have had not very also even per among between").split(" "));
 
+// Label opens on a bare verb with no subject ("£11m receive in new funding"):
+// no figure line (25 Nov 2026, PM). Keep in sync with ingest.FIGURE_BARE_VERB_START.
+const FIGURE_BARE_VERB_START = new Set(("receive get give help make take become provide allow enable see reach save protect keep bring build create join serve feed restore attract deliver improve reduce develop").split(" "));
+
 function statedImpact(story) {
   const impact = story.impact;
   if (!impact || typeof impact !== "object") return null;
@@ -319,6 +323,8 @@ function statedImpact(story) {
   // Incomplete label (ends on a connective or hedge): no figure line (20 Nov 2026).
   const last = (label.match(/[A-Za-z0-9][A-Za-z0-9'’-]*/g) || []).pop() || "";
   if (FIGURE_DANGLING.has(last.toLowerCase())) return null;
+  const first = (label.match(/[A-Za-z0-9][A-Za-z0-9'’-]*/g) || [""])[0];
+  if (FIGURE_BARE_VERB_START.has(first.toLowerCase())) return null;
   return { value, label };
 }
 

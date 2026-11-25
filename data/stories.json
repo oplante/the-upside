@@ -25,7 +25,7 @@
       "id": "e7e7a6365988cbba",
       "headline": "Coastal areas in England at risk of erosion to receive \u00a311m in new funding",
       "summary": "Laser-equipped drone surveys, sand dune restoration and moving roads inland are among the projects that will receive government funding to help seaside communities in England adapt to rising seas and coastal erosion accelerated by climate breakdown.",
-      "category": "Politics",
+      "category": "Environment",
       "sources": [
         {
           "name": "The Guardian Environment",
@@ -41,10 +41,6 @@
       "review_status": "auto-accepted",
       "is_sample": false,
       "link": "https://www.theguardian.com/environment/2026/nov/25/coastal-areas-england-at-risk-erosion-11m-funding-drones-ea",
-      "impact": {
-        "value": "\u00a311m",
-        "label": "receive in new funding"
-      },
       "no_lead": false,
       "new_today": true,
       "released_at": "2026-11-25T09:30:00.851488+00:00",
