@@ -700,6 +700,8 @@ main {
 /* D4 edition bar and short-edition note (20 Nov 2026). */
 .edition-bar { margin: 0 0 20px; font-family: var(--sans, "Instrument Sans", sans-serif); }
 .edition-bar-text { margin: 0; font-size: 14px; line-height: 1.5; color: var(--ink-soft); }
+/* 25 Nov 2026: the updated time and its zone (e.g. "9:30 AM GMT") never wrap apart. */
+.edition-bar-text .nowrap { white-space: nowrap; }
 .edition-note { margin: 4px 0 0; font-size: 14px; line-height: 1.5; color: var(--ink-soft); max-width: 60ch; }
 /* D5/G1 masthead link to the signup (no modal, no sticky bar). */
 .masthead-email { order: 4; margin: 6px 0 0; font-size: 14px; }

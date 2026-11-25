@@ -15,7 +15,7 @@ const TAXONOMY = [
 const PAGE_SIZE = 60;
 
 // Daily editions (21 Nov 2026, Olivier): an edition is the stories released
-// on one Pacific-time day (story.edition from ingest). Each edition shows at
+// on one London day (story.edition from ingest; Pacific until 25 Nov 2026). Each edition shows at
 // most EDITION_CAP stories, grouped under category headings. A cap, never a
 // quota: an edition only holds what was released. "Load more" adds the next
 // older edition still in the public feed; the feed itself only carries
@@ -36,7 +36,9 @@ const SIGNUP_AFTER = 3;
 const SHORT_EDITION_UNDER = 10;
 const SHORT_EDITION_NOTE =
   "A short edition today. We only share good news we can back up. Stories stay up for 72 hours.";
-const SITE_TZ = "America/Los_Angeles";
+// Edition day and "updated" time (25 Nov 2026, PM): Europe/London. The zone
+// label (GMT or BST) is computed from the date, never hardcoded.
+const SITE_TZ = "Europe/London";
 // Why-line on site cards (PM, 20 Nov 2026): hidden on every card. This is the
 // one-line switch: set to true to show it again. Even when true, a why-line
 // that repeats the card's summary sentence is never shown.
@@ -167,20 +169,20 @@ function setCategory(category, push) {
 // ---------- Daily editions ----------
 const DAY_KEY = /^\d{4}-\d{2}-\d{2}$/;
 
-// YYYY-MM-DD of a moment in Pacific time (the edition day).
-function ptDay(date) {
+// YYYY-MM-DD of a moment in London time (the edition day).
+function siteDay(date) {
   return new Intl.DateTimeFormat("en-CA", {
     timeZone: SITE_TZ, year: "numeric", month: "2-digit", day: "2-digit",
   }).format(date);
 }
 
-// A story's edition day. Ingest sets story.edition (release day, PT). A feed
+// A story's edition day. Ingest sets story.edition (release day, London). A feed
 // without it (older ingest) is treated as one edition, the generated day.
 function editionKeyOf(story, data) {
   const k = String(story?.edition || "");
   if (DAY_KEY.test(k)) return k;
   const d = new Date(data?.generated_at);
-  return Number.isNaN(d.getTime()) ? "latest" : ptDay(d);
+  return Number.isNaN(d.getTime()) ? "latest" : siteDay(d);
 }
 
 // Newest edition first; feed order (ranking) kept inside each; capped.
@@ -208,9 +210,12 @@ function dayFromKey(key) {
 }
 
 // "Today's edition", "Yesterday's edition", "Thursday's edition".
+// "Today's" only when the edition is today's London date, i.e. stories were
+// released today (25 Nov 2026, PM). An undated edition is "Latest edition".
 function editionName(key, now = new Date()) {
-  if (!DAY_KEY.test(key) || key === ptDay(now)) return "Today's edition";
-  if (key === ptDay(new Date(now.getTime() - 86400000))) return "Yesterday's edition";
+  if (!DAY_KEY.test(key)) return "Latest edition";
+  if (key === siteDay(now)) return "Today's edition";
+  if (key === siteDay(new Date(now.getTime() - 86400000))) return "Yesterday's edition";
   const d = dayFromKey(key);
   const wd = new Intl.DateTimeFormat("en-GB", { weekday: "long", timeZone: "UTC" }).format(d);
   return `${wd}'s edition`;
@@ -802,16 +807,29 @@ function editionLabel(iso) {
   return `Latest edition · updated ${formatExact(iso)}`;
 }
 
-// D4 edition bar: "Today's edition · N stories · updated 8:55 PM PT".
+// D4 edition bar: "Today's edition · N stories · updated 8:55 AM GMT".
 // Facts only. It never claims that stories were checked or passed: no such
 // wording exists in this file's output (20 Nov 2026, PM / Roast Room).
-function ptParts(date) {
+// London time; the zone is "GMT" or "BST" for that date (25 Nov 2026, PM).
+function siteParts(date) {
   const fmt = (opts) => new Intl.DateTimeFormat("en-US", { timeZone: SITE_TZ, ...opts }).format(date);
   return {
     day: fmt({ year: "numeric", month: "2-digit", day: "2-digit" }),
     time: fmt({ hour: "numeric", minute: "2-digit" }),
     date: fmt({ weekday: "short", day: "numeric", month: "short" }),
+    zone: siteZone(date),
   };
+}
+
+// "GMT" in winter, "BST" in summer, from the date itself.
+function siteZone(date) {
+  const part = new Intl.DateTimeFormat("en-GB", { timeZone: SITE_TZ, timeZoneName: "short" })
+    .formatToParts(date)
+    .find((p) => p.type === "timeZoneName");
+  const z = part ? part.value : "";
+  if (z === "GMT" || z === "BST") return z;
+  // Engines without the BST abbreviation say "GMT+1".
+  return /^(GMT|UTC)\+0?1(:00)?$/.test(z) ? "BST" : "GMT";
 }
 
 function latestEditionCount(data) {
@@ -819,19 +837,40 @@ function latestEditionCount(data) {
   return first ? first.stories.length : 0;
 }
 
-// The top edition's name, count and the feed's update time. Facts only.
-function editionBarText(data, now = new Date()) {
+// The top edition's name, count and the feed's update time, as parts:
+// { head: "Today's edition · 3 stories · updated ", time: "8:55 AM GMT", tail: "" }.
+function editionBarParts(data, now = new Date()) {
   const n = latestEditionCount(data);
   const count = `${n} ${n === 1 ? "story" : "stories"}`;
   const d = new Date(data && data.generated_at);
-  if (!data || Number.isNaN(d.getTime())) return `Today's edition · ${count}`;
+  if (!data || Number.isNaN(d.getTime())) return { head: `Latest edition · ${count}`, time: "", tail: "" };
   const latest = buildEditions(data)[0];
-  const key = latest ? latest.key : ptDay(d);
+  // No stories: no edition to name, so never "Today's" (25 Nov 2026, PM).
+  if (!latest) {
+    const p = siteParts(d);
+    const when = p.day === siteParts(now).day ? "" : `${p.date}, `;
+    return { head: `Latest edition · ${count} · updated ${when}`, time: `${p.time} ${p.zone}`, tail: "" };
+  }
+  const key = latest.key;
   const name = editionName(key, now);
-  const label = name === "Today's edition" ? name : `${name} · ${editionDate(key)}`;
-  const p = ptParts(d);
-  if (p.day === ptParts(now).day) return `${label} · ${count} · updated ${p.time} PT`;
-  return `${label} · ${count} · updated ${p.date}, ${p.time} PT`;
+  const label = name === "Today's edition" ? name : `${name}${DAY_KEY.test(key) ? ` · ${editionDate(key)}` : ""}`;
+  const p = siteParts(d);
+  const when = p.day === siteParts(now).day ? "" : `${p.date}, `;
+  return { head: `${label} · ${count} · updated ${when}`, time: `${p.time} ${p.zone}`, tail: "" };
+}
+
+// Plain text (screen readers, tests).
+function editionBarText(data, now = new Date()) {
+  const p = editionBarParts(data, now);
+  return `${p.head}${p.time}${p.tail}`;
+}
+
+// The time and its zone sit in one no-wrap span, so "AM GMT" never breaks
+// onto a line of its own. No copy change.
+function editionBarHtml(data, now = new Date()) {
+  const p = editionBarParts(data, now);
+  const time = p.time ? `<span class="nowrap">${escapeHtml(p.time)}</span>` : "";
+  return `${escapeHtml(p.head)}${time}${escapeHtml(p.tail)}`;
 }
 
 function editionNote(data) {
@@ -842,7 +881,10 @@ function editionNote(data) {
 function renderEditionBar(data) {
   const bar = $("edition-bar");
   const note = $("edition-note");
-  if (bar) bar.textContent = data && data.is_sample ? "Sample feed, not live news." : editionBarText(data);
+  if (bar) {
+    if (data && data.is_sample) bar.textContent = "Sample feed, not live news.";
+    else bar.innerHTML = editionBarHtml(data);
+  }
   if (note) {
     const t = data && !data.is_sample ? editionNote(data) : "";
     note.textContent = t;

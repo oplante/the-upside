@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T09:31:46.621669+00:00",
+  "generated_at": "2026-11-25T09:33:18.070150+00:00",
   "days": 30,
   "editions": [
     {
@@ -271,26 +271,6 @@
               "name": "ScienceDaily Technology",
               "url": "https://www.sciencedaily.com/releases/2026/11/261117033920.htm",
               "published_at": "2026-11-18T03:16:19+00:00"
-            }
-          ],
-          "released_at": "2026-11-19T14:41:26.547502+00:00",
-          "edition": "2026-11-19",
-          "new_today": false,
-          "archived": true
-        },
-        {
-          "id": "5a72d3176d65d901",
-          "headline": "Psilocybin may improve a difficult-to-treat symptom of depression, study finds",
-          "link": "https://medicalxpress.com/news/2026-11-psilocybin-difficult-symptom-depression.html",
-          "category": "Science",
-          "published_at": "2026-11-18T03:00:01+00:00",
-          "summary": "",
-          "source_count": 1,
-          "sources": [
-            {
-              "name": "Medical Xpress",
-              "url": "https://medicalxpress.com/news/2026-11-psilocybin-difficult-symptom-depression.html",
-              "published_at": "2026-11-18T03:00:01+00:00"
             }
           ],
           "released_at": "2026-11-19T14:41:26.547502+00:00",
