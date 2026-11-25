@@ -168,7 +168,9 @@ html { scrollbar-color: var(--line) var(--paper); }
   text-transform: uppercase;
   font-variant-numeric: tabular-nums;
 }
-.dateline:not(:empty)::after { content: "·"; margin-left: 6px; }
+/* The dot belongs to the item after it, so a wrap never ends a row on "·"
+   (25 Nov 2026, PM). */
+.dateline:not(:empty) + .edition::before { content: "·"; margin-right: 6px; }
 
 @media (min-width: 720px) {
   .masthead-inner {
@@ -186,7 +188,7 @@ html { scrollbar-color: var(--line) var(--paper); }
     padding: 12px 0 10px;
     border-bottom: 1px solid var(--line);
   }
-  .dateline:not(:empty)::after { content: none; }
+  .dateline:not(:empty) + .edition::before { content: none; }
   .brand { gap: 14px; }
   .brand .mark { width: 44px; height: 44px; }
   .title { font-size: 56px; }
@@ -313,7 +315,7 @@ main {
   /* 25 Nov 2026 (PM): the meta line wraps on narrow screens; the source is
      never cut with an ellipsis and keeps its separator. */
   flex-wrap: wrap;
-  row-gap: 2px;
+  gap: 2px 0.5em;
   min-width: 0;
   white-space: nowrap;
   align-items: center;
@@ -335,7 +337,9 @@ main {
   white-space: normal;
   overflow-wrap: anywhere;
 }
-.meta li:not(:last-child)::after { content: "·"; margin: 0 0.5em; }
+/* Separator before each item (not after), so a wrapped row starts with
+   "· item" and never ends on a dot (25 Nov 2026, PM). */
+.meta li + li::before { content: "·"; margin-right: 0.5em; }
 .meta .cat { font-weight: 700; letter-spacing: 0.08em; color: var(--cat, var(--ink-soft)); }
 
 .card[data-category="Science"] { --cat: var(--cat-science); }
@@ -625,7 +629,7 @@ main {
   .river .card > .credit { margin: 6px 0 14px; justify-self: end; max-width: 160px; }
   .river .meta { flex-direction: column; align-items: stretch; margin: 3px 0 0; gap: 2px; }
   .river .meta .src { max-width: 100%; }
-  .river .meta li:not(:last-child)::after { content: none; }
+  .river .meta li + li::before { content: none; }
   .river .card h4 { font-size: 22px; }
 }
 

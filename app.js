@@ -39,6 +39,13 @@ const SHORT_EDITION_NOTE =
 // Edition day and "updated" time (25 Nov 2026, PM): Europe/London. The zone
 // label (GMT or BST) is computed from the date, never hardcoded.
 const SITE_TZ = "Europe/London";
+// Dotted lines (25 Nov 2026, PM): a wrap never leaves "·" at the end of a
+// row. The space after each dot is non-breaking, so the dot stays with the
+// item after it; the line can only break before a dot.
+const NBSP = "\u00a0";
+function keepDots(text) {
+  return String(text).replace(/ · /g, ` ·${NBSP}`);
+}
 // Why-line on site cards (PM, 20 Nov 2026): hidden on every card. This is the
 // one-line switch: set to true to show it again. Even when true, a why-line
 // that repeats the card's summary sentence is never shown.
@@ -615,7 +622,7 @@ function editionSectionHtml(edition, index, count) {
   const heading =
     index === 0
       ? `<h2 class="edition-heading visually-hidden" id="${id}">${escapeHtml(label)}</h2>`
-      : `<h2 class="edition-heading" id="${id}" tabindex="-1">${escapeHtml(label)}<span class="edition-heading-count"> · ${n} ${n === 1 ? "story" : "stories"}</span></h2>`;
+      : `<h2 class="edition-heading" id="${id}" tabindex="-1">${escapeHtml(keepDots(label))}<span class="edition-heading-count"> ·${NBSP}${n} ${n === 1 ? "story" : "stories"}</span></h2>`;
   return (
     `<section class="edition-block${index === 0 ? " is-latest" : " is-older"}" data-edition="${escapeHtml(edition.key)}" aria-labelledby="${id}">` +
     heading +
@@ -669,7 +676,7 @@ function archiveSectionHtml(edition) {
   const n = edition.stories.length;
   return (
     `<section class="edition-block is-older is-archive" data-edition="${escapeHtml(edition.key)}" data-archive="true" aria-labelledby="${id}">` +
-    `<h2 class="edition-heading" id="${id}" tabindex="-1">Edition · ${escapeHtml(editionDate(edition.key))}<span class="edition-heading-count"> · ${n} ${n === 1 ? "story" : "stories"}</span></h2>` +
+    `<h2 class="edition-heading" id="${id}" tabindex="-1">Edition ·${NBSP}${escapeHtml(editionDate(edition.key))}<span class="edition-heading-count"> ·${NBSP}${n} ${n === 1 ? "story" : "stories"}</span></h2>` +
     layoutHtml(edition.stories, { lead: false, signup: false, key: `archive-${edition.key}` }) +
     `</section>`
   );
@@ -701,20 +708,20 @@ function renderLoadMore(editions, shownCount) {
     wrap.hidden = false;
     const date = editionDate(next.key);
     const name = editionName(next.key);
-    btn.textContent = `Load more · ${name}${date ? `, ${date}` : ""}`;
+    btn.textContent = keepDots(`Load more · ${name}${date ? `, ${date}` : ""}`);
     return;
   }
   if (state.archiveError) {
     wrap.hidden = false;
-    btn.textContent = "Load more · Earlier editions (try again)";
+    btn.textContent = keepDots("Load more · Earlier editions (try again)");
     return;
   }
   wrap.hidden = !archiveRemaining();
   if (wrap.hidden) return;
   const nextArchived = state.archive ? archiveEditions()[state.archiveShown] : null;
-  btn.textContent = nextArchived
+  btn.textContent = keepDots(nextArchived
     ? `Load more · Edition, ${editionDate(nextArchived.key)}`
-    : `Load more · ${ARCHIVE_DIVIDER}`;
+    : `Load more · ${ARCHIVE_DIVIDER}`);
 }
 
 async function loadMore() {
@@ -876,7 +883,7 @@ function editionBarText(data, now = new Date()) {
 function editionBarHtml(data, now = new Date()) {
   const p = editionBarParts(data, now);
   const time = p.time ? `<span class="nowrap">${escapeHtml(p.time)}</span>` : "";
-  return `${escapeHtml(p.head)}${time}${escapeHtml(p.tail)}`;
+  return `${escapeHtml(keepDots(p.head))}${time}${escapeHtml(keepDots(p.tail))}`;
 }
 
 function editionNote(data) {
