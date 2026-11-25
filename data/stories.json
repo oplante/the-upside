@@ -20,5 +20,11 @@
     "review": 48,
     "publish_hours": 72
   },
-  "stories": []
+  "stories": [],
+  "archive": {
+    "editions": 4,
+    "stories": 21,
+    "newest": "2026-11-22",
+    "oldest": "2026-11-19"
+  }
 }

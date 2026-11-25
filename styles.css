@@ -921,3 +921,30 @@ main {
 .cat-heading + .front .card.is-lead { border-top: 0; }
 .cat-heading + .river { margin-top: 0; }
 .cat-heading + .front .card.is-lead { padding-top: 6px; }
+
+/* Archived editions (25 Nov 2026): a calm divider before older editions. */
+.archive-divider {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 40px 0 8px;
+  color: var(--muted);
+}
+.archive-divider::before,
+.archive-divider::after {
+  content: "";
+  flex: 1 1 auto;
+  border-top: 1px solid var(--rule);
+}
+.archive-divider:focus { outline: none; }
+.archive-divider-text {
+  margin: 0;
+  font-family: var(--sans);
+  font-size: 12.5px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+  white-space: nowrap;
+}
+.archive-divider + .edition-block .edition-heading { border-top: 0; padding-top: 8px; }

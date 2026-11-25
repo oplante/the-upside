@@ -55,7 +55,21 @@ const state = {
   category: "All",
   visible: PAGE_SIZE,
   editionsShown: 1,
+  // Archived editions (25 Nov 2026): fetched only when Load more gets past
+  // the 72-hour feed. archiveShown = archived editions on the page.
+  archive: null,
+  archiveShown: 0,
+  archiveError: false,
 };
+
+// Archived editions (25 Nov 2026, Olivier via PM): after the editions in the
+// 72-hour feed, Load more goes on into older editions from
+// data/archive-editions.json, written by ingest from stories that were
+// released and are still released (never pending, failed or pulled), capped
+// at 30 days. They sit under an "Earlier editions" divider, each headed
+// "Edition · {date}". Same cards; the edition bar never counts them.
+const ARCHIVE_URL = "data/archive-editions.json";
+const ARCHIVE_DIVIDER = "Earlier editions";
 
 function $(id) {
   return document.getElementById(id);
@@ -137,6 +151,7 @@ function currentCategoryFromUrl() {
 
 function setCategory(category, push) {
   state.category = category;
+  state.archiveShown = 0;
   state.visible = PAGE_SIZE;
   state.editionsShown = 1;
   if (push) {
@@ -229,6 +244,7 @@ function ensureNonEmptyCategory() {
   state.category = "All";
   state.visible = PAGE_SIZE;
   state.editionsShown = 1;
+  state.archiveShown = 0;
   const url = new URL(window.location.href);
   url.searchParams.delete("category");
   history.replaceState({ category: "All" }, "", url);
@@ -607,26 +623,119 @@ function visibleEditions() {
     .filter((e) => e.stories.length);
 }
 
+// ---------- Archived editions ----------
+// The feed says how many archived editions exist (data.archive), so Load more
+// can show before the archive file is fetched. A sample feed has no archive.
+function hasArchive(data = state.data) {
+  return Boolean(data && !data.is_sample && data.archive && Number(data.archive.editions) > 0);
+}
+
+function archiveEditions() {
+  const all = (state.archive?.editions || [])
+    .filter((e) => e && DAY_KEY.test(String(e.key || "")) && Array.isArray(e.stories))
+    .map((e) => ({ key: e.key, stories: e.stories.filter(Boolean).slice(0, EDITION_CAP) }))
+    .filter((e) => e.stories.length);
+  if (state.category === "All") return all;
+  return all
+    .map((e) => ({ key: e.key, stories: e.stories.filter((s) => s.category === state.category) }))
+    .filter((e) => e.stories.length);
+}
+
+// More archive to show: unknown until fetched (then it is counted).
+function archiveRemaining() {
+  if (!hasArchive()) return false;
+  if (!state.archive) return true;
+  return state.archiveShown < archiveEditions().length;
+}
+
+function archiveHeadingId(key) {
+  return `archive-${slug(key) || "edition"}`;
+}
+
+// "Edition · Sun 22 Nov · 3 stories". Facts only: no checked/passed wording.
+function archiveSectionHtml(edition) {
+  const id = archiveHeadingId(edition.key);
+  const n = edition.stories.length;
+  return (
+    `<section class="edition-block is-older is-archive" data-edition="${escapeHtml(edition.key)}" data-archive="true" aria-labelledby="${id}">` +
+    `<h2 class="edition-heading" id="${id}" tabindex="-1">Edition · ${escapeHtml(editionDate(edition.key))}<span class="edition-heading-count"> · ${n} ${n === 1 ? "story" : "stories"}</span></h2>` +
+    layoutHtml(edition.stories, { lead: false, signup: false, key: `archive-${edition.key}` }) +
+    `</section>`
+  );
+}
+
+function archiveHtml() {
+  if (!state.archiveShown) return "";
+  const shown = archiveEditions().slice(0, state.archiveShown);
+  if (!shown.length) return "";
+  return (
+    `<div class="archive-divider" id="archive-divider" data-testid="archive-divider" tabindex="-1"><h2 class="archive-divider-text">${ARCHIVE_DIVIDER}</h2></div>` +
+    shown.map(archiveSectionHtml).join("")
+  );
+}
+
+async function fetchArchive() {
+  const res = await fetch(ARCHIVE_URL, { cache: "no-store" });
+  if (!res.ok) throw new Error("Could not load archived editions");
+  const data = await res.json();
+  return data && Array.isArray(data.editions) ? data : { editions: [] };
+}
+
 function renderLoadMore(editions, shownCount) {
   const wrap = $("more-wrap");
   const btn = $("load-more");
   if (!wrap || !btn) return;
   const next = editions[shownCount];
-  wrap.hidden = !next;
   if (next) {
+    wrap.hidden = false;
     const date = editionDate(next.key);
     const name = editionName(next.key);
     btn.textContent = `Load more · ${name}${date ? `, ${date}` : ""}`;
+    return;
   }
+  if (state.archiveError) {
+    wrap.hidden = false;
+    btn.textContent = "Load more · Earlier editions (try again)";
+    return;
+  }
+  wrap.hidden = !archiveRemaining();
+  if (wrap.hidden) return;
+  const nextArchived = state.archive ? archiveEditions()[state.archiveShown] : null;
+  btn.textContent = nextArchived
+    ? `Load more · Edition, ${editionDate(nextArchived.key)}`
+    : `Load more · ${ARCHIVE_DIVIDER}`;
 }
 
-function loadMore() {
+async function loadMore() {
   const editions = visibleEditions();
-  if (state.editionsShown >= editions.length) return;
-  state.editionsShown += 1;
-  const added = editions[state.editionsShown - 1];
+  if (state.editionsShown < editions.length) {
+    state.editionsShown += 1;
+    const added = editions[state.editionsShown - 1];
+    renderFeed();
+    const heading = $(`edition-${slug(added.key) || "latest"}`);
+    if (heading && typeof heading.focus === "function") heading.focus();
+    return;
+  }
+  if (!archiveRemaining() && !state.archiveError) return;
+  if (!state.archive) {
+    try {
+      state.archive = await fetchArchive();
+      state.archiveError = false;
+    } catch {
+      state.archiveError = true;
+      renderFeed();
+      return;
+    }
+  }
+  const archived = archiveEditions();
+  if (state.archiveShown >= archived.length) {
+    renderFeed();
+    return;
+  }
+  state.archiveShown += 1;
+  const added = archived[state.archiveShown - 1];
   renderFeed();
-  const heading = $(`edition-${slug(added.key) || "latest"}`);
+  const heading = $(archiveHeadingId(added.key));
   if (heading && typeof heading.focus === "function") heading.focus();
 }
 
@@ -648,7 +757,9 @@ function renderFeed() {
   const editions = visibleEditions();
   state.editionsShown = Math.max(1, Math.min(state.editionsShown, editions.length || 1));
   const shownEditions = editions.slice(0, state.editionsShown);
-  const shownCount = shownEditions.reduce((n, e) => n + e.stories.length, 0);
+  const archivedShown = state.archiveShown ? archiveEditions().slice(0, state.archiveShown) : [];
+  const shownCount = shownEditions.reduce((n, e) => n + e.stories.length, 0) +
+    archivedShown.reduce((n, e) => n + e.stories.length, 0);
   banner.hidden = !data.is_sample;
 
   if (!editions.length) {
@@ -659,13 +770,19 @@ function renderFeed() {
       state.category === "All"
         ? "Nothing new in the feed yet today. Check back this afternoon."
         : `Nothing new in ${cat} yet today. Check back this afternoon.`;
+    // With archived editions open, the note moves above them (same text).
+    const older = archiveHtml();
+    if (older) {
+      feed.innerHTML = `<p class="empty empty-inline">${escapeHtml(empty.textContent)}</p>` + older;
+      empty.hidden = true;
+    }
   } else {
     empty.hidden = true;
-    feed.innerHTML = shownEditions.map((e, i) => editionSectionHtml(e, i, editions.length)).join("");
+    feed.innerHTML = shownEditions.map((e, i) => editionSectionHtml(e, i, editions.length)).join("") + archiveHtml();
   }
   renderEditionBar(data);
   renderLoadMore(editions, shownEditions.length);
-  placeSignups(feed, shownCount > 0, shownEditions.length >= editions.length);
+  placeSignups(feed, shownCount > 0, shownEditions.length >= editions.length && !archiveRemaining());
 
   // Screen-reader status only; the visible count lives in the edition bar.
   status.textContent = `Showing ${shownCount} ${shownCount === 1 ? "story" : "stories"} · ${
@@ -825,6 +942,7 @@ window.addEventListener("popstate", () => {
   state.category = currentCategoryFromUrl();
   state.visible = PAGE_SIZE;
   state.editionsShown = 1;
+  state.archiveShown = 0;
   ensureNonEmptyCategory();
   renderFilters();
   renderFeed();
