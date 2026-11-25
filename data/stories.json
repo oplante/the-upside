@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-24T20:56:04.627146+00:00",
+  "generated_at": "2026-11-25T06:11:59.471839+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 53 feeds, 1072 headlines. Accepted 39, held for review 176, rejected 867. Carried 10 recent items (up to 96h) for re-check. Pending release 30. Published window 72h. Auto-promoted from review: 0.",
+  "ingest_notes": "Fetched 53 feeds, 1078 headlines. Accepted 43, held for review 172, rejected 877. Carried 14 recent items (up to 96h) for re-check. Pending release 34. Published window 72h. Auto-promoted from review: 0.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -20,35 +20,5 @@
     "review": 48,
     "publish_hours": 72
   },
-  "stories": [
-    {
-      "id": "e6b45600c6ae9d98",
-      "headline": "\u2018I Left a US Tech Career To Turn My Father\u2019s Surplus Amla Into 25+ Products for 4000 Customers\u2019",
-      "summary": "By the time the amla ripened at her father's farm in Iduvai, Tamil Nadu, there was more fruit than the family could consume or sell fresh.",
-      "category": "Community",
-      "sources": [
-        {
-          "name": "The Better India",
-          "url": "https://thebetterindia.com/farming/kalaiselvi-aruvi-eco-organics-surplus-amla-natural-products-12827171",
-          "published_at": "2026-11-22T05:10:08+00:00"
-        }
-      ],
-      "source_count": 1,
-      "published_at": "2026-11-22T05:10:08+00:00",
-      "positivity_score": 56,
-      "positivity_reason": "solutions-focused source; stated figure from the source",
-      "why_good": "Kalaiselvi estimates that processing helps the farm use nearly 60 percent of its suitable surplus produce, depending on the season.",
-      "review_status": "auto-accepted",
-      "is_sample": false,
-      "link": "https://thebetterindia.com/farming/kalaiselvi-aruvi-eco-organics-surplus-amla-natural-products-12827171",
-      "impact": {
-        "value": "25+",
-        "label": "Products for 4000 Customers"
-      },
-      "no_lead": false,
-      "new_today": false,
-      "released_at": "2026-11-22T09:21:44.100386+00:00",
-      "edition": "2026-11-22"
-    }
-  ]
+  "stories": []
 }
