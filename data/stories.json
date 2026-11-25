@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-25T09:14:30.094342+00:00",
+  "generated_at": "2026-11-25T09:31:49.211446+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 53 feeds, 1083 headlines. Accepted 45, held for review 170, rejected 882. Carried 14 recent items (up to 96h) for re-check. Pending release 38. Published window 72h. Auto-promoted from review: 0.",
+  "ingest_notes": "Fetched 53 feeds, 1083 headlines. Accepted 21, held for review 131, rejected 945. Carried 14 recent items (up to 96h) for re-check. Pending release 9. Published window 72h. Auto-promoted from review: 0.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -20,7 +20,141 @@
     "review": 48,
     "publish_hours": 72
   },
-  "stories": [],
+  "stories": [
+    {
+      "id": "e7e7a6365988cbba",
+      "headline": "Coastal areas in England at risk of erosion to receive \u00a311m in new funding",
+      "summary": "Laser-equipped drone surveys, sand dune restoration and moving roads inland are among the projects that will receive government funding to help seaside communities in England adapt to rising seas and coastal erosion accelerated by climate breakdown.",
+      "category": "Politics",
+      "sources": [
+        {
+          "name": "The Guardian Environment",
+          "url": "https://www.theguardian.com/environment/2026/nov/25/coastal-areas-england-at-risk-erosion-11m-funding-drones-ea",
+          "published_at": "2026-11-25T00:01:01+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-25T00:01:01+00:00",
+      "positivity_score": 57,
+      "positivity_reason": "positive cues: restoration; improvement framing of a grim topic; stated figure from the source",
+      "why_good": null,
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://www.theguardian.com/environment/2026/nov/25/coastal-areas-england-at-risk-erosion-11m-funding-drones-ea",
+      "impact": {
+        "value": "\u00a311m",
+        "label": "receive in new funding"
+      },
+      "no_lead": false,
+      "new_today": true,
+      "released_at": "2026-11-25T09:30:00.851488+00:00",
+      "edition": "2026-11-25"
+    },
+    {
+      "id": "af68d1109ddb8141",
+      "headline": "\u2018BeSeen\u2019 vending machines offer 24/7 help to people experiencing homelessness. They\u2019re staffed by virtual volunteers worldwide",
+      "summary": "The BeSeen Machine is the world\u2019s first essential vending machine for people experiencing homelessness that is operated entirely by virtual volunteers.",
+      "category": "Community",
+      "sources": [
+        {
+          "name": "Good Good Good",
+          "url": "https://www.goodgoodgood.co/articles/be-seen-vending-machines-homeless-help",
+          "published_at": "2026-11-24T20:44:00+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-24T20:44:00+00:00",
+      "positivity_score": 60,
+      "positivity_reason": "solutions-focused source; positive cues: volunteers; stated figure from the source",
+      "why_good": "The BeSeen Machine is the world\u2019s first essential vending machine for people experiencing homelessness that is operated entirely by virtual volunteers.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://www.goodgoodgood.co/articles/be-seen-vending-machines-homeless-help",
+      "impact": null,
+      "no_lead": false,
+      "new_today": false,
+      "released_at": "2026-11-25T09:30:00.851488+00:00",
+      "edition": "2026-11-25"
+    },
+    {
+      "id": "92e7a579d9cdd70e",
+      "headline": "A Childhood Promise Mobilizes \u2018Thanksgiving Heroes,\u2019 Serving Thousands Nationwide This Holiday",
+      "summary": "What began as an 11-year-old boy\u2019s promise to his mother has launched \u2018Thanksgiving Heroes,\u2019 a nationwide effort to bring holiday meals to those in need.",
+      "category": "Community",
+      "sources": [
+        {
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/thanksgiving-heroes-rob-adams-childhood-promise/",
+          "published_at": "2026-11-24T12:52:48+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-24T12:52:48+00:00",
+      "positivity_score": 59,
+      "positivity_reason": "solutions-focused source; positive cues: launched; stated figure from the source",
+      "why_good": "What began as an 11-year-old boy\u2019s promise to his mother has launched \u2018Thanksgiving Heroes,\u2019 a nationwide effort to bring holiday meals to those in need.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://www.goodnewsnetwork.org/thanksgiving-heroes-rob-adams-childhood-promise/",
+      "impact": null,
+      "no_lead": false,
+      "new_today": false,
+      "released_at": "2026-11-25T09:30:00.851488+00:00",
+      "edition": "2026-11-25"
+    },
+    {
+      "id": "738e74e858ddcd0d",
+      "headline": "Music before and during coronary angiography linked to lower blood pressure",
+      "summary": "",
+      "category": "Health",
+      "sources": [
+        {
+          "name": "Medical Xpress",
+          "url": "https://medicalxpress.com/news/2026-11-music-coronary-angiography-linked-blood.html",
+          "published_at": "2026-11-23T23:30:01+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-23T23:30:01+00:00",
+      "positivity_score": 53,
+      "positivity_reason": "positive cues: therapy; concrete outcome language; headline-only card",
+      "why_good": null,
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://medicalxpress.com/news/2026-11-music-coronary-angiography-linked-blood.html",
+      "impact": null,
+      "no_lead": false,
+      "new_today": false,
+      "released_at": "2026-11-25T09:30:00.851488+00:00",
+      "edition": "2026-11-25"
+    },
+    {
+      "id": "ad4b5b59daab6bb8",
+      "headline": "Inside Bolivia's Newly Restored 'Sistine Chapel of the Andes,' Centuries-Old Murals Tell Biblical Stories With Andean Imagery",
+      "summary": "",
+      "category": "Culture",
+      "sources": [
+        {
+          "name": "Smithsonian Smart News",
+          "url": "https://www.smithsonianmag.com/smart-news/inside-bolivia-newly-restored-sistine-chapel-of-the-andes-centuries-old-murals-tell-biblical-stories-with-andean-imagery-180989925/",
+          "published_at": "2026-11-23T18:59:43+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-23T18:59:43+00:00",
+      "positivity_score": 54,
+      "positivity_reason": "positive cues: restored; improvement framing of a grim topic; headline-only card",
+      "why_good": null,
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://www.smithsonianmag.com/smart-news/inside-bolivia-newly-restored-sistine-chapel-of-the-andes-centuries-old-murals-tell-biblical-stories-with-andean-imagery-180989925/",
+      "impact": null,
+      "no_lead": false,
+      "new_today": false,
+      "released_at": "2026-11-25T09:30:00.851488+00:00",
+      "edition": "2026-11-25"
+    }
+  ],
   "archive": {
     "editions": 4,
     "stories": 21,
