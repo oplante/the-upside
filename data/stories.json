@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-25T22:08:08.376834+00:00",
+  "generated_at": "2026-11-26T07:31:43.099706+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 53 feeds, 1085 headlines. Accepted 40, held for review 140, rejected 920. Carried 15 recent items (up to 96h) for re-check. Pending release 23. Published window 72h. Auto-promoted from review: 0.",
+  "ingest_notes": "Fetched 53 feeds, 1077 headlines. Accepted 42, held for review 144, rejected 908. Carried 17 recent items (up to 96h) for re-check. Pending release 26. Published window 72h. Auto-promoted from review: 0.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -46,7 +46,7 @@
         "label": "Saturday following a restoration project"
       },
       "no_lead": false,
-      "new_today": true,
+      "new_today": false,
       "released_at": "2026-11-25T10:00:00.409832+00:00",
       "edition": "2026-11-25"
     },
@@ -72,7 +72,7 @@
       "link": "https://medicalxpress.com/news/2026-11-early-stage-breast-cancer-gains.html",
       "impact": null,
       "no_lead": false,
-      "new_today": true,
+      "new_today": false,
       "released_at": "2026-11-25T10:00:00.409832+00:00",
       "edition": "2026-11-25"
     },
@@ -98,7 +98,7 @@
       "link": "https://medicalxpress.com/news/2026-11-fda-bezuclastinib-combination-sunitinib-line.html",
       "impact": null,
       "no_lead": false,
-      "new_today": true,
+      "new_today": false,
       "released_at": "2026-11-25T10:00:00.409832+00:00",
       "edition": "2026-11-25"
     },
@@ -124,7 +124,7 @@
       "link": "https://www.theguardian.com/environment/2026/nov/25/coastal-areas-england-at-risk-erosion-11m-funding-drones-ea",
       "impact": null,
       "no_lead": false,
-      "new_today": true,
+      "new_today": false,
       "released_at": "2026-11-25T09:30:00.851488+00:00",
       "edition": "2026-11-25"
     },
