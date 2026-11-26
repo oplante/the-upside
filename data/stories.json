@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-26T09:30:48.657501+00:00",
+  "generated_at": "2026-11-26T10:01:03.667977+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 53 feeds, 1080 headlines. Accepted 27, held for review 143, rejected 927. Carried 17 recent items (up to 96h) for re-check. Pending release 9. Published window 72h. Auto-promoted from review: 0.",
+  "ingest_notes": "Fetched 53 feeds, 1080 headlines. Accepted 27, held for review 144, rejected 916. Carried 7 recent items (up to 96h) for re-check. Pending release 3. Published window 72h. Auto-promoted from review: 0.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -21,6 +21,136 @@
     "publish_hours": 72
   },
   "stories": [
+    {
+      "id": "3c54533304c4e947",
+      "headline": "The Portlanders Turning Rescued Food Into Restaurant-Quality Meals",
+      "summary": "",
+      "category": "Community",
+      "sources": [
+        {
+          "name": "Reasons to be Cheerful",
+          "url": "https://reasonstobecheerful.world/portland-urban-gleaners/",
+          "published_at": "2026-11-26T08:00:37+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-26T08:00:37+00:00",
+      "positivity_score": 63,
+      "positivity_reason": "solutions-focused source; positive cues: rescued; improvement framing of a grim topic; headline-only card",
+      "why_good": null,
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://reasonstobecheerful.world/portland-urban-gleaners/",
+      "impact": null,
+      "no_lead": false,
+      "new_today": true,
+      "released_at": "2026-11-26T10:00:00.812686+00:00",
+      "edition": "2026-11-26"
+    },
+    {
+      "id": "7204df10d31267da",
+      "headline": "New eyes in the sky make timber harvesting and forest conservation easier and more efficient",
+      "summary": "",
+      "category": "Environment",
+      "sources": [
+        {
+          "name": "Phys.org",
+          "url": "https://phys.org/news/2026-11-eyes-sky-timber-harvesting-forest.html",
+          "published_at": "2026-11-26T03:40:01+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-26T03:40:01+00:00",
+      "positivity_score": 51,
+      "positivity_reason": "positive cues: conservation; fact-check pass; headline-only card",
+      "why_good": null,
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://phys.org/news/2026-11-eyes-sky-timber-harvesting-forest.html",
+      "impact": null,
+      "no_lead": false,
+      "new_today": true,
+      "released_at": "2026-11-26T10:00:00.812686+00:00",
+      "edition": "2026-11-26"
+    },
+    {
+      "id": "c04eecbb6605fae9",
+      "headline": "One body, two systems: Integrating dental and medical care dramatically improves dental follow-up",
+      "summary": "",
+      "category": "Health",
+      "sources": [
+        {
+          "name": "Medical Xpress",
+          "url": "https://medicalxpress.com/news/2026-11-body-dental-medical.html",
+          "published_at": "2026-11-26T02:00:01+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-26T02:00:01+00:00",
+      "positivity_score": 50,
+      "positivity_reason": "positive cues: improves; fact-check pass; headline-only card",
+      "why_good": null,
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://medicalxpress.com/news/2026-11-body-dental-medical.html",
+      "impact": null,
+      "no_lead": false,
+      "new_today": true,
+      "released_at": "2026-11-26T10:00:00.812686+00:00",
+      "edition": "2026-11-26"
+    },
+    {
+      "id": "92a9f57b3e77b29a",
+      "headline": "Genetic information can improve prostate cancer risk assessment",
+      "summary": "Genetic information can help provide a more individual assessment of prostate cancer risk among men undergoing PSA testing, according to a new study from Karolinska Institutet published in JAMA Network Open.",
+      "category": "Health",
+      "sources": [
+        {
+          "name": "Medical Xpress",
+          "url": "https://medicalxpress.com/news/2026-11-genetic-prostate-cancer.html",
+          "published_at": "2026-11-25T22:50:02+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-25T22:50:02+00:00",
+      "positivity_score": 50,
+      "positivity_reason": "concrete outcome language; fact-check pass",
+      "why_good": "Genetic information can help provide a more individual assessment of prostate cancer risk among men undergoing PSA testing, according to a new study from Karolinska Institutet published in JAMA Network Open.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://medicalxpress.com/news/2026-11-genetic-prostate-cancer.html",
+      "impact": null,
+      "no_lead": false,
+      "new_today": false,
+      "released_at": "2026-11-26T10:00:00.812686+00:00",
+      "edition": "2026-11-26"
+    },
+    {
+      "id": "7fa528f37804e9cb",
+      "headline": "Animal shelters give adoptable pets a Thanksgiving to remember: \u2018Just because they\u2019re homeless doesn\u2019t mean they\u2019re waiting to live\u2019",
+      "summary": "",
+      "category": "Community",
+      "sources": [
+        {
+          "name": "Good Good Good",
+          "url": "https://www.goodgoodgood.co/articles/tacoma-washington-animal-shelter-thanksgiving",
+          "published_at": "2026-11-25T19:38:00+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-25T19:38:00+00:00",
+      "positivity_score": 48,
+      "positivity_reason": "solutions-focused source; fact-check pass; headline-only card",
+      "why_good": null,
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://www.goodgoodgood.co/articles/tacoma-washington-animal-shelter-thanksgiving",
+      "impact": null,
+      "no_lead": false,
+      "new_today": false,
+      "released_at": "2026-11-26T10:00:00.812686+00:00",
+      "edition": "2026-11-26"
+    },
     {
       "id": "34f786c08f4ed125",
       "headline": "Indigenous women plant hundreds of thousands of trees to restore water sources",
@@ -74,6 +204,32 @@
       "edition": "2026-11-26"
     },
     {
+      "id": "c0a4e853f86cb33b",
+      "headline": "\u2018Autos for Love\u2019 Owners Delight in Giving Away Cars to Needy Neighbors",
+      "summary": "Once a year, the owners of a Texas auto-repair shop would refurbish a donated car and then hand the keys to a member of their community in need.",
+      "category": "Community",
+      "sources": [
+        {
+          "name": "Good News Network",
+          "url": "https://www.goodnewsnetwork.org/texas-auto-shop-couple-is-hungry-to-keep-giving-cars-away-to-neighbors-in-need/",
+          "published_at": "2026-11-25T14:00:36+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-25T14:00:36+00:00",
+      "positivity_score": 54,
+      "positivity_reason": "solutions-focused source; positive cues: donated, community; score met the threshold but no concrete outcome cue; held for review; fact-check pass",
+      "why_good": "Once a year, the owners of a Texas auto-repair shop would refurbish a donated car and then hand the keys to a member of their community in need.",
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://www.goodnewsnetwork.org/texas-auto-shop-couple-is-hungry-to-keep-giving-cars-away-to-neighbors-in-need/",
+      "impact": null,
+      "no_lead": false,
+      "new_today": false,
+      "released_at": "2026-11-26T10:00:00.812686+00:00",
+      "edition": "2026-11-26"
+    },
+    {
       "id": "85ffa3720d5d95ea",
       "headline": "Fatbergs, feathers and flocks of sheep - inside the new London Museum",
       "summary": "",
@@ -93,6 +249,7 @@
       "review_status": "auto-accepted",
       "is_sample": false,
       "link": "https://www.bbc.co.uk/news/articles/cky9708qj7wdo",
+      "impact": null,
       "no_lead": false,
       "new_today": false,
       "released_at": "2026-11-25T10:00:00.409832+00:00",
