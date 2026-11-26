@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-26T09:22:46.051175+00:00",
+  "generated_at": "2026-11-26T09:30:48.657501+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 53 feeds, 1080 headlines. Accepted 43, held for review 147, rejected 907. Carried 17 recent items (up to 96h) for re-check. Pending release 27. Published window 72h. Auto-promoted from review: 0.",
+  "ingest_notes": "Fetched 53 feeds, 1080 headlines. Accepted 27, held for review 143, rejected 927. Carried 17 recent items (up to 96h) for re-check. Pending release 9. Published window 72h. Auto-promoted from review: 0.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -21,6 +21,58 @@
     "publish_hours": 72
   },
   "stories": [
+    {
+      "id": "34f786c08f4ed125",
+      "headline": "Indigenous women plant hundreds of thousands of trees to restore water sources",
+      "summary": "The reforestation initiative prioritizes women\u2019s empowerment, bridging gender divides through education in a bid to make the project more durable.",
+      "category": "Environment",
+      "sources": [
+        {
+          "name": "Good Good Good",
+          "url": "https://www.goodgoodgood.co/articles/bolivian-andes-indigenous-women",
+          "published_at": "2026-11-25T17:15:00+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-25T17:15:00+00:00",
+      "positivity_score": 57,
+      "positivity_reason": "solutions-focused source; positive cues: reforestation",
+      "why_good": null,
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://www.goodgoodgood.co/articles/bolivian-andes-indigenous-women",
+      "impact": null,
+      "no_lead": false,
+      "new_today": false,
+      "released_at": "2026-11-26T09:30:01.035390+00:00",
+      "edition": "2026-11-26"
+    },
+    {
+      "id": "508b569410509127",
+      "headline": "Webb discovers farthest 'little red dot' from universe's first 500 million years",
+      "summary": "",
+      "category": "Science",
+      "sources": [
+        {
+          "name": "Phys.org",
+          "url": "https://phys.org/news/2026-11-webb-farthest-red-dot-universe.html",
+          "published_at": "2026-11-25T14:40:04+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-25T14:40:04+00:00",
+      "positivity_score": 53,
+      "positivity_reason": "positive cues: discovery; concrete outcome language; headline-only card",
+      "why_good": null,
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://phys.org/news/2026-11-webb-farthest-red-dot-universe.html",
+      "impact": null,
+      "no_lead": false,
+      "new_today": false,
+      "released_at": "2026-11-26T09:30:01.035390+00:00",
+      "edition": "2026-11-26"
+    },
     {
       "id": "85ffa3720d5d95ea",
       "headline": "Fatbergs, feathers and flocks of sheep - inside the new London Museum",
