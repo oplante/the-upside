@@ -319,6 +319,47 @@ const FIGURE_DANGLING = new Set(("while nearly almost about around roughly appro
 // no figure line (25 Nov 2026, PM). Keep in sync with ingest.FIGURE_BARE_VERB_START.
 const FIGURE_BARE_VERB_START = new Set(("receive get give help make take become provide allow enable see reach save protect keep bring build create join serve feed restore attract deliver improve reduce develop").split(" "));
 
+// A figure is kept only when its label says what the number counts or
+// measures (26 Nov 2026, SA Design via PM). Keep in sync with
+// ingest.FIGURE_COUNT_NOUNS / FIGURE_MONEY_NOUNS / figure_label_counts.
+const FIGURE_COUNT_NOUNS = new Set(("people person patient child children kid student pupil family families user customer client product meal home " +
+  "house household job worker employee volunteer resident farmer woman women man men girl boy baby babies adult " +
+  "member visitor participant doctor nurse teacher species animal bird bear turtle tree plant seed print painting " +
+  "image photo story stories town city village country school hospital clinic site bed case death life lives dose " +
+  "vaccine pitch lane population year month week day hour minute second ton tonne acre hectare km kilometre " +
+  "kilometer mile metre meter foot feet kg kilogram litre liter gallon mw gw kwh watt degree percent point copy book").split(" "));
+const FIGURE_MONEY_NOUNS = new Set(("funding fund investment grant budget donation gift prize award raise loan project deal order contract programme " +
+  "program scheme cost salary wage fine bond package pledge settlement endowment revenue sales").split(" "));
+const FIGURE_MONEY_WINDOW = 4;
+const FIGURE_MONEY_RE = /[£$€¥₹]|\b(?:usd|gbp|eur|dollars?|pounds?|euros?|rupees?)\b/i;
+const FIGURE_MAGNITUDE = new Set("million billion trillion thousand lakh crore bn mn".split(" "));
+
+function figureSingular(w) {
+  w = w.toLowerCase().replace(/’/g, "'");
+  if (w.endsWith("ies") && w.length > 4) return w.slice(0, -3) + "y";
+  if (w.endsWith("s") && !w.endsWith("ss") && w.length > 3) return w.slice(0, -1);
+  return w;
+}
+
+function figureNouns(words) {
+  const out = new Set();
+  for (const w of words) {
+    for (const part of [w, ...w.split("-")]) {
+      if (part) { out.add(part.toLowerCase()); out.add(figureSingular(part)); }
+    }
+  }
+  return out;
+}
+
+function figureLabelCounts(value, label) {
+  const words = String(label || "").match(/[A-Za-z][A-Za-z'’-]*/g) || [];
+  const has = (nouns, set) => [...nouns].some((w) => set.has(w));
+  if (FIGURE_MONEY_RE.test(value || "")) return has(figureNouns(words.slice(0, FIGURE_MONEY_WINDOW)), FIGURE_MONEY_NOUNS);
+  const units = String(value || "").match(/[A-Za-z]{2,}/g) || [];
+  if (units.some((u) => !FIGURE_MAGNITUDE.has(u.toLowerCase()))) return true;
+  return has(figureNouns(words), FIGURE_COUNT_NOUNS);
+}
+
 function statedImpact(story) {
   const impact = story.impact;
   if (!impact || typeof impact !== "object") return null;
@@ -332,6 +373,7 @@ function statedImpact(story) {
   if (FIGURE_DANGLING.has(last.toLowerCase())) return null;
   const first = (label.match(/[A-Za-z0-9][A-Za-z0-9'’-]*/g) || [""])[0];
   if (FIGURE_BARE_VERB_START.has(first.toLowerCase())) return null;
+  if (!figureLabelCounts(value, label)) return null;
   return { value, label };
 }
 

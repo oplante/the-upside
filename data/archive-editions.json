@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T09:30:44.878319+00:00",
+  "generated_at": "2026-11-26T09:34:42.642506+00:00",
   "days": 30,
   "editions": [
     {
@@ -285,10 +285,6 @@
           "category": "Community",
           "published_at": "2026-11-18T00:00:36+00:00",
           "summary": "Homelessness in the United States fell by more than six percent in 2025, the steepest one-year homelessness decline in more than a decade, which works out to roughly 49,000 fewer people without housing.",
-          "impact": {
-            "value": "49,000",
-            "label": "fewer people without housing It was"
-          },
           "source_count": 1,
           "sources": [
             {
@@ -369,10 +365,6 @@
           "category": "Business",
           "published_at": "2026-11-17T15:55:24+00:00",
           "summary": "Warren Buffett marked another Thanksgiving by converting thousands of Berkshire Hathaway shares into a charitable donation valued at about $5.5 billion.",
-          "impact": {
-            "value": "$5.5 Billion",
-            "label": "Thanksgiving Gift Saying Kindness is"
-          },
           "source_count": 1,
           "sources": [
             {

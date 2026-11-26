@@ -81,7 +81,7 @@
       "sources": [
         {
           "name": "BBC Entertainment & Arts",
-          "url": "https://www.bbc.co.uk/news/articles/cky9708qj7wdo?at_medium=RSS&at_campaign=rss",
+          "url": "https://www.bbc.co.uk/news/articles/cky9708qj7wdo",
           "published_at": "2026-11-25T05:50:53+00:00"
         }
       ],
@@ -89,14 +89,10 @@
       "published_at": "2026-11-25T05:50:53+00:00",
       "positivity_score": 66,
       "positivity_reason": "positive cues: restoration, opens; improvement framing of a grim topic; stated figure from the source; headline-only card",
-      "why_good": "The venue's new site at Smithfield Market opens on Saturday following a \u00a3437m restoration project.",
+      "why_good": null,
       "review_status": "auto-accepted",
       "is_sample": false,
-      "link": "https://www.bbc.co.uk/news/articles/cky9708qj7wdo?at_medium=RSS&at_campaign=rss",
-      "impact": {
-        "value": "\u00a3437m",
-        "label": "Saturday following a restoration project"
-      },
+      "link": "https://www.bbc.co.uk/news/articles/cky9708qj7wdo",
       "no_lead": false,
       "new_today": false,
       "released_at": "2026-11-25T10:00:00.409832+00:00",
