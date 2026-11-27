@@ -1,10 +1,30 @@
 {
-  "generated_at": "2026-11-27T11:45:31.868206+00:00",
+  "generated_at": "2026-11-27T12:34:10.924588+00:00",
   "days": 30,
   "editions": [
     {
       "key": "2026-11-25",
       "stories": [
+        {
+          "id": "b366bd748bcfd2e9",
+          "headline": "Charity Swaps Tuition Fees for Coconuts So Every Islander Can Afford School",
+          "link": "https://www.goodnewsnetwork.org/charity-swaps-tuition-fees-for-coconuts-so-every-islander-can-afford-school/",
+          "category": "Community",
+          "published_at": "2026-11-24T12:30:30+00:00",
+          "summary": "",
+          "source_count": 1,
+          "sources": [
+            {
+              "name": "Good News Network",
+              "url": "https://www.goodnewsnetwork.org/charity-swaps-tuition-fees-for-coconuts-so-every-islander-can-afford-school/",
+              "published_at": "2026-11-24T12:30:30+00:00"
+            }
+          ],
+          "released_at": "2026-11-25T10:00:00.409832+00:00",
+          "edition": "2026-11-25",
+          "new_today": false,
+          "archived": true
+        },
         {
           "id": "95d0f653b4e8f259",
           "headline": "Researcher who helped improve melanoma survival rates wins top Australian science prize",

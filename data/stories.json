@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-27T11:45:34.696889+00:00",
+  "generated_at": "2026-11-27T12:34:13.695848+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 53 feeds, 1085 headlines. Accepted 31, held for review 166, rejected 898. Carried 10 recent items (up to 96h) for re-check. Pending release 8. Published window 72h. Auto-promoted from review: 0.",
+  "ingest_notes": "Fetched 53 feeds, 1085 headlines. Accepted 29, held for review 165, rejected 901. Carried 10 recent items (up to 96h) for re-check. Pending release 7. Published window 72h. Auto-promoted from review: 0.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -436,37 +436,11 @@
       "new_today": false,
       "released_at": "2026-11-25T09:30:00.851488+00:00",
       "edition": "2026-11-25"
-    },
-    {
-      "id": "b366bd748bcfd2e9",
-      "headline": "Charity Swaps Tuition Fees for Coconuts So Every Islander Can Afford School",
-      "summary": "",
-      "category": "Community",
-      "sources": [
-        {
-          "name": "Good News Network",
-          "url": "https://www.goodnewsnetwork.org/charity-swaps-tuition-fees-for-coconuts-so-every-islander-can-afford-school/",
-          "published_at": "2026-11-24T12:30:30+00:00"
-        }
-      ],
-      "source_count": 1,
-      "published_at": "2026-11-24T12:30:30+00:00",
-      "positivity_score": 48,
-      "positivity_reason": "solutions-focused source; fact-check pass; headline-only card",
-      "why_good": null,
-      "review_status": "auto-accepted",
-      "is_sample": false,
-      "link": "https://www.goodnewsnetwork.org/charity-swaps-tuition-fees-for-coconuts-so-every-islander-can-afford-school/",
-      "impact": null,
-      "no_lead": false,
-      "new_today": false,
-      "released_at": "2026-11-25T10:00:00.409832+00:00",
-      "edition": "2026-11-25"
     }
   ],
   "archive": {
     "editions": 5,
-    "stories": 23,
+    "stories": 24,
     "newest": "2026-11-25",
     "oldest": "2026-11-19"
   }
