@@ -1,7 +1,52 @@
 {
-  "generated_at": "2026-11-26T13:30:42.851466+00:00",
+  "generated_at": "2026-11-27T09:30:43.541199+00:00",
   "days": 30,
   "editions": [
+    {
+      "key": "2026-11-25",
+      "stories": [
+        {
+          "id": "738e74e858ddcd0d",
+          "headline": "Music before and during coronary angiography linked to lower blood pressure",
+          "link": "https://medicalxpress.com/news/2026-11-music-coronary-angiography-linked-blood.html",
+          "category": "Health",
+          "published_at": "2026-11-23T23:30:01+00:00",
+          "summary": "",
+          "source_count": 1,
+          "sources": [
+            {
+              "name": "Medical Xpress",
+              "url": "https://medicalxpress.com/news/2026-11-music-coronary-angiography-linked-blood.html",
+              "published_at": "2026-11-23T23:30:01+00:00"
+            }
+          ],
+          "released_at": "2026-11-25T09:30:00.851488+00:00",
+          "edition": "2026-11-25",
+          "new_today": false,
+          "archived": true
+        },
+        {
+          "id": "ad4b5b59daab6bb8",
+          "headline": "Inside Bolivia's Newly Restored 'Sistine Chapel of the Andes,' Centuries-Old Murals Tell Biblical Stories With Andean Imagery",
+          "link": "https://www.smithsonianmag.com/smart-news/inside-bolivia-newly-restored-sistine-chapel-of-the-andes-centuries-old-murals-tell-biblical-stories-with-andean-imagery-180989925/",
+          "category": "Culture",
+          "published_at": "2026-11-23T18:59:43+00:00",
+          "summary": "",
+          "source_count": 1,
+          "sources": [
+            {
+              "name": "Smithsonian Smart News",
+              "url": "https://www.smithsonianmag.com/smart-news/inside-bolivia-newly-restored-sistine-chapel-of-the-andes-centuries-old-murals-tell-biblical-stories-with-andean-imagery-180989925/",
+              "published_at": "2026-11-23T18:59:43+00:00"
+            }
+          ],
+          "released_at": "2026-11-25T09:30:00.851488+00:00",
+          "edition": "2026-11-25",
+          "new_today": false,
+          "archived": true
+        }
+      ]
+    },
     {
       "key": "2026-11-22",
       "stories": [
