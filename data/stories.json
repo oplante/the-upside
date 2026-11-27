@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-27T11:00:51.458905+00:00",
+  "generated_at": "2026-11-27T11:45:34.696889+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 53 feeds, 1085 headlines. Accepted 30, held for review 163, rejected 902. Carried 10 recent items (up to 96h) for re-check. Pending release 7. Published window 72h. Auto-promoted from review: 0.",
+  "ingest_notes": "Fetched 53 feeds, 1085 headlines. Accepted 31, held for review 166, rejected 898. Carried 10 recent items (up to 96h) for re-check. Pending release 8. Published window 72h. Auto-promoted from review: 0.",
   "taxonomy": [
     "Business",
     "Politics",
