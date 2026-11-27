@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-27T12:34:13.695848+00:00",
+  "generated_at": "2026-11-27T13:26:23.998427+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 53 feeds, 1085 headlines. Accepted 29, held for review 165, rejected 901. Carried 10 recent items (up to 96h) for re-check. Pending release 7. Published window 72h. Auto-promoted from review: 0.",
+  "ingest_notes": "Fetched 53 feeds, 1085 headlines. Accepted 30, held for review 163, rejected 903. Carried 11 recent items (up to 96h) for re-check. Pending release 8. Published window 72h. Auto-promoted from review: 0.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -410,37 +410,11 @@
       "new_today": false,
       "released_at": "2026-11-25T09:30:00.851488+00:00",
       "edition": "2026-11-25"
-    },
-    {
-      "id": "92e7a579d9cdd70e",
-      "headline": "A Childhood Promise Mobilizes \u2018Thanksgiving Heroes,\u2019 Serving Thousands Nationwide This Holiday",
-      "summary": "What began as an 11-year-old boy\u2019s promise to his mother has launched \u2018Thanksgiving Heroes,\u2019 a nationwide effort to bring holiday meals to those in need.",
-      "category": "Community",
-      "sources": [
-        {
-          "name": "Good News Network",
-          "url": "https://www.goodnewsnetwork.org/thanksgiving-heroes-rob-adams-childhood-promise/",
-          "published_at": "2026-11-24T12:52:48+00:00"
-        }
-      ],
-      "source_count": 1,
-      "published_at": "2026-11-24T12:52:48+00:00",
-      "positivity_score": 59,
-      "positivity_reason": "solutions-focused source; positive cues: launched; stated figure from the source",
-      "why_good": "What began as an 11-year-old boy\u2019s promise to his mother has launched \u2018Thanksgiving Heroes,\u2019 a nationwide effort to bring holiday meals to those in need.",
-      "review_status": "auto-accepted",
-      "is_sample": false,
-      "link": "https://www.goodnewsnetwork.org/thanksgiving-heroes-rob-adams-childhood-promise/",
-      "impact": null,
-      "no_lead": false,
-      "new_today": false,
-      "released_at": "2026-11-25T09:30:00.851488+00:00",
-      "edition": "2026-11-25"
     }
   ],
   "archive": {
     "editions": 5,
-    "stories": 24,
+    "stories": 25,
     "newest": "2026-11-25",
     "oldest": "2026-11-19"
   }

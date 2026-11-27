@@ -1,10 +1,30 @@
 {
-  "generated_at": "2026-11-27T12:34:10.924588+00:00",
+  "generated_at": "2026-11-27T13:26:20.602540+00:00",
   "days": 30,
   "editions": [
     {
       "key": "2026-11-25",
       "stories": [
+        {
+          "id": "92e7a579d9cdd70e",
+          "headline": "A Childhood Promise Mobilizes ‘Thanksgiving Heroes,’ Serving Thousands Nationwide This Holiday",
+          "link": "https://www.goodnewsnetwork.org/thanksgiving-heroes-rob-adams-childhood-promise/",
+          "category": "Community",
+          "published_at": "2026-11-24T12:52:48+00:00",
+          "summary": "What began as an 11-year-old boy’s promise to his mother has launched ‘Thanksgiving Heroes,’ a nationwide effort to bring holiday meals to those in need.",
+          "source_count": 1,
+          "sources": [
+            {
+              "name": "Good News Network",
+              "url": "https://www.goodnewsnetwork.org/thanksgiving-heroes-rob-adams-childhood-promise/",
+              "published_at": "2026-11-24T12:52:48+00:00"
+            }
+          ],
+          "released_at": "2026-11-25T09:30:00.851488+00:00",
+          "edition": "2026-11-25",
+          "new_today": false,
+          "archived": true
+        },
         {
           "id": "b366bd748bcfd2e9",
           "headline": "Charity Swaps Tuition Fees for Coconuts So Every Islander Can Afford School",
