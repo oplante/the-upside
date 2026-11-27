@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-27T10:30:49.343604+00:00",
+  "generated_at": "2026-11-27T11:00:51.458905+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 53 feeds, 1085 headlines. Accepted 31, held for review 160, rejected 904. Carried 10 recent items (up to 96h) for re-check. Pending release 7. Published window 72h. Auto-promoted from review: 0.",
+  "ingest_notes": "Fetched 53 feeds, 1085 headlines. Accepted 30, held for review 163, rejected 902. Carried 10 recent items (up to 96h) for re-check. Pending release 7. Published window 72h. Auto-promoted from review: 0.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -462,37 +462,11 @@
       "new_today": false,
       "released_at": "2026-11-25T10:00:00.409832+00:00",
       "edition": "2026-11-25"
-    },
-    {
-      "id": "95d0f653b4e8f259",
-      "headline": "Researcher who helped improve melanoma survival rates wins top Australian science prize",
-      "summary": "",
-      "category": "Science",
-      "sources": [
-        {
-          "name": "The Guardian Science",
-          "url": "https://www.theguardian.com/australia-news/2026/nov/24/georgina-long-melanoma-anthony-thomas-2026-prime-ministers-prizes-for-science",
-          "published_at": "2026-11-24T11:00:45+00:00"
-        }
-      ],
-      "source_count": 1,
-      "published_at": "2026-11-24T11:00:45+00:00",
-      "positivity_score": 36,
-      "positivity_reason": "neutral wording; no strong positive outcome cue; live_blog hold lifted for this story only (PM, 25 Nov 2026); held for review; fact-check pass; headline-only card",
-      "why_good": null,
-      "review_status": "auto-accepted",
-      "is_sample": false,
-      "link": "https://www.theguardian.com/australia-news/2026/nov/24/georgina-long-melanoma-anthony-thomas-2026-prime-ministers-prizes-for-science",
-      "impact": null,
-      "no_lead": false,
-      "new_today": false,
-      "released_at": "2026-11-25T10:30:00.542373+00:00",
-      "edition": "2026-11-25"
     }
   ],
   "archive": {
     "editions": 5,
-    "stories": 22,
+    "stories": 23,
     "newest": "2026-11-25",
     "oldest": "2026-11-19"
   }

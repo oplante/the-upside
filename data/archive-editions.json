@@ -1,10 +1,30 @@
 {
-  "generated_at": "2026-11-27T10:30:46.364006+00:00",
+  "generated_at": "2026-11-27T11:00:48.745083+00:00",
   "days": 30,
   "editions": [
     {
       "key": "2026-11-25",
       "stories": [
+        {
+          "id": "95d0f653b4e8f259",
+          "headline": "Researcher who helped improve melanoma survival rates wins top Australian science prize",
+          "link": "https://www.theguardian.com/australia-news/2026/nov/24/georgina-long-melanoma-anthony-thomas-2026-prime-ministers-prizes-for-science",
+          "category": "Science",
+          "published_at": "2026-11-24T11:00:45+00:00",
+          "summary": "",
+          "source_count": 1,
+          "sources": [
+            {
+              "name": "The Guardian Science",
+              "url": "https://www.theguardian.com/australia-news/2026/nov/24/georgina-long-melanoma-anthony-thomas-2026-prime-ministers-prizes-for-science",
+              "published_at": "2026-11-24T11:00:45+00:00"
+            }
+          ],
+          "released_at": "2026-11-25T10:30:00.542373+00:00",
+          "edition": "2026-11-25",
+          "new_today": false,
+          "archived": true
+        },
         {
           "id": "738e74e858ddcd0d",
           "headline": "Music before and during coronary angiography linked to lower blood pressure",
