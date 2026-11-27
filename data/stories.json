@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-27T09:30:46.313779+00:00",
+  "generated_at": "2026-11-27T10:00:48.469726+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 53 feeds, 1085 headlines. Accepted 31, held for review 155, rejected 909. Carried 10 recent items (up to 96h) for re-check. Pending release 8. Published window 72h. Auto-promoted from review: 0.",
+  "ingest_notes": "Fetched 53 feeds, 1085 headlines. Accepted 31, held for review 157, rejected 907. Carried 10 recent items (up to 96h) for re-check. Pending release 7. Published window 72h. Auto-promoted from review: 0.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -21,6 +21,32 @@
     "publish_hours": 72
   },
   "stories": [
+    {
+      "id": "b6734a075789923b",
+      "headline": "5 Artists Used Bamboo, Thread & Even Egg Trays To Create India\u2019s Award-Winning Venice Exhibition",
+      "summary": "",
+      "category": "Culture",
+      "sources": [
+        {
+          "name": "The Better India",
+          "url": "https://thebetterindia.com/culture/indian-artists-winner-venice-biennale-exhibition-2026-12843418",
+          "published_at": "2026-11-26T11:36:53+00:00"
+        }
+      ],
+      "source_count": 1,
+      "published_at": "2026-11-26T11:36:53+00:00",
+      "positivity_score": 48,
+      "positivity_reason": "solutions-focused source; fact-check pass; headline-only card",
+      "why_good": null,
+      "review_status": "auto-accepted",
+      "is_sample": false,
+      "link": "https://thebetterindia.com/culture/indian-artists-winner-venice-biennale-exhibition-2026-12843418",
+      "impact": null,
+      "no_lead": false,
+      "new_today": false,
+      "released_at": "2026-11-27T10:00:00.571109+00:00",
+      "edition": "2026-11-27"
+    },
     {
       "id": "3c54533304c4e947",
       "headline": "The Portlanders Turning Rescued Food Into Restaurant-Quality Meals",
