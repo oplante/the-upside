@@ -1,10 +1,30 @@
 {
-  "generated_at": "2026-11-27T20:35:23.915959+00:00",
+  "generated_at": "2026-11-27T21:09:19.515053+00:00",
   "days": 30,
   "editions": [
     {
       "key": "2026-11-25",
       "stories": [
+        {
+          "id": "af68d1109ddb8141",
+          "headline": "‘BeSeen’ vending machines offer 24/7 help to people experiencing homelessness. They’re staffed by virtual volunteers worldwide",
+          "link": "https://www.goodgoodgood.co/articles/be-seen-vending-machines-homeless-help",
+          "category": "Community",
+          "published_at": "2026-11-24T20:44:00+00:00",
+          "summary": "The BeSeen Machine is the world’s first essential vending machine for people experiencing homelessness that is operated entirely by virtual volunteers.",
+          "source_count": 1,
+          "sources": [
+            {
+              "name": "Good Good Good",
+              "url": "https://www.goodgoodgood.co/articles/be-seen-vending-machines-homeless-help",
+              "published_at": "2026-11-24T20:44:00+00:00"
+            }
+          ],
+          "released_at": "2026-11-25T09:30:00.851488+00:00",
+          "edition": "2026-11-25",
+          "new_today": false,
+          "archived": true
+        },
         {
           "id": "92e7a579d9cdd70e",
           "headline": "A Childhood Promise Mobilizes ‘Thanksgiving Heroes,’ Serving Thousands Nationwide This Holiday",

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-27T20:35:26.739838+00:00",
+  "generated_at": "2026-11-27T21:09:22.399641+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 53 feeds, 1078 headlines. Accepted 37, held for review 160, rejected 893. Carried 12 recent items (up to 96h) for re-check. Pending release 16. Published window 72h. Auto-promoted from review: 0.",
+  "ingest_notes": "Fetched 53 feeds, 1078 headlines. Accepted 37, held for review 163, rejected 889. Carried 11 recent items (up to 96h) for re-check. Pending release 16. Published window 72h. Auto-promoted from review: 0.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -384,37 +384,11 @@
       "new_today": false,
       "released_at": "2026-11-25T10:00:00.409832+00:00",
       "edition": "2026-11-25"
-    },
-    {
-      "id": "af68d1109ddb8141",
-      "headline": "\u2018BeSeen\u2019 vending machines offer 24/7 help to people experiencing homelessness. They\u2019re staffed by virtual volunteers worldwide",
-      "summary": "The BeSeen Machine is the world\u2019s first essential vending machine for people experiencing homelessness that is operated entirely by virtual volunteers.",
-      "category": "Community",
-      "sources": [
-        {
-          "name": "Good Good Good",
-          "url": "https://www.goodgoodgood.co/articles/be-seen-vending-machines-homeless-help",
-          "published_at": "2026-11-24T20:44:00+00:00"
-        }
-      ],
-      "source_count": 1,
-      "published_at": "2026-11-24T20:44:00+00:00",
-      "positivity_score": 60,
-      "positivity_reason": "solutions-focused source; positive cues: volunteers; stated figure from the source",
-      "why_good": "The BeSeen Machine is the world\u2019s first essential vending machine for people experiencing homelessness that is operated entirely by virtual volunteers.",
-      "review_status": "auto-accepted",
-      "is_sample": false,
-      "link": "https://www.goodgoodgood.co/articles/be-seen-vending-machines-homeless-help",
-      "impact": null,
-      "no_lead": false,
-      "new_today": false,
-      "released_at": "2026-11-25T09:30:00.851488+00:00",
-      "edition": "2026-11-25"
     }
   ],
   "archive": {
     "editions": 5,
-    "stories": 25,
+    "stories": 26,
     "newest": "2026-11-25",
     "oldest": "2026-11-19"
   }
