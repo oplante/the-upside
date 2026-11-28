@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-27T21:09:22.399641+00:00",
+  "generated_at": "2026-11-28T06:14:22.688025+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 53 feeds, 1078 headlines. Accepted 37, held for review 163, rejected 889. Carried 11 recent items (up to 96h) for re-check. Pending release 16. Published window 72h. Auto-promoted from review: 0.",
+  "ingest_notes": "Fetched 53 feeds, 1075 headlines. Accepted 37, held for review 163, rejected 888. Carried 13 recent items (up to 96h) for re-check. Pending release 20. Published window 72h. Auto-promoted from review: 0.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -254,141 +254,11 @@
       "new_today": false,
       "released_at": "2026-11-26T10:00:00.812686+00:00",
       "edition": "2026-11-26"
-    },
-    {
-      "id": "85ffa3720d5d95ea",
-      "headline": "Fatbergs, feathers and flocks of sheep - inside the new London Museum",
-      "summary": "",
-      "category": "Culture",
-      "sources": [
-        {
-          "name": "BBC Entertainment & Arts",
-          "url": "https://www.bbc.co.uk/news/articles/cky9708qj7wdo",
-          "published_at": "2026-11-25T05:50:53+00:00"
-        }
-      ],
-      "source_count": 1,
-      "published_at": "2026-11-25T05:50:53+00:00",
-      "positivity_score": 66,
-      "positivity_reason": "positive cues: restoration, opens; improvement framing of a grim topic; stated figure from the source; headline-only card",
-      "why_good": null,
-      "review_status": "auto-accepted",
-      "is_sample": false,
-      "link": "https://www.bbc.co.uk/news/articles/cky9708qj7wdo",
-      "impact": null,
-      "no_lead": false,
-      "new_today": false,
-      "released_at": "2026-11-25T10:00:00.409832+00:00",
-      "edition": "2026-11-25"
-    },
-    {
-      "id": "87e6f6bea6de492e",
-      "headline": "Early-stage breast cancer gains first newly approved hormone therapy in more than 20 years",
-      "summary": "For the first time in more than two decades, the FDA has approved a new hormone therapy for early-stage breast cancer, marking a monumental shift in how the most common form of the disease is treated.",
-      "category": "Health",
-      "sources": [
-        {
-          "name": "Medical Xpress",
-          "url": "https://medicalxpress.com/news/2026-11-early-stage-breast-cancer-gains.html",
-          "published_at": "2026-11-25T03:20:06+00:00"
-        }
-      ],
-      "source_count": 1,
-      "published_at": "2026-11-25T03:20:06+00:00",
-      "positivity_score": 53,
-      "positivity_reason": "positive cues: first time, approved, therapy; score met the threshold but no concrete outcome cue; held for review; fact-check pass",
-      "why_good": "For the first time in more than two decades, the FDA has approved a new hormone therapy for early-stage breast cancer, marking a monumental shift in how the most common form of the disease is treated.",
-      "review_status": "auto-accepted",
-      "is_sample": false,
-      "link": "https://medicalxpress.com/news/2026-11-early-stage-breast-cancer-gains.html",
-      "impact": null,
-      "no_lead": false,
-      "new_today": false,
-      "released_at": "2026-11-25T10:00:00.409832+00:00",
-      "edition": "2026-11-25"
-    },
-    {
-      "id": "f864c06fe47651d1",
-      "headline": "FDA approves bezuclastinib in combination with sunitinib as new second-line therapy for patients with GIST",
-      "summary": "",
-      "category": "Health",
-      "sources": [
-        {
-          "name": "Medical Xpress",
-          "url": "https://medicalxpress.com/news/2026-11-fda-bezuclastinib-combination-sunitinib-line.html",
-          "published_at": "2026-11-25T00:20:06+00:00"
-        }
-      ],
-      "source_count": 1,
-      "published_at": "2026-11-25T00:20:06+00:00",
-      "positivity_score": 53,
-      "positivity_reason": "positive cues: treatment, approved, therapy; score met the threshold but no concrete outcome cue; held for review; fact-check pass; headline-only card",
-      "why_good": null,
-      "review_status": "auto-accepted",
-      "is_sample": false,
-      "link": "https://medicalxpress.com/news/2026-11-fda-bezuclastinib-combination-sunitinib-line.html",
-      "impact": null,
-      "no_lead": false,
-      "new_today": false,
-      "released_at": "2026-11-25T10:00:00.409832+00:00",
-      "edition": "2026-11-25"
-    },
-    {
-      "id": "e7e7a6365988cbba",
-      "headline": "Coastal areas in England at risk of erosion to receive \u00a311m in new funding",
-      "summary": "Laser-equipped drone surveys, sand dune restoration and moving roads inland are among the projects that will receive government funding to help seaside communities in England adapt to rising seas and coastal erosion accelerated by climate breakdown.",
-      "category": "Environment",
-      "sources": [
-        {
-          "name": "The Guardian Environment",
-          "url": "https://www.theguardian.com/environment/2026/nov/25/coastal-areas-england-at-risk-erosion-11m-funding-drones-ea",
-          "published_at": "2026-11-25T00:01:01+00:00"
-        }
-      ],
-      "source_count": 1,
-      "published_at": "2026-11-25T00:01:01+00:00",
-      "positivity_score": 57,
-      "positivity_reason": "positive cues: restoration; improvement framing of a grim topic; stated figure from the source",
-      "why_good": null,
-      "review_status": "auto-accepted",
-      "is_sample": false,
-      "link": "https://www.theguardian.com/environment/2026/nov/25/coastal-areas-england-at-risk-erosion-11m-funding-drones-ea",
-      "impact": null,
-      "no_lead": false,
-      "new_today": false,
-      "released_at": "2026-11-25T09:30:00.851488+00:00",
-      "edition": "2026-11-25"
-    },
-    {
-      "id": "578b8a45d65ab1b3",
-      "headline": "Smarter EHR alerts increase use of first-line antibiotics for patients with penicillin allergy labels",
-      "summary": "This adjustment significantly reduced alarm notifications for clinicians and safely provided more patients with first-line antibiotics, cephalosporins, despite their untested penicillin allergies.",
-      "category": "Health",
-      "sources": [
-        {
-          "name": "Medical Xpress",
-          "url": "https://medicalxpress.com/news/2026-11-smarter-ehr-line-antibiotics-patients.html",
-          "published_at": "2026-11-24T21:20:12+00:00"
-        }
-      ],
-      "source_count": 1,
-      "published_at": "2026-11-24T21:20:12+00:00",
-      "positivity_score": 50,
-      "positivity_reason": "concrete outcome language; fact-check pass",
-      "why_good": "This adjustment significantly reduced alarm notifications for clinicians and safely provided more patients with first-line antibiotics, cephalosporins, despite their untested penicillin allergies.",
-      "review_status": "auto-accepted",
-      "is_sample": false,
-      "link": "https://medicalxpress.com/news/2026-11-smarter-ehr-line-antibiotics-patients.html",
-      "impact": null,
-      "no_lead": false,
-      "new_today": false,
-      "released_at": "2026-11-25T10:00:00.409832+00:00",
-      "edition": "2026-11-25"
     }
   ],
   "archive": {
     "editions": 5,
-    "stories": 26,
+    "stories": 31,
     "newest": "2026-11-25",
     "oldest": "2026-11-19"
   }

@@ -1,10 +1,110 @@
 {
-  "generated_at": "2026-11-27T21:09:19.515053+00:00",
+  "generated_at": "2026-11-28T06:14:19.612986+00:00",
   "days": 30,
   "editions": [
     {
       "key": "2026-11-25",
       "stories": [
+        {
+          "id": "85ffa3720d5d95ea",
+          "headline": "Fatbergs, feathers and flocks of sheep - inside the new London Museum",
+          "link": "https://www.bbc.co.uk/news/articles/cky9708qj7wdo",
+          "category": "Culture",
+          "published_at": "2026-11-25T05:50:53+00:00",
+          "summary": "",
+          "source_count": 1,
+          "sources": [
+            {
+              "name": "BBC Entertainment & Arts",
+              "url": "https://www.bbc.co.uk/news/articles/cky9708qj7wdo",
+              "published_at": "2026-11-25T05:50:53+00:00"
+            }
+          ],
+          "released_at": "2026-11-25T10:00:00.409832+00:00",
+          "edition": "2026-11-25",
+          "new_today": false,
+          "archived": true
+        },
+        {
+          "id": "87e6f6bea6de492e",
+          "headline": "Early-stage breast cancer gains first newly approved hormone therapy in more than 20 years",
+          "link": "https://medicalxpress.com/news/2026-11-early-stage-breast-cancer-gains.html",
+          "category": "Health",
+          "published_at": "2026-11-25T03:20:06+00:00",
+          "summary": "For the first time in more than two decades, the FDA has approved a new hormone therapy for early-stage breast cancer, marking a monumental shift in how the most common form of the disease is treated.",
+          "source_count": 1,
+          "sources": [
+            {
+              "name": "Medical Xpress",
+              "url": "https://medicalxpress.com/news/2026-11-early-stage-breast-cancer-gains.html",
+              "published_at": "2026-11-25T03:20:06+00:00"
+            }
+          ],
+          "released_at": "2026-11-25T10:00:00.409832+00:00",
+          "edition": "2026-11-25",
+          "new_today": false,
+          "archived": true
+        },
+        {
+          "id": "f864c06fe47651d1",
+          "headline": "FDA approves bezuclastinib in combination with sunitinib as new second-line therapy for patients with GIST",
+          "link": "https://medicalxpress.com/news/2026-11-fda-bezuclastinib-combination-sunitinib-line.html",
+          "category": "Health",
+          "published_at": "2026-11-25T00:20:06+00:00",
+          "summary": "",
+          "source_count": 1,
+          "sources": [
+            {
+              "name": "Medical Xpress",
+              "url": "https://medicalxpress.com/news/2026-11-fda-bezuclastinib-combination-sunitinib-line.html",
+              "published_at": "2026-11-25T00:20:06+00:00"
+            }
+          ],
+          "released_at": "2026-11-25T10:00:00.409832+00:00",
+          "edition": "2026-11-25",
+          "new_today": false,
+          "archived": true
+        },
+        {
+          "id": "e7e7a6365988cbba",
+          "headline": "Coastal areas in England at risk of erosion to receive £11m in new funding",
+          "link": "https://www.theguardian.com/environment/2026/nov/25/coastal-areas-england-at-risk-erosion-11m-funding-drones-ea",
+          "category": "Environment",
+          "published_at": "2026-11-25T00:01:01+00:00",
+          "summary": "Laser-equipped drone surveys, sand dune restoration and moving roads inland are among the projects that will receive government funding to help seaside communities in England adapt to rising seas and coastal erosion accelerated by climate breakdown.",
+          "source_count": 1,
+          "sources": [
+            {
+              "name": "The Guardian Environment",
+              "url": "https://www.theguardian.com/environment/2026/nov/25/coastal-areas-england-at-risk-erosion-11m-funding-drones-ea",
+              "published_at": "2026-11-25T00:01:01+00:00"
+            }
+          ],
+          "released_at": "2026-11-25T09:30:00.851488+00:00",
+          "edition": "2026-11-25",
+          "new_today": false,
+          "archived": true
+        },
+        {
+          "id": "578b8a45d65ab1b3",
+          "headline": "Smarter EHR alerts increase use of first-line antibiotics for patients with penicillin allergy labels",
+          "link": "https://medicalxpress.com/news/2026-11-smarter-ehr-line-antibiotics-patients.html",
+          "category": "Health",
+          "published_at": "2026-11-24T21:20:12+00:00",
+          "summary": "This adjustment significantly reduced alarm notifications for clinicians and safely provided more patients with first-line antibiotics, cephalosporins, despite their untested penicillin allergies.",
+          "source_count": 1,
+          "sources": [
+            {
+              "name": "Medical Xpress",
+              "url": "https://medicalxpress.com/news/2026-11-smarter-ehr-line-antibiotics-patients.html",
+              "published_at": "2026-11-24T21:20:12+00:00"
+            }
+          ],
+          "released_at": "2026-11-25T10:00:00.409832+00:00",
+          "edition": "2026-11-25",
+          "new_today": false,
+          "archived": true
+        },
         {
           "id": "af68d1109ddb8141",
           "headline": "‘BeSeen’ vending machines offer 24/7 help to people experiencing homelessness. They’re staffed by virtual volunteers worldwide",
