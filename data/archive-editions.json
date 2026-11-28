@@ -1,10 +1,30 @@
 {
-  "generated_at": "2026-11-28T14:35:20.097990+00:00",
+  "generated_at": "2026-11-28T15:26:18.621137+00:00",
   "days": 30,
   "editions": [
     {
       "key": "2026-11-26",
       "stories": [
+        {
+          "id": "508b569410509127",
+          "headline": "Webb discovers farthest 'little red dot' from universe's first 500 million years",
+          "link": "https://phys.org/news/2026-11-webb-farthest-red-dot-universe.html",
+          "category": "Science",
+          "published_at": "2026-11-25T14:40:04+00:00",
+          "summary": "",
+          "source_count": 1,
+          "sources": [
+            {
+              "name": "Phys.org",
+              "url": "https://phys.org/news/2026-11-webb-farthest-red-dot-universe.html",
+              "published_at": "2026-11-25T14:40:04+00:00"
+            }
+          ],
+          "released_at": "2026-11-26T09:30:01.035390+00:00",
+          "edition": "2026-11-26",
+          "new_today": false,
+          "archived": true
+        },
         {
           "id": "c0a4e853f86cb33b",
           "headline": "‘Autos for Love’ Owners Delight in Giving Away Cars to Needy Neighbors",

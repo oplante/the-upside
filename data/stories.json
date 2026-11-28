@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T14:35:23.094803+00:00",
+  "generated_at": "2026-11-28T15:26:22.344817+00:00",
   "is_sample": false,
   "ingest_notes": "Fetched 53 feeds, 1082 headlines. Accepted 24, held for review 140, rejected 924. Carried 6 recent items (up to 96h) for re-check. Pending release 5. Published window 72h. Auto-promoted from review: 0.",
   "taxonomy": [
@@ -283,37 +283,11 @@
       "new_today": false,
       "released_at": "2026-11-26T09:30:01.035390+00:00",
       "edition": "2026-11-26"
-    },
-    {
-      "id": "508b569410509127",
-      "headline": "Webb discovers farthest 'little red dot' from universe's first 500 million years",
-      "summary": "",
-      "category": "Science",
-      "sources": [
-        {
-          "name": "Phys.org",
-          "url": "https://phys.org/news/2026-11-webb-farthest-red-dot-universe.html",
-          "published_at": "2026-11-25T14:40:04+00:00"
-        }
-      ],
-      "source_count": 1,
-      "published_at": "2026-11-25T14:40:04+00:00",
-      "positivity_score": 53,
-      "positivity_reason": "positive cues: discovery; concrete outcome language; headline-only card",
-      "why_good": null,
-      "review_status": "auto-accepted",
-      "is_sample": false,
-      "link": "https://phys.org/news/2026-11-webb-farthest-red-dot-universe.html",
-      "impact": null,
-      "no_lead": false,
-      "new_today": false,
-      "released_at": "2026-11-26T09:30:01.035390+00:00",
-      "edition": "2026-11-26"
     }
   ],
   "archive": {
     "editions": 6,
-    "stories": 32,
+    "stories": 33,
     "newest": "2026-11-26",
     "oldest": "2026-11-19"
   }
