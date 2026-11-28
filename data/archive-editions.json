@@ -1,7 +1,32 @@
 {
-  "generated_at": "2026-11-28T12:31:43.785264+00:00",
+  "generated_at": "2026-11-28T14:35:20.097990+00:00",
   "days": 30,
   "editions": [
+    {
+      "key": "2026-11-26",
+      "stories": [
+        {
+          "id": "c0a4e853f86cb33b",
+          "headline": "‘Autos for Love’ Owners Delight in Giving Away Cars to Needy Neighbors",
+          "link": "https://www.goodnewsnetwork.org/texas-auto-shop-couple-is-hungry-to-keep-giving-cars-away-to-neighbors-in-need/",
+          "category": "Community",
+          "published_at": "2026-11-25T14:00:36+00:00",
+          "summary": "Once a year, the owners of a Texas auto-repair shop would refurbish a donated car and then hand the keys to a member of their community in need.",
+          "source_count": 1,
+          "sources": [
+            {
+              "name": "Good News Network",
+              "url": "https://www.goodnewsnetwork.org/texas-auto-shop-couple-is-hungry-to-keep-giving-cars-away-to-neighbors-in-need/",
+              "published_at": "2026-11-25T14:00:36+00:00"
+            }
+          ],
+          "released_at": "2026-11-26T10:00:00.812686+00:00",
+          "edition": "2026-11-26",
+          "new_today": false,
+          "archived": true
+        }
+      ]
+    },
     {
       "key": "2026-11-25",
       "stories": [

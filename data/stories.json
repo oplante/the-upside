@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-28T12:31:46.527440+00:00",
+  "generated_at": "2026-11-28T14:35:23.094803+00:00",
   "is_sample": false,
-  "ingest_notes": "Fetched 53 feeds, 1080 headlines. Accepted 24, held for review 140, rejected 922. Carried 6 recent items (up to 96h) for re-check. Pending release 4. Published window 72h. Auto-promoted from review: 0.",
+  "ingest_notes": "Fetched 53 feeds, 1082 headlines. Accepted 24, held for review 140, rejected 924. Carried 6 recent items (up to 96h) for re-check. Pending release 5. Published window 72h. Auto-promoted from review: 0.",
   "taxonomy": [
     "Business",
     "Politics",
@@ -309,38 +309,12 @@
       "new_today": false,
       "released_at": "2026-11-26T09:30:01.035390+00:00",
       "edition": "2026-11-26"
-    },
-    {
-      "id": "c0a4e853f86cb33b",
-      "headline": "\u2018Autos for Love\u2019 Owners Delight in Giving Away Cars to Needy Neighbors",
-      "summary": "Once a year, the owners of a Texas auto-repair shop would refurbish a donated car and then hand the keys to a member of their community in need.",
-      "category": "Community",
-      "sources": [
-        {
-          "name": "Good News Network",
-          "url": "https://www.goodnewsnetwork.org/texas-auto-shop-couple-is-hungry-to-keep-giving-cars-away-to-neighbors-in-need/",
-          "published_at": "2026-11-25T14:00:36+00:00"
-        }
-      ],
-      "source_count": 1,
-      "published_at": "2026-11-25T14:00:36+00:00",
-      "positivity_score": 54,
-      "positivity_reason": "solutions-focused source; positive cues: donated, community; score met the threshold but no concrete outcome cue; held for review; fact-check pass",
-      "why_good": "Once a year, the owners of a Texas auto-repair shop would refurbish a donated car and then hand the keys to a member of their community in need.",
-      "review_status": "auto-accepted",
-      "is_sample": false,
-      "link": "https://www.goodnewsnetwork.org/texas-auto-shop-couple-is-hungry-to-keep-giving-cars-away-to-neighbors-in-need/",
-      "impact": null,
-      "no_lead": false,
-      "new_today": false,
-      "released_at": "2026-11-26T10:00:00.812686+00:00",
-      "edition": "2026-11-26"
     }
   ],
   "archive": {
-    "editions": 5,
-    "stories": 31,
-    "newest": "2026-11-25",
+    "editions": 6,
+    "stories": 32,
+    "newest": "2026-11-26",
     "oldest": "2026-11-19"
   }
 }
